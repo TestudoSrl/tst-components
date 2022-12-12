@@ -1,6 +1,6 @@
 {
   "name": "tst-components",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Testudo components",
   "module": "./index.js",
   "types": "./index.d.ts",
@@ -46,7 +46,7 @@
     "react": ">=16"
   },  
   "files": [
-    "dist",
+    "tag",
     "LICENSE",
     "README.md"
   ]
