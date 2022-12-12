@@ -1,7 +1,7 @@
 {
-  "name": "tst-tags",
+  "name": "tst-components",
   "version": "1.0.0",
-  "description": "Testudo tags component build with mui",
+  "description": "Testudo components",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
@@ -13,10 +13,7 @@
     "format": "prettier --write \"src/**/*.tsx\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
-    "prepublishOnly": "npm run lint",
-    "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
-    "postversion": "git push && git push --tags"
+    "prepublishOnly": "npm run lint"
   },
   "repository": {
     "type": "git",
