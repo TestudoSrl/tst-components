@@ -8,14 +8,14 @@ interface TagProps {
   size?: 'small' | 'medium';
   variant?: 'outlined' | 'filled';
   color?: 'primary' | 'secondary' | 'success' | 'error' | 'warning' | 'info' | 'default';
-  message?: string;
+  noTagMessage?: string;
   margin?: number;
 }
 
 export const Tag: FC<TagProps> = (props) => {
-  const { data, showAll, tagsToShow, size, variant, color, message, margin } = props;
+  const { data, showAll, tagsToShow, size, variant, color, noTagMessage, margin } = props;
 
-  if (data.length === 0) return <div>{message}</div>;
+  if (data.length === 0) return <div>{noTagMessage}</div>;
 
   if (data && !showAll) {
     data.splice(tagsToShow ?? 1, data.length - (tagsToShow ?? 1));
@@ -40,5 +40,5 @@ Tag.defaultProps = {
   size: 'small',
   variant: 'outlined',
   color: 'success',
-  message: 'No tags to show',
+  noTagMessage: 'No tags to show',
 };

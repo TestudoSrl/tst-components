@@ -11,9 +11,9 @@ describe('Tags component', () => {
 
   it('should return a message when no tags are passed with specefied message', () => {
     const data: string[] = [];
-    const message = 'Nessun tag da mostrare';
+    const noTagMessage = 'Nessun tag da mostrare';
 
-    expect(<Tag data={data} message={message} />).toHaveProperty('props.message', message);
+    expect(<Tag data={data} noTagMessage={noTagMessage} />).toHaveProperty('props.noTagMessage', noTagMessage);
   });
 
   it('should return a list of tags when tags are passed', () => {
