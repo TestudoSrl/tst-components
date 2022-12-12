@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tag } from '../../components/tag/tags';
+import { Tag } from '../../tag/tags';
 
 describe('Tags component', () => {
   it('should return default message when no tags and no message are passed', () => {
