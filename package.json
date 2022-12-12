@@ -1,6 +1,6 @@
 {
   "name": "tst-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Testudo components",
   "module": "./index.js",
   "types": "./index.d.ts",
