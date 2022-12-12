@@ -1,6 +1,6 @@
 {
   "name": "tst-components",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Testudo components",
   "module": "./index.js",
   "types": "./index.d.ts",
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git=https://github.com/TestudoSrl/tst-tags.git"
+    "url": "git=https://github.com/TestudoSrl/tst-components.git"
   },
   "keywords": [
-    "tag",
+    "components",
     "mui",
     "testudo"
   ],
-  "author": "Arash Nouri",
-  "license": "ISC",
+  "author": "Testudo Srl Dev Team",
+  "license": "MIT",
   "homepage": "",
   "devDependencies": {
     "@types/jest": "^29.2.4",
