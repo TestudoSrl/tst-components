@@ -1,6 +1,6 @@
 {
   "name": "tst-components",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Testudo components",
   "module": "./index.js",
   "types": "./index.d.ts",
@@ -9,8 +9,8 @@
     "test": "jest --config jestconfig.json",
     "format": "prettier --write \"src/**/*.tsx\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm run lint"
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn lint"
   },
   "repository": {
     "type": "git",
@@ -39,12 +39,13 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.10.17",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.2",
     "react": "^18.2.0"
   },
   "peerDependencies": {
     "react": ">=16"
-  },  
+  },
   "files": [
     "tag",
     "LICENSE",
