@@ -48,6 +48,7 @@
   },
   "files": [
     "tag",
+    "colorPicker",
     "LICENSE",
     "README.md"
   ]
