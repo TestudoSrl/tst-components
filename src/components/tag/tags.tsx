@@ -1,7 +1,7 @@
-import React, { type FC } from 'react';
 import { Box, Chip } from '@mui/material';
+import React, { type FC } from 'react';
 
-interface TagProps {
+export interface TagProps {
   data: string[];
   showAll?: boolean;
   tagsToShow?: number;
@@ -12,9 +12,10 @@ interface TagProps {
   margin?: number;
 }
 
-export const Tag: FC<TagProps> = (props) => {
+const Tag: FC<TagProps> = (props) => {
   const { data, showAll, tagsToShow, size, variant, color, noTagMessage, margin } = props;
 
+  if (!data) return null;
   if (data.length === 0) return <div>{noTagMessage}</div>;
 
   if (data && !showAll) {
@@ -35,6 +36,7 @@ export const Tag: FC<TagProps> = (props) => {
 };
 
 Tag.defaultProps = {
+  data: ['pippo', 'pluto', 'paperino'],
   showAll: false,
   tagsToShow: 1,
   size: 'small',
@@ -42,3 +44,5 @@ Tag.defaultProps = {
   color: 'success',
   noTagMessage: 'No tags to show',
 };
+
+export default Tag;

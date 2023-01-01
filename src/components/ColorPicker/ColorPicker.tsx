@@ -1,6 +1,6 @@
-import CloseIcon from '@mui/icons-material/Close'
-import SearchIcon from '@mui/icons-material/Search'
-import StarsIcon from '@mui/icons-material/Stars'
+import CloseIcon from '@mui/icons-material/Close';
+import SearchIcon from '@mui/icons-material/Search';
+import StarsIcon from '@mui/icons-material/Stars';
 import {
   Button,
   Card,
@@ -16,107 +16,97 @@ import {
   Switch,
   TextField,
   Typography
-} from '@mui/material'
-import { Box } from '@mui/system'
-import React, { memo, useEffect, useMemo, useState } from 'react'
-import type { ListRowProps } from 'react-virtualized'
-import { List } from 'react-virtualized'
+} from '@mui/material';
+import { Box } from '@mui/system';
+import React, { memo, useEffect, useMemo, useState } from 'react';
+import type { ListRowProps } from 'react-virtualized';
+import { List } from 'react-virtualized';
 
-import { distanceFunction } from './closest-colors'
-import { allColorsWithClosest } from './colors'
-import useIsMobile from './utils'
+import { distanceFunction } from './closest-colors';
+import { allColorsWithClosest } from './colors';
+import useIsMobile from './utils';
 
 export interface ColorPickerProps {
-  onSelectedColor: (color: string) => void
-  colorsInStock: string[]
-  showCloestColors: boolean
+  onSelectedColor: (color: string) => void;
+  colorsInStock: string[];
+  showCloestColors: boolean;
 }
 export interface IColor {
-  R: number
-  G: number
-  B: number
-  name: string
-  english: string
-  italian: string
+  R: number;
+  G: number;
+  B: number;
+  name: string;
+  english: string;
+  italian: string;
 }
 export interface IColorWithClosest {
-  original: IColor
-  closestColors: { color: IColor; distance: number }[]
+  original: IColor;
+  closestColors: { color: IColor; distance: number }[];
 }
 const useDebounce = (value: any, delay: number) => {
-  const [debouncedValue, setDebouncedValue] = useState(value)
+  const [debouncedValue, setDebouncedValue] = useState(value);
   useEffect(() => {
     const handler = setTimeout(() => {
-      setDebouncedValue(value)
-    }, delay)
+      setDebouncedValue(value);
+    }, delay);
     return () => {
-      clearTimeout(handler)
-    }
-  }, [value, delay])
-  return debouncedValue
-}
+      clearTimeout(handler);
+    };
+  }, [value, delay]);
+  return debouncedValue;
+};
 const ColorPicker: React.FC<ColorPickerProps> = (props) => {
-  const { colorsInStock, showCloestColors, onSelectedColor } = props
-  const [searchInput, setSearchInput] = useState<string>('')
-  const debouncedSearchInput = useDebounce(searchInput, 300)
-  const [openPicker, setOpenPicker] = useState(false)
-  const isMobile = useIsMobile()
+  const { colorsInStock, showCloestColors, onSelectedColor } = props;
+  const [searchInput, setSearchInput] = useState<string>('');
+  const debouncedSearchInput = useDebounce(searchInput, 300);
+  const [openPicker, setOpenPicker] = useState(false);
+  const isMobile = useIsMobile();
 
   const filteredColors = useMemo(() => {
     return allColorsWithClosest
       .filter(
         (color) =>
-          color.key
-            .toLowerCase()
-            .includes(debouncedSearchInput.toLowerCase()) ||
-          color.value.original.italian
-            .toLowerCase()
-            .includes(debouncedSearchInput.toLowerCase()) ||
-          color.value.original.english
-            .toLowerCase()
-            .includes(debouncedSearchInput.toLowerCase())
+          color.key.toLowerCase().includes(debouncedSearchInput.toLowerCase()) ||
+          color.value.original.italian.toLowerCase().includes(debouncedSearchInput.toLowerCase()) ||
+          color.value.original.english.toLowerCase().includes(debouncedSearchInput.toLowerCase()),
       )
-      .map((color) => color.key)
-  }, [debouncedSearchInput, showCloestColors, colorsInStock])
+      .map((color) => color.key);
+  }, [debouncedSearchInput, showCloestColors, colorsInStock]);
 
   const [selectedColor, setSelectedColor] = useState<{
-    selectedColor: string
-    name: string
-    textColor: string
-  }>({ selectedColor: '', textColor: '', name: '' })
+    selectedColor: string;
+    name: string;
+    textColor: string;
+  }>({ selectedColor: '', textColor: '', name: '' });
 
   const handleSelectColor = ({
     selectedColor,
     name,
     textColor,
   }: {
-    selectedColor: string
-    name: string
-    textColor: string
+    selectedColor: string;
+    name: string;
+    textColor: string;
   }) => {
-    setSelectedColor({ selectedColor, name, textColor })
-    setOpenPicker(false)
-    onSelectedColor(name)
-  }
+    setSelectedColor({ selectedColor, name, textColor });
+    setOpenPicker(false);
+    onSelectedColor(name);
+  };
 
   const handleClose = () => {
-    setOpenPicker(false)
-  }
+    setOpenPicker(false);
+  };
 
-  const [buttonStyle, setButtonStyle] = useState<'contained' | 'text'>(
-    'contained'
-  )
-
+  const [buttonStyle, setButtonStyle] = useState<'contained' | 'text'>('contained');
 
   const renderStar = (color: string) => {
-    if (!colorsInStock) return
-    const iconSize = isMobile ? 12 : 25
+    if (!colorsInStock) return;
+    const iconSize = isMobile ? 12 : 18;
 
     if (colorsInStock && colorsInStock.includes(color)) {
-      return <StarsIcon sx={{ fontSize: iconSize }} />
+      return <StarsIcon sx={{ fontSize: iconSize }} />;
     }
-    return <></>
-  }
+  };
 
   const renderPicker = () => (
     <Dialog open={openPicker} onClose={handleClose} fullScreen={isMobile}>
@@ -136,10 +126,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                 ),
                 endAdornment: (
                   <InputAdornment position="end">
-                    <IconButton
-                      aria-label="Clear search input"
-                      onClick={() => setSearchInput('')}
-                    >
+                    <IconButton aria-label="Clear search input" onClick={() => setSearchInput('')}>
                       <CloseIcon />
                     </IconButton>
                   </InputAdornment>
@@ -147,24 +134,18 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
               }}
             />
           </Grid>
-          <Grid
-            item
-            xs={4}
-            display="flex"
-            alignItems="center"
-            justifyContent="flex-end"
-          >
+          <Grid item xs={4} display="flex" alignItems="center" justifyContent="flex-end">
             {showCloestColors && (
               <Switch
                 value={buttonStyle == 'contained'}
                 onClick={() => {
                   switch (buttonStyle) {
                     case 'contained':
-                      setButtonStyle('text')
-                      break
+                      setButtonStyle('text');
+                      break;
                     case 'text':
-                      setButtonStyle('contained')
-                      break
+                      setButtonStyle('contained');
+                      break;
                   }
                 }}
               />
@@ -184,20 +165,24 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
               rowCount={filteredColors.length}
               rowHeight={showCloestColors ? 252 : 99}
               rowRenderer={({ index, style }: ListRowProps) => {
-                const color = filteredColors[index]
-                return <div key={index} style={style}>{renderCard(color)}</div>
+                const color = filteredColors[index];
+                return (
+                  <div key={index} style={style}>
+                    {renderCard(color)}
+                  </div>
+                );
               }}
             />
           </Grid>
         </Box>
       </DialogContent>
     </Dialog>
-  )
+  );
 
   const renderCard = (name: any) => {
-    const color = allColorsWithClosest.find((color) => color.key === name)
+    const color = allColorsWithClosest.find((color) => color.key === name);
     if (!color) {
-      return null
+      return null;
     }
     const textColorRgb: IColor = {
       R: 0,
@@ -206,8 +191,8 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
       name: 'textColor',
       english: 'textColor',
       italian: 'textColor',
-    }
-    let textColor = `rgb(${textColorRgb.R}, ${textColorRgb.G}, ${textColorRgb.B})`
+    };
+    let textColor = `rgb(${textColorRgb.R}, ${textColorRgb.G}, ${textColorRgb.B})`;
     const colorDistance = distanceFunction(
       {
         R: color.value.original.R,
@@ -217,10 +202,10 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
         english: '',
         italian: '',
       },
-      textColorRgb
-    )
+      textColorRgb,
+    );
     if (colorDistance < 250) {
-      textColor = `rgb(255,255,255)`
+      textColor = `rgb(255,255,255)`;
     }
     const res = (
       <Grid item xs={12} key={color.key}>
@@ -250,13 +235,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                     {color?.value.original.english}
                   </Typography>
                 </Grid>
-                <Grid
-                  item
-                  xs={1}
-                  display={'flex'}
-                  alignContent={'flex-end'}
-                  alignItems={'center'}
-                >
+                <Grid item xs={1} display={'flex'} alignContent={'flex-end'} alignItems={'center'}>
                   {renderStar(color?.value.original.name)}
                 </Grid>
               </Grid>
@@ -266,7 +245,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                 <Divider style={{ marginBottom: 10 }} />
                 <Grid container spacing={1} key={color.key + '-cloest'}>
                   {color?.value.closestColors.map((closestColors) => {
-                    return renderAlternativesColor(closestColors, textColor)
+                    return renderAlternativesColor(closestColors, textColor);
                   })}
                 </Grid>
               </>
@@ -274,12 +253,12 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
           </CardContent>
         </Card>
       </Grid>
-    )
-    return res
-  }
+    );
+    return res;
+  };
 
-  const buttonWidth = isMobile ? '100px' : '160px'
-  const fontSize = isMobile ? 9 : 14
+  const buttonWidth = isMobile ? '100px' : '160px';
+  const fontSize = isMobile ? 9 : 14;
 
   const renderAlternativesColor = (closestColors: any, textColor: string) => {
     const res = (
@@ -299,7 +278,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                   name: closestColors.color.name,
                   selectedColor: `rgb(${closestColors.color.R}, ${closestColors.color.G}, ${closestColors.color.B})`,
                   textColor: textColor,
-                })
+                });
               }}
             // endIcon={renderStar(closestColors.color.name)}
             >
@@ -312,7 +291,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                     {closestColors.distance.toFixed()}
                   </Typography>
                 </Grid>
-                <Grid item xs={1} display='flex' alignContent={'flex-end'} alignItems={'center'}  >
+                <Grid item xs={1} display="flex" alignContent={'flex-end'} alignItems={'center'}>
                   {renderStar(closestColors.color.name)}
                 </Grid>
               </Grid>
@@ -320,9 +299,9 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
           </Grid>
         </Grid>
       </Grid>
-    )
-    return res
-  }
+    );
+    return res;
+  };
 
   return (
     filteredColors && (
@@ -336,9 +315,9 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
           }}
           onClick={() => {
             if (selectedColor.name) {
-              setSearchInput(selectedColor.name)
+              setSearchInput(selectedColor.name);
             }
-            setOpenPicker(!openPicker)
+            setOpenPicker(!openPicker);
           }}
         >
           {selectedColor.name || 'Seleziona colore'}
@@ -346,12 +325,12 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
         {openPicker && renderPicker()}
       </>
     )
-  )
-}
+  );
+};
 
 ColorPicker.defaultProps = {
   showCloestColors: true,
   colorsInStock: ['RAL 1000', 'S 0500-N', 'S 0505-G90Y'],
-}
+};
 
-export default memo(ColorPicker)
+export default memo(ColorPicker);
