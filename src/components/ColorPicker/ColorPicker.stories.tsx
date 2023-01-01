@@ -9,12 +9,5 @@ export default {
 } as ComponentMeta<typeof ColorPicker>;
 
 export const FullFeatures: ComponentStory<typeof ColorPicker> = (props) => {
-  return (
-    <ColorPicker
-      {...props}
-      onSelectedColor={(color) => {
-        console.log(color);
-      }}
-    />
-  );
+  return <ColorPicker {...props} />;
 };

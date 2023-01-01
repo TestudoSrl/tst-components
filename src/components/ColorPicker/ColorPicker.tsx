@@ -80,7 +80,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
   }>({ selectedColor: '', textColor: '', name: '' });
 
   const handleSelectColor = ({
-    selectedColor,
+    selectedColor: color,
     name,
     textColor,
   }: {
@@ -88,7 +88,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
     name: string;
     textColor: string;
   }) => {
-    setSelectedColor({ selectedColor, name, textColor });
+    setSelectedColor({ selectedColor: color, name, textColor });
     setOpenPicker(false);
     onSelectedColor(name);
   };
@@ -106,6 +106,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
     if (colorsInStock && colorsInStock.includes(color)) {
       return <StarsIcon sx={{ fontSize: iconSize }} />;
     }
+    return <></>;
   };
 
   const renderPicker = () => (
@@ -137,7 +138,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
           <Grid item xs={4} display="flex" alignItems="center" justifyContent="flex-end">
             {showCloestColors && (
               <Switch
-                value={buttonStyle == 'contained'}
+                value={buttonStyle === 'contained'}
                 onClick={() => {
                   switch (buttonStyle) {
                     case 'contained':
@@ -180,7 +181,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
   );
 
   const renderCard = (name: any) => {
-    const color = allColorsWithClosest.find((color) => color.key === name);
+    const color = allColorsWithClosest.find((colorWithClosest) => colorWithClosest.key === name);
     if (!color) {
       return null;
     }
@@ -222,7 +223,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                 handleSelectColor({
                   name: color?.value.original.name,
                   selectedColor: `rgb(${color?.value.original.R}, ${color?.value.original.G}, ${color?.value.original.B})`,
-                  textColor: textColor,
+                  textColor,
                 })
               }
             >
@@ -277,7 +278,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                 handleSelectColor({
                   name: closestColors.color.name,
                   selectedColor: `rgb(${closestColors.color.R}, ${closestColors.color.G}, ${closestColors.color.B})`,
-                  textColor: textColor,
+                  textColor,
                 });
               }}
             // endIcon={renderStar(closestColors.color.name)}
