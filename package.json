@@ -11,7 +11,9 @@
     "lint": "tslint -p tsconfig.json",
     "prepare": "yarn build",
     "prepublishOnly": "yarn lint",
-    "storybook": "start-storybook -p 6006"
+    "storybook": "start-storybook -p 6006",
+    "predeploy": "npm run build-storybook",
+    "deploy-storybook": "yarn build-storybook && gh-pages -d storybook-static"
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,7 @@
   ],
   "author": "Testudo Srl Dev Team",
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://testudosrl.github.io/tst-components",
   "resolutions": {
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
     "@types/react": "17.0.2",
@@ -58,6 +60,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react-hooks": "^4.5.0",
     "eslint-plugin-storybook": "^0.6.8",
+    "gh-pages": "^4.0.0",
     "plop": "^3.1.0",
     "prettier": "^2.6.2",
     "react": "^17.0.2",
