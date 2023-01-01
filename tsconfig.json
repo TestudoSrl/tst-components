@@ -1,27 +1,38 @@
 {
-  "include": ["src"],
-  "exclude": [
-    "dist",
-    "node_modules",
-    "src/**/*.test.tsx",
-  ],
+  "compileOnSave": false,
   "compilerOptions": {
-    "module": "esnext",
-    "lib": ["dom", "esnext"],
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
-    "rootDir": "./src",
-    "outDir": "./",
+    "rootDir": "./src/components",
+    "outDir": "./dist",
     "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "moduleResolution": "node",
-    "jsx": "react",
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-  }
+
+    "paths": {
+      "@mui/styled-engine": ["./node_modules/@mui/styled-engine-sc"]
+    },
+    "allowJs": true,
+    "baseUrl": ".",
+    "incremental": false,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "jsx": "react",
+    "module": "commonjs",
+    "skipDefaultLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es5",
+    "types": [],
+    "lib": ["es2017", "dom"]
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules", "src/**/*.test.tsx"]
 }
