@@ -4564,6 +4564,11 @@ chromatic@^5.0.0:
     uuid "^8.3.2"
     yarn-or-npm "^3.0.1"
 
+chromaticity-color-utilities@^0.14.0-alpha:
+  version "0.14.0-alpha"
+  resolved "https://registry.yarnpkg.com/chromaticity-color-utilities/-/chromaticity-color-utilities-0.14.0-alpha.tgz#78b1844c0ba0c81420f3077c6a3ba6e46a835df1"
+  integrity sha512-UH4IiskmLpx8mP8kV0EsaBOFytBHTqKs8cc62qHWqBE+Ib58ATd1zIF2IOCmuUnFGW+HOD3PX2XGMTaEnNvctA==
+
 chrome-trace-event@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/chrome-trace-event/-/chrome-trace-event-1.0.3.tgz#1015eced4741e15d06664a957dbbf50d041e26ac"
