@@ -28,6 +28,9 @@ function findClosestColors(colors: IColor[], target: IColor, limit: number): ICo
   const closestColors: { color: IColor; distance: number }[] = [];
 
   for (const color of colors) {
+    if (color.name === target.name) {
+      continue;
+    }
     const distance = calculateEuclideanDistance(color.hex, target.hex);
     closestColors.push({ color, distance });
   }
@@ -36,7 +39,7 @@ function findClosestColors(colors: IColor[], target: IColor, limit: number): ICo
 
   return {
     original: target,
-    closestColors: closestColors.slice(0, limit),
+    closestColors: closestColors.slice(0, limit), //skip the first one, which is the target itself
   };
 }
 
