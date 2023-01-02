@@ -22,7 +22,7 @@ import React, { memo, useEffect, useMemo, useState } from 'react';
 import type { ListRowProps } from 'react-virtualized';
 import { List } from 'react-virtualized';
 
-import { distanceFunction, generateColorMap } from './closest-colors';
+import { calculateEuclideanDistance, generateColorMap } from './closest-colors';
 import useIsMobile from './utils';
 
 export interface ColorPickerProps {
@@ -31,16 +31,18 @@ export interface ColorPickerProps {
   showCloestColors: boolean;
 }
 export interface IColor {
-  R: number;
-  G: number;
-  B: number;
   name: string;
-  english: string;
-  italian: string;
+  hex: string;
+  description: string;
 }
+export interface IColorWithDistance {
+  color: IColor;
+  distance: number;
+}
+
 export interface IColorWithClosest {
   original: IColor;
-  closestColors: { color: IColor; distance: number }[];
+  closestColors: IColorWithDistance[];
 }
 const useDebounce = (value: any, delay: number) => {
   const [debouncedValue, setDebouncedValue] = useState(value);
@@ -72,8 +74,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
       .filter(
         (color) =>
           color.original.name.toLowerCase().includes(debouncedSearchInput.toLowerCase()) ||
-          color.original.italian.toLowerCase().includes(debouncedSearchInput.toLowerCase()) ||
-          color.original.english.toLowerCase().includes(debouncedSearchInput.toLowerCase()),
+          color.original.description.toLowerCase().includes(debouncedSearchInput.toLowerCase())
       )
       .map((color) => color.original.name);
   }, [debouncedSearchInput, showCloestColors, colorsInStock]);
@@ -190,36 +191,18 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
     if (!color) {
       return null;
     }
-    const textColorRgb: IColor = {
-      R: 0,
-      G: 0,
-      B: 0,
-      name: '',
-      english: '',
-      italian: '',
-    };
-    let textColor = `rgb(${textColorRgb.R}, ${textColorRgb.G}, ${textColorRgb.B})`;
-    const colorDistance = distanceFunction(
-      {
-        R: color.original.R,
-        G: color.original.G,
-        B: color.original.B,
-        name: '',
-        english: '',
-        italian: '',
-      },
-      textColorRgb,
-    );
-    if (colorDistance < 250) {
-      textColor = `rgb(255,255,255)`;
-    }
+
+    let textColor = '#ffffff';
+    const colorDistance = calculateEuclideanDistance(color.original.hex, textColor);
+    if (colorDistance < 250) textColor = '#000000';
+
     const res = (
       <Grid item xs={12} key={color.original.name}>
         <Card
           key={color.original.name}
           variant="outlined"
           style={{
-            backgroundColor: `rgb(${color?.original.R}, ${color?.original.G}, ${color?.original.B})`,
+            backgroundColor: color.original.hex,
           }}
         >
           <CardContent>
@@ -227,7 +210,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
               onClick={() =>
                 handleSelectColor({
                   name: color?.original.name,
-                  selectedColor: `rgb(${color?.original.R}, ${color?.original.G}, ${color?.original.B})`,
+                  selectedColor: color.original.hex,
                   textColor,
                 })
               }
@@ -238,7 +221,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                     {color?.original.name}
                   </Typography>
                   <Typography fontSize={10} color={textColor}>
-                    {color?.original.english}
+                    {color?.original.description}
                   </Typography>
                 </Grid>
                 <Grid item xs={1} display={'flex'} alignContent={'flex-end'} alignItems={'center'}>
@@ -266,14 +249,14 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
   const buttonWidth = isMobile ? '100px' : '160px';
   const fontSize = isMobile ? 9 : 14;
 
-  const renderAlternativesColor = (closestColors: any, textColor: string) => {
+  const renderAlternativesColor = (closestColors: IColorWithDistance, textColor: string) => {
     const res = (
       <Grid item xs={4} key={closestColors.color.name}>
         <Grid container spacing={0}>
           <Grid item xs={9}>
             <Button
               style={{
-                backgroundColor: `rgb(${closestColors.color.R}, ${closestColors.color.G}, ${closestColors.color.B})`,
+                backgroundColor: closestColors.color.hex,
                 color: textColor,
                 width: buttonWidth,
                 height: '40px',
@@ -282,7 +265,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
               onClick={() => {
                 handleSelectColor({
                   name: closestColors.color.name,
-                  selectedColor: `rgb(${closestColors.color.R}, ${closestColors.color.G}, ${closestColors.color.B})`,
+                  selectedColor: closestColors.color.hex,
                   textColor,
                 });
               }}
