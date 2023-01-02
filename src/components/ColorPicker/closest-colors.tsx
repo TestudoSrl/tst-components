@@ -1,86 +1,53 @@
-import type { IColor, IColorWithClosest } from './ColorPicker'
+import type { IColor, IColorWithClosest } from './ColorPicker';
+import { ncsColors, ralColors, ralDesignColors } from './colors';
 
-export const distanceFunction = (color1: IColor, color2: IColor) => {
-  // Calcola la distanza Euclidea tra i colori nello spazio colore RGB
-  const rDistance = (color1.R - color2.R) ** 2
-  const gDistance = (color1.G - color2.G) ** 2
-  const bDistance = (color1.B - color2.B) ** 2
-  return Math.sqrt(rDistance + gDistance + bDistance)
+export function generateColorMap(): IColorWithClosest[] {
+  const maxAlternative = 3;
+
+  const allColors: IColor[] = [...ralColors, ...ralDesignColors, ...ncsColors];
+
+  const allColorsWithClosest = allColors.map((color) => {
+    const ralAlternative = findClosestColors(ralColors, color, maxAlternative);
+    const ralDesignAlternative = findClosestColors(ralDesignColors, color, maxAlternative);
+    const ncsAlternative = findClosestColors(ncsColors, color, maxAlternative);
+
+    const res: IColorWithClosest = { original: color, closestColors: [] };
+
+    res.closestColors.push(...ralAlternative.closestColors);
+    // res.closestColors.push(...ralDesignAlternative.closestColors);
+    res.closestColors.push(...ncsAlternative.closestColors);
+
+    return res;
+  });
+
+  return allColorsWithClosest;
 }
 
-// Definisci la funzione per trovare i colori più simili usando K-NN
-export function findClosestColorsKNN(
-  colors1: IColor[],
-  colors2: IColor[],
-  k: number
-) {
-  // Crea un array per contenere i risultati
-  const results: IColorWithClosest[] = []
 
-  k++
+function findClosestColors(colors: IColor[], target: IColor, limit: number): IColorWithClosest {
+  const closestColors: { color: IColor; distance: number }[] = [];
 
-  // Itera attraverso ogni colore del primo insieme
-  for (const color1 of colors1) {
-    // Crea un array per contenere la distanza da ogni colore del secondo insieme
-    const distances = []
-
-    // Itera attraverso ogni colore del secondo insieme
-    for (const color2 of colors2) {
-      // Calcola la distanza tra i due colori
-      const distance = distanceFunction(color1, color2)
-      // Aggiungi la distanza all'array delle distanze
-      distances.push({ color: color2, distance })
-    }
-
-    // Ordina l'array delle distanze in base alla distanza
-    distances.sort((a, b) => a.distance - b.distance)
-
-    // Seleziona i K colori più vicini saltando il primo colore (che è il colore stesso)
-    const closestColors = distances.slice(1, k)
-
-    // Aggiungi il risultato all'array dei risultati
-    results.push({
-      original: color1,
-      closestColors,
-    })
+  for (const color of colors) {
+    const distance = calculateEuclideanDistance(color.hex, target.hex);
+    closestColors.push({ color, distance });
   }
 
-  // Restituisci l'array dei risultati
-  return results
+  closestColors.sort((a, b) => a.distance - b.distance);
+
+  return {
+    original: target,
+    closestColors: closestColors.slice(0, limit),
+  };
 }
 
-// const generateColorMap = () => {
-//   const allColors: IColor[] = [...ralColors, ...ralDesignColors, ...ncsColors]
+export function calculateEuclideanDistance(color1: string, color2: string): number {
+  const r1 = parseInt(color1.slice(1, 3), 16);
+  const g1 = parseInt(color1.slice(3, 5), 16);
+  const b1 = parseInt(color1.slice(5, 7), 16);
+  const r2 = parseInt(color2.slice(1, 3), 16);
+  const g2 = parseInt(color2.slice(3, 5), 16);
+  const b2 = parseInt(color2.slice(5, 7), 16);
 
-//   const allColorsWithClosest = allColors.map((color) => {
-//     const ralAlternative = findClosestColorsKNN([color], ralColors, 3) || []
-//     const ralDesignAlternative =
-//       findClosestColorsKNN([color], ralDesignColors, 3) || []
-//     const ncsAlternative = findClosestColorsKNN([color], ncsColors, 3) || []
-
-//     const closestColors = []
-
-//     if (ralAlternative[0]?.closestColors) {
-//       closestColors.push(...ralAlternative[0]?.closestColors)
-//     }
-//     if (ncsAlternative[0]?.closestColors) {
-//       closestColors.push(...ncsAlternative[0]?.closestColors)
-//     }
-//     if (ralDesignAlternative[0]?.closestColors) {
-//       closestColors.push(...ralDesignAlternative[0]?.closestColors)
-//     }
-
-//     return {
-//       original: color,
-//       closestColors,
-//     }
-//   })
-
-//   //create a map of colors with closest colors
-//   const colorMap = new Map<string, IColorWithClosest>()
-//   allColorsWithClosest.forEach((color) => {
-//     colorMap.set(color.original.name, color)
-//   })
-
-//   console.log(colorMap)
-// }
+  const distance = Math.sqrt((r1 - r2) ** 2 + (g1 - g2) ** 2 + (b1 - b2) ** 2);
+  return distance;
+}
