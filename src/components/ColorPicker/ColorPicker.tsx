@@ -22,7 +22,8 @@ import React, { memo, useEffect, useMemo, useState } from 'react';
 import type { ListRowProps } from 'react-virtualized';
 import { List } from 'react-virtualized';
 
-import { calculateEuclideanDistance, generateColorMap } from './closest-colors';
+import { cie2000DistanceHex, generateColorMap } from './closest-colors';
+import { updateColorMap } from './generateColors';
 import useIsMobile from './utils';
 
 export interface ColorPickerProps {
@@ -74,7 +75,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
       .filter(
         (color) =>
           color.original.name.toLowerCase().includes(debouncedSearchInput.toLowerCase()) ||
-          color.original.description.toLowerCase().includes(debouncedSearchInput.toLowerCase())
+          color.original.description.toLowerCase().includes(debouncedSearchInput.toLowerCase()),
       )
       .map((color) => color.original.name);
   }, [debouncedSearchInput, showCloestColors, colorsInStock]);
@@ -193,7 +194,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
     }
 
     let textColor = '#ffffff';
-    const colorDistance = calculateEuclideanDistance(color.original.hex, textColor);
+    const colorDistance = cie2000DistanceHex(color.original.hex, textColor);
     if (colorDistance < 250) textColor = '#000000';
 
     const res = (
@@ -295,6 +296,13 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
   return (
     filteredColors && (
       <>
+        <Button
+          onClick={() => {
+            updateColorMap();
+          }}
+        >
+          Download
+        </Button>
         <Button
           value={selectedColor.name || 'Seleziona colore'}
           variant={'contained'}
