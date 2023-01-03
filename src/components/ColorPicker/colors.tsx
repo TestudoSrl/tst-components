@@ -1,9 +1,8 @@
-import type { IColor } from './ColorPicker';
 
 //RAL Colors source: https://rgb.to/
 //This source it's not good: https://en.wikipedia.org/wiki/List_of_RAL_colors
 
-export const ralColors: IColor[] = [
+export const ralColors: any[] = [
   {
     name: 'RAL 1000',
     description: 'Green beige',
@@ -1073,9 +1072,9216 @@ export const ralColors: IColor[] = [
   },
 ];
 
-export const ralDesignColors: IColor[] = [];
+//RAL Design source: https://www.coloriral.it/ral-design
+export const ralDesignColors: any[] = [
+  {
+    name: 'RAL 000 15 00',
+    hex: '#212122',
+    description: 'Ink black',
+  },
+  {
+    name: 'RAL 000 20 00',
+    hex: '#2b2b2b',
+    description: 'Slate black',
+  },
+  {
+    name: 'RAL 000 25 00',
+    hex: '#3a3a3a',
+    description: 'Onyx black',
+  },
+  {
+    name: 'RAL 000 30 00',
+    hex: '#444443',
+    description: 'Medium black',
+  },
+  {
+    name: 'RAL 000 35 00',
+    hex: '#505050',
+    description: 'Briquette grey',
+  },
+  {
+    name: 'RAL 000 40 00',
+    hex: '#5d5c5b',
+    description: 'Dark grey',
+  },
+  {
+    name: 'RAL 000 45 00',
+    hex: '#6b6a69',
+    description: 'Architecture grey',
+  },
+  {
+    name: 'RAL 000 50 00',
+    hex: '#767675',
+    description: 'Steel grey',
+  },
+  {
+    name: 'RAL 000 55 00',
+    hex: '#828282',
+    description: 'Medium grey',
+  },
+  {
+    name: 'RAL 000 60 00',
+    hex: '#8f8f8f',
+    description: 'Ash grey',
+  },
+  {
+    name: 'RAL 000 65 00',
+    hex: '#9e9f9e',
+    description: 'Mortar grey',
+  },
+  {
+    name: 'RAL 000 70 00',
+    hex: '#acadac',
+    description: 'Light grey',
+  },
+  {
+    name: 'RAL 000 75 00',
+    hex: '#bababa',
+    description: 'Marble grey',
+  },
+  {
+    name: 'RAL 000 80 00',
+    hex: '#c9c8c7',
+    description: 'Foggy grey',
+  },
+  {
+    name: 'RAL 000 85 00',
+    hex: '#d6d6d4',
+    description: 'Shadow white',
+  },
+  {
+    name: 'RAL 000 90 00',
+    hex: '#e2e3e0',
+    description: 'Winter white',
+  },
+  {
+    name: 'RAL 010 20 10',
+    hex: '#3d292c',
+    description: 'Wenge black',
+  },
+  {
+    name: 'RAL 010 20 15',
+    hex: '#422229',
+    description: 'Cherry black',
+  },
+  {
+    name: 'RAL 010 20 20',
+    hex: '#482029',
+    description: 'Dark mahogany',
+  },
+  {
+    name: 'RAL 010 20 25',
+    hex: '#4b1c28',
+    description: 'Rusty red',
+  },
+  {
+    name: 'RAL 010 30 10',
+    hex: '#584044',
+    description: 'Wood-black red',
+  },
+  {
+    name: 'RAL 010 30 15',
+    hex: '#5c3b42',
+    description: 'Night mauve',
+  },
+  {
+    name: 'RAL 010 30 20',
+    hex: '#643941',
+    description: 'Pinkish brown',
+  },
+  {
+    name: 'RAL 010 30 25',
+    hex: '#6b333f',
+    description: 'Chestnut red',
+  },
+  {
+    name: 'RAL 010 30 30',
+    hex: '#702e3f',
+    description: 'Leather red',
+  },
+  {
+    name: 'RAL 010 30 35',
+    hex: '#72283c',
+    description: 'Anthracite red',
+  },
+  {
+    name: 'RAL 010 30 40',
+    hex: '#7a1f3a',
+    description: 'Brown magenta',
+  },
+  {
+    name: 'RAL 010 30 44',
+    hex: '#81173b',
+    description: 'Atlas red',
+  },
+  {
+    name: 'RAL 010 40 10',
+    hex: '#6f585b',
+    description: 'Caput mortuum grey red',
+  },
+  {
+    name: 'RAL 010 40 15',
+    hex: '#765359',
+    description: 'Rust brown',
+  },
+  {
+    name: 'RAL 010 40 20',
+    hex: '#7e5058',
+    description: 'Sunset red',
+  },
+  {
+    name: 'RAL 010 40 25',
+    hex: '#854d58',
+    description: 'Mineral red',
+  },
+  {
+    name: 'RAL 010 40 30',
+    hex: '#8c4757',
+    description: 'Dull magenta',
+  },
+  {
+    name: 'RAL 010 40 35',
+    hex: '#8f4254',
+    description: 'Velvet red',
+  },
+  {
+    name: 'RAL 010 40 40',
+    hex: '#973c53',
+    description: 'Algae red',
+  },
+  {
+    name: 'RAL 010 40 45',
+    hex: '#9d3653',
+    description: 'Raspberry ice cream red',
+  },
+  {
+    name: 'RAL 010 40 50',
+    hex: '#a33052',
+    description: 'Fucshia red',
+  },
+  {
+    name: 'RAL 010 40 53',
+    hex: '#a72a50',
+    description: 'Primal red',
+  },
+  {
+    name: 'RAL 010 50 10',
+    hex: '#887175',
+    description: 'Old mahogany',
+  },
+  {
+    name: 'RAL 010 50 15',
+    hex: '#8f6c73',
+    description: 'Dull dusty pink',
+  },
+  {
+    name: 'RAL 010 50 20',
+    hex: '#976971',
+    description: 'Brickwork red',
+  },
+  {
+    name: 'RAL 010 50 25',
+    hex: '#9f6570',
+    description: 'Matte carmine',
+  },
+  {
+    name: 'RAL 010 50 30',
+    hex: '#a8606f',
+    description: 'Marble red',
+  },
+  {
+    name: 'RAL 010 50 35',
+    hex: '#ad5a6d',
+    description: 'Geranium red',
+  },
+  {
+    name: 'RAL 010 50 40',
+    hex: '#b2576d',
+    description: 'Slate pink',
+  },
+  {
+    name: 'RAL 010 50 45',
+    hex: '#b7506b',
+    description: 'Tulip red',
+  },
+  {
+    name: 'RAL 010 50 50',
+    hex: '#c04a6b',
+    description: 'Vibrant red',
+  },
+  {
+    name: 'RAL 010 60 10',
+    hex: '#a38a8e',
+    description: 'Lilac grey',
+  },
+  {
+    name: 'RAL 010 60 15',
+    hex: '#ac878e',
+    description: 'Ice orchid red',
+  },
+  {
+    name: 'RAL 010 60 20',
+    hex: '#b5848c',
+    description: 'Lime pink',
+  },
+  {
+    name: 'RAL 010 60 25',
+    hex: '#bc7f8b',
+    description: 'Lipstick pink',
+  },
+  {
+    name: 'RAL 010 60 30',
+    hex: '#c37a89',
+    description: 'Japanese coral',
+  },
+  {
+    name: 'RAL 010 60 35',
+    hex: '#cc7688',
+    description: 'Rose red',
+  },
+  {
+    name: 'RAL 010 60 40',
+    hex: '#d27186',
+    description: 'Strawberry milk shake red',
+  },
+  {
+    name: 'RAL 010 60 45',
+    hex: '#da6b85',
+    description: 'Luminous pink',
+  },
+  {
+    name: 'RAL 010 70 10',
+    hex: '#c0a6aa',
+    description: 'Pale mauve',
+  },
+  {
+    name: 'RAL 010 70 15',
+    hex: '#c7a2a7',
+    description: 'Powder rose',
+  },
+  {
+    name: 'RAL 010 70 20',
+    hex: '#d19ea7',
+    description: 'Silver rose',
+  },
+  {
+    name: 'RAL 010 70 25',
+    hex: '#d999a5',
+    description: 'Flamingo pink',
+  },
+  {
+    name: 'RAL 010 70 30',
+    hex: '#e196a4',
+    description: 'Cherry blossom pink',
+  },
+  {
+    name: 'RAL 010 70 35',
+    hex: '#e990a1',
+    description: 'Baby pink',
+  },
+  {
+    name: 'RAL 010 80 10',
+    hex: '#dbc0c3',
+    description: 'Mud pink',
+  },
+  {
+    name: 'RAL 010 80 15',
+    hex: '#e4bdc2',
+    description: 'Ice hot pink',
+  },
+  {
+    name: 'RAL 010 80 20',
+    hex: '#eeb9c1',
+    description: 'Pastel pink',
+  },
+  {
+    name: 'RAL 010 85 05',
+    hex: '#ded1d3',
+    description: 'Pearl rose',
+  },
+  {
+    name: 'RAL 010 85 10',
+    hex: '#e8ced1',
+    description: 'Salmon rose',
+  },
+  {
+    name: 'RAL 010 85 15',
+    hex: '#f1cad0',
+    description: 'Milkshake pink',
+  },
+  {
+    name: 'RAL 010 85 20',
+    hex: '#fac7cf',
+    description: 'Carnation pink',
+  },
+  {
+    name: 'RAL 010 90 05',
+    hex: '#eee0de',
+    description: 'Rose cream',
+  },
+  {
+    name: 'RAL 010 90 10',
+    hex: '#f1dad7',
+    description: 'Light apricot',
+  },
+  {
+    name: 'RAL 010 92 05',
+    hex: '#f2e5e7',
+    description: 'Replaced by 010 93 05',
+  },
+  {
+    name: 'RAL 010 93 05',
+    hex: '#f5e8e9',
+    description: 'White-red',
+  },
+  {
+    name: 'RAL 020 20 05',
+    hex: '#34292a',
+    description: 'Deep brown',
+  },
+  {
+    name: 'RAL 020 20 10',
+    hex: '#3b2727',
+    description: 'Night red',
+  },
+  {
+    name: 'RAL 020 20 20',
+    hex: '#492125',
+    description: 'Dark red brown',
+  },
+  {
+    name: 'RAL 020 20 29',
+    hex: '#52181f',
+    description: 'Burgundy',
+  },
+  {
+    name: 'RAL 020 30 05',
+    hex: '#4c4141',
+    description: 'Rhodonite brown',
+  },
+  {
+    name: 'RAL 020 30 10',
+    hex: '#543d3e',
+    description: 'Budapest brown',
+  },
+  {
+    name: 'RAL 020 30 20',
+    hex: '#623639',
+    description: 'Kremlin red',
+  },
+  {
+    name: 'RAL 020 30 30',
+    hex: '#6c2c32',
+    description: 'Crystal dark red',
+  },
+  {
+    name: 'RAL 020 30 40',
+    hex: '#7a2332',
+    description: 'Amaranth blossom',
+  },
+  {
+    name: 'RAL 020 30 48',
+    hex: '#82162d',
+    description: 'Sweet cherry red',
+  },
+  {
+    name: 'RAL 020 40 05',
+    hex: '#675b5b',
+    description: 'Greyish brown',
+  },
+  {
+    name: 'RAL 020 40 10',
+    hex: '#6d5657',
+    description: 'Nut brown',
+  },
+  {
+    name: 'RAL 020 40 20',
+    hex: '#7b4f52',
+    description: 'Antique red',
+  },
+  {
+    name: 'RAL 020 40 30',
+    hex: '#88464d',
+    description: 'Hermosa pink',
+  },
+  {
+    name: 'RAL 020 40 40',
+    hex: '#923c47',
+    description: 'October red',
+  },
+  {
+    name: 'RAL 020 40 50',
+    hex: '#9e2d3e',
+    description: 'Bright red',
+  },
+  {
+    name: 'RAL 020 50 05',
+    hex: '#807473',
+    description: 'Zircon grey',
+  },
+  {
+    name: 'RAL 020 50 10',
+    hex: '#886e70',
+    description: 'Sandstone red grey',
+  },
+  {
+    name: 'RAL 020 50 20',
+    hex: '#98676b',
+    description: 'Red grey',
+  },
+  {
+    name: 'RAL 020 50 30',
+    hex: '#a65f65',
+    description: 'Venetian red',
+  },
+  {
+    name: 'RAL 020 50 40',
+    hex: '#af565f',
+    description: 'Alsike clover red',
+  },
+  {
+    name: 'RAL 020 50 50',
+    hex: '#bc4b5a',
+    description: 'Flame red',
+  },
+  {
+    name: 'RAL 020 50 58',
+    hex: '#cc4258',
+    description: 'Lingonberry red',
+  },
+  {
+    name: 'RAL 020 60 05',
+    hex: '#998d8d',
+    description: 'Globe thistle grey rose',
+  },
+  {
+    name: 'RAL 020 60 10',
+    hex: '#a2898b',
+    description: 'Tin pink',
+  },
+  {
+    name: 'RAL 020 60 20',
+    hex: '#b38286',
+    description: 'Retro pink',
+  },
+  {
+    name: 'RAL 020 60 30',
+    hex: '#c1797f',
+    description: 'Begonia rusty rose',
+  },
+  {
+    name: 'RAL 020 60 40',
+    hex: '#cf717b',
+    description: 'Lotus red',
+  },
+  {
+    name: 'RAL 020 70 05',
+    hex: '#b4a8a8',
+    description: 'Fashion mauve',
+  },
+  {
+    name: 'RAL 020 70 10',
+    hex: '#bda3a5',
+    description: 'Tourmaline mauve',
+  },
+  {
+    name: 'RAL 020 70 20',
+    hex: '#d19ea2',
+    description: 'Rosewood apricot',
+  },
+  {
+    name: 'RAL 020 70 30',
+    hex: '#e1959c',
+    description: 'Marker pink',
+  },
+  {
+    name: 'RAL 020 80 05',
+    hex: '#d3c5c4',
+    description: 'Aurora grey',
+  },
+  {
+    name: 'RAL 020 80 10',
+    hex: '#dabfc0',
+    description: 'Quartz rose',
+  },
+  {
+    name: 'RAL 020 80 20',
+    hex: '#ecbabd',
+    description: 'Marzipan pink',
+  },
+  {
+    name: 'RAL 020 85 05',
+    hex: '#ded1d1',
+    description: 'Almond blossom pink',
+  },
+  {
+    name: 'RAL 020 85 10',
+    hex: '#e8cece',
+    description: 'Salmon cream',
+  },
+  {
+    name: 'RAL 020 85 20',
+    hex: '#fac7c8',
+    description: 'Elegant light rose',
+  },
+  {
+    name: 'RAL 020 90 05',
+    hex: '#efe2de',
+    description: 'Mussel white',
+  },
+  {
+    name: 'RAL 020 90 10',
+    hex: '#f3dcd8',
+    description: 'Peach cream',
+  },
+  {
+    name: 'RAL 020 93 05',
+    hex: '#f5e8e8',
+    description: 'Blossom white',
+  },
+  {
+    name: 'RAL 030 30 10',
+    hex: '#54403e',
+    description: 'Laurel nut rusty brown',
+  },
+  {
+    name: 'RAL 030 30 20',
+    hex: '#613836',
+    description: 'Autumn leaf red',
+  },
+  {
+    name: 'RAL 030 30 30',
+    hex: '#6c2f2d',
+    description: 'Macore veneer red',
+  },
+  {
+    name: 'RAL 030 30 40',
+    hex: '#7a282a',
+    description: 'Crimson red',
+  },
+  {
+    name: 'RAL 030 30 45',
+    hex: '#7b1e21',
+    description: 'Blood red',
+  },
+  {
+    name: 'RAL 030 40 10',
+    hex: '#6b5755',
+    description: 'Pearl red brown',
+  },
+  {
+    name: 'RAL 030 40 20',
+    hex: '#7c5350',
+    description: 'Cranberry red',
+  },
+  {
+    name: 'RAL 030 40 30',
+    hex: '#894a47',
+    description: 'Brick brown',
+  },
+  {
+    name: 'RAL 030 40 40',
+    hex: '#95413f',
+    description: 'Spicey red',
+  },
+  {
+    name: 'RAL 030 40 50',
+    hex: '#a03638',
+    description: 'Hibiscus red',
+  },
+  {
+    name: 'RAL 030 40 60',
+    hex: '#a92b33',
+    description: 'Emperor cherry red',
+  },
+  {
+    name: 'RAL 030 50 10',
+    hex: '#876f6d',
+    description: 'Earth red',
+  },
+  {
+    name: 'RAL 030 50 20',
+    hex: '#956966',
+    description: 'Terracotta red brown',
+  },
+  {
+    name: 'RAL 030 50 30',
+    hex: '#a4615d',
+    description: 'Clay red',
+  },
+  {
+    name: 'RAL 030 50 40',
+    hex: '#b15a56',
+    description: 'Vermilion red',
+  },
+  {
+    name: 'RAL 030 50 50',
+    hex: '#bc514f',
+    description: 'Maple red',
+  },
+  {
+    name: 'RAL 030 50 60',
+    hex: '#c84444',
+    description: 'Holland red',
+  },
+  {
+    name: 'RAL 030 60 10',
+    hex: '#a18a88',
+    description: 'Storm red',
+  },
+  {
+    name: 'RAL 030 60 20',
+    hex: '#b28380',
+    description: 'Desert red',
+  },
+  {
+    name: 'RAL 030 60 30',
+    hex: '#c07974',
+    description: 'Antique pink',
+  },
+  {
+    name: 'RAL 030 60 40',
+    hex: '#cd7470',
+    description: 'Light tomato',
+  },
+  {
+    name: 'RAL 030 60 50',
+    hex: '#db6a66',
+    description: 'Calypso red',
+  },
+  {
+    name: 'RAL 030 70 10',
+    hex: '#bda4a2',
+    description: 'Florida grey',
+  },
+  {
+    name: 'RAL 030 70 20',
+    hex: '#ce9c97',
+    description: 'Dull apricot',
+  },
+  {
+    name: 'RAL 030 70 30',
+    hex: '#de958f',
+    description: 'Salmon pink red',
+  },
+  {
+    name: 'RAL 030 70 40',
+    hex: '#ec8e88',
+    description: 'Flamingo red',
+  },
+  {
+    name: 'RAL 030 80 10',
+    hex: '#d9c0bc',
+    description: 'Salt pink',
+  },
+  {
+    name: 'RAL 030 80 20',
+    hex: '#eab9b3',
+    description: 'Magnolia pink',
+  },
+  {
+    name: 'RAL 030 85 05',
+    hex: '#ded1d0',
+    description: 'Almond cream',
+  },
+  {
+    name: 'RAL 030 85 10',
+    hex: '#e8cfcb',
+    description: 'Soft ice rose',
+  },
+  {
+    name: 'RAL 030 85 20',
+    hex: '#f9c8c2',
+    description: 'Peach red',
+  },
+  {
+    name: 'RAL 030 90 05',
+    hex: '#eee0dc',
+    description: 'Antique white',
+  },
+  {
+    name: 'RAL 030 90 10',
+    hex: '#f5dfd9',
+    description: 'Wedding pink',
+  },
+  {
+    name: 'RAL 030 93 05',
+    hex: '#f5e8e6',
+    description: 'Parchment white',
+  },
+  {
+    name: 'RAL 040 20 19',
+    hex: '#46241a',
+    description: 'Wild brown',
+  },
+  {
+    name: 'RAL 040 30 05',
+    hex: '#4c423e',
+    description: 'Basalt black',
+  },
+  {
+    name: 'RAL 040 30 10',
+    hex: '#523e39',
+    description: 'Caviar black',
+  },
+  {
+    name: 'RAL 040 30 20',
+    hex: '#5f392f',
+    description: 'Coffee brown',
+  },
+  {
+    name: 'RAL 040 30 30',
+    hex: '#6a3226',
+    description: 'Root brown',
+  },
+  {
+    name: 'RAL 040 30 40',
+    hex: '#742e21',
+    description: 'Corrosion red',
+  },
+  {
+    name: 'RAL 040 40 05',
+    hex: '#665b58',
+    description: 'Ash brown',
+  },
+  {
+    name: 'RAL 040 40 10',
+    hex: '#6b5751',
+    description: 'Somali brown',
+  },
+  {
+    name: 'RAL 040 40 20',
+    hex: '#795349',
+    description: 'Vandyck brown',
+  },
+  {
+    name: 'RAL 040 40 30',
+    hex: '#834b3c',
+    description: 'Chestnut brown',
+  },
+  {
+    name: 'RAL 040 40 40',
+    hex: '#8e4130',
+    description: 'Brick red',
+  },
+  {
+    name: 'RAL 040 40 50',
+    hex: '#9a3d28',
+    description: 'Henna red',
+  },
+  {
+    name: 'RAL 040 40 60',
+    hex: '#a2301b',
+    description: 'Copper red',
+  },
+  {
+    name: 'RAL 040 40 67',
+    hex: '#aa2a12',
+    description: 'China red',
+  },
+  {
+    name: 'RAL 040 50 05',
+    hex: '#7e7370',
+    description: 'Nomad grey',
+  },
+  {
+    name: 'RAL 040 50 10',
+    hex: '#86706b',
+    description: 'Umbra sand',
+  },
+  {
+    name: 'RAL 040 50 20',
+    hex: '#936a60',
+    description: 'Agate brown',
+  },
+  {
+    name: 'RAL 040 50 30',
+    hex: '#a16455',
+    description: 'Rust coloured',
+  },
+  {
+    name: 'RAL 040 50 40',
+    hex: '#ad5d4a',
+    description: 'Ant red',
+  },
+  {
+    name: 'RAL 040 50 50',
+    hex: '#ba553f',
+    description: 'English red',
+  },
+  {
+    name: 'RAL 040 50 60',
+    hex: '#c74e34',
+    description: 'Fox red',
+  },
+  {
+    name: 'RAL 040 50 70',
+    hex: '#cd462d',
+    description: 'Pompeii red',
+  },
+  {
+    name: 'RAL 040 60 05',
+    hex: '#988e8a',
+    description: 'Warm grey',
+  },
+  {
+    name: 'RAL 040 60 10',
+    hex: '#a18a84',
+    description: 'Light caramel',
+  },
+  {
+    name: 'RAL 040 60 20',
+    hex: '#ae8277',
+    description: 'Sienna yellow',
+  },
+  {
+    name: 'RAL 040 60 30',
+    hex: '#bf7e6f',
+    description: 'Cedar red',
+  },
+  {
+    name: 'RAL 040 60 40',
+    hex: '#c87662',
+    description: 'Terra orange',
+  },
+  {
+    name: 'RAL 040 60 50',
+    hex: '#d67158',
+    description: 'Mandarin orange',
+  },
+  {
+    name: 'RAL 040 60 60',
+    hex: '#e1694c',
+    description: 'Coral orange',
+  },
+  {
+    name: 'RAL 040 70 05',
+    hex: '#b3a8a4',
+    description: 'Passepartout grey',
+  },
+  {
+    name: 'RAL 040 70 10',
+    hex: '#bda59e',
+    description: 'Mohair mauve',
+  },
+  {
+    name: 'RAL 040 70 20',
+    hex: '#ce9f93',
+    description: 'Soft sienna',
+  },
+  {
+    name: 'RAL 040 70 30',
+    hex: '#dd9888',
+    description: 'Industrial rose',
+  },
+  {
+    name: 'RAL 040 70 40',
+    hex: '#e5917e',
+    description: 'Apricot red',
+  },
+  {
+    name: 'RAL 040 70 50',
+    hex: '#f68971',
+    description: 'Fruit red',
+  },
+  {
+    name: 'RAL 040 80 05',
+    hex: '#d2c5c0',
+    description: 'Natural silk grey',
+  },
+  {
+    name: 'RAL 040 80 10',
+    hex: '#dbc2bb',
+    description: 'Thulite rose',
+  },
+  {
+    name: 'RAL 040 80 20',
+    hex: '#eebeb1',
+    description: 'Madder orange',
+  },
+  {
+    name: 'RAL 040 80 30',
+    hex: '#fbb7a5',
+    description: 'Nature apricot',
+  },
+  {
+    name: 'RAL 040 85 05',
+    hex: '#ded2ce',
+    description: 'Pandora grey',
+  },
+  {
+    name: 'RAL 040 85 10',
+    hex: '#e7cfc9',
+    description: 'Fine alabaster',
+  },
+  {
+    name: 'RAL 040 85 20',
+    hex: '#f7cabd',
+    description: 'Delicate sweet apricot',
+  },
+  {
+    name: 'RAL 040 90 05',
+    hex: '#efe1db',
+    description: 'Sahara light red',
+  },
+  {
+    name: 'RAL 040 90 10',
+    hex: '#f5e0d6',
+    description: 'Delicate rose',
+  },
+  {
+    name: 'RAL 040 93 05',
+    hex: '#f4e8e5',
+    description: 'Natural white',
+  },
+  {
+    name: 'RAL 050 20 10',
+    hex: '#3c2d25',
+    description: 'Granite brown',
+  },
+  {
+    name: 'RAL 050 20 16',
+    hex: '#43281b',
+    description: 'Night brown',
+  },
+  {
+    name: 'RAL 050 30 10',
+    hex: '#513e35',
+    description: 'Obsidian brown',
+  },
+  {
+    name: 'RAL 050 30 20',
+    hex: '#5e3b2a',
+    description: 'Tropical wood brown',
+  },
+  {
+    name: 'RAL 050 30 30',
+    hex: '#6a3822',
+    description: 'Tobacco brown',
+  },
+  {
+    name: 'RAL 050 30 36',
+    hex: '#70371c',
+    description: 'Rose wood brown',
+  },
+  {
+    name: 'RAL 050 40 10',
+    hex: '#6e5b52',
+    description: 'Mocha black',
+  },
+  {
+    name: 'RAL 050 40 20',
+    hex: '#785544',
+    description: 'Florentine brown',
+  },
+  {
+    name: 'RAL 050 40 30',
+    hex: '#815038',
+    description: 'Curry brown',
+  },
+  {
+    name: 'RAL 050 40 40',
+    hex: '#8c4826',
+    description: 'Madeira brown',
+  },
+  {
+    name: 'RAL 050 40 50',
+    hex: '#964520',
+    description: 'Autumn red',
+  },
+  {
+    name: 'RAL 050 50 10',
+    hex: '#88756c',
+    description: 'Teakwood brown',
+  },
+  {
+    name: 'RAL 050 50 20',
+    hex: '#946f5d',
+    description: 'Milk coffee brown',
+  },
+  {
+    name: 'RAL 050 50 30',
+    hex: '#a16a50',
+    description: 'Golden brown',
+  },
+  {
+    name: 'RAL 050 50 40',
+    hex: '#aa6342',
+    description: 'Copper-metal red',
+  },
+  {
+    name: 'RAL 050 50 50',
+    hex: '#b55e33',
+    description: 'Gold varnish brown',
+  },
+  {
+    name: 'RAL 050 50 60',
+    hex: '#b95621',
+    description: 'Titian red',
+  },
+  {
+    name: 'RAL 050 50 70',
+    hex: '#c94d07',
+    description: 'Poppy red',
+  },
+  {
+    name: 'RAL 050 50 78',
+    hex: '#d05816',
+    description: 'Persian orange',
+  },
+  {
+    name: 'RAL 050 60 10',
+    hex: '#a28d84',
+    description: 'Ecru ochre',
+  },
+  {
+    name: 'RAL 050 60 20',
+    hex: '#af8775',
+    description: 'Caramel brown',
+  },
+  {
+    name: 'RAL 050 60 30',
+    hex: '#bf8469',
+    description: 'Medium brown',
+  },
+  {
+    name: 'RAL 050 60 40',
+    hex: '#c87e5b',
+    description: 'Apricot brown',
+  },
+  {
+    name: 'RAL 050 60 50',
+    hex: '#d47a4c',
+    description: 'Orange yellow',
+  },
+  {
+    name: 'RAL 050 60 60',
+    hex: '#e0743c',
+    description: 'Camel red',
+  },
+  {
+    name: 'RAL 050 60 70',
+    hex: '#e4672e',
+    description: 'Carrot orange',
+  },
+  {
+    name: 'RAL 050 60 80',
+    hex: '#f1601c',
+    description: 'Gerbera red',
+  },
+  {
+    name: 'RAL 050 70 10',
+    hex: '#c0aba0',
+    description: 'Bamboo beige',
+  },
+  {
+    name: 'RAL 050 70 20',
+    hex: '#cea592',
+    description: 'Amber grey',
+  },
+  {
+    name: 'RAL 050 70 30',
+    hex: '#db9f83',
+    description: 'Sienna ochre',
+  },
+  {
+    name: 'RAL 050 70 40',
+    hex: '#e99a76',
+    description: 'Light amber orange',
+  },
+  {
+    name: 'RAL 050 70 50',
+    hex: '#f19268',
+    description: 'Melon red',
+  },
+  {
+    name: 'RAL 050 70 60',
+    hex: '#fd8b58',
+    description: 'Mango orange',
+  },
+  {
+    name: 'RAL 050 80 10',
+    hex: '#ddc7bc',
+    description: 'Pale sienna',
+  },
+  {
+    name: 'RAL 050 80 20',
+    hex: '#ebc0ab',
+    description: 'Soft orange',
+  },
+  {
+    name: 'RAL 050 80 30',
+    hex: '#f8b99d',
+    description: 'Pallid orange',
+  },
+  {
+    name: 'RAL 050 85 05',
+    hex: '#ddd2cd',
+    description: 'Ocean sand',
+  },
+  {
+    name: 'RAL 050 85 10',
+    hex: '#e5d0c6',
+    description: 'Pure beige',
+  },
+  {
+    name: 'RAL 050 85 20',
+    hex: '#f4cbb8',
+    description: 'Biscuit cream',
+  },
+  {
+    name: 'RAL 050 90 05',
+    hex: '#f1e4dc',
+    description: 'Eggshell white',
+  },
+  {
+    name: 'RAL 050 90 10',
+    hex: '#fee6d8',
+    description: 'Light peach rose',
+  },
+  {
+    name: 'RAL 050 92 05',
+    hex: '#f5e9e2',
+    description: 'Replaced by 050 93 05',
+  },
+  {
+    name: 'RAL 050 93 05',
+    hex: '#f4e9e4',
+    description: 'Tulle white',
+  },
+  {
+    name: 'RAL 060 20 05',
+    hex: '#312b26',
+    description: 'Industrial black',
+  },
+  {
+    name: 'RAL 060 30 05',
+    hex: '#4b433d',
+    description: 'Vehicle body grey',
+  },
+  {
+    name: 'RAL 060 30 10',
+    hex: '#504036',
+    description: 'Nutria fur brown',
+  },
+  {
+    name: 'RAL 060 30 20',
+    hex: '#583d29',
+    description: 'Peat brown',
+  },
+  {
+    name: 'RAL 060 30 27',
+    hex: '#603c1f',
+    description: 'Cassiterite brown',
+  },
+  {
+    name: 'RAL 060 40 05',
+    hex: '#645b55',
+    description: 'Zinc grey',
+  },
+  {
+    name: 'RAL 060 40 10',
+    hex: '#69584d',
+    description: 'Moor oak grey',
+  },
+  {
+    name: 'RAL 060 40 20',
+    hex: '#745640',
+    description: 'Coffee bean brown',
+  },
+  {
+    name: 'RAL 060 40 30',
+    hex: '#7c5231',
+    description: 'Brazilian brown',
+  },
+  {
+    name: 'RAL 060 40 40',
+    hex: '#875024',
+    description: 'Plane brown',
+  },
+  {
+    name: 'RAL 060 50 05',
+    hex: '#7e756e',
+    description: 'Chinchilla grey',
+  },
+  {
+    name: 'RAL 060 50 10',
+    hex: '#837367',
+    description: 'Sandstone grey',
+  },
+  {
+    name: 'RAL 060 50 20',
+    hex: '#8d6f58',
+    description: 'Mushroom brown',
+  },
+  {
+    name: 'RAL 060 50 30',
+    hex: '#9a6c4a',
+    description: 'Mustard brown',
+  },
+  {
+    name: 'RAL 060 50 40',
+    hex: '#a16639',
+    description: 'Camel brown',
+  },
+  {
+    name: 'RAL 060 50 50',
+    hex: '#ac642b',
+    description: 'Date fruit brown',
+  },
+  {
+    name: 'RAL 060 50 60',
+    hex: '#ae5b0a',
+    description: 'Elm brown red',
+  },
+  {
+    name: 'RAL 060 50 70',
+    hex: '#b95c00',
+    description: 'Dry clay',
+  },
+  {
+    name: 'RAL 060 60 05',
+    hex: '#99908a',
+    description: 'Screed grey',
+  },
+  {
+    name: 'RAL 060 60 10',
+    hex: '#9f8d80',
+    description: 'Oak brown',
+  },
+  {
+    name: 'RAL 060 60 20',
+    hex: '#ad8971',
+    description: 'Light topaz ochre',
+  },
+  {
+    name: 'RAL 060 60 30',
+    hex: '#b58663',
+    description: 'Cognac brown',
+  },
+  {
+    name: 'RAL 060 60 40',
+    hex: '#c48654',
+    description: 'Maple syrup brown',
+  },
+  {
+    name: 'RAL 060 60 50',
+    hex: '#c67a40',
+    description: 'Turmeric red',
+  },
+  {
+    name: 'RAL 060 60 60',
+    hex: '#d1762b',
+    description: 'Bitter orange',
+  },
+  {
+    name: 'RAL 060 60 70',
+    hex: '#d67211',
+    description: 'Gold orange',
+  },
+  {
+    name: 'RAL 060 60 80',
+    hex: '#e06d00',
+    description: 'Accent orange',
+  },
+  {
+    name: 'RAL 060 70 05',
+    hex: '#b4aba4',
+    description: 'Cement greige',
+  },
+  {
+    name: 'RAL 060 70 10',
+    hex: '#bba89c',
+    description: 'Putty grey',
+  },
+  {
+    name: 'RAL 060 70 20',
+    hex: '#c5a38a',
+    description: 'Peanut butter',
+  },
+  {
+    name: 'RAL 060 70 30',
+    hex: '#cd9c79',
+    description: 'Peach yellow',
+  },
+  {
+    name: 'RAL 060 70 40',
+    hex: '#dc9c6e',
+    description: 'Candle yellow',
+  },
+  {
+    name: 'RAL 060 70 50',
+    hex: '#e6975e',
+    description: 'Topaz yellow',
+  },
+  {
+    name: 'RAL 060 70 60',
+    hex: '#eb9048',
+    description: 'Melon orange',
+  },
+  {
+    name: 'RAL 060 70 70',
+    hex: '#f68c36',
+    description: 'Indian yellow',
+  },
+  {
+    name: 'RAL 060 80 05',
+    hex: '#d0c6be',
+    description: 'Light chamois beige',
+  },
+  {
+    name: 'RAL 060 80 10',
+    hex: '#d5c3b5',
+    description: 'Soft greige',
+  },
+  {
+    name: 'RAL 060 80 20',
+    hex: '#e3bfa6',
+    description: 'Biscuit beige',
+  },
+  {
+    name: 'RAL 060 80 30',
+    hex: '#f0bb94',
+    description: 'Mild orange',
+  },
+  {
+    name: 'RAL 060 80 40',
+    hex: '#f9b482',
+    description: 'Apricot orange',
+  },
+  {
+    name: 'RAL 060 85 05',
+    hex: '#dcd3cc',
+    description: 'Champagne rose',
+  },
+  {
+    name: 'RAL 060 85 10',
+    hex: '#e3d1c4',
+    description: 'Cornmeal beige',
+  },
+  {
+    name: 'RAL 060 85 20',
+    hex: '#f0cdb4',
+    description: 'Dough yellow',
+  },
+  {
+    name: 'RAL 060 85 30',
+    hex: '#fcc9a4',
+    description: 'Light saffron orange',
+  },
+  {
+    name: 'RAL 060 90 05',
+    hex: '#eee3d8',
+    description: 'Grain white',
+  },
+  {
+    name: 'RAL 060 90 10',
+    hex: '#f5e0d2',
+    description: 'Vanilla cream',
+  },
+  {
+    name: 'RAL 060 90 15',
+    hex: '#fadcc8',
+    description: 'Apricot cream',
+  },
+  {
+    name: 'RAL 060 93 05',
+    hex: '#f3e9e3',
+    description: 'Wool white',
+  },
+  {
+    name: 'RAL 070 30 10',
+    hex: '#4c4033',
+    description: 'Mineral brown',
+  },
+  {
+    name: 'RAL 070 30 20',
+    hex: '#554128',
+    description: 'Beech brown',
+  },
+  {
+    name: 'RAL 070 40 10',
+    hex: '#66594c',
+    description: 'Mink brown',
+  },
+  {
+    name: 'RAL 070 40 20',
+    hex: '#6f563b',
+    description: 'Huckleberry brown',
+  },
+  {
+    name: 'RAL 070 40 30',
+    hex: '#77552e',
+    description: 'Arable brown',
+  },
+  {
+    name: 'RAL 070 40 40',
+    hex: '#7d531a',
+    description: 'Autumn gold',
+  },
+  {
+    name: 'RAL 070 50 10',
+    hex: '#7f7365',
+    description: 'Saruk grey',
+  },
+  {
+    name: 'RAL 070 50 20',
+    hex: '#8a7054',
+    description: 'Ash gold',
+  },
+  {
+    name: 'RAL 070 50 30',
+    hex: '#916c41',
+    description: "Lion's mane blond",
+  },
+  {
+    name: 'RAL 070 50 40',
+    hex: '#99692e',
+    description: 'Antique gold',
+  },
+  {
+    name: 'RAL 070 50 50',
+    hex: '#9a6928',
+    description: 'Stage gold',
+  },
+  {
+    name: 'RAL 070 50 55',
+    hex: '#a36924',
+    description: 'Theatre gold',
+  },
+  {
+    name: 'RAL 070 60 10',
+    hex: '#9a8c7d',
+    description: 'Light mahogany',
+  },
+  {
+    name: 'RAL 070 60 20',
+    hex: '#a48a6e',
+    description: 'Dark blond',
+  },
+  {
+    name: 'RAL 070 60 30',
+    hex: '#ab865c',
+    description: 'Light oak brown',
+  },
+  {
+    name: 'RAL 070 60 40',
+    hex: '#b48349',
+    description: 'Grain briown',
+  },
+  {
+    name: 'RAL 070 60 50',
+    hex: '#bd8135',
+    description: 'Mud yellow',
+  },
+  {
+    name: 'RAL 070 60 60',
+    hex: '#c6822d',
+    description: 'Mustard yellow',
+  },
+  {
+    name: 'RAL 070 60 70',
+    hex: '#c77b00',
+    description: 'Sea buckthorn yellow brown',
+  },
+  {
+    name: 'RAL 070 60 75',
+    hex: '#cb7b03',
+    description: 'Autumn leaf orange',
+  },
+  {
+    name: 'RAL 070 70 10',
+    hex: '#b6a89a',
+    description: 'Ginger grey yellow',
+  },
+  {
+    name: 'RAL 070 70 20',
+    hex: '#bfa487',
+    description: 'Light ash brown',
+  },
+  {
+    name: 'RAL 070 70 30',
+    hex: '#caa377',
+    description: 'Golden beige',
+  },
+  {
+    name: 'RAL 070 70 40',
+    hex: '#d29f62',
+    description: 'Dechant pear yellow',
+  },
+  {
+    name: 'RAL 070 70 50',
+    hex: '#d99c51',
+    description: 'Honeycomb yellow',
+  },
+  {
+    name: 'RAL 070 70 60',
+    hex: '#e39b3c',
+    description: 'Gorse yellow orange',
+  },
+  {
+    name: 'RAL 070 70 70',
+    hex: '#e5941e',
+    description: 'Naples yellow',
+  },
+  {
+    name: 'RAL 070 70 80',
+    hex: '#ea9000',
+    description: 'Saffron gold',
+  },
+  {
+    name: 'RAL 070 80 10',
+    hex: '#d2c3b3',
+    description: 'Flax beige',
+  },
+  {
+    name: 'RAL 070 80 20',
+    hex: '#e0c2a3',
+    description: 'Buttercup yellow',
+  },
+  {
+    name: 'RAL 070 80 30',
+    hex: '#e8be91',
+    description: 'Golden oat coloured',
+  },
+  {
+    name: 'RAL 070 80 40',
+    hex: '#f2bd81',
+    description: 'Apricot yellow',
+  },
+  {
+    name: 'RAL 070 80 50',
+    hex: '#fab96b',
+    description: 'Warm apricot',
+  },
+  {
+    name: 'RAL 070 80 60',
+    hex: '#ffb757',
+    description: 'Golden rain yellow',
+  },
+  {
+    name: 'RAL 070 85 05',
+    hex: '#dbd3cb',
+    description: 'Almond beige',
+  },
+  {
+    name: 'RAL 070 85 10',
+    hex: '#e0d2c3',
+    description: 'Silver thistle beige',
+  },
+  {
+    name: 'RAL 070 85 20',
+    hex: '#ebcfb1',
+    description: 'Sandalwood biege',
+  },
+  {
+    name: 'RAL 070 85 30',
+    hex: '#f5cd9f',
+    description: 'Hair blonde',
+  },
+  {
+    name: 'RAL 070 90 05',
+    hex: '#ece4da',
+    description: 'Off white',
+  },
+  {
+    name: 'RAL 070 90 10',
+    hex: '#f1e2d1',
+    description: 'Light corn',
+  },
+  {
+    name: 'RAL 070 90 20',
+    hex: '#fcdebe',
+    description: 'Chalk yellow',
+  },
+  {
+    name: 'RAL 070 93 05',
+    hex: '#f1eae2',
+    description: 'Anemone white',
+  },
+  {
+    name: 'RAL 075 40 10',
+    hex: '#655b4e',
+    description: 'Tree dark brown',
+  },
+  {
+    name: 'RAL 075 40 20',
+    hex: '#6b573c',
+    description: 'Caraway brown',
+  },
+  {
+    name: 'RAL 075 40 30',
+    hex: '#71542a',
+    description: 'Bark brown',
+  },
+  {
+    name: 'RAL 075 40 38',
+    hex: '#765419',
+    description: 'Lizard brown',
+  },
+  {
+    name: 'RAL 075 50 10',
+    hex: '#7f7365',
+    description: 'Rye dough brown',
+  },
+  {
+    name: 'RAL 075 50 20',
+    hex: '#877054',
+    description: 'China cinnemon',
+  },
+  {
+    name: 'RAL 075 50 30',
+    hex: '#907043',
+    description: 'Grog yellow',
+  },
+  {
+    name: 'RAL 075 50 40',
+    hex: '#966d31',
+    description: 'Amber brown',
+  },
+  {
+    name: 'RAL 075 50 50',
+    hex: '#9a6a19',
+    description: 'Cinnamon brown',
+  },
+  {
+    name: 'RAL 075 50 58',
+    hex: '#9b6700',
+    description: 'Cumin ochre',
+  },
+  {
+    name: 'RAL 075 60 10',
+    hex: '#9b8e7f',
+    description: 'Putty yellow',
+  },
+  {
+    name: 'RAL 075 60 20',
+    hex: '#a38b6e',
+    description: 'Walnut shell brown',
+  },
+  {
+    name: 'RAL 075 60 30',
+    hex: '#ab8a5d',
+    description: 'Clay ochre',
+  },
+  {
+    name: 'RAL 075 60 40',
+    hex: '#b2884d',
+    description: 'Funchal yellow',
+  },
+  {
+    name: 'RAL 075 60 50',
+    hex: '#b78534',
+    description: 'Mango brown',
+  },
+  {
+    name: 'RAL 075 60 60',
+    hex: '#bc8215',
+    description: 'Tumeric brown',
+  },
+  {
+    name: 'RAL 075 60 70',
+    hex: '#c38000',
+    description: 'Bamboo brown',
+  },
+  {
+    name: 'RAL 075 70 10',
+    hex: '#b5a99a',
+    description: 'Flax fibre grey',
+  },
+  {
+    name: 'RAL 075 70 20',
+    hex: '#bfa685',
+    description: 'Light pumpkin brown',
+  },
+  {
+    name: 'RAL 075 70 30',
+    hex: '#c6a475',
+    description: 'Golden thistle yellow',
+  },
+  {
+    name: 'RAL 075 70 40',
+    hex: '#cda161',
+    description: 'Brick yellow',
+  },
+  {
+    name: 'RAL 075 70 50',
+    hex: '#d49f4f',
+    description: 'Deep bamboo yellow',
+  },
+  {
+    name: 'RAL 075 70 60',
+    hex: '#db9d34',
+    description: 'Intense yellow',
+  },
+  {
+    name: 'RAL 075 70 70',
+    hex: '#e39b0f',
+    description: 'Pumpkin yellow',
+  },
+  {
+    name: 'RAL 075 70 80',
+    hex: '#e39800',
+    description: 'Autumn yellow',
+  },
+  {
+    name: 'RAL 075 80 10',
+    hex: '#d4c5b4',
+    description: 'Chalk beige',
+  },
+  {
+    name: 'RAL 075 80 20',
+    hex: '#dcc3a2',
+    description: 'Light corn yellow',
+  },
+  {
+    name: 'RAL 075 80 30',
+    hex: '#e3bf8e',
+    description: 'Dark yellow',
+  },
+  {
+    name: 'RAL 075 80 40',
+    hex: '#eabe7e',
+    description: 'Ash yellow',
+  },
+  {
+    name: 'RAL 075 80 50',
+    hex: '#f1ba68',
+    description: 'Orient yellow',
+  },
+  {
+    name: 'RAL 075 80 60',
+    hex: '#f9b856',
+    description: 'Carriage yellow',
+  },
+  {
+    name: 'RAL 075 85 10',
+    hex: '#dfd2c2',
+    description: 'Water lily white',
+  },
+  {
+    name: 'RAL 075 85 20',
+    hex: '#e9d0b0',
+    description: 'Banana ice cream',
+  },
+  {
+    name: 'RAL 075 85 30',
+    hex: '#f1ce9e',
+    description: 'Maple beige',
+  },
+  {
+    name: 'RAL 075 85 40',
+    hex: '#f9cc8b',
+    description: 'Goldenrod yellow',
+  },
+  {
+    name: 'RAL 075 90 10',
+    hex: '#f3e4d0',
+    description: 'Dessert cream',
+  },
+  {
+    name: 'RAL 075 90 20',
+    hex: '#f9dfbd',
+    description: 'Butter white',
+  },
+  {
+    name: 'RAL 075 92 05',
+    hex: '#ede6dc',
+    description: 'Replaced by 075 93 05',
+  },
+  {
+    name: 'RAL 075 93 05',
+    hex: '#f1eae2',
+    description: 'Vanilla white',
+  },
+  {
+    name: 'RAL 080 20 05',
+    hex: '#312d25',
+    description: 'Night brown black',
+  },
+  {
+    name: 'RAL 080 20 10',
+    hex: '#352c1d',
+    description: 'Vanilla bean brown',
+  },
+  {
+    name: 'RAL 080 30 05',
+    hex: '#48433b',
+    description: 'Earth black',
+  },
+  {
+    name: 'RAL 080 30 10',
+    hex: '#4a4031',
+    description: 'Olive black',
+  },
+  {
+    name: 'RAL 080 30 20',
+    hex: '#503f21',
+    description: 'Clove yellow brown',
+  },
+  {
+    name: 'RAL 080 30 26',
+    hex: '#543f16',
+    description: 'Smoked oak brown',
+  },
+  {
+    name: 'RAL 080 40 05',
+    hex: '#625d54',
+    description: 'Office grey',
+  },
+  {
+    name: 'RAL 080 40 10',
+    hex: '#655c4d',
+    description: 'Stone brown',
+  },
+  {
+    name: 'RAL 080 40 20',
+    hex: '#695838',
+    description: 'Pimento grain brown',
+  },
+  {
+    name: 'RAL 080 40 30',
+    hex: '#6f5728',
+    description: 'Ochre green',
+  },
+  {
+    name: 'RAL 080 40 40',
+    hex: '#77570e',
+    description: 'Autumn leaf brown',
+  },
+  {
+    name: 'RAL 080 50 05',
+    hex: '#7a756c',
+    description: 'Dusk grey',
+  },
+  {
+    name: 'RAL 080 50 10',
+    hex: '#7e7465',
+    description: 'Rye brown',
+  },
+  {
+    name: 'RAL 080 50 20',
+    hex: '#857354',
+    description: 'Greyish yellow',
+  },
+  {
+    name: 'RAL 080 50 30',
+    hex: '#8a7140',
+    description: 'Chili green',
+  },
+  {
+    name: 'RAL 080 50 40',
+    hex: '#8e6f2e',
+    description: 'Dirt yellow',
+  },
+  {
+    name: 'RAL 080 50 50',
+    hex: '#946f18',
+    description: 'Chamois yellow',
+  },
+  {
+    name: 'RAL 080 60 05',
+    hex: '#959087',
+    description: 'Flannel grey',
+  },
+  {
+    name: 'RAL 080 60 10',
+    hex: '#988d7c',
+    description: 'Light khaki',
+  },
+  {
+    name: 'RAL 080 60 20',
+    hex: '#a08c6b',
+    description: 'Spelt grain brown',
+  },
+  {
+    name: 'RAL 080 60 30',
+    hex: '#a68a58',
+    description: 'Golden quartz ochre',
+  },
+  {
+    name: 'RAL 080 60 40',
+    hex: '#aa894a',
+    description: 'Bamboo yellow',
+  },
+  {
+    name: 'RAL 080 60 50',
+    hex: '#b08834',
+    description: 'Brass yellow',
+  },
+  {
+    name: 'RAL 080 60 60',
+    hex: '#b78710',
+    description: 'Fig mustard yellow',
+  },
+  {
+    name: 'RAL 080 60 70',
+    hex: '#b88500',
+    description: 'Yellow gold',
+  },
+  {
+    name: 'RAL 080 70 05',
+    hex: '#afaaa1',
+    description: 'Garlic beige',
+  },
+  {
+    name: 'RAL 080 70 10',
+    hex: '#b3a998',
+    description: 'Fine greige',
+  },
+  {
+    name: 'RAL 080 70 20',
+    hex: '#bba785',
+    description: 'Yellow brown',
+  },
+  {
+    name: 'RAL 080 70 30',
+    hex: '#c1a574',
+    description: 'Mustard seed beige',
+  },
+  {
+    name: 'RAL 080 70 40',
+    hex: '#c9a560',
+    description: 'Diamond yellow',
+  },
+  {
+    name: 'RAL 080 70 50',
+    hex: '#cea34d',
+    description: 'Antique brass',
+  },
+  {
+    name: 'RAL 080 70 60',
+    hex: '#d4a235',
+    description: 'Courgette yellow',
+  },
+  {
+    name: 'RAL 080 70 70',
+    hex: '#d9a118',
+    description: 'Grapefruit yellow',
+  },
+  {
+    name: 'RAL 080 70 80',
+    hex: '#da9d00',
+    description: 'Sunflower yellow',
+  },
+  {
+    name: 'RAL 080 70 88',
+    hex: '#de9c00',
+    description: 'Arnica yellow',
+  },
+  {
+    name: 'RAL 080 80 05',
+    hex: '#ccc7bd',
+    description: 'Micaceous light grey',
+  },
+  {
+    name: 'RAL 080 80 10',
+    hex: '#d3c6b4',
+    description: 'Pastel sand',
+  },
+  {
+    name: 'RAL 080 80 20',
+    hex: '#d9c39f',
+    description: 'Natural rice beige',
+  },
+  {
+    name: 'RAL 080 80 30',
+    hex: '#dec18d',
+    description: 'Yellow beige',
+  },
+  {
+    name: 'RAL 080 80 40',
+    hex: '#e6c07a',
+    description: 'Straw yellow',
+  },
+  {
+    name: 'RAL 080 80 50',
+    hex: '#edbf67',
+    description: 'Mirabelle yellow',
+  },
+  {
+    name: 'RAL 080 80 60',
+    hex: '#f3bd4e',
+    description: 'Full yellow',
+  },
+  {
+    name: 'RAL 080 80 70',
+    hex: '#f5ba36',
+    description: 'Pear yellow',
+  },
+  {
+    name: 'RAL 080 80 80',
+    hex: '#fab806',
+    description: 'Fire yellow',
+  },
+  {
+    name: 'RAL 080 80 90',
+    hex: '#feb800',
+    description: 'Summer yellow',
+  },
+  {
+    name: 'RAL 080 85 05',
+    hex: '#d9d3cb',
+    description: 'Wheat flower white',
+  },
+  {
+    name: 'RAL 080 85 10',
+    hex: '#ded3c2',
+    description: 'Onion white',
+  },
+  {
+    name: 'RAL 080 85 20',
+    hex: '#e6d1af',
+    description: 'Nashi pear beige',
+  },
+  {
+    name: 'RAL 080 85 30',
+    hex: '#edd09c',
+    description: 'Vespa yellow',
+  },
+  {
+    name: 'RAL 080 85 40',
+    hex: '#f4ce89',
+    description: 'Puff pastry yellow',
+  },
+  {
+    name: 'RAL 080 90 05',
+    hex: '#ede6d9',
+    description: 'Japanese white',
+  },
+  {
+    name: 'RAL 080 90 10',
+    hex: '#eee1ce',
+    description: 'Mushroom white',
+  },
+  {
+    name: 'RAL 080 90 20',
+    hex: '#f3dfba',
+    description: 'Macadamia beige',
+  },
+  {
+    name: 'RAL 080 90 30',
+    hex: '#fcdea9',
+    description: 'Horseradish yellow',
+  },
+  {
+    name: 'RAL 080 93 05',
+    hex: '#f0eae1',
+    description: 'Milk star white',
+  },
+  {
+    name: 'RAL 085 40 10',
+    hex: '#645d4e',
+    description: 'Mineral green',
+  },
+  {
+    name: 'RAL 085 40 20',
+    hex: '#675a39',
+    description: 'Khaki green',
+  },
+  {
+    name: 'RAL 085 40 30',
+    hex: '#6e5b2e',
+    description: 'Moss brown',
+  },
+  {
+    name: 'RAL 085 50 10',
+    hex: '#7d7463',
+    description: 'Coriander ochre',
+  },
+  {
+    name: 'RAL 085 50 20',
+    hex: '#837452',
+    description: 'Pyrite slate green',
+  },
+  {
+    name: 'RAL 085 50 30',
+    hex: '#887440',
+    description: 'Sepia yellow',
+  },
+  {
+    name: 'RAL 085 50 40',
+    hex: '#8a722d',
+    description: 'Marshy green',
+  },
+  {
+    name: 'RAL 085 50 50',
+    hex: '#8e7115',
+    description: 'Honey yellow green',
+  },
+  {
+    name: 'RAL 085 60 10',
+    hex: '#978f7f',
+    description: 'Matte olive',
+  },
+  {
+    name: 'RAL 085 60 20',
+    hex: '#9e8e6b',
+    description: 'Pond green',
+  },
+  {
+    name: 'RAL 085 60 30',
+    hex: '#a38d59',
+    description: 'Wood green',
+  },
+  {
+    name: 'RAL 085 60 40',
+    hex: '#a78c46',
+    description: 'Lichen green',
+  },
+  {
+    name: 'RAL 085 60 50',
+    hex: '#ab8c31',
+    description: 'Mineral umber',
+  },
+  {
+    name: 'RAL 085 60 60',
+    hex: '#b08b10',
+    description: 'Loden yellow',
+  },
+  {
+    name: 'RAL 085 70 10',
+    hex: '#b1a996',
+    description: 'Raffia greige',
+  },
+  {
+    name: 'RAL 085 70 20',
+    hex: '#b9a885',
+    description: 'Feldspar grey',
+  },
+  {
+    name: 'RAL 085 70 30',
+    hex: '#bea86f',
+    description: 'Hay yellow',
+  },
+  {
+    name: 'RAL 085 70 40',
+    hex: '#c2a65e',
+    description: 'Winter pear beige',
+  },
+  {
+    name: 'RAL 085 70 50',
+    hex: '#c7a548',
+    description: 'Autumn apple yellow',
+  },
+  {
+    name: 'RAL 085 70 60',
+    hex: '#c9a42d',
+    description: 'Pitmaston pear yellow',
+  },
+  {
+    name: 'RAL 085 70 70',
+    hex: '#cda302',
+    description: 'Immortelle yellow',
+  },
+  {
+    name: 'RAL 085 70 75',
+    hex: '#d2a500',
+    description: 'Golden beryl yellow',
+  },
+  {
+    name: 'RAL 085 80 10',
+    hex: '#cec5b1',
+    description: 'Velvet beige',
+  },
+  {
+    name: 'RAL 085 80 20',
+    hex: '#d4c49f',
+    description: 'Mineral beige',
+  },
+  {
+    name: 'RAL 085 80 30',
+    hex: '#dcc48b',
+    description: 'Moonlight yellow',
+  },
+  {
+    name: 'RAL 085 80 40',
+    hex: '#e0c378',
+    description: 'Table pear yellow',
+  },
+  {
+    name: 'RAL 085 80 50',
+    hex: '#e4c163',
+    description: 'Fruit yellow',
+  },
+  {
+    name: 'RAL 085 80 60',
+    hex: '#e8c04c',
+    description: 'Adonis rose yellow',
+  },
+  {
+    name: 'RAL 085 80 70',
+    hex: '#ebbe30',
+    description: 'Barberry yellow',
+  },
+  {
+    name: 'RAL 085 80 80',
+    hex: '#edbc00',
+    description: 'Dandelion yellow',
+  },
+  {
+    name: 'RAL 085 80 85',
+    hex: '#eebc00',
+    description: 'Decor yellow',
+  },
+  {
+    name: 'RAL 085 85 10',
+    hex: '#dcd3c2',
+    description: 'Alabaster white',
+  },
+  {
+    name: 'RAL 085 85 20',
+    hex: '#e3d2af',
+    description: 'Light blond',
+  },
+  {
+    name: 'RAL 085 85 30',
+    hex: '#e9d19c',
+    description: 'Willow-flower yellow',
+  },
+  {
+    name: 'RAL 085 85 40',
+    hex: '#eed188',
+    description: 'Light ginger yellow',
+  },
+  {
+    name: 'RAL 085 90 10',
+    hex: '#efe5d1',
+    description: 'Tulip white',
+  },
+  {
+    name: 'RAL 085 90 20',
+    hex: '#f4e1ba',
+    description: 'Alpine berry yellow',
+  },
+  {
+    name: 'RAL 085 90 30',
+    hex: '#f8dea6',
+    description: 'China clay yellow',
+  },
+  {
+    name: 'RAL 085 93 05',
+    hex: '#efeae1',
+    description: 'Vintage white',
+  },
+  {
+    name: 'RAL 090 30 10',
+    hex: '#4a4433',
+    description: 'Limonite brown',
+  },
+  {
+    name: 'RAL 090 30 20',
+    hex: '#4e4421',
+    description: 'Bark green',
+  },
+  {
+    name: 'RAL 090 40 10',
+    hex: '#645e4e',
+    description: 'Boulder brown',
+  },
+  {
+    name: 'RAL 090 40 20',
+    hex: '#665c39',
+    description: 'Plum green',
+  },
+  {
+    name: 'RAL 090 40 30',
+    hex: '#6b5f2c',
+    description: 'Vine leaf green',
+  },
+  {
+    name: 'RAL 090 50 10',
+    hex: '#7b7666',
+    description: 'Graphite grey green',
+  },
+  {
+    name: 'RAL 090 50 20',
+    hex: '#7e7553',
+    description: 'Pesto green',
+  },
+  {
+    name: 'RAL 090 50 30',
+    hex: '#84773f',
+    description: 'Giant cactus green',
+  },
+  {
+    name: 'RAL 090 50 40',
+    hex: '#87762c',
+    description: 'Aubergine green',
+  },
+  {
+    name: 'RAL 090 60 10',
+    hex: '#958f7f',
+    description: 'Oyster green',
+  },
+  {
+    name: 'RAL 090 60 20',
+    hex: '#9a8f6b',
+    description: 'Manzanilla olive',
+  },
+  {
+    name: 'RAL 090 60 30',
+    hex: '#9e8f5c',
+    description: 'Camouflage olive',
+  },
+  {
+    name: 'RAL 090 60 40',
+    hex: '#a08e44',
+    description: 'Laurel green',
+  },
+  {
+    name: 'RAL 090 60 50',
+    hex: '#a08c2b',
+    description: 'Faint green',
+  },
+  {
+    name: 'RAL 090 60 60',
+    hex: '#a7900b',
+    description: 'Titanite yellow',
+  },
+  {
+    name: 'RAL 090 70 10',
+    hex: '#b1ab98',
+    description: 'Dusty yellow',
+  },
+  {
+    name: 'RAL 090 70 20',
+    hex: '#b5a982',
+    description: 'Barbados beige',
+  },
+  {
+    name: 'RAL 090 70 30',
+    hex: '#b8a872',
+    description: 'Rhubarb leaf green',
+  },
+  {
+    name: 'RAL 090 70 40',
+    hex: '#beab5d',
+    description: 'Hedgehog cactus yellow green',
+  },
+  {
+    name: 'RAL 090 70 50',
+    hex: '#c1aa49',
+    description: 'Gossebery yellow',
+  },
+  {
+    name: 'RAL 090 70 60',
+    hex: '#c3a92d',
+    description: 'Bud green',
+  },
+  {
+    name: 'RAL 090 70 70',
+    hex: '#c5a900',
+    description: 'Catkin yellow',
+  },
+  {
+    name: 'RAL 090 70 80',
+    hex: '#c9a800',
+    description: 'Prehnite yellow',
+  },
+  {
+    name: 'RAL 090 80 10',
+    hex: '#cdc6b0',
+    description: 'Light beige',
+  },
+  {
+    name: 'RAL 090 80 20',
+    hex: '#d0c49e',
+    description: 'Champagne beige',
+  },
+  {
+    name: 'RAL 090 80 30',
+    hex: '#d7c78e',
+    description: 'Lemon sorbet yellow',
+  },
+  {
+    name: 'RAL 090 80 40',
+    hex: '#dbc77c',
+    description: 'Blossom yellow',
+  },
+  {
+    name: 'RAL 090 80 50',
+    hex: '#e0c661',
+    description: 'Tasman honey yellow',
+  },
+  {
+    name: 'RAL 090 80 60',
+    hex: '#e0c445',
+    description: 'New yellow',
+  },
+  {
+    name: 'RAL 090 80 70',
+    hex: '#e5c635',
+    description: 'Fashion yellow',
+  },
+  {
+    name: 'RAL 090 80 80',
+    hex: '#e4c200',
+    description: 'Poster yellow',
+  },
+  {
+    name: 'RAL 090 80 90',
+    hex: '#e9c300',
+    description: 'Contrasting yellow',
+  },
+  {
+    name: 'RAL 090 85 05',
+    hex: '#d7d4cb',
+    description: 'Pepper white',
+  },
+  {
+    name: 'RAL 090 85 10',
+    hex: '#dad4c1',
+    description: 'Paella natural white',
+  },
+  {
+    name: 'RAL 090 85 20',
+    hex: '#e0d3ae',
+    description: 'Cider yellow',
+  },
+  {
+    name: 'RAL 090 85 30',
+    hex: '#e4d39b',
+    description: 'Palm sugar yellow',
+  },
+  {
+    name: 'RAL 090 85 40',
+    hex: '#e8d388',
+    description: 'March yellow',
+  },
+  {
+    name: 'RAL 090 85 50',
+    hex: '#ebd373',
+    description: 'Oriole yellow',
+  },
+  {
+    name: 'RAL 090 90 05',
+    hex: '#e9e4d8',
+    description: 'Mazipan white',
+  },
+  {
+    name: 'RAL 090 90 10',
+    hex: '#eae5d0',
+    description: 'Primrose white',
+  },
+  {
+    name: 'RAL 090 90 20',
+    hex: '#f0e4ba',
+    description: 'Cream yellow',
+  },
+  {
+    name: 'RAL 090 90 30',
+    hex: '#f3e2a8',
+    description: 'Wax yellow',
+  },
+  {
+    name: 'RAL 090 90 40',
+    hex: '#f8e293',
+    description: 'Lemon cream',
+  },
+  {
+    name: 'RAL 090 90 50',
+    hex: '#f8df7d',
+    description: 'Tiger yellow',
+  },
+  {
+    name: 'RAL 090 90 60',
+    hex: '#f8dc66',
+    description: 'Sunrose yellow',
+  },
+  {
+    name: 'RAL 090 93 05',
+    hex: '#eeebe1',
+    description: 'Cream white',
+  },
+  {
+    name: 'RAL 095 40 10',
+    hex: '#615e4c',
+    description: 'Shady green',
+  },
+  {
+    name: 'RAL 095 40 20',
+    hex: '#635c37',
+    description: 'Forest green',
+  },
+  {
+    name: 'RAL 095 40 30',
+    hex: '#655c27',
+    description: 'Bean green',
+  },
+  {
+    name: 'RAL 095 50 10',
+    hex: '#797564',
+    description: 'Dull olive',
+  },
+  {
+    name: 'RAL 095 50 20',
+    hex: '#7d7653',
+    description: 'Cabbage green',
+  },
+  {
+    name: 'RAL 095 50 30',
+    hex: '#807740',
+    description: 'Caper green',
+  },
+  {
+    name: 'RAL 095 50 40',
+    hex: '#83772a',
+    description: 'Garden lettuce green',
+  },
+  {
+    name: 'RAL 095 50 50',
+    hex: '#847712',
+    description: 'Artichoke green',
+  },
+  {
+    name: 'RAL 095 60 10',
+    hex: '#95907e',
+    description: 'Pale green grey',
+  },
+  {
+    name: 'RAL 095 60 20',
+    hex: '#97906c',
+    description: 'Pale green',
+  },
+  {
+    name: 'RAL 095 60 30',
+    hex: '#9b9158',
+    description: 'Cypress green',
+  },
+  {
+    name: 'RAL 095 60 40',
+    hex: '#9c9044',
+    description: 'Grape green',
+  },
+  {
+    name: 'RAL 095 60 50',
+    hex: '#9d922e',
+    description: 'Gooseberry green',
+  },
+  {
+    name: 'RAL 095 60 60',
+    hex: '#9b8e09',
+    description: 'Guava green',
+  },
+  {
+    name: 'RAL 095 60 70',
+    hex: '#9d8f00',
+    description: 'Romaine green',
+  },
+  {
+    name: 'RAL 095 70 10',
+    hex: '#b0ab98',
+    description: 'Sand grey',
+  },
+  {
+    name: 'RAL 095 70 20',
+    hex: '#b4ac87',
+    description: 'Crocodile green',
+  },
+  {
+    name: 'RAL 095 70 30',
+    hex: '#b6ac74',
+    description: 'Chicory green',
+  },
+  {
+    name: 'RAL 095 70 40',
+    hex: '#b8ab5c',
+    description: 'Banana green',
+  },
+  {
+    name: 'RAL 095 70 50',
+    hex: '#b8ab49',
+    description: 'Star fruit yellow green',
+  },
+  {
+    name: 'RAL 095 70 60',
+    hex: '#b8aa30',
+    description: 'Papaya yellow green',
+  },
+  {
+    name: 'RAL 095 70 70',
+    hex: '#bbab00',
+    description: 'Bronze green',
+  },
+  {
+    name: 'RAL 095 80 10',
+    hex: '#ccc7b4',
+    description: 'Sapphire light yellow',
+  },
+  {
+    name: 'RAL 095 80 20',
+    hex: '#d0c7a1',
+    description: 'Pale olive',
+  },
+  {
+    name: 'RAL 095 80 30',
+    hex: '#d5ca8e',
+    description: 'Asparagus yellow',
+  },
+  {
+    name: 'RAL 095 80 40',
+    hex: '#d7c979',
+    description: 'Pea green',
+  },
+  {
+    name: 'RAL 095 80 50',
+    hex: '#d6c864',
+    description: 'Williams pear yellow',
+  },
+  {
+    name: 'RAL 095 80 60',
+    hex: '#d4c54b',
+    description: 'Greenish yellow',
+  },
+  {
+    name: 'RAL 095 80 70',
+    hex: '#d7c730',
+    description: 'Mimosa yellow',
+  },
+  {
+    name: 'RAL 095 80 80',
+    hex: '#d2c200',
+    description: 'Sorbet yellow',
+  },
+  {
+    name: 'RAL 095 85 10',
+    hex: '#d9d4c1',
+    description: 'Salsify white',
+  },
+  {
+    name: 'RAL 095 85 20',
+    hex: '#dcd5ae',
+    description: 'Dull light yellow',
+  },
+  {
+    name: 'RAL 095 85 30',
+    hex: '#dfd59b',
+    description: 'Leaf yellow',
+  },
+  {
+    name: 'RAL 095 85 40',
+    hex: '#e2d588',
+    description: 'Natural yellow',
+  },
+  {
+    name: 'RAL 095 85 50',
+    hex: '#e3d573',
+    description: 'Sport yellow',
+  },
+  {
+    name: 'RAL 095 90 10',
+    hex: '#eae4ce',
+    description: 'Atlas white',
+  },
+  {
+    name: 'RAL 095 90 20',
+    hex: '#ede4bc',
+    description: 'Pearl yellow',
+  },
+  {
+    name: 'RAL 095 90 30',
+    hex: '#f1e3a7',
+    description: 'Lemon ice cream yellow',
+  },
+  {
+    name: 'RAL 095 90 40',
+    hex: '#f1e290',
+    description: 'Fresh yellow',
+  },
+  {
+    name: 'RAL 095 90 50',
+    hex: '#f7e47f',
+    description: 'Luminescent yellow',
+  },
+  {
+    name: 'RAL 095 90 59',
+    hex: '#f9e46c',
+    description: 'Dymanic yellow',
+  },
+  {
+    name: 'RAL 095 93 05',
+    hex: '#edebe1',
+    description: 'Crepe silk white',
+  },
+  {
+    name: 'RAL 100 20 05',
+    hex: '#302f27',
+    description: 'Night green',
+  },
+  {
+    name: 'RAL 100 30 05',
+    hex: '#44433b',
+    description: 'Volcanic stone green',
+  },
+  {
+    name: 'RAL 100 30 10',
+    hex: '#454230',
+    description: 'Vermilion green',
+  },
+  {
+    name: 'RAL 100 30 20',
+    hex: '#494623',
+    description: 'Uniform green',
+  },
+  {
+    name: 'RAL 100 40 05',
+    hex: '#5c5c53',
+    description: 'Doves grey',
+  },
+  {
+    name: 'RAL 100 40 10',
+    hex: '#5f5e4c',
+    description: 'Slick green',
+  },
+  {
+    name: 'RAL 100 40 20',
+    hex: '#605e3b',
+    description: 'Broccoli green',
+  },
+  {
+    name: 'RAL 100 40 30',
+    hex: '#625e25',
+    description: 'High forest green',
+  },
+  {
+    name: 'RAL 100 40 40',
+    hex: '#625e0b',
+    description: 'Brussels sprout green',
+  },
+  {
+    name: 'RAL 100 50 05',
+    hex: '#77766d',
+    description: 'Forest floor khaki',
+  },
+  {
+    name: 'RAL 100 50 10',
+    hex: '#787662',
+    description: 'Lapwing grey green',
+  },
+  {
+    name: 'RAL 100 50 20',
+    hex: '#7a7853',
+    description: 'Green woodpecker olive',
+  },
+  {
+    name: 'RAL 100 50 30',
+    hex: '#79773f',
+    description: 'Steppe green',
+  },
+  {
+    name: 'RAL 100 50 40',
+    hex: '#7d772a',
+    description: 'Faience green',
+  },
+  {
+    name: 'RAL 100 50 50',
+    hex: '#7a770e',
+    description: 'Tool green',
+  },
+  {
+    name: 'RAL 100 60 05',
+    hex: '#929187',
+    description: 'Smokey grey green',
+  },
+  {
+    name: 'RAL 100 60 10',
+    hex: '#908f7c',
+    description: 'Olivine grey',
+  },
+  {
+    name: 'RAL 100 60 20',
+    hex: '#95926c',
+    description: 'Grey-headed woodpecker green',
+  },
+  {
+    name: 'RAL 100 60 30',
+    hex: '#949157',
+    description: 'Cardamom green',
+  },
+  {
+    name: 'RAL 100 60 40',
+    hex: '#969345',
+    description: 'Lettuce green',
+  },
+  {
+    name: 'RAL 100 60 50',
+    hex: '#96942d',
+    description: 'Art nouveau green',
+  },
+  {
+    name: 'RAL 100 60 60',
+    hex: '#918f00',
+    description: 'Smoothie green',
+  },
+  {
+    name: 'RAL 100 70 05',
+    hex: '#adada3',
+    description: 'Smokey white',
+  },
+  {
+    name: 'RAL 100 70 10',
+    hex: '#aeac98',
+    description: 'Anise grey yellow',
+  },
+  {
+    name: 'RAL 100 70 20',
+    hex: '#b0ac85',
+    description: 'Sand brown',
+  },
+  {
+    name: 'RAL 100 70 30',
+    hex: '#afac71',
+    description: 'Hippie green',
+  },
+  {
+    name: 'RAL 100 70 40',
+    hex: '#b2af60',
+    description: 'Linden green',
+  },
+  {
+    name: 'RAL 100 70 50',
+    hex: '#b0ad4a',
+    description: 'Dill green',
+  },
+  {
+    name: 'RAL 100 70 60',
+    hex: '#aead2f',
+    description: 'New green',
+  },
+  {
+    name: 'RAL 100 80 05',
+    hex: '#c7c7bc',
+    description: 'Natural grey',
+  },
+  {
+    name: 'RAL 100 80 10',
+    hex: '#cac8b1',
+    description: 'Pale beige',
+  },
+  {
+    name: 'RAL 100 80 20',
+    hex: '#cfcaa1',
+    description: 'Soft green',
+  },
+  {
+    name: 'RAL 100 80 30',
+    hex: '#cdc98c',
+    description: 'Silver green',
+  },
+  {
+    name: 'RAL 100 80 40',
+    hex: '#ceca78',
+    description: 'March tulip green',
+  },
+  {
+    name: 'RAL 100 80 50',
+    hex: '#cdca63',
+    description: 'Light olive',
+  },
+  {
+    name: 'RAL 100 80 60',
+    hex: '#d0cc49',
+    description: 'Advertisment green',
+  },
+  {
+    name: 'RAL 100 80 70',
+    hex: '#d0cc2f',
+    description: 'LED green',
+  },
+  {
+    name: 'RAL 100 80 80',
+    hex: '#cbcd00',
+    description: 'March green',
+  },
+  {
+    name: 'RAL 100 85 05',
+    hex: '#d6d5cb',
+    description: 'Celery white',
+  },
+  {
+    name: 'RAL 100 85 10',
+    hex: '#d7d5c2',
+    description: 'Palm heart cream',
+  },
+  {
+    name: 'RAL 100 85 20',
+    hex: '#d9d6af',
+    description: 'Beige green',
+  },
+  {
+    name: 'RAL 100 85 30',
+    hex: '#dad69c',
+    description: 'Crystal yellow',
+  },
+  {
+    name: 'RAL 100 90 05',
+    hex: '#e7e5d8',
+    description: 'Brilliant yellow',
+  },
+  {
+    name: 'RAL 100 90 10',
+    hex: '#e8e5cf',
+    description: 'Elderberry white',
+  },
+  {
+    name: 'RAL 100 90 20',
+    hex: '#ebe5bb',
+    description: 'Designer cream yellow',
+  },
+  {
+    name: 'RAL 100 90 30',
+    hex: '#eae4a5',
+    description: 'Boxwood yellow',
+  },
+  {
+    name: 'RAL 100 90 40',
+    hex: '#ede791',
+    description: 'Primrose yellow',
+  },
+  {
+    name: 'RAL 100 90 50',
+    hex: '#ebe57c',
+    description: 'Spring yellow',
+  },
+  {
+    name: 'RAL 100 93 05',
+    hex: '#ecebe1',
+    description: 'Fog white',
+  },
+  {
+    name: 'RAL 110 20 10',
+    hex: '#2e2f1f',
+    description: 'Metal construction green',
+  },
+  {
+    name: 'RAL 110 30 10',
+    hex: '#444635',
+    description: 'Dark olive green',
+  },
+  {
+    name: 'RAL 110 30 20',
+    hex: '#444826',
+    description: 'Nori seaweed green',
+  },
+  {
+    name: 'RAL 110 40 10',
+    hex: '#5d5f4d',
+    description: 'Stump green',
+  },
+  {
+    name: 'RAL 110 40 20',
+    hex: '#595e38',
+    description: 'Antique green',
+  },
+  {
+    name: 'RAL 110 40 30',
+    hex: '#5a6029',
+    description: 'Gardener green',
+  },
+  {
+    name: 'RAL 110 40 40',
+    hex: '#586215',
+    description: 'Kirchner green',
+  },
+  {
+    name: 'RAL 110 50 10',
+    hex: '#757764',
+    description: 'November green',
+  },
+  {
+    name: 'RAL 110 50 20',
+    hex: '#737953',
+    description: 'Alexandrite green',
+  },
+  {
+    name: 'RAL 110 50 30',
+    hex: '#737b43',
+    description: 'Plant green',
+  },
+  {
+    name: 'RAL 110 50 40',
+    hex: '#6f7b2b',
+    description: 'Ripe green',
+  },
+  {
+    name: 'RAL 110 50 50',
+    hex: '#6b7a0d',
+    description: 'Portuguese green',
+  },
+  {
+    name: 'RAL 110 50 55',
+    hex: '#6b7d00',
+    description: 'Flag green',
+  },
+  {
+    name: 'RAL 110 60 10',
+    hex: '#8e917e',
+    description: 'Grey green',
+  },
+  {
+    name: 'RAL 110 60 20',
+    hex: '#8b926c',
+    description: 'Peapod green',
+  },
+  {
+    name: 'RAL 110 60 30',
+    hex: '#8d965e',
+    description: 'Indian green',
+  },
+  {
+    name: 'RAL 110 60 40',
+    hex: '#889648',
+    description: 'Winterpea green',
+  },
+  {
+    name: 'RAL 110 60 50',
+    hex: '#869731',
+    description: 'Airline green',
+  },
+  {
+    name: 'RAL 110 60 60',
+    hex: '#849a12',
+    description: 'Woodfuff green',
+  },
+  {
+    name: 'RAL 110 60 65',
+    hex: '#849a00',
+    description: 'Traffic light green',
+  },
+  {
+    name: 'RAL 110 70 10',
+    hex: '#abad98',
+    description: 'Chinese tea green',
+  },
+  {
+    name: 'RAL 110 70 20',
+    hex: '#a8ae86',
+    description: 'Wall green',
+  },
+  {
+    name: 'RAL 110 70 30',
+    hex: '#a4ae74',
+    description: 'Wasabi green',
+  },
+  {
+    name: 'RAL 110 70 40',
+    hex: '#a4b161',
+    description: 'April green',
+  },
+  {
+    name: 'RAL 110 70 50',
+    hex: '#a3b44f',
+    description: 'Delaunay green',
+  },
+  {
+    name: 'RAL 110 70 60',
+    hex: '#9eb335',
+    description: 'Lime green',
+  },
+  {
+    name: 'RAL 110 70 70',
+    hex: '#95b200',
+    description: 'Chlorophyll green',
+  },
+  {
+    name: 'RAL 110 70 77',
+    hex: '#94b000',
+    description: 'Marker green',
+  },
+  {
+    name: 'RAL 110 80 10',
+    hex: '#c3c6b3',
+    description: 'Spring grey',
+  },
+  {
+    name: 'RAL 110 80 20',
+    hex: '#c5caa1',
+    description: 'Mint ice cream',
+  },
+  {
+    name: 'RAL 110 80 30',
+    hex: '#c3cc8d',
+    description: 'Springtide green',
+  },
+  {
+    name: 'RAL 110 80 40',
+    hex: '#c0ce7c',
+    description: 'Lime sorbet green',
+  },
+  {
+    name: 'RAL 110 80 50',
+    hex: '#c0d067',
+    description: 'Easter green',
+  },
+  {
+    name: 'RAL 110 80 60',
+    hex: '#bbd154',
+    description: 'Clown green',
+  },
+  {
+    name: 'RAL 110 80 70',
+    hex: '#b7d133',
+    description: 'Juice green',
+  },
+  {
+    name: 'RAL 110 85 10',
+    hex: '#d3d6c2',
+    description: 'Veltliner white',
+  },
+  {
+    name: 'RAL 110 85 20',
+    hex: '#d2d8b0',
+    description: 'Kohlrabi green',
+  },
+  {
+    name: 'RAL 110 85 30',
+    hex: '#d0d99e',
+    description: 'Burgundy grey',
+  },
+  {
+    name: 'RAL 110 85 40',
+    hex: '#cedb8b',
+    description: 'Wax green',
+  },
+  {
+    name: 'RAL 110 85 50',
+    hex: '#cbdd78',
+    description: 'Sprout green',
+  },
+  {
+    name: 'RAL 110 90 05',
+    hex: '#e3e3d8',
+    description: 'Cotton white',
+  },
+  {
+    name: 'RAL 110 90 10',
+    hex: '#e4e6d0',
+    description: 'Light fern green',
+  },
+  {
+    name: 'RAL 110 90 20',
+    hex: '#e2e7bb',
+    description: 'Lily scent green',
+  },
+  {
+    name: 'RAL 110 90 30',
+    hex: '#e0e7a7',
+    description: 'Kiwi ice crean green',
+  },
+  {
+    name: 'RAL 110 90 35',
+    hex: '#dde89e',
+    description: 'Withdrawn from range',
+  },
+  {
+    name: 'RAL 110 90 40',
+    hex: '#dee995',
+    description: 'Lime juice green',
+  },
+  {
+    name: 'RAL 110 92 05',
+    hex: '#e7e8db',
+    description: 'Replaced by 110 93 05',
+  },
+  {
+    name: 'RAL 110 93 05',
+    hex: '#ebece2',
+    description: 'Raffia white',
+  },
+  {
+    name: 'RAL 110 96 02',
+    hex: '#f3f4f0',
+    description: 'Laundry white',
+  },
+  {
+    name: 'RAL 120 30 05',
+    hex: '#40433a',
+    description: 'Racing green',
+  },
+  {
+    name: 'RAL 120 30 10',
+    hex: '#3f4634',
+    description: 'Country house green',
+  },
+  {
+    name: 'RAL 120 30 20',
+    hex: '#3b4825',
+    description: 'Avocado dark green',
+  },
+  {
+    name: 'RAL 120 40 05',
+    hex: '#5a5c53',
+    description: 'English green',
+  },
+  {
+    name: 'RAL 120 40 10',
+    hex: '#585e4c',
+    description: 'Almond green',
+  },
+  {
+    name: 'RAL 120 40 20',
+    hex: '#53603d',
+    description: 'Cactus green',
+  },
+  {
+    name: 'RAL 120 40 30',
+    hex: '#51632e',
+    description: 'Basil green',
+  },
+  {
+    name: 'RAL 120 40 40',
+    hex: '#496412',
+    description: 'Pepper green',
+  },
+  {
+    name: 'RAL 120 50 05',
+    hex: '#74766c',
+    description: 'Smoke green',
+  },
+  {
+    name: 'RAL 120 50 10',
+    hex: '#717866',
+    description: 'Velvet green grey',
+  },
+  {
+    name: 'RAL 120 50 20',
+    hex: '#6e7c55',
+    description: 'Parrot green',
+  },
+  {
+    name: 'RAL 120 50 30',
+    hex: '#6a7c44',
+    description: 'Quartz green',
+  },
+  {
+    name: 'RAL 120 50 40',
+    hex: '#647e35',
+    description: 'Hedge green',
+  },
+  {
+    name: 'RAL 120 50 50',
+    hex: '#5d7f1b',
+    description: 'Birch leaf green',
+  },
+  {
+    name: 'RAL 120 60 05',
+    hex: '#919489',
+    description: 'Bluish grey',
+  },
+  {
+    name: 'RAL 120 60 10',
+    hex: '#8b927f',
+    description: 'Lavender leaf grey',
+  },
+  {
+    name: 'RAL 120 60 20',
+    hex: '#87946e',
+    description: 'Cider pear green',
+  },
+  {
+    name: 'RAL 120 60 30',
+    hex: '#83995f',
+    description: 'Vesuvian green',
+  },
+  {
+    name: 'RAL 120 60 40',
+    hex: '#7d9a4b',
+    description: 'Bamboo grass green',
+  },
+  {
+    name: 'RAL 120 60 50',
+    hex: '#779c37',
+    description: 'Aloe vera green',
+  },
+  {
+    name: 'RAL 120 60 60',
+    hex: '#6f9b1d',
+    description: 'Mamba green',
+  },
+  {
+    name: 'RAL 120 60 63',
+    hex: '#6d9d14',
+    description: 'Luminescent green',
+  },
+  {
+    name: 'RAL 120 70 05',
+    hex: '#aaada2',
+    description: 'Laurel grey',
+  },
+  {
+    name: 'RAL 120 70 10',
+    hex: '#a7ad99',
+    description: 'Nile green',
+  },
+  {
+    name: 'RAL 120 70 20',
+    hex: '#a2b088',
+    description: 'Filigree green',
+  },
+  {
+    name: 'RAL 120 70 30',
+    hex: '#9eb479',
+    description: 'Serpentine green',
+  },
+  {
+    name: 'RAL 120 70 40',
+    hex: '#97b666',
+    description: 'Light birch green',
+  },
+  {
+    name: 'RAL 120 70 50',
+    hex: '#91b751',
+    description: 'Clematis green',
+  },
+  {
+    name: 'RAL 120 70 60',
+    hex: '#89b43a',
+    description: 'Tourmaline green',
+  },
+  {
+    name: 'RAL 120 70 70',
+    hex: '#85ba22',
+    description: 'Cocktail green',
+  },
+  {
+    name: 'RAL 120 70 75',
+    hex: '#7fb500',
+    description: 'Brilliant green',
+  },
+  {
+    name: 'RAL 120 80 05',
+    hex: '#c5c8be',
+    description: 'Dust green',
+  },
+  {
+    name: 'RAL 120 80 10',
+    hex: '#c1c8b3',
+    description: 'Modern style green',
+  },
+  {
+    name: 'RAL 120 80 20',
+    hex: '#becda5',
+    description: 'Avocado cream',
+  },
+  {
+    name: 'RAL 120 80 30',
+    hex: '#b7ce90',
+    description: 'Natural green',
+  },
+  {
+    name: 'RAL 120 80 40',
+    hex: '#b3d17f',
+    description: 'Summer green',
+  },
+  {
+    name: 'RAL 120 80 50',
+    hex: '#acd36c',
+    description: 'Fashion green',
+  },
+  {
+    name: 'RAL 120 80 60',
+    hex: '#a7d55c',
+    description: 'Neon green',
+  },
+  {
+    name: 'RAL 120 85 05',
+    hex: '#d2d6cc',
+    description: 'Chalk green',
+  },
+  {
+    name: 'RAL 120 85 10',
+    hex: '#d0d7c4',
+    description: 'Light feather green',
+  },
+  {
+    name: 'RAL 120 85 20',
+    hex: '#cbd9b3',
+    description: 'Lake green',
+  },
+  {
+    name: 'RAL 120 85 30',
+    hex: '#c6dca2',
+    description: 'Aqua green',
+  },
+  {
+    name: 'RAL 120 90 05',
+    hex: '#e0e3d7',
+    description: 'Lily of the valley white',
+  },
+  {
+    name: 'RAL 120 90 10',
+    hex: '#e1e7d1',
+    description: 'Pale pistachio',
+  },
+  {
+    name: 'RAL 120 90 20',
+    hex: '#dae8be',
+    description: 'Kiwi sorbet green',
+  },
+  {
+    name: 'RAL 120 90 30',
+    hex: '#d4ecac',
+    description: 'Ice-cold green',
+  },
+  {
+    name: 'RAL 120 93 05',
+    hex: '#e9ece2',
+    description: 'Touch of white green',
+  },
+  {
+    name: 'RAL 130 30 10',
+    hex: '#3e4635',
+    description: 'Arame seaweed green',
+  },
+  {
+    name: 'RAL 130 30 20',
+    hex: '#364827',
+    description: 'Kelp green',
+  },
+  {
+    name: 'RAL 130 40 10',
+    hex: '#58614f',
+    description: 'Soft olive',
+  },
+  {
+    name: 'RAL 130 40 20',
+    hex: '#4c603e',
+    description: 'Alpine lake green',
+  },
+  {
+    name: 'RAL 130 40 30',
+    hex: '#486431',
+    description: 'Gemstone green',
+  },
+  {
+    name: 'RAL 130 50 10',
+    hex: '#6d7866',
+    description: 'Dubuffet green',
+  },
+  {
+    name: 'RAL 130 50 20',
+    hex: '#687b59',
+    description: 'Spanish green',
+  },
+  {
+    name: 'RAL 130 50 30',
+    hex: '#5d7e48',
+    description: 'Algae green',
+  },
+  {
+    name: 'RAL 130 50 40',
+    hex: '#548138',
+    description: 'Hot pepper green',
+  },
+  {
+    name: 'RAL 130 50 50',
+    hex: '#488227',
+    description: 'Emerald clear green',
+  },
+  {
+    name: 'RAL 130 60 10',
+    hex: '#899381',
+    description: 'Matte sage green',
+  },
+  {
+    name: 'RAL 130 60 20',
+    hex: '#819672',
+    description: 'Old green',
+  },
+  {
+    name: 'RAL 130 60 30',
+    hex: '#789864',
+    description: 'Pea aubergine green',
+  },
+  {
+    name: 'RAL 130 60 40',
+    hex: '#6f9b53',
+    description: 'Grasshopper green',
+  },
+  {
+    name: 'RAL 130 60 50',
+    hex: '#649d41',
+    description: 'Parisian green',
+  },
+  {
+    name: 'RAL 130 60 60',
+    hex: '#569f2c',
+    description: 'Primal green',
+  },
+  {
+    name: 'RAL 130 70 10',
+    hex: '#a4af9d',
+    description: 'Limestone green',
+  },
+  {
+    name: 'RAL 130 70 20',
+    hex: '#9db38e',
+    description: 'Soap green',
+  },
+  {
+    name: 'RAL 130 70 30',
+    hex: '#92b47e',
+    description: 'Watercolour green',
+  },
+  {
+    name: 'RAL 130 70 40',
+    hex: '#8ab76d',
+    description: 'Vangogh green',
+  },
+  {
+    name: 'RAL 130 70 50',
+    hex: '#80ba5f',
+    description: 'Apple green',
+  },
+  {
+    name: 'RAL 130 70 60',
+    hex: '#75bb4c',
+    description: 'Ultra green',
+  },
+  {
+    name: 'RAL 130 80 10',
+    hex: '#c0cab7',
+    description: 'Jade light green',
+  },
+  {
+    name: 'RAL 130 80 20',
+    hex: '#b7cda8',
+    description: 'Enamel green',
+  },
+  {
+    name: 'RAL 130 80 30',
+    hex: '#afd099',
+    description: 'Pastel green',
+  },
+  {
+    name: 'RAL 130 80 40',
+    hex: '#a6d48a',
+    description: 'Jasmine green',
+  },
+  {
+    name: 'RAL 130 80 50',
+    hex: '#9dd678',
+    description: 'Crystal green',
+  },
+  {
+    name: 'RAL 130 85 05',
+    hex: '#d0d6cd',
+    description: 'Grape oil green',
+  },
+  {
+    name: 'RAL 130 85 10',
+    hex: '#ccd8c5',
+    description: 'Duchamp light green',
+  },
+  {
+    name: 'RAL 130 85 20',
+    hex: '#c4dbb7',
+    description: 'Pallid light green',
+  },
+  {
+    name: 'RAL 130 85 30',
+    hex: '#bbdea8',
+    description: 'Viridine green',
+  },
+  {
+    name: 'RAL 130 90 05',
+    hex: '#dee4d8',
+    description: 'Silver polar white',
+  },
+  {
+    name: 'RAL 130 90 10',
+    hex: '#deead3',
+    description: 'Mediterranean green',
+  },
+  {
+    name: 'RAL 130 90 20',
+    hex: '#d3eac3',
+    description: 'Spring green',
+  },
+  {
+    name: 'RAL 130 92 05',
+    hex: '#e4e9de',
+    description: 'Replaced by 130 93 05',
+  },
+  {
+    name: 'RAL 130 93 05',
+    hex: '#e7ede3',
+    description: 'Bean white',
+  },
+  {
+    name: 'RAL 140 20 05',
+    hex: '#272e27',
+    description: 'Melanite black green',
+  },
+  {
+    name: 'RAL 140 20 10',
+    hex: '#273123',
+    description: 'Mountain range green',
+  },
+  {
+    name: 'RAL 140 20 20',
+    hex: '#24361e',
+    description: 'Bavarian green',
+  },
+  {
+    name: 'RAL 140 30 05',
+    hex: '#424740',
+    description: 'Black forest green',
+  },
+  {
+    name: 'RAL 140 30 10',
+    hex: '#3d4939',
+    description: 'Copper pyrite green',
+  },
+  {
+    name: 'RAL 140 30 20',
+    hex: '#334d2e',
+    description: 'Nettle green',
+  },
+  {
+    name: 'RAL 140 30 30',
+    hex: '#255020',
+    description: 'Chestnut green',
+  },
+  {
+    name: 'RAL 140 30 40',
+    hex: '#14501b',
+    description: 'Ranger green',
+  },
+  {
+    name: 'RAL 140 40 05',
+    hex: '#596057',
+    description: 'Stone green',
+  },
+  {
+    name: 'RAL 140 40 10',
+    hex: '#536151',
+    description: 'Loden green',
+  },
+  {
+    name: 'RAL 140 40 20',
+    hex: '#456241',
+    description: 'Acacia green',
+  },
+  {
+    name: 'RAL 140 40 30',
+    hex: '#3c6635',
+    description: 'Peacock green',
+  },
+  {
+    name: 'RAL 140 40 40',
+    hex: '#2c6a2a',
+    description: 'Radical green',
+  },
+  {
+    name: 'RAL 140 40 50',
+    hex: '#1f6e21',
+    description: 'Brazilian green',
+  },
+  {
+    name: 'RAL 140 50 05',
+    hex: '#70776e',
+    description: 'Silver maple green',
+  },
+  {
+    name: 'RAL 140 50 10',
+    hex: '#6b7969',
+    description: 'Fir spruce green',
+  },
+  {
+    name: 'RAL 140 50 20',
+    hex: '#607c5b',
+    description: 'Silver willow green',
+  },
+  {
+    name: 'RAL 140 50 30',
+    hex: '#56814e',
+    description: 'Rambling green',
+  },
+  {
+    name: 'RAL 140 50 40',
+    hex: '#44823f',
+    description: 'Guinean green',
+  },
+  {
+    name: 'RAL 140 50 50',
+    hex: '#388736',
+    description: 'Mountain meadow green',
+  },
+  {
+    name: 'RAL 140 50 60',
+    hex: '#1a8823',
+    description: 'Tempremental green',
+  },
+  {
+    name: 'RAL 140 60 05',
+    hex: '#8a918a',
+    description: 'Camouflage green',
+  },
+  {
+    name: 'RAL 140 60 10',
+    hex: '#839382',
+    description: 'Silver linden grey',
+  },
+  {
+    name: 'RAL 140 60 20',
+    hex: '#7b9977',
+    description: 'Spinach green',
+  },
+  {
+    name: 'RAL 140 60 30',
+    hex: '#6f9d68',
+    description: 'Blackthorn green',
+  },
+  {
+    name: 'RAL 140 60 40',
+    hex: '#659f5b',
+    description: 'Fresh green',
+  },
+  {
+    name: 'RAL 140 60 50',
+    hex: '#52a04c',
+    description: 'Parsley green',
+  },
+  {
+    name: 'RAL 140 60 60',
+    hex: '#42a33f',
+    description: 'Oregano green',
+  },
+  {
+    name: 'RAL 140 60 70',
+    hex: '#2aa332',
+    description: 'Balloon green',
+  },
+  {
+    name: 'RAL 140 70 05',
+    hex: '#a5aca4',
+    description: 'Ginkgo green',
+  },
+  {
+    name: 'RAL 140 70 10',
+    hex: '#9eae9e',
+    description: 'Woomwood green',
+  },
+  {
+    name: 'RAL 140 70 20',
+    hex: '#95b391',
+    description: 'Dew green',
+  },
+  {
+    name: 'RAL 140 70 30',
+    hex: '#88b683',
+    description: 'Aniseed leaf green',
+  },
+  {
+    name: 'RAL 140 70 40',
+    hex: '#7eba76',
+    description: 'Sour green',
+  },
+  {
+    name: 'RAL 140 70 50',
+    hex: '#6ebd67',
+    description: 'Acid green',
+  },
+  {
+    name: 'RAL 140 70 60',
+    hex: '#5fbf59',
+    description: 'Drop green',
+  },
+  {
+    name: 'RAL 140 80 05',
+    hex: '#c2cabf',
+    description: 'Willow green',
+  },
+  {
+    name: 'RAL 140 80 10',
+    hex: '#bbcbb9',
+    description: 'Pastel grey green',
+  },
+  {
+    name: 'RAL 140 80 20',
+    hex: '#b0ceab',
+    description: 'Gio Ponte green',
+  },
+  {
+    name: 'RAL 140 80 30',
+    hex: '#a4d29e',
+    description: 'Relaxation green',
+  },
+  {
+    name: 'RAL 140 80 40',
+    hex: '#94d68f',
+    description: 'Dentist green',
+  },
+  {
+    name: 'RAL 140 85 05',
+    hex: '#cfd6ce',
+    description: 'Deadnettle white',
+  },
+  {
+    name: 'RAL 140 85 10',
+    hex: '#c9d9c8',
+    description: 'Leek white',
+  },
+  {
+    name: 'RAL 140 85 20',
+    hex: '#bdddbb',
+    description: 'Limestone slate',
+  },
+  {
+    name: 'RAL 140 85 30',
+    hex: '#b1e0af',
+    description: 'Mint cocktail green',
+  },
+  {
+    name: 'RAL 140 90 05',
+    hex: '#dee6db',
+    description: 'Rosemary white',
+  },
+  {
+    name: 'RAL 140 90 10',
+    hex: '#dae9d5',
+    description: 'Touch of green',
+  },
+  {
+    name: 'RAL 140 93 05',
+    hex: '#e5ede5',
+    description: 'Chestnut white',
+  },
+  {
+    name: 'RAL 150 30 10',
+    hex: '#3c4b3d',
+    description: 'Thyme green',
+  },
+  {
+    name: 'RAL 150 30 20',
+    hex: '#2c4e35',
+    description: 'Moselle green',
+  },
+  {
+    name: 'RAL 150 30 30',
+    hex: '#194f2b',
+    description: 'Mountain green',
+  },
+  {
+    name: 'RAL 150 40 10',
+    hex: '#516153',
+    description: 'Felt green',
+  },
+  {
+    name: 'RAL 150 40 20',
+    hex: '#45664a',
+    description: 'Firm green',
+  },
+  {
+    name: 'RAL 150 40 30',
+    hex: '#2f673f',
+    description: 'Genever green',
+  },
+  {
+    name: 'RAL 150 40 40',
+    hex: '#126b34',
+    description: 'Ink green',
+  },
+  {
+    name: 'RAL 150 40 50',
+    hex: '#006c2d',
+    description: 'Ireland green',
+  },
+  {
+    name: 'RAL 150 50 10',
+    hex: '#68796a',
+    description: 'Sage green grey',
+  },
+  {
+    name: 'RAL 150 50 20',
+    hex: '#5b7e61',
+    description: 'Korean mint',
+  },
+  {
+    name: 'RAL 150 50 30',
+    hex: '#508058',
+    description: 'Field green',
+  },
+  {
+    name: 'RAL 150 50 40',
+    hex: '#3a8652',
+    description: 'Celery green',
+  },
+  {
+    name: 'RAL 150 50 50',
+    hex: '#118944',
+    description: 'Rich green',
+  },
+  {
+    name: 'RAL 150 50 60',
+    hex: '#008c3a',
+    description: 'Cold green',
+  },
+  {
+    name: 'RAL 150 60 10',
+    hex: '#849587',
+    description: 'Pointed cabbage green',
+  },
+  {
+    name: 'RAL 150 60 20',
+    hex: '#75997d',
+    description: 'Orient green',
+  },
+  {
+    name: 'RAL 150 60 30',
+    hex: '#669c72',
+    description: 'Rosemary green',
+  },
+  {
+    name: 'RAL 150 60 40',
+    hex: '#54a067',
+    description: 'Mosaic green',
+  },
+  {
+    name: 'RAL 150 60 50',
+    hex: '#41a561',
+    description: 'Bouncy ball green',
+  },
+  {
+    name: 'RAL 150 60 60',
+    hex: '#00a44f',
+    description: 'Energy green',
+  },
+  {
+    name: 'RAL 150 70 10',
+    hex: '#9dafa0',
+    description: 'Tea green',
+  },
+  {
+    name: 'RAL 150 70 20',
+    hex: '#91b598',
+    description: 'Liebermann green',
+  },
+  {
+    name: 'RAL 150 70 30',
+    hex: '#80ba8d',
+    description: 'Oilcloth green',
+  },
+  {
+    name: 'RAL 150 70 40',
+    hex: '#6fbc83',
+    description: 'Jade stone green',
+  },
+  {
+    name: 'RAL 150 70 50',
+    hex: '#5bbf76',
+    description: 'Verdigris coloured',
+  },
+  {
+    name: 'RAL 150 80 10',
+    hex: '#baccbd',
+    description: 'Organza green',
+  },
+  {
+    name: 'RAL 150 80 20',
+    hex: '#abd0b3',
+    description: 'Pastel mint green',
+  },
+  {
+    name: 'RAL 150 80 30',
+    hex: '#9cd5a9',
+    description: 'Bright green',
+  },
+  {
+    name: 'RAL 150 80 40',
+    hex: '#8bd99e',
+    description: 'Mother-of-pearl green',
+  },
+  {
+    name: 'RAL 150 85 05',
+    hex: '#cdd7cf',
+    description: 'Asparagus white',
+  },
+  {
+    name: 'RAL 150 85 10',
+    hex: '#c6d9ca',
+    description: 'Transparent white',
+  },
+  {
+    name: 'RAL 150 85 20',
+    hex: '#b7dec1',
+    description: 'Pallid green',
+  },
+  {
+    name: 'RAL 150 90 05',
+    hex: '#dbe5d9',
+    description: 'Mineral white',
+  },
+  {
+    name: 'RAL 150 90 10',
+    hex: '#d6e9d6',
+    description: 'Alabster green',
+  },
+  {
+    name: 'RAL 150 93 05',
+    hex: '#e4ede6',
+    description: 'Quark white',
+  },
+  {
+    name: 'RAL 160 20 05',
+    hex: '#2b322d',
+    description: 'Beryl black green',
+  },
+  {
+    name: 'RAL 160 20 10',
+    hex: '#22342b',
+    description: 'Mussel green',
+  },
+  {
+    name: 'RAL 160 20 15',
+    hex: '#163424',
+    description: 'Pumkin green black',
+  },
+  {
+    name: 'RAL 160 20 20',
+    hex: '#0f3222',
+    description: 'Opulent green',
+  },
+  {
+    name: 'RAL 160 30 05',
+    hex: '#3e4740',
+    description: 'Rich olive',
+  },
+  {
+    name: 'RAL 160 30 10',
+    hex: '#37493d',
+    description: 'Exclusive green',
+  },
+  {
+    name: 'RAL 160 30 15',
+    hex: '#2e4a39',
+    description: 'Leaf green',
+  },
+  {
+    name: 'RAL 160 30 20',
+    hex: '#244b37',
+    description: 'Mountain mint',
+  },
+  {
+    name: 'RAL 160 30 25',
+    hex: '#184d32',
+    description: 'Order green',
+  },
+  {
+    name: 'RAL 160 30 30',
+    hex: '#004f2d',
+    description: 'Troll green',
+  },
+  {
+    name: 'RAL 160 30 35',
+    hex: '#00512b',
+    description: 'Card table green',
+  },
+  {
+    name: 'RAL 160 30 38',
+    hex: '#005228',
+    description: 'Replaced by 160 30 40',
+  },
+  {
+    name: 'RAL 160 30 40',
+    hex: '#005430',
+    description: 'Lemon balm green',
+  },
+  {
+    name: 'RAL 160 40 05',
+    hex: '#57605a',
+    description: 'Jasper green',
+  },
+  {
+    name: 'RAL 160 40 10',
+    hex: '#4d6157',
+    description: 'Siberian green',
+  },
+  {
+    name: 'RAL 160 40 15',
+    hex: '#456453',
+    description: 'Cucumber green',
+  },
+  {
+    name: 'RAL 160 40 20',
+    hex: '#3c654f',
+    description: 'Serbian green',
+  },
+  {
+    name: 'RAL 160 40 25',
+    hex: '#31654a',
+    description: 'Black pine green',
+  },
+  {
+    name: 'RAL 160 40 30',
+    hex: '#256848',
+    description: 'Pumpkin green',
+  },
+  {
+    name: 'RAL 160 40 35',
+    hex: '#0f6a44',
+    description: 'Jade mussel green',
+  },
+  {
+    name: 'RAL 160 40 40',
+    hex: '#006d43',
+    description: 'Clover green',
+  },
+  {
+    name: 'RAL 160 40 45',
+    hex: '#006a3b',
+    description: 'Frog green',
+  },
+  {
+    name: 'RAL 160 40 50',
+    hex: '#006c37',
+    description: 'Universal green',
+  },
+  {
+    name: 'RAL 160 40 55',
+    hex: '#007036',
+    description: 'Column of oak green',
+  },
+  {
+    name: 'RAL 160 50 05',
+    hex: '#6e7872',
+    description: 'Arctic lichen green',
+  },
+  {
+    name: 'RAL 160 50 10',
+    hex: '#657a6e',
+    description: 'Atlas cedar green',
+  },
+  {
+    name: 'RAL 160 50 15',
+    hex: '#5e7d6c',
+    description: 'Stone cypress green',
+  },
+  {
+    name: 'RAL 160 50 20',
+    hex: '#557f68',
+    description: 'Juniper green',
+  },
+  {
+    name: 'RAL 160 50 25',
+    hex: '#4b8064',
+    description: 'Sports field green',
+  },
+  {
+    name: 'RAL 160 50 30',
+    hex: '#418361',
+    description: 'Liesure green',
+  },
+  {
+    name: 'RAL 160 50 35',
+    hex: '#37845e',
+    description: 'Adamite green',
+  },
+  {
+    name: 'RAL 160 50 40',
+    hex: '#1d865a',
+    description: 'Metallic green',
+  },
+  {
+    name: 'RAL 160 50 45',
+    hex: '#048959',
+    description: 'Vital green',
+  },
+  {
+    name: 'RAL 160 50 50',
+    hex: '#008953',
+    description: 'Golf green',
+  },
+  {
+    name: 'RAL 160 50 55',
+    hex: '#008c51',
+    description: 'Iceland green',
+  },
+  {
+    name: 'RAL 160 50 60',
+    hex: '#008b4b',
+    description: 'Real turquoise',
+  },
+  {
+    name: 'RAL 160 60 05',
+    hex: '#88928c',
+    description: 'Sandstone grey green',
+  },
+  {
+    name: 'RAL 160 60 10',
+    hex: '#7e9488',
+    description: 'Slate green',
+  },
+  {
+    name: 'RAL 160 60 15',
+    hex: '#779885',
+    description: 'Mild green',
+  },
+  {
+    name: 'RAL 160 60 20',
+    hex: '#6d9981',
+    description: 'Douglas fir green',
+  },
+  {
+    name: 'RAL 160 60 25',
+    hex: '#669b7c',
+    description: 'Practice green',
+  },
+  {
+    name: 'RAL 160 60 30',
+    hex: '#5c9d7b',
+    description: 'Memphis green',
+  },
+  {
+    name: 'RAL 160 60 35',
+    hex: '#50a178',
+    description: 'Advertising green',
+  },
+  {
+    name: 'RAL 160 60 40',
+    hex: '#41a073',
+    description: 'Hunter green',
+  },
+  {
+    name: 'RAL 160 60 45',
+    hex: '#34a371',
+    description: 'Linoleum green',
+  },
+  {
+    name: 'RAL 160 60 50',
+    hex: '#07a46c',
+    description: 'Parakeet green',
+  },
+  {
+    name: 'RAL 160 60 55',
+    hex: '#00a366',
+    description: 'Emerald light green',
+  },
+  {
+    name: 'RAL 160 60 58',
+    hex: '#00a564',
+    description: 'Alhambra green',
+  },
+  {
+    name: 'RAL 160 70 05',
+    hex: '#a2aea7',
+    description: 'Greenish grey',
+  },
+  {
+    name: 'RAL 160 70 10',
+    hex: '#99b0a3',
+    description: 'Weak green',
+  },
+  {
+    name: 'RAL 160 70 15',
+    hex: '#8fb19d',
+    description: 'Andean slate',
+  },
+  {
+    name: 'RAL 160 70 20',
+    hex: '#89b49b',
+    description: 'Ceramic green',
+  },
+  {
+    name: 'RAL 160 70 25',
+    hex: '#7fb89a',
+    description: 'Water green',
+  },
+  {
+    name: 'RAL 160 70 30',
+    hex: '#73ba95',
+    description: 'Mountain lake green',
+  },
+  {
+    name: 'RAL 160 70 35',
+    hex: '#68bb92',
+    description: 'American green',
+  },
+  {
+    name: 'RAL 160 70 40',
+    hex: '#5cbe8e',
+    description: 'Techno turquoise',
+  },
+  {
+    name: 'RAL 160 70 45',
+    hex: '#4cc08a',
+    description: 'Garish green',
+  },
+  {
+    name: 'RAL 160 70 49',
+    hex: '#3ec188',
+    description: 'Replaced by 160 70 50',
+  },
+  {
+    name: 'RAL 160 70 50',
+    hex: '#3ec18a',
+    description: 'Malachite green',
+  },
+  {
+    name: 'RAL 160 80 05',
+    hex: '#bcc8c1',
+    description: 'Fog green',
+  },
+  {
+    name: 'RAL 160 80 10',
+    hex: '#b4cbbd',
+    description: 'Matte jade green',
+  },
+  {
+    name: 'RAL 160 80 15',
+    hex: '#aaceb9',
+    description: 'Sun green',
+  },
+  {
+    name: 'RAL 160 80 20',
+    hex: '#a2d0b6',
+    description: 'Feather green',
+  },
+  {
+    name: 'RAL 160 80 25',
+    hex: '#9ad3b4',
+    description: 'Menthol green',
+  },
+  {
+    name: 'RAL 160 80 30',
+    hex: '#92d7b1',
+    description: 'Silk green',
+  },
+  {
+    name: 'RAL 160 85 05',
+    hex: '#ccd7d1',
+    description: 'Light green',
+  },
+  {
+    name: 'RAL 160 85 10',
+    hex: '#c4dacd',
+    description: 'Micaceous green',
+  },
+  {
+    name: 'RAL 160 85 15',
+    hex: '#bbdcca',
+    description: 'Moonstone green',
+  },
+  {
+    name: 'RAL 160 90 05',
+    hex: '#dae5db',
+    description: 'Watercolour white',
+  },
+  {
+    name: 'RAL 160 90 10',
+    hex: '#d1e8d8',
+    description: 'Moonlight green',
+  },
+  {
+    name: 'RAL 160 90 15',
+    hex: '#c8ead4',
+    description: 'Glacial water green',
+  },
+  {
+    name: 'RAL 160 93 05',
+    hex: '#e2eee7',
+    description: 'Mountain crystal silver',
+  },
+  {
+    name: 'RAL 170 20 10',
+    hex: '#1c3229',
+    description: 'Deep green',
+  },
+  {
+    name: 'RAL 170 20 15',
+    hex: '#113328',
+    description: 'Intense green',
+  },
+  {
+    name: 'RAL 170 20 20',
+    hex: '#003526',
+    description: 'Coach green',
+  },
+  {
+    name: 'RAL 170 20 25',
+    hex: '#003823',
+    description: 'Off-road green',
+  },
+  {
+    name: 'RAL 170 30 10',
+    hex: '#354a41',
+    description: 'Garnet black green',
+  },
+  {
+    name: 'RAL 170 30 15',
+    hex: '#284c3e',
+    description: 'Dark green',
+  },
+  {
+    name: 'RAL 170 30 20',
+    hex: '#1e4b3b',
+    description: 'Thistle green',
+  },
+  {
+    name: 'RAL 170 30 25',
+    hex: '#024f3b',
+    description: 'Raspberry leaf green',
+  },
+  {
+    name: 'RAL 170 30 30',
+    hex: '#004f39',
+    description: 'Chrysocolla dark green',
+  },
+  {
+    name: 'RAL 170 30 35',
+    hex: '#005239',
+    description: 'Trapper green',
+  },
+  {
+    name: 'RAL 170 30 40',
+    hex: '#005437',
+    description: 'Permanent green',
+  },
+  {
+    name: 'RAL 170 40 10',
+    hex: '#4b6157',
+    description: 'Chalcedony green',
+  },
+  {
+    name: 'RAL 170 40 15',
+    hex: '#426255',
+    description: 'Palace green',
+  },
+  {
+    name: 'RAL 170 40 20',
+    hex: '#356654',
+    description: 'Plantain green',
+  },
+  {
+    name: 'RAL 170 40 25',
+    hex: '#2b6651',
+    description: 'Ore mountains green',
+  },
+  {
+    name: 'RAL 170 40 30',
+    hex: '#1a6b51',
+    description: 'Tractor green',
+  },
+  {
+    name: 'RAL 170 40 35',
+    hex: '#006a4d',
+    description: 'Victoria green',
+  },
+  {
+    name: 'RAL 170 40 40',
+    hex: '#006c4b',
+    description: 'Device green',
+  },
+  {
+    name: 'RAL 170 40 45',
+    hex: '#006d4b',
+    description: 'Environmental green',
+  },
+  {
+    name: 'RAL 170 40 50',
+    hex: '#006d46',
+    description: 'Vegan green',
+  },
+  {
+    name: 'RAL 170 50 10',
+    hex: '#637a72',
+    description: 'Bournonite green',
+  },
+  {
+    name: 'RAL 170 50 15',
+    hex: '#5a7e70',
+    description: 'Fuschite green',
+  },
+  {
+    name: 'RAL 170 50 20',
+    hex: '#507f6d',
+    description: 'Blackberry leaf green',
+  },
+  {
+    name: 'RAL 170 50 25',
+    hex: '#46826c',
+    description: 'Tourmaline blue',
+  },
+  {
+    name: 'RAL 170 50 30',
+    hex: '#34836a',
+    description: 'Dream green',
+  },
+  {
+    name: 'RAL 170 50 35',
+    hex: '#1e8567',
+    description: 'Accent green blue',
+  },
+  {
+    name: 'RAL 170 50 40',
+    hex: '#008663',
+    description: 'Spectral green',
+  },
+  {
+    name: 'RAL 170 50 45',
+    hex: '#008864',
+    description: 'Mallard green',
+  },
+  {
+    name: 'RAL 170 50 50',
+    hex: '#008b61',
+    description: 'Chagall green',
+  },
+  {
+    name: 'RAL 170 50 55',
+    hex: '#008a60',
+    description: 'Absinthe turquoise',
+  },
+  {
+    name: 'RAL 170 60 10',
+    hex: '#7c948b',
+    description: 'Quantum green',
+  },
+  {
+    name: 'RAL 170 60 15',
+    hex: '#759789',
+    description: 'Bitter clover green',
+  },
+  {
+    name: 'RAL 170 60 20',
+    hex: '#699a88',
+    description: 'Cyprus green',
+  },
+  {
+    name: 'RAL 170 60 25',
+    hex: '#5e9c86',
+    description: 'Succulent green',
+  },
+  {
+    name: 'RAL 170 60 30',
+    hex: '#509e83',
+    description: 'Vibrant green',
+  },
+  {
+    name: 'RAL 170 60 35',
+    hex: '#3ea282',
+    description: 'Klimt green',
+  },
+  {
+    name: 'RAL 170 60 40',
+    hex: '#2aa280',
+    description: 'Persian green',
+  },
+  {
+    name: 'RAL 170 60 45',
+    hex: '#00a27c',
+    description: 'Sport green',
+  },
+  {
+    name: 'RAL 170 60 50',
+    hex: '#00a77e',
+    description: 'Active green',
+  },
+  {
+    name: 'RAL 170 70 10',
+    hex: '#98b1a6',
+    description: 'Lovage green',
+  },
+  {
+    name: 'RAL 170 70 15',
+    hex: '#8eb2a3',
+    description: 'Chrysopal light green',
+  },
+  {
+    name: 'RAL 170 70 20',
+    hex: '#84b6a2',
+    description: 'Source green',
+  },
+  {
+    name: 'RAL 170 70 25',
+    hex: '#7bb9a0',
+    description: 'Orient mosaic green',
+  },
+  {
+    name: 'RAL 170 70 30',
+    hex: '#6bbc9f',
+    description: 'Mint cold green',
+  },
+  {
+    name: 'RAL 170 70 35',
+    hex: '#5ebc9b',
+    description: 'Emerald green',
+  },
+  {
+    name: 'RAL 170 70 40',
+    hex: '#51bd99',
+    description: 'Expressionism green',
+  },
+  {
+    name: 'RAL 170 80 10',
+    hex: '#b4cdc2',
+    description: 'Flourite blue',
+  },
+  {
+    name: 'RAL 170 80 15',
+    hex: '#a8cfc0',
+    description: 'Swimming pool green',
+  },
+  {
+    name: 'RAL 170 80 20',
+    hex: '#9fd4bf',
+    description: 'Sky green',
+  },
+  {
+    name: 'RAL 170 80 25',
+    hex: '#93d4bc',
+    description: 'Larimar green',
+  },
+  {
+    name: 'RAL 170 85 05',
+    hex: '#cbd7d2',
+    description: 'Silicate light turquoise',
+  },
+  {
+    name: 'RAL 170 85 10',
+    hex: '#c1dad1',
+    description: 'Topaz green',
+  },
+  {
+    name: 'RAL 170 85 15',
+    hex: '#b7ddcf',
+    description: 'Refrigerator green',
+  },
+  {
+    name: 'RAL 170 85 20',
+    hex: '#addfcd',
+    description: 'Crystal glass green',
+  },
+  {
+    name: 'RAL 170 90 05',
+    hex: '#d9e5dd',
+    description: 'Cystal salt white',
+  },
+  {
+    name: 'RAL 170 90 10',
+    hex: '#cee9dc',
+    description: 'Turquoise white',
+  },
+  {
+    name: 'RAL 170 92 05',
+    hex: '#deeae3',
+    description: 'Replaced by 170 93 05',
+  },
+  {
+    name: 'RAL 170 93 05',
+    hex: '#e1eee9',
+    description: 'Snow crystal green',
+  },
+  {
+    name: 'RAL 180 20 05',
+    hex: '#283330',
+    description: 'Pitch green',
+  },
+  {
+    name: 'RAL 180 20 10',
+    hex: '#1b322c',
+    description: 'Lacquer green',
+  },
+  {
+    name: 'RAL 180 20 15',
+    hex: '#0a332c',
+    description: 'Fence green',
+  },
+  {
+    name: 'RAL 180 20 20',
+    hex: '#00352c',
+    description: 'Myrtle green',
+  },
+  {
+    name: 'RAL 180 30 05',
+    hex: '#3f4a47',
+    description: 'Amazon green',
+  },
+  {
+    name: 'RAL 180 30 10',
+    hex: '#324943',
+    description: 'Rich grey turquoise',
+  },
+  {
+    name: 'RAL 180 30 15',
+    hex: '#284c43',
+    description: 'Blackboard green',
+  },
+  {
+    name: 'RAL 180 30 20',
+    hex: '#184e43',
+    description: 'Swedish green',
+  },
+  {
+    name: 'RAL 180 30 25',
+    hex: '#005043',
+    description: 'Fjord green',
+  },
+  {
+    name: 'RAL 180 30 30',
+    hex: '#005142',
+    description: 'Urban green',
+  },
+  {
+    name: 'RAL 180 30 35',
+    hex: '#005341',
+    description: 'Jungle green',
+  },
+  {
+    name: 'RAL 180 40 05',
+    hex: '#54605b',
+    description: 'Earth green',
+  },
+  {
+    name: 'RAL 180 40 10',
+    hex: '#4a635c',
+    description: 'Pine green',
+  },
+  {
+    name: 'RAL 180 40 15',
+    hex: '#3e645b',
+    description: 'Forest greenery',
+  },
+  {
+    name: 'RAL 180 40 20',
+    hex: '#31675b',
+    description: 'Sea green',
+  },
+  {
+    name: 'RAL 180 40 25',
+    hex: '#1f685a',
+    description: 'Eucalyptus green',
+  },
+  {
+    name: 'RAL 180 40 30',
+    hex: '#006b5b',
+    description: 'Fresh ivy green',
+  },
+  {
+    name: 'RAL 180 40 35',
+    hex: '#006b57',
+    description: 'Chrysocolla medium green',
+  },
+  {
+    name: 'RAL 180 40 40',
+    hex: '#006c56',
+    description: 'Poster green',
+  },
+  {
+    name: 'RAL 180 40 45',
+    hex: '#006d57',
+    description: 'Teal dark green',
+  },
+  {
+    name: 'RAL 180 50 05',
+    hex: '#6f7a77',
+    description: 'Dusk green',
+  },
+  {
+    name: 'RAL 180 50 10',
+    hex: '#617a74',
+    description: 'Refreshing green',
+  },
+  {
+    name: 'RAL 180 50 15',
+    hex: '#567d73',
+    description: 'Dull turquoise',
+  },
+  {
+    name: 'RAL 180 50 20',
+    hex: '#4a7f73',
+    description: 'Azurite water green',
+  },
+  {
+    name: 'RAL 180 50 25',
+    hex: '#3a8174',
+    description: 'Copper mineral green',
+  },
+  {
+    name: 'RAL 180 50 30',
+    hex: '#258472',
+    description: 'Glass green',
+  },
+  {
+    name: 'RAL 180 50 35',
+    hex: '#008672',
+    description: 'Summer turquoise',
+  },
+  {
+    name: 'RAL 180 50 40',
+    hex: '#008570',
+    description: 'Christmas green',
+  },
+  {
+    name: 'RAL 180 50 45',
+    hex: '#008a70',
+    description: 'Industrial turquoise',
+  },
+  {
+    name: 'RAL 180 50 50',
+    hex: '#008a6e',
+    description: 'Ocean green',
+  },
+  {
+    name: 'RAL 180 60 05',
+    hex: '#85928f',
+    description: 'Marble green grey',
+  },
+  {
+    name: 'RAL 180 60 10',
+    hex: '#7a958e',
+    description: 'Tile green',
+  },
+  {
+    name: 'RAL 180 60 15',
+    hex: '#70988e',
+    description: 'Copper roof green',
+  },
+  {
+    name: 'RAL 180 60 20',
+    hex: '#649a8e',
+    description: 'Sage green',
+  },
+  {
+    name: 'RAL 180 60 25',
+    hex: '#559c8c',
+    description: 'Petrol green',
+  },
+  {
+    name: 'RAL 180 60 30',
+    hex: '#459f8c',
+    description: 'Dioptase green',
+  },
+  {
+    name: 'RAL 180 60 35',
+    hex: '#31a18c',
+    description: 'Stamp pad green',
+  },
+  {
+    name: 'RAL 180 60 40',
+    hex: '#00a38c',
+    description: 'Light turquoise',
+  },
+  {
+    name: 'RAL 180 60 45',
+    hex: '#00a58c',
+    description: 'Caribbean green',
+  },
+  {
+    name: 'RAL 180 60 50',
+    hex: '#00a68b',
+    description: 'Brilliant turquoise',
+  },
+  {
+    name: 'RAL 180 70 05',
+    hex: '#a1adaa',
+    description: 'Feldspar silver',
+  },
+  {
+    name: 'RAL 180 70 10',
+    hex: '#93b0a9',
+    description: 'Delicate green',
+  },
+  {
+    name: 'RAL 180 70 15',
+    hex: '#89b3a9',
+    description: 'Silicate green',
+  },
+  {
+    name: 'RAL 180 70 20',
+    hex: '#7eb7a8',
+    description: 'Mint bonbon green',
+  },
+  {
+    name: 'RAL 180 70 25',
+    hex: '#70b8a7',
+    description: 'Glacial green',
+  },
+  {
+    name: 'RAL 180 70 30',
+    hex: '#63bba7',
+    description: 'Bath turquoise',
+  },
+  {
+    name: 'RAL 180 70 35',
+    hex: '#4ebda7',
+    description: 'Mountain lake azure',
+  },
+  {
+    name: 'RAL 180 70 40',
+    hex: '#39c0a8',
+    description: 'Pure cyan',
+  },
+  {
+    name: 'RAL 180 80 05',
+    hex: '#bcc9c3',
+    description: 'Aragonite white',
+  },
+  {
+    name: 'RAL 180 80 10',
+    hex: '#b1ccc5',
+    description: 'Light teal',
+  },
+  {
+    name: 'RAL 180 80 15',
+    hex: '#a7d0c5',
+    description: 'Whirlpool green',
+  },
+  {
+    name: 'RAL 180 80 20',
+    hex: '#97d1c3',
+    description: 'Opal turquoise',
+  },
+  {
+    name: 'RAL 180 80 25',
+    hex: '#8cd4c3',
+    description: 'Light Capri green',
+  },
+  {
+    name: 'RAL 180 80 30',
+    hex: '#83d9c5',
+    description: 'Tender turquoise',
+  },
+  {
+    name: 'RAL 180 85 05',
+    hex: '#cad7d4',
+    description: 'Sea haze grey',
+  },
+  {
+    name: 'RAL 180 85 10',
+    hex: '#c0dad4',
+    description: 'Tierra del Fuego sea green',
+  },
+  {
+    name: 'RAL 180 85 15',
+    hex: '#b5ddd4',
+    description: 'Pale mountain lake turquoise',
+  },
+  {
+    name: 'RAL 180 85 20',
+    hex: '#a9e0d3',
+    description: 'Coral green',
+  },
+  {
+    name: 'RAL 180 90 05',
+    hex: '#d9e7e2',
+    description: 'Transparent green',
+  },
+  {
+    name: 'RAL 180 90 10',
+    hex: '#ceebe2',
+    description: 'Ice water green',
+  },
+  {
+    name: 'RAL 180 93 05',
+    hex: '#e1eeeb',
+    description: 'Arctic white',
+  },
+  {
+    name: 'RAL 190 20 20',
+    hex: '#003933',
+    description: 'Night turquoise',
+  },
+  {
+    name: 'RAL 190 30 15',
+    hex: '#264d48',
+    description: 'Carriage green',
+  },
+  {
+    name: 'RAL 190 30 20',
+    hex: '#144f4a',
+    description: 'Stockade green',
+  },
+  {
+    name: 'RAL 190 30 25',
+    hex: '#00504b',
+    description: 'Action green',
+  },
+  {
+    name: 'RAL 190 30 30',
+    hex: '#00534c',
+    description: 'Myrtle deep green',
+  },
+  {
+    name: 'RAL 190 30 35',
+    hex: '#00534c',
+    description: 'Plankton green',
+  },
+  {
+    name: 'RAL 190 40 10',
+    hex: '#49625e',
+    description: 'Mud green',
+  },
+  {
+    name: 'RAL 190 40 15',
+    hex: '#3d6561',
+    description: 'Moor pond green',
+  },
+  {
+    name: 'RAL 190 40 20',
+    hex: '#2c6761',
+    description: 'Lush green',
+  },
+  {
+    name: 'RAL 190 40 25',
+    hex: '#146863',
+    description: 'Butterfly green',
+  },
+  {
+    name: 'RAL 190 40 30',
+    hex: '#006b64',
+    description: 'Fashion blue',
+  },
+  {
+    name: 'RAL 190 40 35',
+    hex: '#006d64',
+    description: 'Office blue green',
+  },
+  {
+    name: 'RAL 190 40 40',
+    hex: '#006e65',
+    description: 'Iguana green',
+  },
+  {
+    name: 'RAL 190 40 45',
+    hex: '#007267',
+    description: 'Dark teal',
+  },
+  {
+    name: 'RAL 190 50 10',
+    hex: '#627c78',
+    description: 'Storm green',
+  },
+  {
+    name: 'RAL 190 50 15',
+    hex: '#557e79',
+    description: 'Dark tuquoise',
+  },
+  {
+    name: 'RAL 190 50 20',
+    hex: '#48817b',
+    description: 'Fir blue',
+  },
+  {
+    name: 'RAL 190 50 25',
+    hex: '#35837b',
+    description: 'Apatite blue',
+  },
+  {
+    name: 'RAL 190 50 30',
+    hex: '#16847c',
+    description: 'Egyptian green',
+  },
+  {
+    name: 'RAL 190 50 35',
+    hex: '#00867d',
+    description: 'Ornamantal turquoise',
+  },
+  {
+    name: 'RAL 190 50 40',
+    hex: '#008980',
+    description: 'Eyeshadow turquoise',
+  },
+  {
+    name: 'RAL 190 50 45',
+    hex: '#008b81',
+    description: 'Clear turquoise',
+  },
+  {
+    name: 'RAL 190 60 10',
+    hex: '#7b9693',
+    description: 'Subtle turquoise',
+  },
+  {
+    name: 'RAL 190 60 15',
+    hex: '#709892',
+    description: 'Pale verdigris',
+  },
+  {
+    name: 'RAL 190 60 20',
+    hex: '#659b95',
+    description: 'Goose pond green',
+  },
+  {
+    name: 'RAL 190 60 25',
+    hex: '#529e96',
+    description: 'Tourmaline turquoise',
+  },
+  {
+    name: 'RAL 190 60 30',
+    hex: '#3fa098',
+    description: 'Baltic green',
+  },
+  {
+    name: 'RAL 190 60 35',
+    hex: '#24a29a',
+    description: 'Ceramic blue turquoise',
+  },
+  {
+    name: 'RAL 190 60 40',
+    hex: '#00a49a',
+    description: 'Baltic turquoise',
+  },
+  {
+    name: 'RAL 190 60 45',
+    hex: '#00a499',
+    description: 'Tyrolite blue-green',
+  },
+  {
+    name: 'RAL 190 70 10',
+    hex: '#95b1ad',
+    description: 'Marble green',
+  },
+  {
+    name: 'RAL 190 70 15',
+    hex: '#8ab3ad',
+    description: 'Jade green',
+  },
+  {
+    name: 'RAL 190 70 20',
+    hex: '#7cb5ae',
+    description: 'Spring water turquoise',
+  },
+  {
+    name: 'RAL 190 70 25',
+    hex: '#6eb8b1',
+    description: 'Florida turquoise',
+  },
+  {
+    name: 'RAL 190 70 30',
+    hex: '#61bcb4',
+    description: 'Hygiene green',
+  },
+  {
+    name: 'RAL 190 70 35',
+    hex: '#4bbdb2',
+    description: 'Artic green',
+  },
+  {
+    name: 'RAL 190 80 10',
+    hex: '#b0cdc7',
+    description: 'Andean opal green',
+  },
+  {
+    name: 'RAL 190 80 15',
+    hex: '#a6d0cb',
+    description: 'Cold turquoise',
+  },
+  {
+    name: 'RAL 190 80 20',
+    hex: '#98d2cb',
+    description: 'Teal blue',
+  },
+  {
+    name: 'RAL 190 80 25',
+    hex: '#8ad5cc',
+    description: 'Pool green',
+  },
+  {
+    name: 'RAL 190 85 05',
+    hex: '#cad7d6',
+    description: 'Morning dew white',
+  },
+  {
+    name: 'RAL 190 85 10',
+    hex: '#bfdad7',
+    description: 'Bath salt green',
+  },
+  {
+    name: 'RAL 190 85 15',
+    hex: '#b3ddd9',
+    description: 'Capri water blue',
+  },
+  {
+    name: 'RAL 190 85 20',
+    hex: '#a7e0da',
+    description: 'Horizon blue',
+  },
+  {
+    name: 'RAL 190 90 05',
+    hex: '#dae6e2',
+    description: 'Cool white',
+  },
+  {
+    name: 'RAL 190 90 10',
+    hex: '#ceeae5',
+    description: 'Source blue',
+  },
+  {
+    name: 'RAL 190 93 05',
+    hex: '#e0eeec',
+    description: 'Egyptian white',
+  },
+  {
+    name: 'RAL 200 20 05',
+    hex: '#273130',
+    description: 'Concealed green',
+  },
+  {
+    name: 'RAL 200 20 10',
+    hex: '#1b3232',
+    description: 'Dark pine green',
+  },
+  {
+    name: 'RAL 200 20 15',
+    hex: '#073132',
+    description: 'Roof tile green',
+  },
+  {
+    name: 'RAL 200 20 20',
+    hex: '#003636',
+    description: 'Shrub green',
+  },
+  {
+    name: 'RAL 200 20 23',
+    hex: '#003839',
+    description: 'Customs green',
+  },
+  {
+    name: 'RAL 200 30 05',
+    hex: '#3a4645',
+    description: 'Darkness green',
+  },
+  {
+    name: 'RAL 200 30 10',
+    hex: '#324b4a',
+    description: 'Tree bark green',
+  },
+  {
+    name: 'RAL 200 30 15',
+    hex: '#254e4d',
+    description: 'Hornblende green',
+  },
+  {
+    name: 'RAL 200 30 20',
+    hex: '#144f4f',
+    description: 'Malachite blue turquoise',
+  },
+  {
+    name: 'RAL 200 30 25',
+    hex: '#004e4e',
+    description: 'Antique turquoise',
+  },
+  {
+    name: 'RAL 200 30 30',
+    hex: '#005152',
+    description: 'Wool turquoise',
+  },
+  {
+    name: 'RAL 200 30 33',
+    hex: '#005456',
+    description: 'Ice dark turquoise',
+  },
+  {
+    name: 'RAL 200 40 05',
+    hex: '#53605f',
+    description: 'Calcite grey green',
+  },
+  {
+    name: 'RAL 200 40 10',
+    hex: '#496262',
+    description: 'Brochantite green',
+  },
+  {
+    name: 'RAL 200 40 15',
+    hex: '#3d6464',
+    description: 'Pyrite green',
+  },
+  {
+    name: 'RAL 200 40 20',
+    hex: '#2d6767',
+    description: 'Dusky alpine blue',
+  },
+  {
+    name: 'RAL 200 40 25',
+    hex: '#176969',
+    description: 'Bath green',
+  },
+  {
+    name: 'RAL 200 40 30',
+    hex: '#006b6c',
+    description: 'Mayan blue',
+  },
+  {
+    name: 'RAL 200 40 35',
+    hex: '#006c6e',
+    description: 'Byzantine blue',
+  },
+  {
+    name: 'RAL 200 40 40',
+    hex: '#006f72',
+    description: 'Active turquoise',
+  },
+  {
+    name: 'RAL 200 50 05',
+    hex: '#6a7777',
+    description: 'North grey',
+  },
+  {
+    name: 'RAL 200 50 10',
+    hex: '#617b7b',
+    description: 'Eye grey',
+  },
+  {
+    name: 'RAL 200 50 15',
+    hex: '#557f7e',
+    description: 'Nickel ore green',
+  },
+  {
+    name: 'RAL 200 50 20',
+    hex: '#467f80',
+    description: 'Seafoam green',
+  },
+  {
+    name: 'RAL 200 50 25',
+    hex: '#338284',
+    description: 'Kandinsky turquoise',
+  },
+  {
+    name: 'RAL 200 50 30',
+    hex: '#098486',
+    description: 'Caribbean turquoise',
+  },
+  {
+    name: 'RAL 200 50 35',
+    hex: '#00888a',
+    description: 'Well blue',
+  },
+  {
+    name: 'RAL 200 50 40',
+    hex: '#00898c',
+    description: 'Industrial blue',
+  },
+  {
+    name: 'RAL 200 50 45',
+    hex: '#008b8e',
+    description: 'India blue',
+  },
+  {
+    name: 'RAL 200 60 05',
+    hex: '#859392',
+    description: 'Shady grey',
+  },
+  {
+    name: 'RAL 200 60 10',
+    hex: '#7b9595',
+    description: 'North Cape grey',
+  },
+  {
+    name: 'RAL 200 60 15',
+    hex: '#6e9898',
+    description: 'Woad indigo',
+  },
+  {
+    name: 'RAL 200 60 20',
+    hex: '#629b9c',
+    description: 'Art nouveau turquoise',
+  },
+  {
+    name: 'RAL 200 60 25',
+    hex: '#4f9c9d',
+    description: 'Coolbox ice turquoise',
+  },
+  {
+    name: 'RAL 200 60 30',
+    hex: '#3a9f9f',
+    description: 'Aquamarine blue',
+  },
+  {
+    name: 'RAL 200 60 35',
+    hex: '#1da1a3',
+    description: 'Arctic blue',
+  },
+  {
+    name: 'RAL 200 60 40',
+    hex: '#00a4a6',
+    description: 'Wax crayon blue',
+  },
+  {
+    name: 'RAL 200 70 05',
+    hex: '#a1adad',
+    description: 'Prince grey',
+  },
+  {
+    name: 'RAL 200 70 10',
+    hex: '#96b2b2',
+    description: 'Calcite blue',
+  },
+  {
+    name: 'RAL 200 70 15',
+    hex: '#87b3b2',
+    description: 'Cold front green',
+  },
+  {
+    name: 'RAL 200 70 20',
+    hex: '#7db6b6',
+    description: 'Kingfisher turquoise',
+  },
+  {
+    name: 'RAL 200 70 25',
+    hex: '#6ebabb',
+    description: 'Fresh soft blue',
+  },
+  {
+    name: 'RAL 200 80 05',
+    hex: '#bdc9c7',
+    description: 'China light green',
+  },
+  {
+    name: 'RAL 200 80 10',
+    hex: '#afcccb',
+    description: 'Baroque chalk soft blue',
+  },
+  {
+    name: 'RAL 200 80 15',
+    hex: '#a3cdcb',
+    description: 'Ice boutique turquoise',
+  },
+  {
+    name: 'RAL 200 80 20',
+    hex: '#97d3d1',
+    description: 'Summer soft blue',
+  },
+  {
+    name: 'RAL 200 80 25',
+    hex: '#89d5d4',
+    description: 'Mountain lake blue',
+  },
+  {
+    name: 'RAL 200 85 05',
+    hex: '#cad7d7',
+    description: 'Raffia light grey',
+  },
+  {
+    name: 'RAL 200 85 10',
+    hex: '#bedada',
+    description: 'Cold air turquoise',
+  },
+  {
+    name: 'RAL 200 85 15',
+    hex: '#b3dddd',
+    description: 'Frosty soft blue',
+  },
+  {
+    name: 'RAL 200 85 20',
+    hex: '#a6dfe0',
+    description: 'Ice crystal blue',
+  },
+  {
+    name: 'RAL 200 90 05',
+    hex: '#dae8e4',
+    description: 'Frosty green',
+  },
+  {
+    name: 'RAL 200 90 10',
+    hex: '#cce9e4',
+    description: 'Frosty white blue',
+  },
+  {
+    name: 'RAL 200 92 05',
+    hex: '#dceae8',
+    description: 'Replaced by 200 93 05',
+  },
+  {
+    name: 'RAL 200 93 05',
+    hex: '#e0eeee',
+    description: 'Chilly white',
+  },
+  {
+    name: 'RAL 210 30 10',
+    hex: '#33494b',
+    description: 'Graphite black green',
+  },
+  {
+    name: 'RAL 210 30 15',
+    hex: '#244c4f',
+    description: 'Mallard blue',
+  },
+  {
+    name: 'RAL 210 30 20',
+    hex: '#0c4f54',
+    description: 'Transporter green',
+  },
+  {
+    name: 'RAL 210 30 25',
+    hex: '#004f57',
+    description: 'Deep atlantic blue',
+  },
+  {
+    name: 'RAL 210 30 30',
+    hex: '#00505a',
+    description: 'Kali blue',
+  },
+  {
+    name: 'RAL 210 40 10',
+    hex: '#486163',
+    description: 'Linen grey',
+  },
+  {
+    name: 'RAL 210 40 15',
+    hex: '#3d6468',
+    description: 'China green blue',
+  },
+  {
+    name: 'RAL 210 40 20',
+    hex: '#2c666b',
+    description: 'Dusk blue',
+  },
+  {
+    name: 'RAL 210 40 25',
+    hex: '#0e666d',
+    description: 'Trouser blue',
+  },
+  {
+    name: 'RAL 210 40 30',
+    hex: '#006973',
+    description: 'Indigo blue',
+  },
+  {
+    name: 'RAL 210 40 35',
+    hex: '#006c78',
+    description: 'Cold blue',
+  },
+  {
+    name: 'RAL 210 40 38',
+    hex: '#006a77',
+    description: 'Mary blue',
+  },
+  {
+    name: 'RAL 210 50 10',
+    hex: '#617b7e',
+    description: 'Uniform green grey',
+  },
+  {
+    name: 'RAL 210 50 15',
+    hex: '#577d80',
+    description: 'Labradorite green',
+  },
+  {
+    name: 'RAL 210 50 20',
+    hex: '#467f85',
+    description: 'Enamel antique green',
+  },
+  {
+    name: 'RAL 210 50 25',
+    hex: '#338288',
+    description: 'Cranach blue',
+  },
+  {
+    name: 'RAL 210 50 30',
+    hex: '#07838d',
+    description: 'China blue',
+  },
+  {
+    name: 'RAL 210 50 35',
+    hex: '#008591',
+    description: 'Glacier blue',
+  },
+  {
+    name: 'RAL 210 50 40',
+    hex: '#008894',
+    description: 'Curaçao blue',
+  },
+  {
+    name: 'RAL 210 50 45',
+    hex: '#008997',
+    description: 'Atlantic blue',
+  },
+  {
+    name: 'RAL 210 60 10',
+    hex: '#7b9598',
+    description: 'Ash blue',
+  },
+  {
+    name: 'RAL 210 60 15',
+    hex: '#6e969a',
+    description: 'Baltic blue',
+  },
+  {
+    name: 'RAL 210 60 20',
+    hex: '#639ca2',
+    description: 'Beach blue',
+  },
+  {
+    name: 'RAL 210 60 25',
+    hex: '#519fa7',
+    description: 'Basilica blue',
+  },
+  {
+    name: 'RAL 210 60 30',
+    hex: '#3da0aa',
+    description: 'Danube blue',
+  },
+  {
+    name: 'RAL 210 60 35',
+    hex: '#14a1ac',
+    description: 'Altdorf sky blue',
+  },
+  {
+    name: 'RAL 210 60 40',
+    hex: '#00a4b1',
+    description: 'Garish blue',
+  },
+  {
+    name: 'RAL 210 70 10',
+    hex: '#97b1b3',
+    description: 'Storm grey',
+  },
+  {
+    name: 'RAL 210 70 15',
+    hex: '#8bb3b6',
+    description: 'Persian blue',
+  },
+  {
+    name: 'RAL 210 70 20',
+    hex: '#7db6bc',
+    description: 'Aqua blue',
+  },
+  {
+    name: 'RAL 210 70 25',
+    hex: '#6eb8c0',
+    description: 'Maritime soft blue',
+  },
+  {
+    name: 'RAL 210 70 30',
+    hex: '#5dbcc5',
+    description: 'Mountain blue',
+  },
+  {
+    name: 'RAL 210 70 35',
+    hex: '#45bdc8',
+    description: 'Panorama blue',
+  },
+  {
+    name: 'RAL 210 80 10',
+    hex: '#b5cecf',
+    description: 'Turquoise grey',
+  },
+  {
+    name: 'RAL 210 80 15',
+    hex: '#a7d1d3',
+    description: 'Dolphin blue',
+  },
+  {
+    name: 'RAL 210 80 20',
+    hex: '#99d2d7',
+    description: 'Aroma blue',
+  },
+  {
+    name: 'RAL 210 80 25',
+    hex: '#8dd6dc',
+    description: 'Vibrant soft blue',
+  },
+  {
+    name: 'RAL 210 85 05',
+    hex: '#cad7d9',
+    description: 'Siesta white',
+  },
+  {
+    name: 'RAL 210 85 10',
+    hex: '#bfdadd',
+    description: 'Mint blue',
+  },
+  {
+    name: 'RAL 210 85 15',
+    hex: '#b3dce2',
+    description: 'Fine blue',
+  },
+  {
+    name: 'RAL 210 85 20',
+    hex: '#a6dfe6',
+    description: 'Pale blue',
+  },
+  {
+    name: 'RAL 210 90 05',
+    hex: '#d9e7e5',
+    description: 'Tulle soft blue',
+  },
+  {
+    name: 'RAL 210 90 10',
+    hex: '#cdeae7',
+    description: 'Antarctic blue',
+  },
+  {
+    name: 'RAL 220 20 05',
+    hex: '#273032',
+    description: 'Navy black',
+  },
+  {
+    name: 'RAL 220 20 10',
+    hex: '#1c3238',
+    description: 'Indigo carmine',
+  },
+  {
+    name: 'RAL 220 20 15',
+    hex: '#08343a',
+    description: 'Artist blue',
+  },
+  {
+    name: 'RAL 220 20 20',
+    hex: '#003740',
+    description: 'Natural indigo',
+  },
+  {
+    name: 'RAL 220 30 05',
+    hex: '#3c4749',
+    description: 'Panda black',
+  },
+  {
+    name: 'RAL 220 30 10',
+    hex: '#334a4e',
+    description: 'Pallasite blue',
+  },
+  {
+    name: 'RAL 220 30 15',
+    hex: '#284d54',
+    description: 'Hurricane green blue',
+  },
+  {
+    name: 'RAL 220 30 20',
+    hex: '#154d58',
+    description: 'Watercolour blue',
+  },
+  {
+    name: 'RAL 220 30 25',
+    hex: '#00515d',
+    description: 'Coral blue',
+  },
+  {
+    name: 'RAL 220 30 30',
+    hex: '#005060',
+    description: 'Sandalwood grey blue',
+  },
+  {
+    name: 'RAL 220 40 05',
+    hex: '#545f62',
+    description: 'Limousine grey blue',
+  },
+  {
+    name: 'RAL 220 40 10',
+    hex: '#4c6267',
+    description: 'Corundum blue',
+  },
+  {
+    name: 'RAL 220 40 15',
+    hex: '#3e636c',
+    description: 'Smock blue',
+  },
+  {
+    name: 'RAL 220 40 20',
+    hex: '#306671',
+    description: 'Mordant blue',
+  },
+  {
+    name: 'RAL 220 40 25',
+    hex: '#1b6876',
+    description: 'Cotton indigo',
+  },
+  {
+    name: 'RAL 220 40 30',
+    hex: '#006b7d',
+    description: 'Fjord blue',
+  },
+  {
+    name: 'RAL 220 40 35',
+    hex: '#006c81',
+    description: 'Azure green blue',
+  },
+  {
+    name: 'RAL 220 40 40',
+    hex: '#006f86',
+    description: 'Cyan blue',
+  },
+  {
+    name: 'RAL 220 50 05',
+    hex: '#6f7a7c',
+    description: 'Winter cloud grey',
+  },
+  {
+    name: 'RAL 220 50 10',
+    hex: '#657b80',
+    description: 'Cadet grey',
+  },
+  {
+    name: 'RAL 220 50 15',
+    hex: '#577d86',
+    description: 'Holbein blue grey',
+  },
+  {
+    name: 'RAL 220 50 2',
+    hex: '#48808a',
+    description: '',
+  },
+  {
+    name: 'RAL 220 50 25',
+    hex: '#39818f',
+    description: 'Fresco blue',
+  },
+  {
+    name: 'RAL 220 50 30',
+    hex: '#198193',
+    description: 'Craftsman blue',
+  },
+  {
+    name: 'RAL 220 50 35',
+    hex: '#00869a',
+    description: 'Marker blue',
+  },
+  {
+    name: 'RAL 220 50 40',
+    hex: '#00889f',
+    description: 'Toy blue',
+  },
+  {
+    name: 'RAL 220 60 05',
+    hex: '#879293',
+    description: 'Deep sea grey',
+  },
+  {
+    name: 'RAL 220 60 10',
+    hex: '#7d959b',
+    description: 'Tile blue',
+  },
+  {
+    name: 'RAL 220 60 15',
+    hex: '#7398a0',
+    description: 'Morning blue',
+  },
+  {
+    name: 'RAL 220 60 20',
+    hex: '#629aa6',
+    description: 'Frost blue',
+  },
+  {
+    name: 'RAL 220 60 25',
+    hex: '#549cab',
+    description: 'Summer turquoise blue',
+  },
+  {
+    name: 'RAL 220 60 30',
+    hex: '#41a0b1',
+    description: 'Fischer blue',
+  },
+  {
+    name: 'RAL 220 60 35',
+    hex: '#2a9eb4',
+    description: 'Planet blue',
+  },
+  {
+    name: 'RAL 220 60 40',
+    hex: '#00a1b9',
+    description: 'January blue',
+  },
+  {
+    name: 'RAL 220 70 05',
+    hex: '#a2aeb1',
+    description: 'Tempered grey',
+  },
+  {
+    name: 'RAL 220 70 10',
+    hex: '#99b2b7',
+    description: 'Mohair soft blue grey',
+  },
+  {
+    name: 'RAL 220 70 15',
+    hex: '#8db5bd',
+    description: 'Kitchen blue',
+  },
+  {
+    name: 'RAL 220 70 20',
+    hex: '#80b6c1',
+    description: 'Culinary blue',
+  },
+  {
+    name: 'RAL 220 70 25',
+    hex: '#6eb7c6',
+    description: 'Blouson blue',
+  },
+  {
+    name: 'RAL 220 70 30',
+    hex: '#5db7c9',
+    description: 'Mountain range blue',
+  },
+  {
+    name: 'RAL 220 70 35',
+    hex: '#46bcd1',
+    description: 'Holiday blue',
+  },
+  {
+    name: 'RAL 220 80 05',
+    hex: '#bccacb',
+    description: 'Pastel blue',
+  },
+  {
+    name: 'RAL 220 80 10',
+    hex: '#b3cfd3',
+    description: 'Clinical soft blue',
+  },
+  {
+    name: 'RAL 220 80 15',
+    hex: '#a4ced7',
+    description: "Children's soft blue",
+  },
+  {
+    name: 'RAL 220 80 20',
+    hex: '#9dd3df',
+    description: 'Tourmaline soft blue',
+  },
+  {
+    name: 'RAL 220 80 25',
+    hex: '#91d6e2',
+    description: 'Fresh blue',
+  },
+  {
+    name: 'RAL 220 85 05',
+    hex: '#cad7da',
+    description: 'Transparent blue',
+  },
+  {
+    name: 'RAL 220 85 10',
+    hex: '#c0d9e0',
+    description: 'Ice shard soft blue',
+  },
+  {
+    name: 'RAL 220 85 15',
+    hex: '#b5dbe6',
+    description: 'Polar blue',
+  },
+  {
+    name: 'RAL 220 90 05',
+    hex: '#d9e7e6',
+    description: 'Cold soft blue',
+  },
+  {
+    name: 'RAL 220 90 10',
+    hex: '#cee7ee',
+    description: 'Full moon grey',
+  },
+  {
+    name: 'RAL 220 92 05',
+    hex: '#dceaea',
+    description: 'Withdrawn from range',
+  },
+  {
+    name: 'RAL 230 20 10',
+    hex: '#1f3339',
+    description: 'Ore bluish black',
+  },
+  {
+    name: 'RAL 230 20 15',
+    hex: '#16353f',
+    description: 'Firmament blue',
+  },
+  {
+    name: 'RAL 230 20 20',
+    hex: '#003442',
+    description: 'Prussian blue',
+  },
+  {
+    name: 'RAL 230 30 10',
+    hex: '#384b52',
+    description: 'Galenite blue',
+  },
+  {
+    name: 'RAL 230 30 15',
+    hex: '#2a4b56',
+    description: 'Berry blue green',
+  },
+  {
+    name: 'RAL 230 30 20',
+    hex: '#1a4d5c',
+    description: 'Teal dark blue',
+  },
+  {
+    name: 'RAL 230 30 25',
+    hex: '#004f63',
+    description: 'Thunderstorm blue',
+  },
+  {
+    name: 'RAL 230 40 10',
+    hex: '#4d6169',
+    description: 'Cone green blue',
+  },
+  {
+    name: 'RAL 230 40 15',
+    hex: '#43626e',
+    description: 'Juniper berry blue',
+  },
+  {
+    name: 'RAL 230 40 20',
+    hex: '#356676',
+    description: 'Loon turquoise',
+  },
+  {
+    name: 'RAL 230 40 25',
+    hex: '#1c667b',
+    description: 'Workshop blue',
+  },
+  {
+    name: 'RAL 230 40 30',
+    hex: '#006981',
+    description: 'Pilot blue',
+  },
+  {
+    name: 'RAL 230 40 35',
+    hex: '#006b88',
+    description: 'Ink blue',
+  },
+  {
+    name: 'RAL 230 40 40',
+    hex: '#006b8b',
+    description: 'Techno blue',
+  },
+  {
+    name: 'RAL 230 50 10',
+    hex: '#657a82',
+    description: 'Gravel grey blue',
+  },
+  {
+    name: 'RAL 230 50 15',
+    hex: '#5b7e89',
+    description: 'Spruce blue',
+  },
+  {
+    name: 'RAL 230 50 20',
+    hex: '#4f8090',
+    description: 'Casual blue',
+  },
+  {
+    name: 'RAL 230 50 25',
+    hex: '#3f8095',
+    description: 'Forget-me-not blue',
+  },
+  {
+    name: 'RAL 230 50 30',
+    hex: '#25849e',
+    description: 'Zircon blue',
+  },
+  {
+    name: 'RAL 230 50 35',
+    hex: '#0084a0',
+    description: 'Lagoon blue',
+  },
+  {
+    name: 'RAL 230 50 40',
+    hex: '#0085a7',
+    description: 'Azores blue',
+  },
+  {
+    name: 'RAL 230 60 10',
+    hex: '#80969f',
+    description: 'Kingfisher grey',
+  },
+  {
+    name: 'RAL 230 60 15',
+    hex: '#7496a2',
+    description: 'Silver fir blue',
+  },
+  {
+    name: 'RAL 230 60 20',
+    hex: '#6798aa',
+    description: 'Pyjama blue',
+  },
+  {
+    name: 'RAL 230 60 25',
+    hex: '#579ab0',
+    description: 'Starflower blue',
+  },
+  {
+    name: 'RAL 230 60 30',
+    hex: '#479bb5',
+    description: 'Sports blue',
+  },
+  {
+    name: 'RAL 230 60 35',
+    hex: '#2e9fbd',
+    description: 'Greek blue',
+  },
+  {
+    name: 'RAL 230 60 40',
+    hex: '#009fc3',
+    description: 'Alpine blue',
+  },
+  {
+    name: 'RAL 230 70 10',
+    hex: '#9cb2ba',
+    description: 'Ice gull grey blue',
+  },
+  {
+    name: 'RAL 230 70 15',
+    hex: '#8db3bf',
+    description: 'Thistleblossom soft blue',
+  },
+  {
+    name: 'RAL 230 70 20',
+    hex: '#81b5c6',
+    description: 'Tennis blue',
+  },
+  {
+    name: 'RAL 230 70 25',
+    hex: '#77b7cd',
+    description: 'Vintage blue',
+  },
+  {
+    name: 'RAL 230 70 30',
+    hex: '#66b9d2',
+    description: 'Fitness blue',
+  },
+  {
+    name: 'RAL 230 80 10',
+    hex: '#b5cdd4',
+    description: 'Pallid blue',
+  },
+  {
+    name: 'RAL 230 80 15',
+    hex: '#a9ccd8',
+    description: 'Alpine morning blue',
+  },
+  {
+    name: 'RAL 230 80 20',
+    hex: '#9fd0e1',
+    description: 'Light blue',
+  },
+  {
+    name: 'RAL 230 85 05',
+    hex: '#cbd6db',
+    description: 'Polar soft blue',
+  },
+  {
+    name: 'RAL 230 85 10',
+    hex: '#c1d8e2',
+    description: 'Washing powder white',
+  },
+  {
+    name: 'RAL 230 85 15',
+    hex: '#b7daea',
+    description: 'Himalaya white blue',
+  },
+  {
+    name: 'RAL 230 85 20',
+    hex: '#acdcf1',
+    description: 'Atmospheric soft blue',
+  },
+  {
+    name: 'RAL 230 90 05',
+    hex: '#dae6e6',
+    description: 'Brilliant white',
+  },
+  {
+    name: 'RAL 240 20 05',
+    hex: '#000009',
+    description: 'Nightshade blue',
+  },
+  {
+    name: 'RAL 240 20 10',
+    hex: '#21323b',
+    description: 'Elderberry black',
+  },
+  {
+    name: 'RAL 240 20 15',
+    hex: '#163341',
+    description: 'Metal blue',
+  },
+  {
+    name: 'RAL 240 20 20',
+    hex: '#023447',
+    description: 'Crowberry blue',
+  },
+  {
+    name: 'RAL 240 20 22',
+    hex: '#00344a',
+    description: 'Rich blue',
+  },
+  {
+    name: 'RAL 240 30 05',
+    hex: '#3f474b',
+    description: 'Diamond grey',
+  },
+  {
+    name: 'RAL 240 30 10',
+    hex: '#374953',
+    description: 'Dirty blue',
+  },
+  {
+    name: 'RAL 240 30 15',
+    hex: '#2f4b5a',
+    description: 'Deep sea blue',
+  },
+  {
+    name: 'RAL 240 30 20',
+    hex: '#214c60',
+    description: 'Lasurite blue',
+  },
+  {
+    name: 'RAL 240 30 25',
+    hex: '#034d67',
+    description: 'Work blue',
+  },
+  {
+    name: 'RAL 240 30 30',
+    hex: '#004e6d',
+    description: 'Gemstone blue',
+  },
+  {
+    name: 'RAL 240 30 35',
+    hex: '#005071',
+    description: 'Captain blue',
+  },
+  {
+    name: 'RAL 240 40 05',
+    hex: '#565e64',
+    description: 'Blue anthracite',
+  },
+  {
+    name: 'RAL 240 40 10',
+    hex: '#4e606b',
+    description: 'Blackthorn blue',
+  },
+  {
+    name: 'RAL 240 40 15',
+    hex: '#456374',
+    description: 'Celeste blue',
+  },
+  {
+    name: 'RAL 240 40 20',
+    hex: '#376379',
+    description: 'Denim blue',
+  },
+  {
+    name: 'RAL 240 40 25',
+    hex: '#286581',
+    description: 'Orient blue',
+  },
+  {
+    name: 'RAL 240 40 30',
+    hex: '#026688',
+    description: 'Sailor blue',
+  },
+  {
+    name: 'RAL 240 40 35',
+    hex: '#00678d',
+    description: 'Stone blue',
+  },
+  {
+    name: 'RAL 240 40 40',
+    hex: '#006993',
+    description: 'Pure light blue',
+  },
+  {
+    name: 'RAL 240 50 05',
+    hex: '#70787d',
+    description: 'Smokey blue',
+  },
+  {
+    name: 'RAL 240 50 10',
+    hex: '#667985',
+    description: 'Tool blue',
+  },
+  {
+    name: 'RAL 240 50 15',
+    hex: '#5c7c8d',
+    description: 'Technical blue',
+  },
+  {
+    name: 'RAL 240 50 20',
+    hex: '#507c93',
+    description: 'Coelin blue',
+  },
+  {
+    name: 'RAL 240 50 25',
+    hex: '#427e9b',
+    description: 'Greenland blue',
+  },
+  {
+    name: 'RAL 240 50 30',
+    hex: '#317fa1',
+    description: 'Summer blue',
+  },
+  {
+    name: 'RAL 240 50 35',
+    hex: '#0280a8',
+    description: 'Advertising blue',
+  },
+  {
+    name: 'RAL 240 50 40',
+    hex: '#0081ad',
+    description: 'Indian ink blue',
+  },
+  {
+    name: 'RAL 240 60 05',
+    hex: '#899298',
+    description: 'Carrier pigeon blue',
+  },
+  {
+    name: 'RAL 240 60 10',
+    hex: '#7d929e',
+    description: 'Bird blue',
+  },
+  {
+    name: 'RAL 240 60 15',
+    hex: '#7595a6',
+    description: 'Architecture blue',
+  },
+  {
+    name: 'RAL 240 60 20',
+    hex: '#6b98af',
+    description: 'Shirt blue',
+  },
+  {
+    name: 'RAL 240 60 25',
+    hex: '#5f99b6',
+    description: 'Steel light blue',
+  },
+  {
+    name: 'RAL 240 60 30',
+    hex: '#4e9abd',
+    description: 'Fairytale blue',
+  },
+  {
+    name: 'RAL 240 60 35',
+    hex: '#399bc5',
+    description: 'Princess blue',
+  },
+  {
+    name: 'RAL 240 60 40',
+    hex: '#119ec8',
+    description: 'Clear blue',
+  },
+  {
+    name: 'RAL 240 70 05',
+    hex: '#a3adb3',
+    description: 'Laundry blue',
+  },
+  {
+    name: 'RAL 240 70 10',
+    hex: '#9aaeba',
+    description: 'Eye blue',
+  },
+  {
+    name: 'RAL 240 70 15',
+    hex: '#90b1c2',
+    description: 'Bermuda blue',
+  },
+  {
+    name: 'RAL 240 70 20',
+    hex: '#85b2c9',
+    description: 'Sea blue',
+  },
+  {
+    name: 'RAL 240 70 25',
+    hex: '#7ab4d1',
+    description: 'Madonna blue',
+  },
+  {
+    name: 'RAL 240 70 30',
+    hex: '#6cb5d7',
+    description: 'Caribbean blue',
+  },
+  {
+    name: 'RAL 240 80 05',
+    hex: '#bdc8cc',
+    description: 'Hazy blue',
+  },
+  {
+    name: 'RAL 240 80 10',
+    hex: '#b7ccd7',
+    description: 'Light topaz soft blue',
+  },
+  {
+    name: 'RAL 240 80 15',
+    hex: '#adcddd',
+    description: 'Baby blue',
+  },
+  {
+    name: 'RAL 240 80 20',
+    hex: '#a1cfe5',
+    description: 'Crystal blue',
+  },
+  {
+    name: 'RAL 240 85 05',
+    hex: '#ccd6dc',
+    description: 'Ice grey',
+  },
+  {
+    name: 'RAL 240 85 10',
+    hex: '#c4d8e4',
+    description: 'Air blue',
+  },
+  {
+    name: 'RAL 240 85 15',
+    hex: '#bbd9ec',
+    description: 'Paris blue',
+  },
+  {
+    name: 'RAL 240 90 05',
+    hex: '#dbe7e9',
+    description: 'Soft blue white',
+  },
+  {
+    name: 'RAL 240 90 10',
+    hex: '#d2e6f3',
+    description: 'Chalky blue white',
+  },
+  {
+    name: 'RAL 250 20 20',
+    hex: '#09344b',
+    description: 'Cosmos blue',
+  },
+  {
+    name: 'RAL 250 20 25',
+    hex: '#00324f',
+    description: 'Dark denim blue',
+  },
+  {
+    name: 'RAL 250 30 15',
+    hex: '#2e485b',
+    description: 'Black forest blue',
+  },
+  {
+    name: 'RAL 250 30 20',
+    hex: '#214962',
+    description: 'Swallow blue',
+  },
+  {
+    name: 'RAL 250 30 25',
+    hex: '#144b6a',
+    description: 'Navy dark blue',
+  },
+  {
+    name: 'RAL 250 30 30',
+    hex: '#004c71',
+    description: 'Pompeii blue',
+  },
+  {
+    name: 'RAL 250 40 10',
+    hex: '#51606d',
+    description: 'Trekking blue',
+  },
+  {
+    name: 'RAL 250 40 15',
+    hex: '#476175',
+    description: 'Steel blue grey',
+  },
+  {
+    name: 'RAL 250 40 20',
+    hex: '#3a607a',
+    description: 'Berry blue',
+  },
+  {
+    name: 'RAL 250 40 25',
+    hex: '#2d6284',
+    description: 'Linen blue',
+  },
+  {
+    name: 'RAL 250 40 30',
+    hex: '#1e648c',
+    description: 'Pool blue',
+  },
+  {
+    name: 'RAL 250 40 35',
+    hex: '#006491',
+    description: 'Kingfisher blue',
+  },
+  {
+    name: 'RAL 250 40 40',
+    hex: '#006696',
+    description: 'Europe blue',
+  },
+  {
+    name: 'RAL 250 50 10',
+    hex: '#697986',
+    description: 'Metal grey',
+  },
+  {
+    name: 'RAL 250 50 15',
+    hex: '#5f798e',
+    description: 'Titanium blue',
+  },
+  {
+    name: 'RAL 250 50 20',
+    hex: '#577b95',
+    description: 'Mallorca blue',
+  },
+  {
+    name: 'RAL 250 50 25',
+    hex: '#4c7b9e',
+    description: 'Linoleum blue',
+  },
+  {
+    name: 'RAL 250 50 30',
+    hex: '#3e7ca6',
+    description: 'Prominent blue',
+  },
+  {
+    name: 'RAL 250 50 35',
+    hex: '#2b7eae',
+    description: 'Turkish blue',
+  },
+  {
+    name: 'RAL 250 50 40',
+    hex: '#0080b5',
+    description: 'Primal blue',
+  },
+  {
+    name: 'RAL 250 60 10',
+    hex: '#8292a0',
+    description: 'Bird blue grey',
+  },
+  {
+    name: 'RAL 250 60 15',
+    hex: '#7a94a9',
+    description: 'Gentle blue',
+  },
+  {
+    name: 'RAL 250 60 20',
+    hex: '#7195b1',
+    description: 'Aragonite blue',
+  },
+  {
+    name: 'RAL 250 60 25',
+    hex: '#6696b9',
+    description: 'Pearl blue',
+  },
+  {
+    name: 'RAL 250 60 30',
+    hex: '#5997c0',
+    description: 'Topaz blue',
+  },
+  {
+    name: 'RAL 250 60 35',
+    hex: '#4d98c8',
+    description: 'Stratos blue',
+  },
+  {
+    name: 'RAL 250 60 40',
+    hex: '#3d9ad1',
+    description: 'Structural blue',
+  },
+  {
+    name: 'RAL 250 70 10',
+    hex: '#9caebc',
+    description: 'Foggy blue',
+  },
+  {
+    name: 'RAL 250 70 15',
+    hex: '#94afc4',
+    description: 'Chalk blue',
+  },
+  {
+    name: 'RAL 250 70 20',
+    hex: '#8bb0cc',
+    description: 'Medium blue',
+  },
+  {
+    name: 'RAL 250 70 25',
+    hex: '#82b2d4',
+    description: 'Meadow blossom blue',
+  },
+  {
+    name: 'RAL 250 70 30',
+    hex: '#76b2db',
+    description: 'Broom butterfly blue',
+  },
+  {
+    name: 'RAL 250 80 10',
+    hex: '#b8cad7',
+    description: 'Light cyan',
+  },
+  {
+    name: 'RAL 250 80 15',
+    hex: '#b2cce0',
+    description: 'Himalaya blue',
+  },
+  {
+    name: 'RAL 250 80 20',
+    hex: '#a4c9e5',
+    description: 'Velvet blue',
+  },
+  {
+    name: 'RAL 250 85 05',
+    hex: '#ced5dd',
+    description: 'White blue',
+  },
+  {
+    name: 'RAL 250 85 10',
+    hex: '#c6d7e6',
+    description: 'Washing powder soft blue',
+  },
+  {
+    name: 'RAL 250 85 15',
+    hex: '#bfd8ef',
+    description: 'Diamond soft blue',
+  },
+  {
+    name: 'RAL 250 90 05',
+    hex: '#dbe3e7',
+    description: 'Ice white',
+  },
+  {
+    name: 'RAL 250 92 05',
+    hex: '#dfe8ed',
+    description: 'Withdrawn from range',
+  },
+  {
+    name: 'RAL 260 20 05',
+    hex: '#26303d',
+    description: 'Blue black',
+  },
+  {
+    name: 'RAL 260 20 10',
+    hex: '#1b2f44',
+    description: 'Nato blue',
+  },
+  {
+    name: 'RAL 260 20 15',
+    hex: '#2c3036',
+    description: 'Suit blue',
+  },
+  {
+    name: 'RAL 260 20 20',
+    hex: '#15324a',
+    description: 'Halite blue',
+  },
+  {
+    name: 'RAL 260 30 05',
+    hex: '#41464d',
+    description: 'Alpine duck grey',
+  },
+  {
+    name: 'RAL 260 30 10',
+    hex: '#3c4756',
+    description: 'Bronze blue',
+  },
+  {
+    name: 'RAL 260 30 15',
+    hex: '#35485d',
+    description: 'Berlin blue',
+  },
+  {
+    name: 'RAL 260 30 20',
+    hex: '#2e4964',
+    description: 'French blue',
+  },
+  {
+    name: 'RAL 260 30 25',
+    hex: '#21496b',
+    description: 'Tanzanite blue',
+  },
+  {
+    name: 'RAL 260 30 30',
+    hex: '#184b73',
+    description: 'Opal blue',
+  },
+  {
+    name: 'RAL 260 30 35',
+    hex: '#004c7c',
+    description: 'Royal blue',
+  },
+  {
+    name: 'RAL 260 40 05',
+    hex: '#585d64',
+    description: 'Swedish blue',
+  },
+  {
+    name: 'RAL 260 40 10',
+    hex: '#55606f',
+    description: 'Sheet blue',
+  },
+  {
+    name: 'RAL 260 40 15',
+    hex: '#4f6176',
+    description: 'Plum blue',
+  },
+  {
+    name: 'RAL 260 40 20',
+    hex: '#445f7c',
+    description: 'Cadet blue',
+  },
+  {
+    name: 'RAL 260 40 25',
+    hex: '#3d6285',
+    description: 'Enamel blue',
+  },
+  {
+    name: 'RAL 260 40 30',
+    hex: '#32628b',
+    description: 'Copenhagen blue',
+  },
+  {
+    name: 'RAL 260 40 35',
+    hex: '#236292',
+    description: 'Bauhaus blue',
+  },
+  {
+    name: 'RAL 260 40 40',
+    hex: '#00649d',
+    description: 'Navy blue',
+  },
+  {
+    name: 'RAL 260 40 45',
+    hex: '#0065a4',
+    description: 'LED blue',
+  },
+  {
+    name: 'RAL 260 50 05',
+    hex: '#70757d',
+    description: 'Spitzbergen blue',
+  },
+  {
+    name: 'RAL 260 50 10',
+    hex: '#6c7786',
+    description: 'Cypress grey blue',
+  },
+  {
+    name: 'RAL 260 50 15',
+    hex: '#66788e',
+    description: 'Mahonia berry blue',
+  },
+  {
+    name: 'RAL 260 50 20',
+    hex: '#627b97',
+    description: 'Doves blue',
+  },
+  {
+    name: 'RAL 260 50 25',
+    hex: '#597ca1',
+    description: 'Biedermeier blue',
+  },
+  {
+    name: 'RAL 260 50 30',
+    hex: '#4d7caa',
+    description: 'Beijing blue',
+  },
+  {
+    name: 'RAL 260 50 35',
+    hex: '#417baf',
+    description: 'Vermeer blue',
+  },
+  {
+    name: 'RAL 260 50 40',
+    hex: '#307eba',
+    description: 'Meissen blue',
+  },
+  {
+    name: 'RAL 260 60 05',
+    hex: '#8b9098',
+    description: 'Seal grey',
+  },
+  {
+    name: 'RAL 260 60 10',
+    hex: '#8792a1',
+    description: 'Diopside blue',
+  },
+  {
+    name: 'RAL 260 60 15',
+    hex: '#8295ab',
+    description: 'Nordland blue',
+  },
+  {
+    name: 'RAL 260 60 20',
+    hex: '#7a94b2',
+    description: 'Cranberry blue',
+  },
+  {
+    name: 'RAL 260 60 25',
+    hex: '#7295ba',
+    description: 'Lupine blue',
+  },
+  {
+    name: 'RAL 260 60 30',
+    hex: '#6996c3',
+    description: 'Blueberry soft blue',
+  },
+  {
+    name: 'RAL 260 60 35',
+    hex: '#5f97cb',
+    description: 'Brilliant blue',
+  },
+  {
+    name: 'RAL 260 70 05',
+    hex: '#a8aeb5',
+    description: 'Northern light grey',
+  },
+  {
+    name: 'RAL 260 70 10',
+    hex: '#a2aebd',
+    description: 'Petrel blue grey',
+  },
+  {
+    name: 'RAL 260 70 15',
+    hex: '#9aaec6',
+    description: 'Nordland light blue',
+  },
+  {
+    name: 'RAL 260 70 20',
+    hex: '#94afce',
+    description: 'Matte blue',
+  },
+  {
+    name: 'RAL 260 70 25',
+    hex: '#8bb0d7',
+    description: 'Pacific blue',
+  },
+  {
+    name: 'RAL 260 80 05',
+    hex: '#c1c8cf',
+    description: 'Light blue grey',
+  },
+  {
+    name: 'RAL 260 80 10',
+    hex: '#bbc8d8',
+    description: 'Powder soft blue',
+  },
+  {
+    name: 'RAL 260 80 15',
+    hex: '#b5c9df',
+    description: 'Wind blue',
+  },
+  {
+    name: 'RAL 260 85 05',
+    hex: '#cfd5dd',
+    description: 'Satin white',
+  },
+  {
+    name: 'RAL 260 85 10',
+    hex: '#cad6e7',
+    description: 'Sea breeze green',
+  },
+  {
+    name: 'RAL 260 90 05',
+    hex: '#dce2e7',
+    description: 'Milk blue',
+  },
+  {
+    name: 'RAL 270 20 20',
+    hex: '#1a2e4b',
+    description: 'Crow black blue',
+  },
+  {
+    name: 'RAL 270 20 25',
+    hex: '#122e52',
+    description: 'Indigo black',
+  },
+  {
+    name: 'RAL 270 20 29',
+    hex: '#08305a',
+    description: 'Effervescent blue',
+  },
+  {
+    name: 'RAL 270 30 15',
+    hex: '#3a465c',
+    description: 'Midnight blue',
+  },
+  {
+    name: 'RAL 270 30 20',
+    hex: '#344664',
+    description: 'Dark blue',
+  },
+  {
+    name: 'RAL 270 30 25',
+    hex: '#2e476c',
+    description: 'Grape blue',
+  },
+  {
+    name: 'RAL 270 30 30',
+    hex: '#244673',
+    description: 'Medici blue',
+  },
+  {
+    name: 'RAL 270 30 35',
+    hex: '#18467b',
+    description: 'Kolibri blue',
+  },
+  {
+    name: 'RAL 270 30 40',
+    hex: '#004683',
+    description: 'Prince blue',
+  },
+  {
+    name: 'RAL 270 40 15',
+    hex: '#535f76',
+    description: 'Pewter grey',
+  },
+  {
+    name: 'RAL 270 40 20',
+    hex: '#4c5e7e',
+    description: 'Parlour blue',
+  },
+  {
+    name: 'RAL 270 40 25',
+    hex: '#486087',
+    description: 'Functional blue',
+  },
+  {
+    name: 'RAL 270 40 30',
+    hex: '#405e8e',
+    description: 'Make-up blue',
+  },
+  {
+    name: 'RAL 270 40 35',
+    hex: '#365e96',
+    description: 'Lapis lazuli blue',
+  },
+  {
+    name: 'RAL 270 40 40',
+    hex: '#2b5e9d',
+    description: 'Magic blue',
+  },
+  {
+    name: 'RAL 270 50 10',
+    hex: '#6f7788',
+    description: 'Brocade blue',
+  },
+  {
+    name: 'RAL 270 50 15',
+    hex: '#6d7991',
+    description: 'Noble blue',
+  },
+  {
+    name: 'RAL 270 50 20',
+    hex: '#667899',
+    description: 'Delft blue',
+  },
+  {
+    name: 'RAL 270 50 25',
+    hex: '#6279a2',
+    description: 'Cocktail blue',
+  },
+  {
+    name: 'RAL 270 50 30',
+    hex: '#5977a9',
+    description: 'Sage blossom blue',
+  },
+  {
+    name: 'RAL 270 50 35',
+    hex: '#5177af',
+    description: 'Viennese blue',
+  },
+  {
+    name: 'RAL 270 50 40',
+    hex: '#4978ba',
+    description: 'Cornflower blue',
+  },
+  {
+    name: 'RAL 270 60 10',
+    hex: '#8791a2',
+    description: 'Fantasy grey',
+  },
+  {
+    name: 'RAL 270 60 15',
+    hex: '#8693ac',
+    description: 'Lilac blue',
+  },
+  {
+    name: 'RAL 270 60 20',
+    hex: '#8092b4',
+    description: 'Lavender blue',
+  },
+  {
+    name: 'RAL 270 60 25',
+    hex: '#7b93bd',
+    description: 'Delphinium blue',
+  },
+  {
+    name: 'RAL 270 60 30',
+    hex: '#7593c6',
+    description: 'Eyeshadow blue',
+  },
+  {
+    name: 'RAL 270 60 35',
+    hex: '#6d92cc',
+    description: 'Butterfly blue',
+  },
+  {
+    name: 'RAL 270 70 10',
+    hex: '#a5adbf',
+    description: 'Feather soft blue',
+  },
+  {
+    name: 'RAL 270 70 15',
+    hex: '#a0adc7',
+    description: 'Satin soft blue',
+  },
+  {
+    name: 'RAL 270 70 20',
+    hex: '#9caed1',
+    description: 'Angel blue',
+  },
+  {
+    name: 'RAL 270 70 25',
+    hex: '#93abd7',
+    description: 'Boy blue',
+  },
+  {
+    name: 'RAL 270 80 10',
+    hex: '#c0c8d8',
+    description: 'Light pearl soft blue',
+  },
+  {
+    name: 'RAL 270 80 15',
+    hex: '#bac7e0',
+    description: 'Retina soft blue',
+  },
+  {
+    name: 'RAL 270 85 05',
+    hex: '#d1d4de',
+    description: 'Angel hair silver',
+  },
+  {
+    name: 'RAL 270 85 10',
+    hex: '#cdd5e7',
+    description: 'Mother-of-pearl silver',
+  },
+  {
+    name: 'RAL 270 85 15',
+    hex: '#c9d5f0',
+    description: 'Murano soft blue',
+  },
+  {
+    name: 'RAL 270 90 05',
+    hex: '#e0e3e8',
+    description: 'Bleached white',
+  },
+  {
+    name: 'RAL 280 20 05',
+    hex: '#313238',
+    description: 'Granite black',
+  },
+  {
+    name: 'RAL 280 20 10',
+    hex: '#2d303e',
+    description: 'Diamond black',
+  },
+  {
+    name: 'RAL 280 20 15',
+    hex: '#2a3045',
+    description: 'Crow black',
+  },
+  {
+    name: 'RAL 280 20 20',
+    hex: '#252f4b',
+    description: 'Manganese black',
+  },
+  {
+    name: 'RAL 280 20 25',
+    hex: '#242f54',
+    description: 'Elite blue',
+  },
+  {
+    name: 'RAL 280 20 30',
+    hex: '#1d2e5b',
+    description: 'Ambassador blue',
+  },
+  {
+    name: 'RAL 280 30 05',
+    hex: '#44454c',
+    description: 'Smoking night blue',
+  },
+  {
+    name: 'RAL 280 30 10',
+    hex: '#434756',
+    description: 'Meteorite black blue',
+  },
+  {
+    name: 'RAL 280 30 15',
+    hex: '#41475e',
+    description: 'Anthracite blue',
+  },
+  {
+    name: 'RAL 280 30 20',
+    hex: '#3e4766',
+    description: 'Garnet storm blue',
+  },
+  {
+    name: 'RAL 280 30 25',
+    hex: '#3a466d',
+    description: 'Hydrogen blue',
+  },
+  {
+    name: 'RAL 280 30 30',
+    hex: '#324574',
+    description: 'Deep blue',
+  },
+  {
+    name: 'RAL 280 30 35',
+    hex: '#30457b',
+    description: 'Theatre blue',
+  },
+  {
+    name: 'RAL 280 30 40',
+    hex: '#2b4582',
+    description: 'Poster blue',
+  },
+  {
+    name: 'RAL 280 40 05',
+    hex: '#5c5d65',
+    description: 'Gallery grey',
+  },
+  {
+    name: 'RAL 280 40 10',
+    hex: '#5a5d6e',
+    description: 'Suede indigo',
+  },
+  {
+    name: 'RAL 280 40 15',
+    hex: '#575d76',
+    description: 'Dark lavender',
+  },
+  {
+    name: 'RAL 280 40 20',
+    hex: '#545d7e',
+    description: 'Starry sky blue',
+  },
+  {
+    name: 'RAL 280 40 25',
+    hex: '#535e87',
+    description: 'Indigo navy blue',
+  },
+  {
+    name: 'RAL 280 40 30',
+    hex: '#4d5d8d',
+    description: 'Evening blue',
+  },
+  {
+    name: 'RAL 280 40 35',
+    hex: '#485d95',
+    description: 'Portuguese blue',
+  },
+  {
+    name: 'RAL 280 40 40',
+    hex: '#415c9e',
+    description: 'Neptune blue',
+  },
+  {
+    name: 'RAL 280 40 45',
+    hex: '#3a5ba5',
+    description: 'Hyacinth blue',
+  },
+  {
+    name: 'RAL 280 50 05',
+    hex: '#74767f',
+    description: 'Noble grey',
+  },
+  {
+    name: 'RAL 280 50 10',
+    hex: '#737788',
+    description: 'Ice blue grey',
+  },
+  {
+    name: 'RAL 280 50 15',
+    hex: '#71768f',
+    description: 'Granite blue',
+  },
+  {
+    name: 'RAL 280 50 20',
+    hex: '#6d7598',
+    description: 'Lavender mauve',
+  },
+  {
+    name: 'RAL 280 50 25',
+    hex: '#6b76a0',
+    description: 'Costume blue',
+  },
+  {
+    name: 'RAL 280 50 30',
+    hex: '#6775a9',
+    description: 'Light mauve',
+  },
+  {
+    name: 'RAL 280 50 35',
+    hex: '#6375b0',
+    description: 'Sapphire shimmer mauve',
+  },
+  {
+    name: 'RAL 280 50 40',
+    hex: '#5f76bb',
+    description: 'Diva violet',
+  },
+  {
+    name: 'RAL 280 60 05',
+    hex: '#8e9098',
+    description: 'Tulle grey',
+  },
+  {
+    name: 'RAL 280 60 10',
+    hex: '#8b8fa1',
+    description: 'Sweet lavender',
+  },
+  {
+    name: 'RAL 280 60 15',
+    hex: '#8a8fa9',
+    description: 'Marble blue',
+  },
+  {
+    name: 'RAL 280 60 20',
+    hex: '#888fb3',
+    description: 'Misty violet',
+  },
+  {
+    name: 'RAL 280 60 25',
+    hex: '#848fbc',
+    description: 'Opal violet',
+  },
+  {
+    name: 'RAL 280 60 30',
+    hex: '#818fc3',
+    description: 'Persian violet',
+  },
+  {
+    name: 'RAL 280 60 35',
+    hex: '#7e90cd',
+    description: 'Organza violet',
+  },
+  {
+    name: 'RAL 280 70 05',
+    hex: '#a8a9b2',
+    description: 'Taupe grey',
+  },
+  {
+    name: 'RAL 280 70 10',
+    hex: '#a8acbc',
+    description: 'Tulle violet',
+  },
+  {
+    name: 'RAL 280 70 15',
+    hex: '#a6abc5',
+    description: 'Foxflower viola',
+  },
+  {
+    name: 'RAL 280 70 20',
+    hex: '#a3abd0',
+    description: 'Lilac scent soft blue',
+  },
+  {
+    name: 'RAL 280 70 25',
+    hex: '#a1abd8',
+    description: 'Aster flower blue',
+  },
+  {
+    name: 'RAL 280 80 05',
+    hex: '#c7c8d0',
+    description: 'Viola ice grey',
+  },
+  {
+    name: 'RAL 280 80 10',
+    hex: '#c3c6d8',
+    description: 'Hyacinth white soft blue',
+  },
+  {
+    name: 'RAL 280 80 15',
+    hex: '#bfc5df',
+    description: 'Violet scent soft blue',
+  },
+  {
+    name: 'RAL 280 85 05',
+    hex: '#d3d4de',
+    description: 'Pebble soft blue white',
+  },
+  {
+    name: 'RAL 280 85 10',
+    hex: '#d1d4e7',
+    description: 'Jewellery white',
+  },
+  {
+    name: 'RAL 280 90 05',
+    hex: '#e0e3e8',
+    description: 'Mauve white',
+  },
+  {
+    name: 'RAL 280 93 05',
+    hex: '#e9ebf4',
+    description: 'Porcelain white',
+  },
+  {
+    name: 'RAL 290 20 10',
+    hex: '#2a2a3b',
+    description: 'Spinel stone black',
+  },
+  {
+    name: 'RAL 290 20 15',
+    hex: '#2e2b42',
+    description: 'Black violet',
+  },
+  {
+    name: 'RAL 290 20 20',
+    hex: '#2f2d4c',
+    description: 'Tropical night blue',
+  },
+  {
+    name: 'RAL 290 20 25',
+    hex: '#2b2b52',
+    description: 'Indigo violet',
+  },
+  {
+    name: 'RAL 290 20 30',
+    hex: '#272858',
+    description: 'Ultramarine violet',
+  },
+  {
+    name: 'RAL 290 20 35',
+    hex: '#262861',
+    description: 'Shiava blue',
+  },
+  {
+    name: 'RAL 290 30 10',
+    hex: '#454253',
+    description: 'Flintstone blue',
+  },
+  {
+    name: 'RAL 290 30 15',
+    hex: '#44435b',
+    description: 'Spinel black',
+  },
+  {
+    name: 'RAL 290 30 20',
+    hex: '#424061',
+    description: 'Church blue',
+  },
+  {
+    name: 'RAL 290 30 25',
+    hex: '#42406a',
+    description: 'Gloomy blue',
+  },
+  {
+    name: 'RAL 290 30 30',
+    hex: '#404072',
+    description: 'Lviv blue',
+  },
+  {
+    name: 'RAL 290 30 35',
+    hex: '#40407b',
+    description: 'British mauve',
+  },
+  {
+    name: 'RAL 290 30 40',
+    hex: '#3c3f82',
+    description: 'Official violet',
+  },
+  {
+    name: 'RAL 290 40 10',
+    hex: '#5d5b6c',
+    description: 'Sheerwater black',
+  },
+  {
+    name: 'RAL 290 40 15',
+    hex: '#5d5a74',
+    description: 'Agate violet',
+  },
+  {
+    name: 'RAL 290 40 20',
+    hex: '#5b597d',
+    description: 'Deep lavender',
+  },
+  {
+    name: 'RAL 290 40 25',
+    hex: '#595784',
+    description: 'Dusk mauve',
+  },
+  {
+    name: 'RAL 290 40 30',
+    hex: '#57568b',
+    description: 'Rich violet',
+  },
+  {
+    name: 'RAL 290 40 35',
+    hex: '#565593',
+    description: 'Onion skin blue',
+  },
+  {
+    name: 'RAL 290 40 40',
+    hex: '#55569c',
+    description: 'Iris blue',
+  },
+  {
+    name: 'RAL 290 40 45',
+    hex: '#5055a3',
+    description: 'Violet blue',
+  },
+  {
+    name: 'RAL 290 50 10',
+    hex: '#757386',
+    description: 'Ash mauve',
+  },
+  {
+    name: 'RAL 290 50 15',
+    hex: '#74728c',
+    description: 'Stormy mauve',
+  },
+  {
+    name: 'RAL 290 50 20',
+    hex: '#737096',
+    description: 'Silk crepe mauve',
+  },
+  {
+    name: 'RAL 290 50 25',
+    hex: '#74719f',
+    description: 'Hyacinth mauve',
+  },
+  {
+    name: 'RAL 290 50 30',
+    hex: '#7370a6',
+    description: 'Mountain flower mauve',
+  },
+  {
+    name: 'RAL 290 50 35',
+    hex: '#706fae',
+    description: 'Chalcedony violet',
+  },
+  {
+    name: 'RAL 290 50 40',
+    hex: '#6e6fb7',
+    description: 'Gladiola blue',
+  },
+  {
+    name: 'RAL 290 60 10',
+    hex: '#8e8da1',
+    description: 'Lavender blossom grey',
+  },
+  {
+    name: 'RAL 290 60 15',
+    hex: '#8f8ca8',
+    description: 'Delicate violet',
+  },
+  {
+    name: 'RAL 290 60 20',
+    hex: '#8b8ab2',
+    description: 'Opera mauve',
+  },
+  {
+    name: 'RAL 290 60 25',
+    hex: '#8e8bbb',
+    description: 'Soft blue lavender',
+  },
+  {
+    name: 'RAL 290 60 30',
+    hex: '#8c8ac2',
+    description: 'Pleated mauve',
+  },
+  {
+    name: 'RAL 290 60 35',
+    hex: '#8788c8',
+    description: 'True lavender',
+  },
+  {
+    name: 'RAL 290 70 10',
+    hex: '#aba9bd',
+    description: 'Cream violet',
+  },
+  {
+    name: 'RAL 290 70 15',
+    hex: '#aaa7c5',
+    description: 'Wisteria light soft blue',
+  },
+  {
+    name: 'RAL 290 70 20',
+    hex: '#a8a7cd',
+    description: 'Blossom mauve',
+  },
+  {
+    name: 'RAL 290 70 25',
+    hex: '#a7a5d6',
+    description: 'Sorbet ice mauve',
+  },
+  {
+    name: 'RAL 290 80 10',
+    hex: '#c5c4d6',
+    description: 'Tulip soft blue',
+  },
+  {
+    name: 'RAL 290 80 15',
+    hex: '#c6c4dd',
+    description: 'Pale lilac',
+  },
+  {
+    name: 'RAL 290 85 05',
+    hex: '#d4d3dd',
+    description: 'Limestone mauve',
+  },
+  {
+    name: 'RAL 290 85 10',
+    hex: '#d4d3e6',
+    description: 'Orchid white',
+  },
+  {
+    name: 'RAL 290 90 05',
+    hex: '#e3e3e9',
+    description: 'Violet white',
+  },
+  {
+    name: 'RAL 290 92 05',
+    hex: '#e6e5ed',
+    description: 'Replaced by 290 93 05',
+  },
+  {
+    name: 'RAL 290 93 05',
+    hex: '#ebeaf4',
+    description: 'Lilac white',
+  },
+  {
+    name: 'RAL 300 20 05',
+    hex: '#322f36',
+    description: 'Night black',
+  },
+  {
+    name: 'RAL 300 20 10',
+    hex: '#302b3b',
+    description: 'Heron blue',
+  },
+  {
+    name: 'RAL 300 20 15',
+    hex: '#312a41',
+    description: 'Viola black',
+  },
+  {
+    name: 'RAL 300 20 20',
+    hex: '#312848',
+    description: 'Blackberry black',
+  },
+  {
+    name: 'RAL 300 20 25',
+    hex: '#31274c',
+    description: 'Cardinal mauve',
+  },
+  {
+    name: 'RAL 300 20 30',
+    hex: '#302656',
+    description: 'Ceremonial purple',
+  },
+  {
+    name: 'RAL 300 30 05',
+    hex: '#47444c',
+    description: 'Night grey',
+  },
+  {
+    name: 'RAL 300 30 10',
+    hex: '#484254',
+    description: 'Mourning violet',
+  },
+  {
+    name: 'RAL 300 30 15',
+    hex: '#484059',
+    description: 'Club grey',
+  },
+  {
+    name: 'RAL 300 30 20',
+    hex: '#493e60',
+    description: 'Mulberry mauve black',
+  },
+  {
+    name: 'RAL 300 30 25',
+    hex: '#4b3e68',
+    description: 'Evening mauve',
+  },
+  {
+    name: 'RAL 300 30 30',
+    hex: '#4b3d6e',
+    description: 'Opera blue',
+  },
+  {
+    name: 'RAL 300 30 35',
+    hex: '#4b3c75',
+    description: 'Deep voilet',
+  },
+  {
+    name: 'RAL 300 30 40',
+    hex: '#4a3a7c',
+    description: 'Sage violet',
+  },
+  {
+    name: 'RAL 300 40 05',
+    hex: '#605d65',
+    description: 'Baroque grey',
+  },
+  {
+    name: 'RAL 300 40 10',
+    hex: '#5f596a',
+    description: 'Gobelin mauve',
+  },
+  {
+    name: 'RAL 300 40 15',
+    hex: '#615871',
+    description: 'Orchid grey',
+  },
+  {
+    name: 'RAL 300 40 20',
+    hex: '#625779',
+    description: 'Old mauve',
+  },
+  {
+    name: 'RAL 300 40 25',
+    hex: '#635581',
+    description: 'Parma mauve',
+  },
+  {
+    name: 'RAL 300 40 30',
+    hex: '#645488',
+    description: 'Wool violet',
+  },
+  {
+    name: 'RAL 300 40 35',
+    hex: '#64538d',
+    description: 'Fine purple',
+  },
+  {
+    name: 'RAL 300 40 40',
+    hex: '#625094',
+    description: 'Clematis blue',
+  },
+  {
+    name: 'RAL 300 40 45',
+    hex: '#63509c',
+    description: 'Coronation blue',
+  },
+  {
+    name: 'RAL 300 50 05',
+    hex: '#78757d',
+    description: 'Hawk grey',
+  },
+  {
+    name: 'RAL 300 50 10',
+    hex: '#797384',
+    description: 'Violet grey',
+  },
+  {
+    name: 'RAL 300 50 15',
+    hex: '#7b728c',
+    description: 'Capercaillie mauve',
+  },
+  {
+    name: 'RAL 300 50 20',
+    hex: '#7c7094',
+    description: 'Parisian violet',
+  },
+  {
+    name: 'RAL 300 50 25',
+    hex: '#7c6e9b',
+    description: 'Tulip violet',
+  },
+  {
+    name: 'RAL 300 50 30',
+    hex: '#7d6da2',
+    description: 'Toy mauve',
+  },
+  {
+    name: 'RAL 300 50 35',
+    hex: '#7f6caa',
+    description: 'Wintertime mauve',
+  },
+  {
+    name: 'RAL 300 50 40',
+    hex: '#7e6ab1',
+    description: 'Clear mauve',
+  },
+  {
+    name: 'RAL 300 60 05',
+    hex: '#928f98',
+    description: 'Partridge grey',
+  },
+  {
+    name: 'RAL 300 60 10',
+    hex: '#948d9f',
+    description: 'Rose grey',
+  },
+  {
+    name: 'RAL 300 60 15',
+    hex: '#958ba7',
+    description: 'Antique viole',
+  },
+  {
+    name: 'RAL 300 60 20',
+    hex: '#9689ae',
+    description: 'Larkspur violet',
+  },
+  {
+    name: 'RAL 300 60 25',
+    hex: '#9687b5',
+    description: 'Silk lilac',
+  },
+  {
+    name: 'RAL 300 60 30',
+    hex: '#9786be',
+    description: 'Heliotropic mauve',
+  },
+  {
+    name: 'RAL 300 60 35',
+    hex: '#9783c4',
+    description: 'Amethyst grey',
+  },
+  {
+    name: 'RAL 300 70 05',
+    hex: '#adaab3',
+    description: 'Velvet grey',
+  },
+  {
+    name: 'RAL 300 70 10',
+    hex: '#afa7ba',
+    description: 'Morning mist grey',
+  },
+  {
+    name: 'RAL 300 70 15',
+    hex: '#b0a6c2',
+    description: 'Eyeshadow viola',
+  },
+  {
+    name: 'RAL 300 70 20',
+    hex: '#b1a5ca',
+    description: 'Lavender violet',
+  },
+  {
+    name: 'RAL 300 70 25',
+    hex: '#b2a2d1',
+    description: 'Pink lavender',
+  },
+  {
+    name: 'RAL 300 80 05',
+    hex: '#c9c6ce',
+    description: 'Hazy mauve',
+  },
+  {
+    name: 'RAL 300 80 10',
+    hex: '#c8c2d6',
+    description: 'Pale voilet',
+  },
+  {
+    name: 'RAL 300 80 15',
+    hex: '#cbc1dd',
+    description: 'Ice mauve',
+  },
+  {
+    name: 'RAL 300 85 05',
+    hex: '#d6d3dd',
+    description: 'Delicate viola',
+  },
+  {
+    name: 'RAL 300 85 10',
+    hex: '#d8d2e5',
+    description: 'Powder viola white',
+  },
+  {
+    name: 'RAL 300 90 05',
+    hex: '#e5e2e9',
+    description: 'Translucent white',
+  },
+  {
+    name: 'RAL 310 20 20',
+    hex: '#3a2a46',
+    description: 'Obsidian lava black',
+  },
+  {
+    name: 'RAL 310 20 25',
+    hex: '#3d274c',
+    description: 'Operetta mauve',
+  },
+  {
+    name: 'RAL 310 20 30',
+    hex: '#3b2052',
+    description: 'Powerful violet',
+  },
+  {
+    name: 'RAL 310 30 15',
+    hex: '#504359',
+    description: 'Dark grey mauve',
+  },
+  {
+    name: 'RAL 310 30 20',
+    hex: '#4f3e5e',
+    description: 'Powerful mauve',
+  },
+  {
+    name: 'RAL 310 30 25',
+    hex: '#543d64',
+    description: 'English violet',
+  },
+  {
+    name: 'RAL 310 30 30',
+    hex: '#573b6b',
+    description: 'Crystal purple',
+  },
+  {
+    name: 'RAL 310 30 35',
+    hex: '#55396e',
+    description: 'Succinct violet',
+  },
+  {
+    name: 'RAL 310 30 40',
+    hex: '#5a3877',
+    description: 'Loden purple',
+  },
+  {
+    name: 'RAL 310 40 10',
+    hex: '#655b6c',
+    description: 'Dark pink',
+  },
+  {
+    name: 'RAL 310 40 15',
+    hex: '#695b72',
+    description: 'Violet haze',
+  },
+  {
+    name: 'RAL 310 40 20',
+    hex: '#6c5979',
+    description: 'Indigo red',
+  },
+  {
+    name: 'RAL 310 40 25',
+    hex: '#6d577f',
+    description: 'Charoite violet',
+  },
+  {
+    name: 'RAL 310 40 30',
+    hex: '#6e5283',
+    description: 'Royal purple',
+  },
+  {
+    name: 'RAL 310 40 35',
+    hex: '#705289',
+    description: 'Magenta violet',
+  },
+  {
+    name: 'RAL 310 40 40',
+    hex: '#745191',
+    description: 'Pure mauve',
+  },
+  {
+    name: 'RAL 310 50 10',
+    hex: '#7e7385',
+    description: 'Dull mauve',
+  },
+  {
+    name: 'RAL 310 50 15',
+    hex: '#80728b',
+    description: 'Batic lilac',
+  },
+  {
+    name: 'RAL 310 50 20',
+    hex: '#847191',
+    description: 'Provence violet',
+  },
+  {
+    name: 'RAL 310 50 25',
+    hex: '#876f99',
+    description: 'Baroness mauve',
+  },
+  {
+    name: 'RAL 310 50 30',
+    hex: '#896c9f',
+    description: 'Bitter violet',
+  },
+  {
+    name: 'RAL 310 50 35',
+    hex: '#896aa4',
+    description: 'Violet rose',
+  },
+  {
+    name: 'RAL 310 50 40',
+    hex: '#8c68ab',
+    description: 'Orchid mauve',
+  },
+  {
+    name: 'RAL 310 60 10',
+    hex: '#968c9e',
+    description: 'Gentle mauve',
+  },
+  {
+    name: 'RAL 310 60 15',
+    hex: '#9b8ba5',
+    description: 'Smokey mauve',
+  },
+  {
+    name: 'RAL 310 60 20',
+    hex: '#9f8aac',
+    description: 'Saffron blossom mauve',
+  },
+  {
+    name: 'RAL 310 60 25',
+    hex: '#a187b2',
+    description: 'Flirty pink',
+  },
+  {
+    name: 'RAL 310 60 30',
+    hex: '#a385b7',
+    description: 'Peony mauve',
+  },
+  {
+    name: 'RAL 310 60 35',
+    hex: '#a682c1',
+    description: 'Lilac purple',
+  },
+  {
+    name: 'RAL 310 70 10',
+    hex: '#b2a7b8',
+    description: 'Amorphous rose',
+  },
+  {
+    name: 'RAL 310 70 15',
+    hex: '#b6a5bf',
+    description: 'Trasparent mauve',
+  },
+  {
+    name: 'RAL 310 70 20',
+    hex: '#b7a2c5',
+    description: 'Blue pink',
+  },
+  {
+    name: 'RAL 310 70 25',
+    hex: '#bba1cc',
+    description: 'Glass violet',
+  },
+  {
+    name: 'RAL 310 80 10',
+    hex: '#ccc2d3',
+    description: 'Powder viola',
+  },
+  {
+    name: 'RAL 310 80 15',
+    hex: '#d1c0da',
+    description: 'Orchid violet',
+  },
+  {
+    name: 'RAL 310 85 05',
+    hex: '#d8d2dc',
+    description: 'Fairy pink',
+  },
+  {
+    name: 'RAL 310 85 10',
+    hex: '#dcd1e3',
+    description: 'Tricot lilac white',
+  },
+  {
+    name: 'RAL 310 90 05',
+    hex: '#e7e3e7',
+    description: 'Wallflower white',
+  },
+  {
+    name: 'RAL 320 20 05',
+    hex: '#352f36',
+    description: 'Violet black',
+  },
+  {
+    name: 'RAL 320 20 10',
+    hex: '#382a38',
+    description: 'Obsidian red',
+  },
+  {
+    name: 'RAL 320 20 15',
+    hex: '#3a273d',
+    description: 'Spinel violet',
+  },
+  {
+    name: 'RAL 320 20 20',
+    hex: '#3d2641',
+    description: 'Aubergine mauve',
+  },
+  {
+    name: 'RAL 320 20 25',
+    hex: '#3e2147',
+    description: 'Dark purple',
+  },
+  {
+    name: 'RAL 320 30 05',
+    hex: '#49434a',
+    description: 'Violet black',
+  },
+  {
+    name: 'RAL 320 30 10',
+    hex: '#4e404f',
+    description: 'Stone violet',
+  },
+  {
+    name: 'RAL 320 30 15',
+    hex: '#513b52',
+    description: 'Amethyst dark violet',
+  },
+  {
+    name: 'RAL 320 30 20',
+    hex: '#553858',
+    description: 'Dark blackberry',
+  },
+  {
+    name: 'RAL 320 30 25',
+    hex: '#59375e',
+    description: 'Purpurite violet',
+  },
+  {
+    name: 'RAL 320 30 30',
+    hex: '#5a3463',
+    description: 'Damson mauve',
+  },
+  {
+    name: 'RAL 320 30 35',
+    hex: '#5e3268',
+    description: 'Grape purple',
+  },
+  {
+    name: 'RAL 320 30 37',
+    hex: '#61326d',
+    description: 'Lounge violet',
+  },
+  {
+    name: 'RAL 320 40 05',
+    hex: '#625c63',
+    description: 'Slate mauve',
+  },
+  {
+    name: 'RAL 320 40 10',
+    hex: '#665867',
+    description: 'Olivine basalt',
+  },
+  {
+    name: 'RAL 320 40 15',
+    hex: '#6a566d',
+    description: 'Antique grey',
+  },
+  {
+    name: 'RAL 320 40 20',
+    hex: '#6d5372',
+    description: 'Basil mauve',
+  },
+  {
+    name: 'RAL 320 40 25',
+    hex: '#715078',
+    description: 'Gladiola violet',
+  },
+  {
+    name: 'RAL 320 40 30',
+    hex: '#754b7b',
+    description: 'Cabbage blossom violet',
+  },
+  {
+    name: 'RAL 320 40 35',
+    hex: '#784981',
+    description: 'Lilac violet',
+  },
+  {
+    name: 'RAL 320 40 40',
+    hex: '#7c4688',
+    description: 'Violet purple',
+  },
+  {
+    name: 'RAL 320 50 05',
+    hex: '#79727a',
+    description: 'Grey violet',
+  },
+  {
+    name: 'RAL 320 50 10',
+    hex: '#7f7081',
+    description: 'British grey mauve',
+  },
+  {
+    name: 'RAL 320 50 15',
+    hex: '#826e85',
+    description: 'Parma grey',
+  },
+  {
+    name: 'RAL 320 50 20',
+    hex: '#896d8c',
+    description: 'Cyclamen',
+  },
+  {
+    name: 'RAL 320 50 25',
+    hex: '#8b6891',
+    description: 'Poetry mauve',
+  },
+  {
+    name: 'RAL 320 50 30',
+    hex: '#8f6798',
+    description: 'Viola grey',
+  },
+  {
+    name: 'RAL 320 50 35',
+    hex: '#92619b',
+    description: 'Aster violetta',
+  },
+  {
+    name: 'RAL 320 50 39',
+    hex: '#9562a2',
+    description: 'Replaced by 320 50 40',
+  },
+  {
+    name: 'RAL 320 50 40',
+    hex: '#9a63a3',
+    description: 'Empire violet',
+  },
+  {
+    name: 'RAL 320 60 05',
+    hex: '#948d96',
+    description: 'Aragonite grey',
+  },
+  {
+    name: 'RAL 320 60 10',
+    hex: '#998c9b',
+    description: 'Chalk violet',
+  },
+  {
+    name: 'RAL 320 60 15',
+    hex: '#9e88a1',
+    description: 'Amethyst grey voilet',
+  },
+  {
+    name: 'RAL 320 60 20',
+    hex: '#a284a6',
+    description: 'Wonder violet',
+  },
+  {
+    name: 'RAL 320 60 25',
+    hex: '#a582ac',
+    description: 'Nightshade violet',
+  },
+  {
+    name: 'RAL 320 60 30',
+    hex: '#aa7fb2',
+    description: 'Lobby lilac',
+  },
+  {
+    name: 'RAL 320 60 35',
+    hex: '#ad7db6',
+    description: 'Blackberry sorbet',
+  },
+  {
+    name: 'RAL 320 70 05',
+    hex: '#afa8b0',
+    description: 'Elderberry grey',
+  },
+  {
+    name: 'RAL 320 70 10',
+    hex: '#b4a5b7',
+    description: 'Bellflower violet',
+  },
+  {
+    name: 'RAL 320 70 15',
+    hex: '#b7a2bc',
+    description: 'Quartz violet',
+  },
+  {
+    name: 'RAL 320 70 20',
+    hex: '#c0a1c5',
+    description: 'Beach lilac',
+  },
+  {
+    name: 'RAL 320 70 25',
+    hex: '#c39cc9',
+    description: 'Lilac pink',
+  },
+  {
+    name: 'RAL 320 80 05',
+    hex: '#cbc4cb',
+    description: 'Light violet',
+  },
+  {
+    name: 'RAL 320 80 10',
+    hex: '#d0c1d2',
+    description: 'Amethyst light violet',
+  },
+  {
+    name: 'RAL 320 80 15',
+    hex: '#d4bdd6',
+    description: 'Cosmetic mauve',
+  },
+  {
+    name: 'RAL 320 85 05',
+    hex: '#dad2da',
+    description: 'Blackberry cream',
+  },
+  {
+    name: 'RAL 320 85 10',
+    hex: '#dfd0e1',
+    description: 'Ametrine quartz',
+  },
+  {
+    name: 'RAL 320 90 05',
+    hex: '#e8e1e6',
+    description: 'Apatite pink',
+  },
+  {
+    name: 'RAL 330 20 20',
+    hex: '#41233d',
+    description: 'Profound mauve',
+  },
+  {
+    name: 'RAL 330 20 25',
+    hex: '#482243',
+    description: 'Opluent mauve',
+  },
+  {
+    name: 'RAL 330 30 15',
+    hex: '#563e51',
+    description: 'Currant violet',
+  },
+  {
+    name: 'RAL 330 30 20',
+    hex: '#5b3c55',
+    description: 'Mexican purple',
+  },
+  {
+    name: 'RAL 330 30 25',
+    hex: '#5f3859',
+    description: 'Parma plum red',
+  },
+  {
+    name: 'RAL 330 30 30',
+    hex: '#64345d',
+    description: 'Intense purple',
+  },
+  {
+    name: 'RAL 330 30 35',
+    hex: '#683262',
+    description: 'Opulent purple',
+  },
+  {
+    name: 'RAL 330 30 40',
+    hex: '#6a2b64',
+    description: 'Intense mauve',
+  },
+  {
+    name: 'RAL 330 40 10',
+    hex: '#6a5a67',
+    description: 'Patina violet',
+  },
+  {
+    name: 'RAL 330 40 15',
+    hex: '#6e576b',
+    description: 'Dark purple grey',
+  },
+  {
+    name: 'RAL 330 40 20',
+    hex: '#745570',
+    description: 'Amaranth red',
+  },
+  {
+    name: 'RAL 330 40 25',
+    hex: '#795274',
+    description: 'Deep magenta',
+  },
+  {
+    name: 'RAL 330 40 30',
+    hex: '#804e78',
+    description: 'Phloxflower violet',
+  },
+  {
+    name: 'RAL 330 40 35',
+    hex: '#844c7c',
+    description: 'Thistle mauve',
+  },
+  {
+    name: 'RAL 330 40 40',
+    hex: '#85457e',
+    description: 'Visiona red',
+  },
+  {
+    name: 'RAL 330 40 45',
+    hex: '#884281',
+    description: 'Purpurite red',
+  },
+  {
+    name: 'RAL 330 50 10',
+    hex: '#81707e',
+    description: 'Burlap grey',
+  },
+  {
+    name: 'RAL 330 50 15',
+    hex: '#896f84',
+    description: 'Sapphire pink',
+  },
+  {
+    name: 'RAL 330 50 20',
+    hex: '#8e6d89',
+    description: 'Dianthus mauve',
+  },
+  {
+    name: 'RAL 330 50 25',
+    hex: '#926a8d',
+    description: 'Crystal pink',
+  },
+  {
+    name: 'RAL 330 50 30',
+    hex: '#986893',
+    description: 'Tulipan violet',
+  },
+  {
+    name: 'RAL 330 50 35',
+    hex: '#9c6496',
+    description: 'Violet red',
+  },
+  {
+    name: 'RAL 330 50 40',
+    hex: '#a25f99',
+    description: 'Orchid purple',
+  },
+  {
+    name: 'RAL 330 60 10',
+    hex: '#9c8c9a',
+    description: 'Greige violet',
+  },
+  {
+    name: 'RAL 330 60 15',
+    hex: '#a3899f',
+    description: 'Vesuvian violet',
+  },
+  {
+    name: 'RAL 330 60 20',
+    hex: '#a987a4',
+    description: 'Gentian violet',
+  },
+  {
+    name: 'RAL 330 60 25',
+    hex: '#ac82a5',
+    description: 'Wilhelminian pink',
+  },
+  {
+    name: 'RAL 330 60 30',
+    hex: '#b280ab',
+    description: 'Stage mauve',
+  },
+  {
+    name: 'RAL 330 60 35',
+    hex: '#b97caf',
+    description: 'Cheddar pink mauve',
+  },
+  {
+    name: 'RAL 330 60 40',
+    hex: '#bc78b4',
+    description: 'Colombo red mauve',
+  },
+  {
+    name: 'RAL 330 70 10',
+    hex: '#b9a6b6',
+    description: 'Mist pink',
+  },
+  {
+    name: 'RAL 330 70 15',
+    hex: '#bda2b8',
+    description: 'Leek blossom pink',
+  },
+  {
+    name: 'RAL 330 70 20',
+    hex: '#c3a0bd',
+    description: 'Strawberry pink',
+  },
+  {
+    name: 'RAL 330 70 25',
+    hex: '#cb9dc3',
+    description: 'Purple pink',
+  },
+  {
+    name: 'RAL 330 70 30',
+    hex: '#cf9ac4',
+    description: 'Clover pink',
+  },
+  {
+    name: 'RAL 330 80 10',
+    hex: '#d4c1d0',
+    description: 'Purple white',
+  },
+  {
+    name: 'RAL 330 80 15',
+    hex: '#d9bed4',
+    description: 'Lovely pink',
+  },
+  {
+    name: 'RAL 330 80 20',
+    hex: '#e2bcd8',
+    description: 'Designer pink',
+  },
+  {
+    name: 'RAL 330 85 05',
+    hex: '#dbd2d9',
+    description: 'Light magnolia rose',
+  },
+  {
+    name: 'RAL 330 85 10',
+    hex: '#e2cfde',
+    description: 'Raspberry pink',
+  },
+  {
+    name: 'RAL 330 85 15',
+    hex: '#e8cce3',
+    description: 'Heavenly pink',
+  },
+  {
+    name: 'RAL 330 90 05',
+    hex: '#ebe2e5',
+    description: 'Delicacy white',
+  },
+  {
+    name: 'RAL 340 20 05',
+    hex: '#352d32',
+    description: 'Liquorice black',
+  },
+  {
+    name: 'RAL 340 20 10',
+    hex: '#3a2732',
+    description: 'Mangosteen violet',
+  },
+  {
+    name: 'RAL 340 20 15',
+    hex: '#3c2133',
+    description: 'Sitter red',
+  },
+  {
+    name: 'RAL 340 20 20',
+    hex: '#452139',
+    description: 'Juice violet',
+  },
+  {
+    name: 'RAL 340 20 25',
+    hex: '#4c203e',
+    description: 'Presige mauve',
+  },
+  {
+    name: 'RAL 340 30 05',
+    hex: '#4b4248',
+    description: 'Apple herb black',
+  },
+  {
+    name: 'RAL 340 30 10',
+    hex: '#513e49',
+    description: 'Passionfruit mauve',
+  },
+  {
+    name: 'RAL 340 30 15',
+    hex: '#573b4d',
+    description: 'Dark fig violet',
+  },
+  {
+    name: 'RAL 340 30 20',
+    hex: '#5c374e',
+    description: 'Ruby violet',
+  },
+  {
+    name: 'RAL 340 30 25',
+    hex: '#633554',
+    description: 'Blackberry deep red',
+  },
+  {
+    name: 'RAL 340 30 30',
+    hex: '#662f54',
+    description: 'Deep red',
+  },
+  {
+    name: 'RAL 340 30 35',
+    hex: '#6a2a57',
+    description: 'Velvet mauve',
+  },
+  {
+    name: 'RAL 340 30 38',
+    hex: '#6f2559',
+    description: 'Forest fruit red',
+  },
+  {
+    name: 'RAL 340 40 05',
+    hex: '#62595f',
+    description: 'Mauve brown',
+  },
+  {
+    name: 'RAL 340 40 10',
+    hex: '#6a5662',
+    description: 'Spinel grey',
+  },
+  {
+    name: 'RAL 340 40 15',
+    hex: '#705364',
+    description: 'Earth brown violet',
+  },
+  {
+    name: 'RAL 340 40 20',
+    hex: '#765067',
+    description: 'Dahlia matte red',
+  },
+  {
+    name: 'RAL 340 40 25',
+    hex: '#7c4c6c',
+    description: 'Brocade violet',
+  },
+  {
+    name: 'RAL 340 40 30',
+    hex: '#81486e',
+    description: 'Madder magenta',
+  },
+  {
+    name: 'RAL 340 40 35',
+    hex: '#844270',
+    description: 'Club mauve',
+  },
+  {
+    name: 'RAL 340 40 40',
+    hex: '#893d72',
+    description: 'Cherry red',
+  },
+  {
+    name: 'RAL 340 40 45',
+    hex: '#923777',
+    description: 'Magenta red',
+  },
+  {
+    name: 'RAL 340 50 05',
+    hex: '#7c7379',
+    description: 'Jubilee grey',
+  },
+  {
+    name: 'RAL 340 50 10',
+    hex: '#85707c',
+    description: 'Port wine red',
+  },
+  {
+    name: 'RAL 340 50 15',
+    hex: '#8b6c7e',
+    description: 'Raw garnet viola',
+  },
+  {
+    name: 'RAL 340 50 20',
+    hex: '#916982',
+    description: 'Milkwort red',
+  },
+  {
+    name: 'RAL 340 50 25',
+    hex: '#976585',
+    description: 'Rust magenta',
+  },
+  {
+    name: 'RAL 340 50 30',
+    hex: '#9c6188',
+    description: 'Raspberry jelly red',
+  },
+  {
+    name: 'RAL 340 50 35',
+    hex: '#a15c8b',
+    description: 'Thimble red',
+  },
+  {
+    name: 'RAL 340 50 40',
+    hex: '#a8578e',
+    description: 'Cyclamen red',
+  },
+  {
+    name: 'RAL 340 50 45',
+    hex: '#ae5290',
+    description: 'Brilliant carmine',
+  },
+  {
+    name: 'RAL 340 60 05',
+    hex: '#988e94',
+    description: 'Heather red grey',
+  },
+  {
+    name: 'RAL 340 60 10',
+    hex: '#9f8996',
+    description: 'Piano mauve',
+  },
+  {
+    name: 'RAL 340 60 15',
+    hex: '#a7869a',
+    description: 'Evening pink',
+  },
+  {
+    name: 'RAL 340 60 20',
+    hex: '#ac829c',
+    description: 'Capri fashion pink',
+  },
+  {
+    name: 'RAL 340 60 25',
+    hex: '#b17e9f',
+    description: 'Antique hot pink',
+  },
+  {
+    name: 'RAL 340 60 30',
+    hex: '#b77ba2',
+    description: 'Cheek red',
+  },
+  {
+    name: 'RAL 340 60 35',
+    hex: '#be77a5',
+    description: 'Hollyhock blossom pink',
+  },
+  {
+    name: 'RAL 340 60 40',
+    hex: '#c572a9',
+    description: 'Bishop red',
+  },
+  {
+    name: 'RAL 340 70 05',
+    hex: '#b2a7ad',
+    description: 'Mauve grey',
+  },
+  {
+    name: 'RAL 340 70 10',
+    hex: '#b9a3b0',
+    description: 'Buckwheat mauve',
+  },
+  {
+    name: 'RAL 340 70 15',
+    hex: '#c2a1b5',
+    description: 'Hollyhock pink',
+  },
+  {
+    name: 'RAL 340 70 20',
+    hex: '#c89db8',
+    description: 'Idyllic pink',
+  },
+  {
+    name: 'RAL 340 70 25',
+    hex: '#cb99b8',
+    description: 'Morning glory pink',
+  },
+  {
+    name: 'RAL 340 70 30',
+    hex: '#d595be',
+    description: 'Soft fuchsia',
+  },
+  {
+    name: 'RAL 340 70 35',
+    hex: '#db92c1',
+    description: 'Firm pink',
+  },
+  {
+    name: 'RAL 340 80 05',
+    hex: '#cfc4c7',
+    description: 'Piano grey rose',
+  },
+  {
+    name: 'RAL 340 80 10',
+    hex: '#d8c1ce',
+    description: 'Mint blossom rose',
+  },
+  {
+    name: 'RAL 340 80 15',
+    hex: '#dfbdd0',
+    description: 'Scandalous rose',
+  },
+  {
+    name: 'RAL 340 80 20',
+    hex: '#e7bad3',
+    description: 'Bonbon rose',
+  },
+  {
+    name: 'RAL 340 85 05',
+    hex: '#dcd1d8',
+    description: 'Strawberry cream',
+  },
+  {
+    name: 'RAL 340 85 10',
+    hex: '#e4cedb',
+    description: 'Light flamingo pink',
+  },
+  {
+    name: 'RAL 340 85 15',
+    hex: '#eccbdf',
+    description: 'Lacquer mauve',
+  },
+  {
+    name: 'RAL 340 90 05',
+    hex: '#ebe0e4',
+    description: 'Rose white',
+  },
+  {
+    name: 'RAL 340 92 05',
+    hex: '#f0e4e9',
+    description: 'Replaced by 340 93 05',
+  },
+  {
+    name: 'RAL 340 93 05',
+    hex: '#f3e8ee',
+    description: 'Dress pink',
+  },
+  {
+    name: 'RAL 350 20 10',
+    hex: '#3b2932',
+    description: 'Mulled wine red',
+  },
+  {
+    name: 'RAL 350 20 15',
+    hex: '#412533',
+    description: 'Soft red',
+  },
+  {
+    name: 'RAL 350 20 20',
+    hex: '#482034',
+    description: 'Star ruby',
+  },
+  {
+    name: 'RAL 350 20 25',
+    hex: '#4b1c35',
+    description: 'Chilli black red',
+  },
+  {
+    name: 'RAL 350 20 30',
+    hex: '#531838',
+    description: 'Tulip poplar purple',
+  },
+  {
+    name: 'RAL 350 30 10',
+    hex: '#523d47',
+    description: 'Sparrow grey red',
+  },
+  {
+    name: 'RAL 350 30 15',
+    hex: '#5a3c4a',
+    description: 'Siliceous red',
+  },
+  {
+    name: 'RAL 350 30 20',
+    hex: '#61384c',
+    description: 'Liqueur red',
+  },
+  {
+    name: 'RAL 350 30 25',
+    hex: '#67334d',
+    description: 'Wine gum red',
+  },
+  {
+    name: 'RAL 350 30 30',
+    hex: '#6e3050',
+    description: 'Burlat red',
+  },
+  {
+    name: 'RAL 350 30 35',
+    hex: '#702a50',
+    description: 'Bordeaux red',
+  },
+  {
+    name: 'RAL 350 30 40',
+    hex: '#752453',
+    description: 'Dried flower purple',
+  },
+  {
+    name: 'RAL 350 40 10',
+    hex: '#6e5861',
+    description: 'Aubergine grey',
+  },
+  {
+    name: 'RAL 350 40 15',
+    hex: '#735362',
+    description: 'Opium mauve',
+  },
+  {
+    name: 'RAL 350 40 20',
+    hex: '#7a4f64',
+    description: 'Grey carmine',
+  },
+  {
+    name: 'RAL 350 40 25',
+    hex: '#7f4b65',
+    description: 'Nectar red',
+  },
+  {
+    name: 'RAL 350 40 30',
+    hex: '#874666',
+    description: 'Dark rose',
+  },
+  {
+    name: 'RAL 350 40 35',
+    hex: '#8c4169',
+    description: 'Bonbon red',
+  },
+  {
+    name: 'RAL 350 40 40',
+    hex: '#913e6a',
+    description: 'Cyclamen red',
+  },
+  {
+    name: 'RAL 350 40 45',
+    hex: '#95376a',
+    description: 'Powder red',
+  },
+  {
+    name: 'RAL 350 40 50',
+    hex: '#9c306c',
+    description: 'Madder red',
+  },
+  {
+    name: 'RAL 350 50 10',
+    hex: '#856f79',
+    description: 'Innocent pink',
+  },
+  {
+    name: 'RAL 350 50 15',
+    hex: '#8d6c7a',
+    description: 'Blunt violet',
+  },
+  {
+    name: 'RAL 350 50 20',
+    hex: '#95677d',
+    description: 'Corundum red',
+  },
+  {
+    name: 'RAL 350 50 25',
+    hex: '#9c647f',
+    description: 'Batik pink',
+  },
+  {
+    name: 'RAL 350 50 30',
+    hex: '#a16282',
+    description: 'Beryl red',
+  },
+  {
+    name: 'RAL 350 50 35',
+    hex: '#aa5b81',
+    description: 'Crimson',
+  },
+  {
+    name: 'RAL 350 50 40',
+    hex: '#b15782',
+    description: 'Madder rose',
+  },
+  {
+    name: 'RAL 350 50 45',
+    hex: '#b15184',
+    description: 'Signal pink',
+  },
+  {
+    name: 'RAL 350 50 50',
+    hex: '#bd4c85',
+    description: 'Nail polish pink',
+  },
+  {
+    name: 'RAL 350 60 10',
+    hex: '#a18994',
+    description: 'Art nouveau violet',
+  },
+  {
+    name: 'RAL 350 60 15',
+    hex: '#a88595',
+    description: 'Mohair pink',
+  },
+  {
+    name: 'RAL 350 60 20',
+    hex: '#b18398',
+    description: 'Heather violet',
+  },
+  {
+    name: 'RAL 350 60 25',
+    hex: '#b87e98',
+    description: 'Heather rose',
+  },
+  {
+    name: 'RAL 350 60 30',
+    hex: '#c07a9b',
+    description: 'Venetian pink',
+  },
+  {
+    name: 'RAL 350 60 35',
+    hex: '#c5759b',
+    description: 'Dolomite red',
+  },
+  {
+    name: 'RAL 350 60 40',
+    hex: '#cd729d',
+    description: 'Camelia pink',
+  },
+  {
+    name: 'RAL 350 60 45',
+    hex: '#d06da0',
+    description: 'Persian pink',
+  },
+  {
+    name: 'RAL 350 70 10',
+    hex: '#bca5ad',
+    description: 'Cold pink',
+  },
+  {
+    name: 'RAL 350 70 15',
+    hex: '#c4a0af',
+    description: 'Shady pink',
+  },
+  {
+    name: 'RAL 350 70 20',
+    hex: '#c99bb0',
+    description: "Lady's cushions pink",
+  },
+  {
+    name: 'RAL 350 70 25',
+    hex: '#d499b3',
+    description: 'Coral pnk',
+  },
+  {
+    name: 'RAL 350 70 30',
+    hex: '#dd95b5',
+    description: 'Techno pink',
+  },
+  {
+    name: 'RAL 350 70 35',
+    hex: '#e291b6',
+    description: 'Bubblegum pink',
+  },
+  {
+    name: 'RAL 350 80 10',
+    hex: '#d8bfc9',
+    description: 'Magnolia white',
+  },
+  {
+    name: 'RAL 350 80 15',
+    hex: '#dfbcc9',
+    description: 'Spring pink',
+  },
+  {
+    name: 'RAL 350 80 20',
+    hex: '#e8b8cd',
+    description: 'Light pink',
+  },
+  {
+    name: 'RAL 350 85 05',
+    hex: '#ddd1d6',
+    description: 'Fairy white',
+  },
+  {
+    name: 'RAL 350 85 10',
+    hex: '#e6ced8',
+    description: 'Orchid rose',
+  },
+  {
+    name: 'RAL 350 85 15',
+    hex: '#eecbda',
+    description: 'Pale pink',
+  },
+  {
+    name: 'RAL 350 90 05',
+    hex: '#ede0e2',
+    description: 'Light rose',
+  },
+  {
+    name: 'RAL 350 90 10',
+    hex: '#f4dce6',
+    description: 'Ranuncula white',
+  },
+  {
+    name: 'RAL 350 93 05',
+    hex: '#f4e8ed',
+    description: 'Clichy white',
+  },
+  {
+    name: 'RAL 360 20 15',
+    hex: '#43222c',
+    description: 'Piermont stone red',
+  },
+  {
+    name: 'RAL 360 30 05',
+    hex: '#4c4144',
+    description: 'Soot red',
+  },
+  {
+    name: 'RAL 360 30 10',
+    hex: '#533d45',
+    description: 'Peppercorn red',
+  },
+  {
+    name: 'RAL 360 30 15',
+    hex: '#5a3844',
+    description: 'Zinfandel red',
+  },
+  {
+    name: 'RAL 360 30 20',
+    hex: '#623645',
+    description: 'Art deco red',
+  },
+  {
+    name: 'RAL 360 30 25',
+    hex: '#663145',
+    description: 'Clinker red',
+  },
+  {
+    name: 'RAL 360 30 30',
+    hex: '#6c2b46',
+    description: 'Cherry juice red',
+  },
+  {
+    name: 'RAL 360 30 35',
+    hex: '#752645',
+    description: 'Palace red',
+  },
+  {
+    name: 'RAL 360 30 40',
+    hex: '#782246',
+    description: 'Ember red',
+  },
+  {
+    name: 'RAL 360 40 05',
+    hex: '#65595c',
+    description: 'Roasted black',
+  },
+  {
+    name: 'RAL 360 40 10',
+    hex: '#6b565e',
+    description: 'Mocha brown',
+  },
+  {
+    name: 'RAL 360 40 15',
+    hex: '#73515d',
+    description: 'Ruby grey',
+  },
+  {
+    name: 'RAL 360 40 20',
+    hex: '#7a4e5e',
+    description: 'Baroque red',
+  },
+  {
+    name: 'RAL 360 40 25',
+    hex: '#80495d',
+    description: 'Frenzied red',
+  },
+  {
+    name: 'RAL 360 40 30',
+    hex: '#88445e',
+    description: 'Redcurrant',
+  },
+  {
+    name: 'RAL 360 40 35',
+    hex: '#8f405f',
+    description: 'Orient pink',
+  },
+  {
+    name: 'RAL 360 40 40',
+    hex: '#963a61',
+    description: 'Aurora magenta',
+  },
+  {
+    name: 'RAL 360 40 45',
+    hex: '#9a345f',
+    description: 'Cardinal red',
+  },
+  {
+    name: 'RAL 360 40 50',
+    hex: '#a12a5e',
+    description: 'Parlour red',
+  },
+  {
+    name: 'RAL 360 50 05',
+    hex: '#807375',
+    description: 'Pumice grey',
+  },
+  {
+    name: 'RAL 360 50 10',
+    hex: '#856f76',
+    description: 'Pomace red',
+  },
+  {
+    name: 'RAL 360 50 15',
+    hex: '#8e6a76',
+    description: 'Evening crimson',
+  },
+  {
+    name: 'RAL 360 50 20',
+    hex: '#946777',
+    description: 'Copper pink',
+  },
+  {
+    name: 'RAL 360 50 25',
+    hex: '#9d6276',
+    description: 'Art nouveau pink',
+  },
+  {
+    name: 'RAL 360 50 30',
+    hex: '#a45f79',
+    description: 'Cosmetic red',
+  },
+  {
+    name: 'RAL 360 50 35',
+    hex: '#ad5a79',
+    description: 'Indian pink',
+  },
+  {
+    name: 'RAL 360 50 40',
+    hex: '#b45778',
+    description: 'Kir royale rose',
+  },
+  {
+    name: 'RAL 360 50 45',
+    hex: '#bc5179',
+    description: 'Cockscomb red',
+  },
+  {
+    name: 'RAL 360 50 50',
+    hex: '#bf4a78',
+    description: 'Persian red',
+  },
+  {
+    name: 'RAL 360 60 05',
+    hex: '#998e91',
+    description: 'Ash pink',
+  },
+  {
+    name: 'RAL 360 60 10',
+    hex: '#a08890',
+    description: 'Majolica mauve',
+  },
+  {
+    name: 'RAL 360 60 15',
+    hex: '#a98691',
+    description: 'Fig fruit mauve',
+  },
+  {
+    name: 'RAL 360 60 20',
+    hex: '#b28392',
+    description: 'Noble lilac',
+  },
+  {
+    name: 'RAL 360 60 25',
+    hex: '#b87d92',
+    description: 'Light red',
+  },
+  {
+    name: 'RAL 360 70 05',
+    hex: '#b5a9ac',
+    description: 'Tea blossom pink',
+  },
+  {
+    name: 'RAL 360 70 10',
+    hex: '#bca3aa',
+    description: 'Quartz pink',
+  },
+  {
+    name: 'RAL 360 70 15',
+    hex: '#c6a0ab',
+    description: 'Opaline pink',
+  },
+  {
+    name: 'RAL 360 80 05',
+    hex: '#d1c4c6',
+    description: 'Mother-of-pearl pink',
+  },
+  {
+    name: 'RAL 360 80 10',
+    hex: '#d9bfc5',
+    description: 'Venetian pink',
+  },
+  {
+    name: 'RAL 360 80 15',
+    hex: '#e2bdc7',
+    description: 'Soap pink',
+  },
+  {
+    name: 'RAL 360 85 05',
+    hex: '#ded1d4',
+    description: 'Theatre powder rose',
+  },
+  {
+    name: 'RAL 360 85 10',
+    hex: '#e7ced5',
+    description: 'Lotus pink',
+  },
+  {
+    name: 'RAL 360 90 05',
+    hex: '#f0e1e0',
+    description: 'Ice pink',
+  },
+  {
+    name: 'RAL 360 90 10',
+    hex: '#f6dce3',
+    description: 'Cake frosting',
+  },
+  {
+    name: 'RAL 360 92 05',
+    hex: '#f0e4e5',
+    description: 'Replaced by 360 93 05',
+  },
+  {
+    name: 'RAL 360 93 05',
+    hex: '#f5e8eb',
+    description: 'Arrowhead white',
+  },
+];
 
-export const ncsColors: IColor[] = [
+export const ncsColors: any[] = [
   {
     name: '0300-N',
     hex: '#f7f7f7',
@@ -2559,11 +11765,6 @@ export const ncsColors: IColor[] = [
   {
     name: '0580-Y10R',
     hex: '#ffca20',
-    description: '',
-  },
-  {
-    name: '0580-Y20R',
-    hex: '#feb71f',
     description: '',
   },
   {
@@ -10922,14734 +20123,3 @@ export const ncsColors: IColor[] = [
     description: '',
   },
 ];
-
-// export const ralDesignColors = [
-//   {
-//     R: 33,
-//     G: 33,
-//     B: 34,
-//     name: "RAL 000 15 00",
-//     english: "Ink black",
-//     italian: ""
-//   },
-//   {
-//     R: 43,
-//     G: 43,
-//     B: 43,
-//     name: "RAL 000 20 00",
-//     english: "Slate black",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 58,
-//     B: 58,
-//     name: "RAL 000 25 00",
-//     english: "Onyx black",
-//     italian: ""
-//   },
-//   {
-//     R: 68,
-//     G: 68,
-//     B: 67,
-//     name: "RAL 000 30 00",
-//     english: "Medium black",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 80,
-//     B: 80,
-//     name: "RAL 000 35 00",
-//     english: "Briquette grey",
-//     italian: ""
-//   },
-//   {
-//     R: 93,
-//     G: 92,
-//     B: 91,
-//     name: "RAL 000 40 00",
-//     english: "Dark grey",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 106,
-//     B: 105,
-//     name: "RAL 000 45 00",
-//     english: "Architecture grey",
-//     italian: ""
-//   },
-//   {
-//     R: 118,
-//     G: 118,
-//     B: 117,
-//     name: "RAL 000 50 00",
-//     english: "Steel grey",
-//     italian: ""
-//   },
-//   {
-//     R: 130,
-//     G: 130,
-//     B: 130,
-//     name: "RAL 000 55 00",
-//     english: "Medium grey",
-//     italian: ""
-//   },
-//   {
-//     R: 143,
-//     G: 143,
-//     B: 143,
-//     name: "RAL 000 60 00",
-//     english: "Ash grey",
-//     italian: ""
-//   },
-//   {
-//     R: 158,
-//     G: 159,
-//     B: 158,
-//     name: "RAL 000 65 00",
-//     english: "Mortar grey",
-//     italian: ""
-//   },
-//   {
-//     R: 172,
-//     G: 173,
-//     B: 172,
-//     name: "RAL 000 70 00",
-//     english: "Light grey",
-//     italian: ""
-//   },
-//   {
-//     R: 186,
-//     G: 186,
-//     B: 186,
-//     name: "RAL 000 75 00",
-//     english: "Marble grey",
-//     italian: ""
-//   },
-//   {
-//     R: 201,
-//     G: 200,
-//     B: 199,
-//     name: "RAL 000 80 00",
-//     english: "Foggy grey",
-//     italian: ""
-//   },
-//   {
-//     R: 214,
-//     G: 214,
-//     B: 212,
-//     name: "RAL 000 85 00",
-//     english: "Shadow white",
-//     italian: ""
-//   },
-//   {
-//     R: 226,
-//     G: 227,
-//     B: 224,
-//     name: "RAL 000 90 00",
-//     english: "Winter white",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 41,
-//     B: 44,
-//     name: "RAL 010 20 10",
-//     english: "Wenge black",
-//     italian: ""
-//   },
-//   {
-//     R: 66,
-//     G: 34,
-//     B: 41,
-//     name: "RAL 010 20 15",
-//     english: "Cherry black",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 32,
-//     B: 41,
-//     name: "RAL 010 20 20",
-//     english: "Dark mahogany",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 28,
-//     B: 40,
-//     name: "RAL 010 20 25",
-//     english: "Rusty red",
-//     italian: ""
-//   },
-//   {
-//     R: 88,
-//     G: 64,
-//     B: 68,
-//     name: "RAL 010 30 10",
-//     english: "Wood-black red",
-//     italian: ""
-//   },
-//   {
-//     R: 92,
-//     G: 59,
-//     B: 66,
-//     name: "RAL 010 30 15",
-//     english: "Night mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 57,
-//     B: 65,
-//     name: "RAL 010 30 20",
-//     english: "Pinkish brown",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 51,
-//     B: 63,
-//     name: "RAL 010 30 25",
-//     english: "Chestnut red",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 46,
-//     B: 63,
-//     name: "RAL 010 30 30",
-//     english: "Leather red",
-//     italian: ""
-//   },
-//   {
-//     R: 114,
-//     G: 40,
-//     B: 60,
-//     name: "RAL 010 30 35",
-//     english: "Anthracite red",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 31,
-//     B: 58,
-//     name: "RAL 010 30 40",
-//     english: "Brown magenta",
-//     italian: ""
-//   },
-//   {
-//     R: 129,
-//     G: 23,
-//     B: 59,
-//     name: "RAL 010 30 44",
-//     english: "Atlas red",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 88,
-//     B: 91,
-//     name: "RAL 010 40 10",
-//     english: "Caput mortuum grey red",
-//     italian: ""
-//   },
-//   {
-//     R: 118,
-//     G: 83,
-//     B: 89,
-//     name: "RAL 010 40 15",
-//     english: "Rust brown",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 80,
-//     B: 88,
-//     name: "RAL 010 40 20",
-//     english: "Sunset red",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 77,
-//     B: 88,
-//     name: "RAL 010 40 25",
-//     english: "Mineral red",
-//     italian: ""
-//   },
-//   {
-//     R: 140,
-//     G: 71,
-//     B: 87,
-//     name: "RAL 010 40 30",
-//     english: "Dull magenta",
-//     italian: ""
-//   },
-//   {
-//     R: 143,
-//     G: 66,
-//     B: 84,
-//     name: "RAL 010 40 35",
-//     english: "Velvet red",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 60,
-//     B: 83,
-//     name: "RAL 010 40 40",
-//     english: "Algae red",
-//     italian: ""
-//   },
-//   {
-//     R: 157,
-//     G: 54,
-//     B: 83,
-//     name: "RAL 010 40 45",
-//     english: "Raspberry ice cream red",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 48,
-//     B: 82,
-//     name: "RAL 010 40 50",
-//     english: "Fucshia red",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 42,
-//     B: 80,
-//     name: "RAL 010 40 53",
-//     english: "Primal red",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 113,
-//     B: 117,
-//     name: "RAL 010 50 10",
-//     english: "Old mahogany",
-//     italian: ""
-//   },
-//   {
-//     R: 143,
-//     G: 108,
-//     B: 115,
-//     name: "RAL 010 50 15",
-//     english: "Dull dusty pink",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 105,
-//     B: 113,
-//     name: "RAL 010 50 20",
-//     english: "Brickwork red",
-//     italian: ""
-//   },
-//   {
-//     R: 159,
-//     G: 101,
-//     B: 112,
-//     name: "RAL 010 50 25",
-//     english: "Matte carmine",
-//     italian: ""
-//   },
-//   {
-//     R: 168,
-//     G: 96,
-//     B: 111,
-//     name: "RAL 010 50 30",
-//     english: "Marble red",
-//     italian: ""
-//   },
-//   {
-//     R: 173,
-//     G: 90,
-//     B: 109,
-//     name: "RAL 010 50 35",
-//     english: "Geranium red",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 87,
-//     B: 109,
-//     name: "RAL 010 50 40",
-//     english: "Slate pink",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 80,
-//     B: 107,
-//     name: "RAL 010 50 45",
-//     english: "Tulip red",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 74,
-//     B: 107,
-//     name: "RAL 010 50 50",
-//     english: "Vibrant red",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 138,
-//     B: 142,
-//     name: "RAL 010 60 10",
-//     english: "Lilac grey",
-//     italian: ""
-//   },
-//   {
-//     R: 172,
-//     G: 135,
-//     B: 142,
-//     name: "RAL 010 60 15",
-//     english: "Ice orchid red",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 132,
-//     B: 140,
-//     name: "RAL 010 60 20",
-//     english: "Lime pink",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 127,
-//     B: 139,
-//     name: "RAL 010 60 25",
-//     english: "Lipstick pink",
-//     italian: ""
-//   },
-//   {
-//     R: 195,
-//     G: 122,
-//     B: 137,
-//     name: "RAL 010 60 30",
-//     english: "Japanese coral",
-//     italian: ""
-//   },
-//   {
-//     R: 204,
-//     G: 118,
-//     B: 136,
-//     name: "RAL 010 60 35",
-//     english: "Rose red",
-//     italian: ""
-//   },
-//   {
-//     R: 210,
-//     G: 113,
-//     B: 134,
-//     name: "RAL 010 60 40",
-//     english: "Strawberry milk shake red",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 107,
-//     B: 133,
-//     name: "RAL 010 60 45",
-//     english: "Luminous pink",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 166,
-//     B: 170,
-//     name: "RAL 010 70 10",
-//     english: "Pale mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 199,
-//     G: 162,
-//     B: 167,
-//     name: "RAL 010 70 15",
-//     english: "Powder rose",
-//     italian: ""
-//   },
-//   {
-//     R: 209,
-//     G: 158,
-//     B: 167,
-//     name: "RAL 010 70 20",
-//     english: "Silver rose",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 153,
-//     B: 165,
-//     name: "RAL 010 70 25",
-//     english: "Flamingo pink",
-//     italian: ""
-//   },
-//   {
-//     R: 225,
-//     G: 150,
-//     B: 164,
-//     name: "RAL 010 70 30",
-//     english: "Cherry blossom pink",
-//     italian: ""
-//   },
-//   {
-//     R: 233,
-//     G: 144,
-//     B: 161,
-//     name: "RAL 010 70 35",
-//     english: "Baby pink",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 192,
-//     B: 195,
-//     name: "RAL 010 80 10",
-//     english: "Mud pink",
-//     italian: ""
-//   },
-//   {
-//     R: 228,
-//     G: 189,
-//     B: 194,
-//     name: "RAL 010 80 15",
-//     english: "Ice hot pink",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 185,
-//     B: 193,
-//     name: "RAL 010 80 20",
-//     english: "Pastel pink",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 209,
-//     B: 211,
-//     name: "RAL 010 85 05",
-//     english: "Pearl rose",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 206,
-//     B: 209,
-//     name: "RAL 010 85 10",
-//     english: "Salmon rose",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 202,
-//     B: 208,
-//     name: "RAL 010 85 15",
-//     english: "Milkshake pink",
-//     italian: ""
-//   },
-//   {
-//     R: 250,
-//     G: 199,
-//     B: 207,
-//     name: "RAL 010 85 20",
-//     english: "Carnation pink",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 224,
-//     B: 222,
-//     name: "RAL 010 90 05",
-//     english: "Rose cream",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 218,
-//     B: 215,
-//     name: "RAL 010 90 10",
-//     english: "Light apricot",
-//     italian: ""
-//   },
-//   {
-//     R: 242,
-//     G: 229,
-//     B: 231,
-//     name: "RAL 010 92 05",
-//     english: "Replaced by 010 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 232,
-//     B: 233,
-//     name: "RAL 010 93 05",
-//     english: "White-red",
-//     italian: ""
-//   },
-//   {
-//     R: 52,
-//     G: 41,
-//     B: 42,
-//     name: "RAL 020 20 05",
-//     english: "Deep brown",
-//     italian: ""
-//   },
-//   {
-//     R: 59,
-//     G: 39,
-//     B: 39,
-//     name: "RAL 020 20 10",
-//     english: "Night red",
-//     italian: ""
-//   },
-//   {
-//     R: 73,
-//     G: 33,
-//     B: 37,
-//     name: "RAL 020 20 20",
-//     english: "Dark red brown",
-//     italian: ""
-//   },
-//   {
-//     R: 82,
-//     G: 24,
-//     B: 31,
-//     name: "RAL 020 20 29",
-//     english: "Burgundy",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 65,
-//     B: 65,
-//     name: "RAL 020 30 05",
-//     english: "Rhodonite brown",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 61,
-//     B: 62,
-//     name: "RAL 020 30 10",
-//     english: "Budapest brown",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 54,
-//     B: 57,
-//     name: "RAL 020 30 20",
-//     english: "Kremlin red",
-//     italian: ""
-//   },
-//   {
-//     R: 108,
-//     G: 44,
-//     B: 50,
-//     name: "RAL 020 30 30",
-//     english: "Crystal dark red",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 35,
-//     B: 50,
-//     name: "RAL 020 30 40",
-//     english: "Amaranth blossom",
-//     italian: ""
-//   },
-//   {
-//     R: 130,
-//     G: 22,
-//     B: 45,
-//     name: "RAL 020 30 48",
-//     english: "Sweet cherry red",
-//     italian: ""
-//   },
-//   {
-//     R: 103,
-//     G: 91,
-//     B: 91,
-//     name: "RAL 020 40 05",
-//     english: "Greyish brown",
-//     italian: ""
-//   },
-//   {
-//     R: 109,
-//     G: 86,
-//     B: 87,
-//     name: "RAL 020 40 10",
-//     english: "Nut brown",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 79,
-//     B: 82,
-//     name: "RAL 020 40 20",
-//     english: "Antique red",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 70,
-//     B: 77,
-//     name: "RAL 020 40 30",
-//     english: "Hermosa pink",
-//     italian: ""
-//   },
-//   {
-//     R: 146,
-//     G: 60,
-//     B: 71,
-//     name: "RAL 020 40 40",
-//     english: "October red",
-//     italian: ""
-//   },
-//   {
-//     R: 158,
-//     G: 45,
-//     B: 62,
-//     name: "RAL 020 40 50",
-//     english: "Bright red",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 116,
-//     B: 115,
-//     name: "RAL 020 50 05",
-//     english: "Zircon grey",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 110,
-//     B: 112,
-//     name: "RAL 020 50 10",
-//     english: "Sandstone red grey",
-//     italian: ""
-//   },
-//   {
-//     R: 152,
-//     G: 103,
-//     B: 107,
-//     name: "RAL 020 50 20",
-//     english: "Red grey",
-//     italian: ""
-//   },
-//   {
-//     R: 166,
-//     G: 95,
-//     B: 101,
-//     name: "RAL 020 50 30",
-//     english: "Venetian red",
-//     italian: ""
-//   },
-//   {
-//     R: 175,
-//     G: 86,
-//     B: 95,
-//     name: "RAL 020 50 40",
-//     english: "Alsike clover red",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 75,
-//     B: 90,
-//     name: "RAL 020 50 50",
-//     english: "Flame red",
-//     italian: ""
-//   },
-//   {
-//     R: 204,
-//     G: 66,
-//     B: 88,
-//     name: "RAL 020 50 58",
-//     english: "Lingonberry red",
-//     italian: ""
-//   },
-//   {
-//     R: 153,
-//     G: 141,
-//     B: 141,
-//     name: "RAL 020 60 05",
-//     english: "Globe thistle grey rose",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 137,
-//     B: 139,
-//     name: "RAL 020 60 10",
-//     english: "Tin pink",
-//     italian: ""
-//   },
-//   {
-//     R: 179,
-//     G: 130,
-//     B: 134,
-//     name: "RAL 020 60 20",
-//     english: "Retro pink",
-//     italian: ""
-//   },
-//   {
-//     R: 193,
-//     G: 121,
-//     B: 127,
-//     name: "RAL 020 60 30",
-//     english: "Begonia rusty rose",
-//     italian: ""
-//   },
-//   {
-//     R: 207,
-//     G: 113,
-//     B: 123,
-//     name: "RAL 020 60 40",
-//     english: "Lotus red",
-//     italian: ""
-//   },
-//   {
-//     R: 180,
-//     G: 168,
-//     B: 168,
-//     name: "RAL 020 70 05",
-//     english: "Fashion mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 189,
-//     G: 163,
-//     B: 165,
-//     name: "RAL 020 70 10",
-//     english: "Tourmaline mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 209,
-//     G: 158,
-//     B: 162,
-//     name: "RAL 020 70 20",
-//     english: "Rosewood apricot",
-//     italian: ""
-//   },
-//   {
-//     R: 225,
-//     G: 149,
-//     B: 156,
-//     name: "RAL 020 70 30",
-//     english: "Marker pink",
-//     italian: ""
-//   },
-//   {
-//     R: 211,
-//     G: 197,
-//     B: 196,
-//     name: "RAL 020 80 05",
-//     english: "Aurora grey",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 191,
-//     B: 192,
-//     name: "RAL 020 80 10",
-//     english: "Quartz rose",
-//     italian: ""
-//   },
-//   {
-//     R: 236,
-//     G: 186,
-//     B: 189,
-//     name: "RAL 020 80 20",
-//     english: "Marzipan pink",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 209,
-//     B: 209,
-//     name: "RAL 020 85 05",
-//     english: "Almond blossom pink",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 206,
-//     B: 206,
-//     name: "RAL 020 85 10",
-//     english: "Salmon cream",
-//     italian: ""
-//   },
-//   {
-//     R: 250,
-//     G: 199,
-//     B: 200,
-//     name: "RAL 020 85 20",
-//     english: "Elegant light rose",
-//     italian: ""
-//   },
-//   {
-//     R: 239,
-//     G: 226,
-//     B: 222,
-//     name: "RAL 020 90 05",
-//     english: "Mussel white",
-//     italian: ""
-//   },
-//   {
-//     R: 243,
-//     G: 220,
-//     B: 216,
-//     name: "RAL 020 90 10",
-//     english: "Peach cream",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 232,
-//     B: 232,
-//     name: "RAL 020 93 05",
-//     english: "Blossom white",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 64,
-//     B: 62,
-//     name: "RAL 030 30 10",
-//     english: "Laurel nut rusty brown",
-//     italian: ""
-//   },
-//   {
-//     R: 97,
-//     G: 56,
-//     B: 54,
-//     name: "RAL 030 30 20",
-//     english: "Autumn leaf red",
-//     italian: ""
-//   },
-//   {
-//     R: 108,
-//     G: 47,
-//     B: 45,
-//     name: "RAL 030 30 30",
-//     english: "Macore veneer red",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 40,
-//     B: 42,
-//     name: "RAL 030 30 40",
-//     english: "Crimson red",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 30,
-//     B: 33,
-//     name: "RAL 030 30 45",
-//     english: "Blood red",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 87,
-//     B: 85,
-//     name: "RAL 030 40 10",
-//     english: "Pearl red brown",
-//     italian: ""
-//   },
-//   {
-//     R: 124,
-//     G: 83,
-//     B: 80,
-//     name: "RAL 030 40 20",
-//     english: "Cranberry red",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 74,
-//     B: 71,
-//     name: "RAL 030 40 30",
-//     english: "Brick brown",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 65,
-//     B: 63,
-//     name: "RAL 030 40 40",
-//     english: "Spicey red",
-//     italian: ""
-//   },
-//   {
-//     R: 160,
-//     G: 54,
-//     B: 56,
-//     name: "RAL 030 40 50",
-//     english: "Hibiscus red",
-//     italian: ""
-//   },
-//   {
-//     R: 169,
-//     G: 43,
-//     B: 51,
-//     name: "RAL 030 40 60",
-//     english: "Emperor cherry red",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 111,
-//     B: 109,
-//     name: "RAL 030 50 10",
-//     english: "Earth red",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 105,
-//     B: 102,
-//     name: "RAL 030 50 20",
-//     english: "Terracotta red brown",
-//     italian: ""
-//   },
-//   {
-//     R: 164,
-//     G: 97,
-//     B: 93,
-//     name: "RAL 030 50 30",
-//     english: "Clay red",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 90,
-//     B: 86,
-//     name: "RAL 030 50 40",
-//     english: "Vermilion red",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 81,
-//     B: 79,
-//     name: "RAL 030 50 50",
-//     english: "Maple red",
-//     italian: ""
-//   },
-//   {
-//     R: 200,
-//     G: 68,
-//     B: 68,
-//     name: "RAL 030 50 60",
-//     english: "Holland red",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 138,
-//     B: 136,
-//     name: "RAL 030 60 10",
-//     english: "Storm red",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 131,
-//     B: 128,
-//     name: "RAL 030 60 20",
-//     english: "Desert red",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 121,
-//     B: 116,
-//     name: "RAL 030 60 30",
-//     english: "Antique pink",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 116,
-//     B: 112,
-//     name: "RAL 030 60 40",
-//     english: "Light tomato",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 106,
-//     B: 102,
-//     name: "RAL 030 60 50",
-//     english: "Calypso red",
-//     italian: ""
-//   },
-//   {
-//     R: 189,
-//     G: 164,
-//     B: 162,
-//     name: "RAL 030 70 10",
-//     english: "Florida grey",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 156,
-//     B: 151,
-//     name: "RAL 030 70 20",
-//     english: "Dull apricot",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 149,
-//     B: 143,
-//     name: "RAL 030 70 30",
-//     english: "Salmon pink red",
-//     italian: ""
-//   },
-//   {
-//     R: 236,
-//     G: 142,
-//     B: 136,
-//     name: "RAL 030 70 40",
-//     english: "Flamingo red",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 192,
-//     B: 188,
-//     name: "RAL 030 80 10",
-//     english: "Salt pink",
-//     italian: ""
-//   },
-//   {
-//     R: 234,
-//     G: 185,
-//     B: 179,
-//     name: "RAL 030 80 20",
-//     english: "Magnolia pink",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 209,
-//     B: 208,
-//     name: "RAL 030 85 05",
-//     english: "Almond cream",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 207,
-//     B: 203,
-//     name: "RAL 030 85 10",
-//     english: "Soft ice rose",
-//     italian: ""
-//   },
-//   {
-//     R: 249,
-//     G: 200,
-//     B: 194,
-//     name: "RAL 030 85 20",
-//     english: "Peach red",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 224,
-//     B: 220,
-//     name: "RAL 030 90 05",
-//     english: "Antique white",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 223,
-//     B: 217,
-//     name: "RAL 030 90 10",
-//     english: "Wedding pink",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 232,
-//     B: 230,
-//     name: "RAL 030 93 05",
-//     english: "Parchment white",
-//     italian: ""
-//   },
-//   {
-//     R: 70,
-//     G: 36,
-//     B: 26,
-//     name: "RAL 040 20 19",
-//     english: "Wild brown",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 66,
-//     B: 62,
-//     name: "RAL 040 30 05",
-//     english: "Basalt black",
-//     italian: ""
-//   },
-//   {
-//     R: 82,
-//     G: 62,
-//     B: 57,
-//     name: "RAL 040 30 10",
-//     english: "Caviar black",
-//     italian: ""
-//   },
-//   {
-//     R: 95,
-//     G: 57,
-//     B: 47,
-//     name: "RAL 040 30 20",
-//     english: "Coffee brown",
-//     italian: ""
-//   },
-//   {
-//     R: 106,
-//     G: 50,
-//     B: 38,
-//     name: "RAL 040 30 30",
-//     english: "Root brown",
-//     italian: ""
-//   },
-//   {
-//     R: 116,
-//     G: 46,
-//     B: 33,
-//     name: "RAL 040 30 40",
-//     english: "Corrosion red",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 91,
-//     B: 88,
-//     name: "RAL 040 40 05",
-//     english: "Ash brown",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 87,
-//     B: 81,
-//     name: "RAL 040 40 10",
-//     english: "Somali brown",
-//     italian: ""
-//   },
-//   {
-//     R: 121,
-//     G: 83,
-//     B: 73,
-//     name: "RAL 040 40 20",
-//     english: "Vandyck brown",
-//     italian: ""
-//   },
-//   {
-//     R: 131,
-//     G: 75,
-//     B: 60,
-//     name: "RAL 040 40 30",
-//     english: "Chestnut brown",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 65,
-//     B: 48,
-//     name: "RAL 040 40 40",
-//     english: "Brick red",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 61,
-//     B: 40,
-//     name: "RAL 040 40 50",
-//     english: "Henna red",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 48,
-//     B: 27,
-//     name: "RAL 040 40 60",
-//     english: "Copper red",
-//     italian: ""
-//   },
-//   {
-//     R: 170,
-//     G: 42,
-//     B: 18,
-//     name: "RAL 040 40 67",
-//     english: "China red",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 115,
-//     B: 112,
-//     name: "RAL 040 50 05",
-//     english: "Nomad grey",
-//     italian: ""
-//   },
-//   {
-//     R: 134,
-//     G: 112,
-//     B: 107,
-//     name: "RAL 040 50 10",
-//     english: "Umbra sand",
-//     italian: ""
-//   },
-//   {
-//     R: 147,
-//     G: 106,
-//     B: 96,
-//     name: "RAL 040 50 20",
-//     english: "Agate brown",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 100,
-//     B: 85,
-//     name: "RAL 040 50 30",
-//     english: "Rust coloured",
-//     italian: ""
-//   },
-//   {
-//     R: 173,
-//     G: 93,
-//     B: 74,
-//     name: "RAL 040 50 40",
-//     english: "Ant red",
-//     italian: ""
-//   },
-//   {
-//     R: 186,
-//     G: 85,
-//     B: 63,
-//     name: "RAL 040 50 50",
-//     english: "English red",
-//     italian: ""
-//   },
-//   {
-//     R: 199,
-//     G: 78,
-//     B: 52,
-//     name: "RAL 040 50 60",
-//     english: "Fox red",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 70,
-//     B: 45,
-//     name: "RAL 040 50 70",
-//     english: "Pompeii red",
-//     italian: ""
-//   },
-//   {
-//     R: 152,
-//     G: 142,
-//     B: 138,
-//     name: "RAL 040 60 05",
-//     english: "Warm grey",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 138,
-//     B: 132,
-//     name: "RAL 040 60 10",
-//     english: "Light caramel",
-//     italian: ""
-//   },
-//   {
-//     R: 174,
-//     G: 130,
-//     B: 119,
-//     name: "RAL 040 60 20",
-//     english: "Sienna yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 191,
-//     G: 126,
-//     B: 111,
-//     name: "RAL 040 60 30",
-//     english: "Cedar red",
-//     italian: ""
-//   },
-//   {
-//     R: 200,
-//     G: 118,
-//     B: 98,
-//     name: "RAL 040 60 40",
-//     english: "Terra orange",
-//     italian: ""
-//   },
-//   {
-//     R: 214,
-//     G: 113,
-//     B: 88,
-//     name: "RAL 040 60 50",
-//     english: "Mandarin orange",
-//     italian: ""
-//   },
-//   {
-//     R: 225,
-//     G: 105,
-//     B: 76,
-//     name: "RAL 040 60 60",
-//     english: "Coral orange",
-//     italian: ""
-//   },
-//   {
-//     R: 179,
-//     G: 168,
-//     B: 164,
-//     name: "RAL 040 70 05",
-//     english: "Passepartout grey",
-//     italian: ""
-//   },
-//   {
-//     R: 189,
-//     G: 165,
-//     B: 158,
-//     name: "RAL 040 70 10",
-//     english: "Mohair mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 159,
-//     B: 147,
-//     name: "RAL 040 70 20",
-//     english: "Soft sienna",
-//     italian: ""
-//   },
-//   {
-//     R: 221,
-//     G: 152,
-//     B: 136,
-//     name: "RAL 040 70 30",
-//     english: "Industrial rose",
-//     italian: ""
-//   },
-//   {
-//     R: 229,
-//     G: 145,
-//     B: 126,
-//     name: "RAL 040 70 40",
-//     english: "Apricot red",
-//     italian: ""
-//   },
-//   {
-//     R: 246,
-//     G: 137,
-//     B: 113,
-//     name: "RAL 040 70 50",
-//     english: "Fruit red",
-//     italian: ""
-//   },
-//   {
-//     R: 210,
-//     G: 197,
-//     B: 192,
-//     name: "RAL 040 80 05",
-//     english: "Natural silk grey",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 194,
-//     B: 187,
-//     name: "RAL 040 80 10",
-//     english: "Thulite rose",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 190,
-//     B: 177,
-//     name: "RAL 040 80 20",
-//     english: "Madder orange",
-//     italian: ""
-//   },
-//   {
-//     R: 251,
-//     G: 183,
-//     B: 165,
-//     name: "RAL 040 80 30",
-//     english: "Nature apricot",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 210,
-//     B: 206,
-//     name: "RAL 040 85 05",
-//     english: "Pandora grey",
-//     italian: ""
-//   },
-//   {
-//     R: 231,
-//     G: 207,
-//     B: 201,
-//     name: "RAL 040 85 10",
-//     english: "Fine alabaster",
-//     italian: ""
-//   },
-//   {
-//     R: 247,
-//     G: 202,
-//     B: 189,
-//     name: "RAL 040 85 20",
-//     english: "Delicate sweet apricot",
-//     italian: ""
-//   },
-//   {
-//     R: 239,
-//     G: 225,
-//     B: 219,
-//     name: "RAL 040 90 05",
-//     english: "Sahara light red",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 224,
-//     B: 214,
-//     name: "RAL 040 90 10",
-//     english: "Delicate rose",
-//     italian: ""
-//   },
-//   {
-//     R: 244,
-//     G: 232,
-//     B: 229,
-//     name: "RAL 040 93 05",
-//     english: "Natural white",
-//     italian: ""
-//   },
-//   {
-//     R: 60,
-//     G: 45,
-//     B: 37,
-//     name: "RAL 050 20 10",
-//     english: "Granite brown",
-//     italian: ""
-//   },
-//   {
-//     R: 67,
-//     G: 40,
-//     B: 27,
-//     name: "RAL 050 20 16",
-//     english: "Night brown",
-//     italian: ""
-//   },
-//   {
-//     R: 81,
-//     G: 62,
-//     B: 53,
-//     name: "RAL 050 30 10",
-//     english: "Obsidian brown",
-//     italian: ""
-//   },
-//   {
-//     R: 94,
-//     G: 59,
-//     B: 42,
-//     name: "RAL 050 30 20",
-//     english: "Tropical wood brown",
-//     italian: ""
-//   },
-//   {
-//     R: 106,
-//     G: 56,
-//     B: 34,
-//     name: "RAL 050 30 30",
-//     english: "Tobacco brown",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 55,
-//     B: 28,
-//     name: "RAL 050 30 36",
-//     english: "Rose wood brown",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 91,
-//     B: 82,
-//     name: "RAL 050 40 10",
-//     english: "Mocha black",
-//     italian: ""
-//   },
-//   {
-//     R: 120,
-//     G: 85,
-//     B: 68,
-//     name: "RAL 050 40 20",
-//     english: "Florentine brown",
-//     italian: ""
-//   },
-//   {
-//     R: 129,
-//     G: 80,
-//     B: 56,
-//     name: "RAL 050 40 30",
-//     english: "Curry brown",
-//     italian: ""
-//   },
-//   {
-//     R: 140,
-//     G: 72,
-//     B: 38,
-//     name: "RAL 050 40 40",
-//     english: "Madeira brown",
-//     italian: ""
-//   },
-//   {
-//     R: 150,
-//     G: 69,
-//     B: 32,
-//     name: "RAL 050 40 50",
-//     english: "Autumn red",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 117,
-//     B: 108,
-//     name: "RAL 050 50 10",
-//     english: "Teakwood brown",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 111,
-//     B: 93,
-//     name: "RAL 050 50 20",
-//     english: "Milk coffee brown",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 106,
-//     B: 80,
-//     name: "RAL 050 50 30",
-//     english: "Golden brown",
-//     italian: ""
-//   },
-//   {
-//     R: 170,
-//     G: 99,
-//     B: 66,
-//     name: "RAL 050 50 40",
-//     english: "Copper-metal red",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 94,
-//     B: 51,
-//     name: "RAL 050 50 50",
-//     english: "Gold varnish brown",
-//     italian: ""
-//   },
-//   {
-//     R: 185,
-//     G: 86,
-//     B: 33,
-//     name: "RAL 050 50 60",
-//     english: "Titian red",
-//     italian: ""
-//   },
-//   {
-//     R: 201,
-//     G: 77,
-//     B: 7,
-//     name: "RAL 050 50 70",
-//     english: "Poppy red",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 88,
-//     B: 22,
-//     name: "RAL 050 50 78",
-//     english: "Persian orange",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 141,
-//     B: 132,
-//     name: "RAL 050 60 10",
-//     english: "Ecru ochre",
-//     italian: ""
-//   },
-//   {
-//     R: 175,
-//     G: 135,
-//     B: 117,
-//     name: "RAL 050 60 20",
-//     english: "Caramel brown",
-//     italian: ""
-//   },
-//   {
-//     R: 191,
-//     G: 132,
-//     B: 105,
-//     name: "RAL 050 60 30",
-//     english: "Medium brown",
-//     italian: ""
-//   },
-//   {
-//     R: 200,
-//     G: 126,
-//     B: 91,
-//     name: "RAL 050 60 40",
-//     english: "Apricot brown",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 122,
-//     B: 76,
-//     name: "RAL 050 60 50",
-//     english: "Orange yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 116,
-//     B: 60,
-//     name: "RAL 050 60 60",
-//     english: "Camel red",
-//     italian: ""
-//   },
-//   {
-//     R: 228,
-//     G: 103,
-//     B: 46,
-//     name: "RAL 050 60 70",
-//     english: "Carrot orange",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 96,
-//     B: 28,
-//     name: "RAL 050 60 80",
-//     english: "Gerbera red",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 171,
-//     B: 160,
-//     name: "RAL 050 70 10",
-//     english: "Bamboo beige",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 165,
-//     B: 146,
-//     name: "RAL 050 70 20",
-//     english: "Amber grey",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 159,
-//     B: 131,
-//     name: "RAL 050 70 30",
-//     english: "Sienna ochre",
-//     italian: ""
-//   },
-//   {
-//     R: 233,
-//     G: 154,
-//     B: 118,
-//     name: "RAL 050 70 40",
-//     english: "Light amber orange",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 146,
-//     B: 104,
-//     name: "RAL 050 70 50",
-//     english: "Melon red",
-//     italian: ""
-//   },
-//   {
-//     R: 253,
-//     G: 139,
-//     B: 88,
-//     name: "RAL 050 70 60",
-//     english: "Mango orange",
-//     italian: ""
-//   },
-//   {
-//     R: 221,
-//     G: 199,
-//     B: 188,
-//     name: "RAL 050 80 10",
-//     english: "Pale sienna",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 192,
-//     B: 171,
-//     name: "RAL 050 80 20",
-//     english: "Soft orange",
-//     italian: ""
-//   },
-//   {
-//     R: 248,
-//     G: 185,
-//     B: 157,
-//     name: "RAL 050 80 30",
-//     english: "Pallid orange",
-//     italian: ""
-//   },
-//   {
-//     R: 221,
-//     G: 210,
-//     B: 205,
-//     name: "RAL 050 85 05",
-//     english: "Ocean sand",
-//     italian: ""
-//   },
-//   {
-//     R: 229,
-//     G: 208,
-//     B: 198,
-//     name: "RAL 050 85 10",
-//     english: "Pure beige",
-//     italian: ""
-//   },
-//   {
-//     R: 244,
-//     G: 203,
-//     B: 184,
-//     name: "RAL 050 85 20",
-//     english: "Biscuit cream",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 228,
-//     B: 220,
-//     name: "RAL 050 90 05",
-//     english: "Eggshell white",
-//     italian: ""
-//   },
-//   {
-//     R: 254,
-//     G: 230,
-//     B: 216,
-//     name: "RAL 050 90 10",
-//     english: "Light peach rose",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 233,
-//     B: 226,
-//     name: "RAL 050 92 05",
-//     english: "Replaced by 050 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 244,
-//     G: 233,
-//     B: 228,
-//     name: "RAL 050 93 05",
-//     english: "Tulle white",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 43,
-//     B: 38,
-//     name: "RAL 060 20 05",
-//     english: "Industrial black",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 67,
-//     B: 61,
-//     name: "RAL 060 30 05",
-//     english: "Vehicle body grey",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 64,
-//     B: 54,
-//     name: "RAL 060 30 10",
-//     english: "Nutria fur brown",
-//     italian: ""
-//   },
-//   {
-//     R: 88,
-//     G: 61,
-//     B: 41,
-//     name: "RAL 060 30 20",
-//     english: "Peat brown",
-//     italian: ""
-//   },
-//   {
-//     R: 96,
-//     G: 60,
-//     B: 31,
-//     name: "RAL 060 30 27",
-//     english: "Cassiterite brown",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 91,
-//     B: 85,
-//     name: "RAL 060 40 05",
-//     english: "Zinc grey",
-//     italian: ""
-//   },
-//   {
-//     R: 105,
-//     G: 88,
-//     B: 77,
-//     name: "RAL 060 40 10",
-//     english: "Moor oak grey",
-//     italian: ""
-//   },
-//   {
-//     R: 116,
-//     G: 86,
-//     B: 64,
-//     name: "RAL 060 40 20",
-//     english: "Coffee bean brown",
-//     italian: ""
-//   },
-//   {
-//     R: 124,
-//     G: 82,
-//     B: 49,
-//     name: "RAL 060 40 30",
-//     english: "Brazilian brown",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 80,
-//     B: 36,
-//     name: "RAL 060 40 40",
-//     english: "Plane brown",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 117,
-//     B: 110,
-//     name: "RAL 060 50 05",
-//     english: "Chinchilla grey",
-//     italian: ""
-//   },
-//   {
-//     R: 131,
-//     G: 115,
-//     B: 103,
-//     name: "RAL 060 50 10",
-//     english: "Sandstone grey",
-//     italian: ""
-//   },
-//   {
-//     R: 141,
-//     G: 111,
-//     B: 88,
-//     name: "RAL 060 50 20",
-//     english: "Mushroom brown",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 108,
-//     B: 74,
-//     name: "RAL 060 50 30",
-//     english: "Mustard brown",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 102,
-//     B: 57,
-//     name: "RAL 060 50 40",
-//     english: "Camel brown",
-//     italian: ""
-//   },
-//   {
-//     R: 172,
-//     G: 100,
-//     B: 43,
-//     name: "RAL 060 50 50",
-//     english: "Date fruit brown",
-//     italian: ""
-//   },
-//   {
-//     R: 174,
-//     G: 91,
-//     B: 10,
-//     name: "RAL 060 50 60",
-//     english: "Elm brown red",
-//     italian: ""
-//   },
-//   {
-//     R: 185,
-//     G: 92,
-//     B: 0,
-//     name: "RAL 060 50 70",
-//     english: "Dry clay",
-//     italian: ""
-//   },
-//   {
-//     R: 153,
-//     G: 144,
-//     B: 138,
-//     name: "RAL 060 60 05",
-//     english: "Screed grey",
-//     italian: ""
-//   },
-//   {
-//     R: 159,
-//     G: 141,
-//     B: 128,
-//     name: "RAL 060 60 10",
-//     english: "Oak brown",
-//     italian: ""
-//   },
-//   {
-//     R: 173,
-//     G: 137,
-//     B: 113,
-//     name: "RAL 060 60 20",
-//     english: "Light topaz ochre",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 134,
-//     B: 99,
-//     name: "RAL 060 60 30",
-//     english: "Cognac brown",
-//     italian: ""
-//   },
-//   {
-//     R: 196,
-//     G: 134,
-//     B: 84,
-//     name: "RAL 060 60 40",
-//     english: "Maple syrup brown",
-//     italian: ""
-//   },
-//   {
-//     R: 198,
-//     G: 122,
-//     B: 64,
-//     name: "RAL 060 60 50",
-//     english: "Turmeric red",
-//     italian: ""
-//   },
-//   {
-//     R: 209,
-//     G: 118,
-//     B: 43,
-//     name: "RAL 060 60 60",
-//     english: "Bitter orange",
-//     italian: ""
-//   },
-//   {
-//     R: 214,
-//     G: 114,
-//     B: 17,
-//     name: "RAL 060 60 70",
-//     english: "Gold orange",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 109,
-//     B: 0,
-//     name: "RAL 060 60 80",
-//     english: "Accent orange",
-//     italian: ""
-//   },
-//   {
-//     R: 180,
-//     G: 171,
-//     B: 164,
-//     name: "RAL 060 70 05",
-//     english: "Cement greige",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 168,
-//     B: 156,
-//     name: "RAL 060 70 10",
-//     english: "Putty grey",
-//     italian: ""
-//   },
-//   {
-//     R: 197,
-//     G: 163,
-//     B: 138,
-//     name: "RAL 060 70 20",
-//     english: "Peanut butter",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 156,
-//     B: 121,
-//     name: "RAL 060 70 30",
-//     english: "Peach yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 156,
-//     B: 110,
-//     name: "RAL 060 70 40",
-//     english: "Candle yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 230,
-//     G: 151,
-//     B: 94,
-//     name: "RAL 060 70 50",
-//     english: "Topaz yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 144,
-//     B: 72,
-//     name: "RAL 060 70 60",
-//     english: "Melon orange",
-//     italian: ""
-//   },
-//   {
-//     R: 246,
-//     G: 140,
-//     B: 54,
-//     name: "RAL 060 70 70",
-//     english: "Indian yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 198,
-//     B: 190,
-//     name: "RAL 060 80 05",
-//     english: "Light chamois beige",
-//     italian: ""
-//   },
-//   {
-//     R: 213,
-//     G: 195,
-//     B: 181,
-//     name: "RAL 060 80 10",
-//     english: "Soft greige",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 191,
-//     B: 166,
-//     name: "RAL 060 80 20",
-//     english: "Biscuit beige",
-//     italian: ""
-//   },
-//   {
-//     R: 240,
-//     G: 187,
-//     B: 148,
-//     name: "RAL 060 80 30",
-//     english: "Mild orange",
-//     italian: ""
-//   },
-//   {
-//     R: 249,
-//     G: 180,
-//     B: 130,
-//     name: "RAL 060 80 40",
-//     english: "Apricot orange",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 211,
-//     B: 204,
-//     name: "RAL 060 85 05",
-//     english: "Champagne rose",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 209,
-//     B: 196,
-//     name: "RAL 060 85 10",
-//     english: "Cornmeal beige",
-//     italian: ""
-//   },
-//   {
-//     R: 240,
-//     G: 205,
-//     B: 180,
-//     name: "RAL 060 85 20",
-//     english: "Dough yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 252,
-//     G: 201,
-//     B: 164,
-//     name: "RAL 060 85 30",
-//     english: "Light saffron orange",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 227,
-//     B: 216,
-//     name: "RAL 060 90 05",
-//     english: "Grain white",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 224,
-//     B: 210,
-//     name: "RAL 060 90 10",
-//     english: "Vanilla cream",
-//     italian: ""
-//   },
-//   {
-//     R: 250,
-//     G: 220,
-//     B: 200,
-//     name: "RAL 060 90 15",
-//     english: "Apricot cream",
-//     italian: ""
-//   },
-//   {
-//     R: 243,
-//     G: 233,
-//     B: 227,
-//     name: "RAL 060 93 05",
-//     english: "Wool white",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 64,
-//     B: 51,
-//     name: "RAL 070 30 10",
-//     english: "Mineral brown",
-//     italian: ""
-//   },
-//   {
-//     R: 85,
-//     G: 65,
-//     B: 40,
-//     name: "RAL 070 30 20",
-//     english: "Beech brown",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 89,
-//     B: 76,
-//     name: "RAL 070 40 10",
-//     english: "Mink brown",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 86,
-//     B: 59,
-//     name: "RAL 070 40 20",
-//     english: "Huckleberry brown",
-//     italian: ""
-//   },
-//   {
-//     R: 119,
-//     G: 85,
-//     B: 46,
-//     name: "RAL 070 40 30",
-//     english: "Arable brown",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 83,
-//     B: 26,
-//     name: "RAL 070 40 40",
-//     english: "Autumn gold",
-//     italian: ""
-//   },
-//   {
-//     R: 127,
-//     G: 115,
-//     B: 101,
-//     name: "RAL 070 50 10",
-//     english: "Saruk grey",
-//     italian: ""
-//   },
-//   {
-//     R: 138,
-//     G: 112,
-//     B: 84,
-//     name: "RAL 070 50 20",
-//     english: "Ash gold",
-//     italian: ""
-//   },
-//   {
-//     R: 145,
-//     G: 108,
-//     B: 65,
-//     name: "RAL 070 50 30",
-//     english: "Lion's mane blond",
-//     italian: ""
-//   },
-//   {
-//     R: 153,
-//     G: 105,
-//     B: 46,
-//     name: "RAL 070 50 40",
-//     english: "Antique gold",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 105,
-//     B: 40,
-//     name: "RAL 070 50 50",
-//     english: "Stage gold",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 105,
-//     B: 36,
-//     name: "RAL 070 50 55",
-//     english: "Theatre gold",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 140,
-//     B: 125,
-//     name: "RAL 070 60 10",
-//     english: "Light mahogany",
-//     italian: ""
-//   },
-//   {
-//     R: 164,
-//     G: 138,
-//     B: 110,
-//     name: "RAL 070 60 20",
-//     english: "Dark blond",
-//     italian: ""
-//   },
-//   {
-//     R: 171,
-//     G: 134,
-//     B: 92,
-//     name: "RAL 070 60 30",
-//     english: "Light oak brown",
-//     italian: ""
-//   },
-//   {
-//     R: 180,
-//     G: 131,
-//     B: 73,
-//     name: "RAL 070 60 40",
-//     english: "Grain briown",
-//     italian: ""
-//   },
-//   {
-//     R: 189,
-//     G: 129,
-//     B: 53,
-//     name: "RAL 070 60 50",
-//     english: "Mud yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 198,
-//     G: 130,
-//     B: 45,
-//     name: "RAL 070 60 60",
-//     english: "Mustard yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 199,
-//     G: 123,
-//     B: 0,
-//     name: "RAL 070 60 70",
-//     english: "Sea buckthorn yellow brown",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 123,
-//     B: 3,
-//     name: "RAL 070 60 75",
-//     english: "Autumn leaf orange",
-//     italian: ""
-//   },
-//   {
-//     R: 182,
-//     G: 168,
-//     B: 154,
-//     name: "RAL 070 70 10",
-//     english: "Ginger grey yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 191,
-//     G: 164,
-//     B: 135,
-//     name: "RAL 070 70 20",
-//     english: "Light ash brown",
-//     italian: ""
-//   },
-//   {
-//     R: 202,
-//     G: 163,
-//     B: 119,
-//     name: "RAL 070 70 30",
-//     english: "Golden beige",
-//     italian: ""
-//   },
-//   {
-//     R: 210,
-//     G: 159,
-//     B: 98,
-//     name: "RAL 070 70 40",
-//     english: "Dechant pear yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 156,
-//     B: 81,
-//     name: "RAL 070 70 50",
-//     english: "Honeycomb yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 155,
-//     B: 60,
-//     name: "RAL 070 70 60",
-//     english: "Gorse yellow orange",
-//     italian: ""
-//   },
-//   {
-//     R: 229,
-//     G: 148,
-//     B: 30,
-//     name: "RAL 070 70 70",
-//     english: "Naples yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 234,
-//     G: 144,
-//     B: 0,
-//     name: "RAL 070 70 80",
-//     english: "Saffron gold",
-//     italian: ""
-//   },
-//   {
-//     R: 210,
-//     G: 195,
-//     B: 179,
-//     name: "RAL 070 80 10",
-//     english: "Flax beige",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 194,
-//     B: 163,
-//     name: "RAL 070 80 20",
-//     english: "Buttercup yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 190,
-//     B: 145,
-//     name: "RAL 070 80 30",
-//     english: "Golden oat coloured",
-//     italian: ""
-//   },
-//   {
-//     R: 242,
-//     G: 189,
-//     B: 129,
-//     name: "RAL 070 80 40",
-//     english: "Apricot yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 250,
-//     G: 185,
-//     B: 107,
-//     name: "RAL 070 80 50",
-//     english: "Warm apricot",
-//     italian: ""
-//   },
-//   {
-//     R: 255,
-//     G: 183,
-//     B: 87,
-//     name: "RAL 070 80 60",
-//     english: "Golden rain yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 211,
-//     B: 203,
-//     name: "RAL 070 85 05",
-//     english: "Almond beige",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 210,
-//     B: 195,
-//     name: "RAL 070 85 10",
-//     english: "Silver thistle beige",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 207,
-//     B: 177,
-//     name: "RAL 070 85 20",
-//     english: "Sandalwood biege",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 205,
-//     B: 159,
-//     name: "RAL 070 85 30",
-//     english: "Hair blonde",
-//     italian: ""
-//   },
-//   {
-//     R: 236,
-//     G: 228,
-//     B: 218,
-//     name: "RAL 070 90 05",
-//     english: "Off white",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 226,
-//     B: 209,
-//     name: "RAL 070 90 10",
-//     english: "Light corn",
-//     italian: ""
-//   },
-//   {
-//     R: 252,
-//     G: 222,
-//     B: 190,
-//     name: "RAL 070 90 20",
-//     english: "Chalk yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 234,
-//     B: 226,
-//     name: "RAL 070 93 05",
-//     english: "Anemone white",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 91,
-//     B: 78,
-//     name: "RAL 075 40 10",
-//     english: "Tree dark brown",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 87,
-//     B: 60,
-//     name: "RAL 075 40 20",
-//     english: "Caraway brown",
-//     italian: ""
-//   },
-//   {
-//     R: 113,
-//     G: 84,
-//     B: 42,
-//     name: "RAL 075 40 30",
-//     english: "Bark brown",
-//     italian: ""
-//   },
-//   {
-//     R: 118,
-//     G: 84,
-//     B: 25,
-//     name: "RAL 075 40 38",
-//     english: "Lizard brown",
-//     italian: ""
-//   },
-//   {
-//     R: 127,
-//     G: 115,
-//     B: 101,
-//     name: "RAL 075 50 10",
-//     english: "Rye dough brown",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 112,
-//     B: 84,
-//     name: "RAL 075 50 20",
-//     english: "China cinnemon",
-//     italian: ""
-//   },
-//   {
-//     R: 144,
-//     G: 112,
-//     B: 67,
-//     name: "RAL 075 50 30",
-//     english: "Grog yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 150,
-//     G: 109,
-//     B: 49,
-//     name: "RAL 075 50 40",
-//     english: "Amber brown",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 106,
-//     B: 25,
-//     name: "RAL 075 50 50",
-//     english: "Cinnamon brown",
-//     italian: ""
-//   },
-//   {
-//     R: 155,
-//     G: 103,
-//     B: 0,
-//     name: "RAL 075 50 58",
-//     english: "Cumin ochre",
-//     italian: ""
-//   },
-//   {
-//     R: 155,
-//     G: 142,
-//     B: 127,
-//     name: "RAL 075 60 10",
-//     english: "Putty yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 139,
-//     B: 110,
-//     name: "RAL 075 60 20",
-//     english: "Walnut shell brown",
-//     italian: ""
-//   },
-//   {
-//     R: 171,
-//     G: 138,
-//     B: 93,
-//     name: "RAL 075 60 30",
-//     english: "Clay ochre",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 136,
-//     B: 77,
-//     name: "RAL 075 60 40",
-//     english: "Funchal yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 133,
-//     B: 52,
-//     name: "RAL 075 60 50",
-//     english: "Mango brown",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 130,
-//     B: 21,
-//     name: "RAL 075 60 60",
-//     english: "Tumeric brown",
-//     italian: ""
-//   },
-//   {
-//     R: 195,
-//     G: 128,
-//     B: 0,
-//     name: "RAL 075 60 70",
-//     english: "Bamboo brown",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 169,
-//     B: 154,
-//     name: "RAL 075 70 10",
-//     english: "Flax fibre grey",
-//     italian: ""
-//   },
-//   {
-//     R: 191,
-//     G: 166,
-//     B: 133,
-//     name: "RAL 075 70 20",
-//     english: "Light pumpkin brown",
-//     italian: ""
-//   },
-//   {
-//     R: 198,
-//     G: 164,
-//     B: 117,
-//     name: "RAL 075 70 30",
-//     english: "Golden thistle yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 161,
-//     B: 97,
-//     name: "RAL 075 70 40",
-//     english: "Brick yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 159,
-//     B: 79,
-//     name: "RAL 075 70 50",
-//     english: "Deep bamboo yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 157,
-//     B: 52,
-//     name: "RAL 075 70 60",
-//     english: "Intense yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 155,
-//     B: 15,
-//     name: "RAL 075 70 70",
-//     english: "Pumpkin yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 152,
-//     B: 0,
-//     name: "RAL 075 70 80",
-//     english: "Autumn yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 197,
-//     B: 180,
-//     name: "RAL 075 80 10",
-//     english: "Chalk beige",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 195,
-//     B: 162,
-//     name: "RAL 075 80 20",
-//     english: "Light corn yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 191,
-//     B: 142,
-//     name: "RAL 075 80 30",
-//     english: "Dark yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 234,
-//     G: 190,
-//     B: 126,
-//     name: "RAL 075 80 40",
-//     english: "Ash yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 186,
-//     B: 104,
-//     name: "RAL 075 80 50",
-//     english: "Orient yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 249,
-//     G: 184,
-//     B: 86,
-//     name: "RAL 075 80 60",
-//     english: "Carriage yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 223,
-//     G: 210,
-//     B: 194,
-//     name: "RAL 075 85 10",
-//     english: "Water lily white",
-//     italian: ""
-//   },
-//   {
-//     R: 233,
-//     G: 208,
-//     B: 176,
-//     name: "RAL 075 85 20",
-//     english: "Banana ice cream",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 206,
-//     B: 158,
-//     name: "RAL 075 85 30",
-//     english: "Maple beige",
-//     italian: ""
-//   },
-//   {
-//     R: 249,
-//     G: 204,
-//     B: 139,
-//     name: "RAL 075 85 40",
-//     english: "Goldenrod yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 243,
-//     G: 228,
-//     B: 208,
-//     name: "RAL 075 90 10",
-//     english: "Dessert cream",
-//     italian: ""
-//   },
-//   {
-//     R: 249,
-//     G: 223,
-//     B: 189,
-//     name: "RAL 075 90 20",
-//     english: "Butter white",
-//     italian: ""
-//   },
-//   {
-//     R: 237,
-//     G: 230,
-//     B: 220,
-//     name: "RAL 075 92 05",
-//     english: "Replaced by 075 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 234,
-//     B: 226,
-//     name: "RAL 075 93 05",
-//     english: "Vanilla white",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 45,
-//     B: 37,
-//     name: "RAL 080 20 05",
-//     english: "Night brown black",
-//     italian: ""
-//   },
-//   {
-//     R: 53,
-//     G: 44,
-//     B: 29,
-//     name: "RAL 080 20 10",
-//     english: "Vanilla bean brown",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 67,
-//     B: 59,
-//     name: "RAL 080 30 05",
-//     english: "Earth black",
-//     italian: ""
-//   },
-//   {
-//     R: 74,
-//     G: 64,
-//     B: 49,
-//     name: "RAL 080 30 10",
-//     english: "Olive black",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 63,
-//     B: 33,
-//     name: "RAL 080 30 20",
-//     english: "Clove yellow brown",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 63,
-//     B: 22,
-//     name: "RAL 080 30 26",
-//     english: "Smoked oak brown",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 93,
-//     B: 84,
-//     name: "RAL 080 40 05",
-//     english: "Office grey",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 92,
-//     B: 77,
-//     name: "RAL 080 40 10",
-//     english: "Stone brown",
-//     italian: ""
-//   },
-//   {
-//     R: 105,
-//     G: 88,
-//     B: 56,
-//     name: "RAL 080 40 20",
-//     english: "Pimento grain brown",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 87,
-//     B: 40,
-//     name: "RAL 080 40 30",
-//     english: "Ochre green",
-//     italian: ""
-//   },
-//   {
-//     R: 119,
-//     G: 87,
-//     B: 14,
-//     name: "RAL 080 40 40",
-//     english: "Autumn leaf brown",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 117,
-//     B: 108,
-//     name: "RAL 080 50 05",
-//     english: "Dusk grey",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 116,
-//     B: 101,
-//     name: "RAL 080 50 10",
-//     english: "Rye brown",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 115,
-//     B: 84,
-//     name: "RAL 080 50 20",
-//     english: "Greyish yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 138,
-//     G: 113,
-//     B: 64,
-//     name: "RAL 080 50 30",
-//     english: "Chili green",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 111,
-//     B: 46,
-//     name: "RAL 080 50 40",
-//     english: "Dirt yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 111,
-//     B: 24,
-//     name: "RAL 080 50 50",
-//     english: "Chamois yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 144,
-//     B: 135,
-//     name: "RAL 080 60 05",
-//     english: "Flannel grey",
-//     italian: ""
-//   },
-//   {
-//     R: 152,
-//     G: 141,
-//     B: 124,
-//     name: "RAL 080 60 10",
-//     english: "Light khaki",
-//     italian: ""
-//   },
-//   {
-//     R: 160,
-//     G: 140,
-//     B: 107,
-//     name: "RAL 080 60 20",
-//     english: "Spelt grain brown",
-//     italian: ""
-//   },
-//   {
-//     R: 166,
-//     G: 138,
-//     B: 88,
-//     name: "RAL 080 60 30",
-//     english: "Golden quartz ochre",
-//     italian: ""
-//   },
-//   {
-//     R: 170,
-//     G: 137,
-//     B: 74,
-//     name: "RAL 080 60 40",
-//     english: "Bamboo yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 176,
-//     G: 136,
-//     B: 52,
-//     name: "RAL 080 60 50",
-//     english: "Brass yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 135,
-//     B: 16,
-//     name: "RAL 080 60 60",
-//     english: "Fig mustard yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 184,
-//     G: 133,
-//     B: 0,
-//     name: "RAL 080 60 70",
-//     english: "Yellow gold",
-//     italian: ""
-//   },
-//   {
-//     R: 175,
-//     G: 170,
-//     B: 161,
-//     name: "RAL 080 70 05",
-//     english: "Garlic beige",
-//     italian: ""
-//   },
-//   {
-//     R: 179,
-//     G: 169,
-//     B: 152,
-//     name: "RAL 080 70 10",
-//     english: "Fine greige",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 167,
-//     B: 133,
-//     name: "RAL 080 70 20",
-//     english: "Yellow brown",
-//     italian: ""
-//   },
-//   {
-//     R: 193,
-//     G: 165,
-//     B: 116,
-//     name: "RAL 080 70 30",
-//     english: "Mustard seed beige",
-//     italian: ""
-//   },
-//   {
-//     R: 201,
-//     G: 165,
-//     B: 96,
-//     name: "RAL 080 70 40",
-//     english: "Diamond yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 163,
-//     B: 77,
-//     name: "RAL 080 70 50",
-//     english: "Antique brass",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 162,
-//     B: 53,
-//     name: "RAL 080 70 60",
-//     english: "Courgette yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 161,
-//     B: 24,
-//     name: "RAL 080 70 70",
-//     english: "Grapefruit yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 157,
-//     B: 0,
-//     name: "RAL 080 70 80",
-//     english: "Sunflower yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 156,
-//     B: 0,
-//     name: "RAL 080 70 88",
-//     english: "Arnica yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 204,
-//     G: 199,
-//     B: 189,
-//     name: "RAL 080 80 05",
-//     english: "Micaceous light grey",
-//     italian: ""
-//   },
-//   {
-//     R: 211,
-//     G: 198,
-//     B: 180,
-//     name: "RAL 080 80 10",
-//     english: "Pastel sand",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 195,
-//     B: 159,
-//     name: "RAL 080 80 20",
-//     english: "Natural rice beige",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 193,
-//     B: 141,
-//     name: "RAL 080 80 30",
-//     english: "Yellow beige",
-//     italian: ""
-//   },
-//   {
-//     R: 230,
-//     G: 192,
-//     B: 122,
-//     name: "RAL 080 80 40",
-//     english: "Straw yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 237,
-//     G: 191,
-//     B: 103,
-//     name: "RAL 080 80 50",
-//     english: "Mirabelle yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 243,
-//     G: 189,
-//     B: 78,
-//     name: "RAL 080 80 60",
-//     english: "Full yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 186,
-//     B: 54,
-//     name: "RAL 080 80 70",
-//     english: "Pear yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 250,
-//     G: 184,
-//     B: 6,
-//     name: "RAL 080 80 80",
-//     english: "Fire yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 254,
-//     G: 184,
-//     B: 0,
-//     name: "RAL 080 80 90",
-//     english: "Summer yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 211,
-//     B: 203,
-//     name: "RAL 080 85 05",
-//     english: "Wheat flower white",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 211,
-//     B: 194,
-//     name: "RAL 080 85 10",
-//     english: "Onion white",
-//     italian: ""
-//   },
-//   {
-//     R: 230,
-//     G: 209,
-//     B: 175,
-//     name: "RAL 080 85 20",
-//     english: "Nashi pear beige",
-//     italian: ""
-//   },
-//   {
-//     R: 237,
-//     G: 208,
-//     B: 156,
-//     name: "RAL 080 85 30",
-//     english: "Vespa yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 244,
-//     G: 206,
-//     B: 137,
-//     name: "RAL 080 85 40",
-//     english: "Puff pastry yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 237,
-//     G: 230,
-//     B: 217,
-//     name: "RAL 080 90 05",
-//     english: "Japanese white",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 225,
-//     B: 206,
-//     name: "RAL 080 90 10",
-//     english: "Mushroom white",
-//     italian: ""
-//   },
-//   {
-//     R: 243,
-//     G: 223,
-//     B: 186,
-//     name: "RAL 080 90 20",
-//     english: "Macadamia beige",
-//     italian: ""
-//   },
-//   {
-//     R: 252,
-//     G: 222,
-//     B: 169,
-//     name: "RAL 080 90 30",
-//     english: "Horseradish yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 240,
-//     G: 234,
-//     B: 225,
-//     name: "RAL 080 93 05",
-//     english: "Milk star white",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 93,
-//     B: 78,
-//     name: "RAL 085 40 10",
-//     english: "Mineral green",
-//     italian: ""
-//   },
-//   {
-//     R: 103,
-//     G: 90,
-//     B: 57,
-//     name: "RAL 085 40 20",
-//     english: "Khaki green",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 91,
-//     B: 46,
-//     name: "RAL 085 40 30",
-//     english: "Moss brown",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 116,
-//     B: 99,
-//     name: "RAL 085 50 10",
-//     english: "Coriander ochre",
-//     italian: ""
-//   },
-//   {
-//     R: 131,
-//     G: 116,
-//     B: 82,
-//     name: "RAL 085 50 20",
-//     english: "Pyrite slate green",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 116,
-//     B: 64,
-//     name: "RAL 085 50 30",
-//     english: "Sepia yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 138,
-//     G: 114,
-//     B: 45,
-//     name: "RAL 085 50 40",
-//     english: "Marshy green",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 113,
-//     B: 21,
-//     name: "RAL 085 50 50",
-//     english: "Honey yellow green",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 143,
-//     B: 127,
-//     name: "RAL 085 60 10",
-//     english: "Matte olive",
-//     italian: ""
-//   },
-//   {
-//     R: 158,
-//     G: 142,
-//     B: 107,
-//     name: "RAL 085 60 20",
-//     english: "Pond green",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 141,
-//     B: 89,
-//     name: "RAL 085 60 30",
-//     english: "Wood green",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 140,
-//     B: 70,
-//     name: "RAL 085 60 40",
-//     english: "Lichen green",
-//     italian: ""
-//   },
-//   {
-//     R: 171,
-//     G: 140,
-//     B: 49,
-//     name: "RAL 085 60 50",
-//     english: "Mineral umber",
-//     italian: ""
-//   },
-//   {
-//     R: 176,
-//     G: 139,
-//     B: 16,
-//     name: "RAL 085 60 60",
-//     english: "Loden yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 169,
-//     B: 150,
-//     name: "RAL 085 70 10",
-//     english: "Raffia greige",
-//     italian: ""
-//   },
-//   {
-//     R: 185,
-//     G: 168,
-//     B: 133,
-//     name: "RAL 085 70 20",
-//     english: "Feldspar grey",
-//     italian: ""
-//   },
-//   {
-//     R: 190,
-//     G: 168,
-//     B: 111,
-//     name: "RAL 085 70 30",
-//     english: "Hay yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 194,
-//     G: 166,
-//     B: 94,
-//     name: "RAL 085 70 40",
-//     english: "Winter pear beige",
-//     italian: ""
-//   },
-//   {
-//     R: 199,
-//     G: 165,
-//     B: 72,
-//     name: "RAL 085 70 50",
-//     english: "Autumn apple yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 201,
-//     G: 164,
-//     B: 45,
-//     name: "RAL 085 70 60",
-//     english: "Pitmaston pear yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 163,
-//     B: 2,
-//     name: "RAL 085 70 70",
-//     english: "Immortelle yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 210,
-//     G: 165,
-//     B: 0,
-//     name: "RAL 085 70 75",
-//     english: "Golden beryl yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 197,
-//     B: 177,
-//     name: "RAL 085 80 10",
-//     english: "Velvet beige",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 196,
-//     B: 159,
-//     name: "RAL 085 80 20",
-//     english: "Mineral beige",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 196,
-//     B: 139,
-//     name: "RAL 085 80 30",
-//     english: "Moonlight yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 195,
-//     B: 120,
-//     name: "RAL 085 80 40",
-//     english: "Table pear yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 228,
-//     G: 193,
-//     B: 99,
-//     name: "RAL 085 80 50",
-//     english: "Fruit yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 192,
-//     B: 76,
-//     name: "RAL 085 80 60",
-//     english: "Adonis rose yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 190,
-//     B: 48,
-//     name: "RAL 085 80 70",
-//     english: "Barberry yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 237,
-//     G: 188,
-//     B: 0,
-//     name: "RAL 085 80 80",
-//     english: "Dandelion yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 188,
-//     B: 0,
-//     name: "RAL 085 80 85",
-//     english: "Decor yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 211,
-//     B: 194,
-//     name: "RAL 085 85 10",
-//     english: "Alabaster white",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 210,
-//     B: 175,
-//     name: "RAL 085 85 20",
-//     english: "Light blond",
-//     italian: ""
-//   },
-//   {
-//     R: 233,
-//     G: 209,
-//     B: 156,
-//     name: "RAL 085 85 30",
-//     english: "Willow-flower yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 209,
-//     B: 136,
-//     name: "RAL 085 85 40",
-//     english: "Light ginger yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 239,
-//     G: 229,
-//     B: 209,
-//     name: "RAL 085 90 10",
-//     english: "Tulip white",
-//     italian: ""
-//   },
-//   {
-//     R: 244,
-//     G: 225,
-//     B: 186,
-//     name: "RAL 085 90 20",
-//     english: "Alpine berry yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 248,
-//     G: 222,
-//     B: 166,
-//     name: "RAL 085 90 30",
-//     english: "China clay yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 239,
-//     G: 234,
-//     B: 225,
-//     name: "RAL 085 93 05",
-//     english: "Vintage white",
-//     italian: ""
-//   },
-//   {
-//     R: 74,
-//     G: 68,
-//     B: 51,
-//     name: "RAL 090 30 10",
-//     english: "Limonite brown",
-//     italian: ""
-//   },
-//   {
-//     R: 78,
-//     G: 68,
-//     B: 33,
-//     name: "RAL 090 30 20",
-//     english: "Bark green",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 94,
-//     B: 78,
-//     name: "RAL 090 40 10",
-//     english: "Boulder brown",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 92,
-//     B: 57,
-//     name: "RAL 090 40 20",
-//     english: "Plum green",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 95,
-//     B: 44,
-//     name: "RAL 090 40 30",
-//     english: "Vine leaf green",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 118,
-//     B: 102,
-//     name: "RAL 090 50 10",
-//     english: "Graphite grey green",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 117,
-//     B: 83,
-//     name: "RAL 090 50 20",
-//     english: "Pesto green",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 119,
-//     B: 63,
-//     name: "RAL 090 50 30",
-//     english: "Giant cactus green",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 118,
-//     B: 44,
-//     name: "RAL 090 50 40",
-//     english: "Aubergine green",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 143,
-//     B: 127,
-//     name: "RAL 090 60 10",
-//     english: "Oyster green",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 143,
-//     B: 107,
-//     name: "RAL 090 60 20",
-//     english: "Manzanilla olive",
-//     italian: ""
-//   },
-//   {
-//     R: 158,
-//     G: 143,
-//     B: 92,
-//     name: "RAL 090 60 30",
-//     english: "Camouflage olive",
-//     italian: ""
-//   },
-//   {
-//     R: 160,
-//     G: 142,
-//     B: 68,
-//     name: "RAL 090 60 40",
-//     english: "Laurel green",
-//     italian: ""
-//   },
-//   {
-//     R: 160,
-//     G: 140,
-//     B: 43,
-//     name: "RAL 090 60 50",
-//     english: "Faint green",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 144,
-//     B: 11,
-//     name: "RAL 090 60 60",
-//     english: "Titanite yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 171,
-//     B: 152,
-//     name: "RAL 090 70 10",
-//     english: "Dusty yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 169,
-//     B: 130,
-//     name: "RAL 090 70 20",
-//     english: "Barbados beige",
-//     italian: ""
-//   },
-//   {
-//     R: 184,
-//     G: 168,
-//     B: 114,
-//     name: "RAL 090 70 30",
-//     english: "Rhubarb leaf green",
-//     italian: ""
-//   },
-//   {
-//     R: 190,
-//     G: 171,
-//     B: 93,
-//     name: "RAL 090 70 40",
-//     english: "Hedgehog cactus yellow green",
-//     italian: ""
-//   },
-//   {
-//     R: 193,
-//     G: 170,
-//     B: 73,
-//     name: "RAL 090 70 50",
-//     english: "Gossebery yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 195,
-//     G: 169,
-//     B: 45,
-//     name: "RAL 090 70 60",
-//     english: "Bud green",
-//     italian: ""
-//   },
-//   {
-//     R: 197,
-//     G: 169,
-//     B: 0,
-//     name: "RAL 090 70 70",
-//     english: "Catkin yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 201,
-//     G: 168,
-//     B: 0,
-//     name: "RAL 090 70 80",
-//     english: "Prehnite yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 198,
-//     B: 176,
-//     name: "RAL 090 80 10",
-//     english: "Light beige",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 196,
-//     B: 158,
-//     name: "RAL 090 80 20",
-//     english: "Champagne beige",
-//     italian: ""
-//   },
-//   {
-//     R: 215,
-//     G: 199,
-//     B: 142,
-//     name: "RAL 090 80 30",
-//     english: "Lemon sorbet yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 199,
-//     B: 124,
-//     name: "RAL 090 80 40",
-//     english: "Blossom yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 198,
-//     B: 97,
-//     name: "RAL 090 80 50",
-//     english: "Tasman honey yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 196,
-//     B: 69,
-//     name: "RAL 090 80 60",
-//     english: "New yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 229,
-//     G: 198,
-//     B: 53,
-//     name: "RAL 090 80 70",
-//     english: "Fashion yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 228,
-//     G: 194,
-//     B: 0,
-//     name: "RAL 090 80 80",
-//     english: "Poster yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 233,
-//     G: 195,
-//     B: 0,
-//     name: "RAL 090 80 90",
-//     english: "Contrasting yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 215,
-//     G: 212,
-//     B: 203,
-//     name: "RAL 090 85 05",
-//     english: "Pepper white",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 212,
-//     B: 193,
-//     name: "RAL 090 85 10",
-//     english: "Paella natural white",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 211,
-//     B: 174,
-//     name: "RAL 090 85 20",
-//     english: "Cider yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 228,
-//     G: 211,
-//     B: 155,
-//     name: "RAL 090 85 30",
-//     english: "Palm sugar yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 211,
-//     B: 136,
-//     name: "RAL 090 85 40",
-//     english: "March yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 211,
-//     B: 115,
-//     name: "RAL 090 85 50",
-//     english: "Oriole yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 233,
-//     G: 228,
-//     B: 216,
-//     name: "RAL 090 90 05",
-//     english: "Mazipan white",
-//     italian: ""
-//   },
-//   {
-//     R: 234,
-//     G: 229,
-//     B: 208,
-//     name: "RAL 090 90 10",
-//     english: "Primrose white",
-//     italian: ""
-//   },
-//   {
-//     R: 240,
-//     G: 228,
-//     B: 186,
-//     name: "RAL 090 90 20",
-//     english: "Cream yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 243,
-//     G: 226,
-//     B: 168,
-//     name: "RAL 090 90 30",
-//     english: "Wax yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 248,
-//     G: 226,
-//     B: 147,
-//     name: "RAL 090 90 40",
-//     english: "Lemon cream",
-//     italian: ""
-//   },
-//   {
-//     R: 248,
-//     G: 223,
-//     B: 125,
-//     name: "RAL 090 90 50",
-//     english: "Tiger yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 248,
-//     G: 220,
-//     B: 102,
-//     name: "RAL 090 90 60",
-//     english: "Sunrose yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 235,
-//     B: 225,
-//     name: "RAL 090 93 05",
-//     english: "Cream white",
-//     italian: ""
-//   },
-//   {
-//     R: 97,
-//     G: 94,
-//     B: 76,
-//     name: "RAL 095 40 10",
-//     english: "Shady green",
-//     italian: ""
-//   },
-//   {
-//     R: 99,
-//     G: 92,
-//     B: 55,
-//     name: "RAL 095 40 20",
-//     english: "Forest green",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 92,
-//     B: 39,
-//     name: "RAL 095 40 30",
-//     english: "Bean green",
-//     italian: ""
-//   },
-//   {
-//     R: 121,
-//     G: 117,
-//     B: 100,
-//     name: "RAL 095 50 10",
-//     english: "Dull olive",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 118,
-//     B: 83,
-//     name: "RAL 095 50 20",
-//     english: "Cabbage green",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 119,
-//     B: 64,
-//     name: "RAL 095 50 30",
-//     english: "Caper green",
-//     italian: ""
-//   },
-//   {
-//     R: 131,
-//     G: 119,
-//     B: 42,
-//     name: "RAL 095 50 40",
-//     english: "Garden lettuce green",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 119,
-//     B: 18,
-//     name: "RAL 095 50 50",
-//     english: "Artichoke green",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 144,
-//     B: 126,
-//     name: "RAL 095 60 10",
-//     english: "Pale green grey",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 144,
-//     B: 108,
-//     name: "RAL 095 60 20",
-//     english: "Pale green",
-//     italian: ""
-//   },
-//   {
-//     R: 155,
-//     G: 145,
-//     B: 88,
-//     name: "RAL 095 60 30",
-//     english: "Cypress green",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 144,
-//     B: 68,
-//     name: "RAL 095 60 40",
-//     english: "Grape green",
-//     italian: ""
-//   },
-//   {
-//     R: 157,
-//     G: 146,
-//     B: 46,
-//     name: "RAL 095 60 50",
-//     english: "Gooseberry green",
-//     italian: ""
-//   },
-//   {
-//     R: 155,
-//     G: 142,
-//     B: 9,
-//     name: "RAL 095 60 60",
-//     english: "Guava green",
-//     italian: ""
-//   },
-//   {
-//     R: 157,
-//     G: 143,
-//     B: 0,
-//     name: "RAL 095 60 70",
-//     english: "Romaine green",
-//     italian: ""
-//   },
-//   {
-//     R: 176,
-//     G: 171,
-//     B: 152,
-//     name: "RAL 095 70 10",
-//     english: "Sand grey",
-//     italian: ""
-//   },
-//   {
-//     R: 180,
-//     G: 172,
-//     B: 135,
-//     name: "RAL 095 70 20",
-//     english: "Crocodile green",
-//     italian: ""
-//   },
-//   {
-//     R: 182,
-//     G: 172,
-//     B: 116,
-//     name: "RAL 095 70 30",
-//     english: "Chicory green",
-//     italian: ""
-//   },
-//   {
-//     R: 184,
-//     G: 171,
-//     B: 92,
-//     name: "RAL 095 70 40",
-//     english: "Banana green",
-//     italian: ""
-//   },
-//   {
-//     R: 184,
-//     G: 171,
-//     B: 73,
-//     name: "RAL 095 70 50",
-//     english: "Star fruit yellow green",
-//     italian: ""
-//   },
-//   {
-//     R: 184,
-//     G: 170,
-//     B: 48,
-//     name: "RAL 095 70 60",
-//     english: "Papaya yellow green",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 171,
-//     B: 0,
-//     name: "RAL 095 70 70",
-//     english: "Bronze green",
-//     italian: ""
-//   },
-//   {
-//     R: 204,
-//     G: 199,
-//     B: 180,
-//     name: "RAL 095 80 10",
-//     english: "Sapphire light yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 199,
-//     B: 161,
-//     name: "RAL 095 80 20",
-//     english: "Pale olive",
-//     italian: ""
-//   },
-//   {
-//     R: 213,
-//     G: 202,
-//     B: 142,
-//     name: "RAL 095 80 30",
-//     english: "Asparagus yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 215,
-//     G: 201,
-//     B: 121,
-//     name: "RAL 095 80 40",
-//     english: "Pea green",
-//     italian: ""
-//   },
-//   {
-//     R: 214,
-//     G: 200,
-//     B: 100,
-//     name: "RAL 095 80 50",
-//     english: "Williams pear yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 197,
-//     B: 75,
-//     name: "RAL 095 80 60",
-//     english: "Greenish yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 215,
-//     G: 199,
-//     B: 48,
-//     name: "RAL 095 80 70",
-//     english: "Mimosa yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 210,
-//     G: 194,
-//     B: 0,
-//     name: "RAL 095 80 80",
-//     english: "Sorbet yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 212,
-//     B: 193,
-//     name: "RAL 095 85 10",
-//     english: "Salsify white",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 213,
-//     B: 174,
-//     name: "RAL 095 85 20",
-//     english: "Dull light yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 223,
-//     G: 213,
-//     B: 155,
-//     name: "RAL 095 85 30",
-//     english: "Leaf yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 226,
-//     G: 213,
-//     B: 136,
-//     name: "RAL 095 85 40",
-//     english: "Natural yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 213,
-//     B: 115,
-//     name: "RAL 095 85 50",
-//     english: "Sport yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 234,
-//     G: 228,
-//     B: 206,
-//     name: "RAL 095 90 10",
-//     english: "Atlas white",
-//     italian: ""
-//   },
-//   {
-//     R: 237,
-//     G: 228,
-//     B: 188,
-//     name: "RAL 095 90 20",
-//     english: "Pearl yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 227,
-//     B: 167,
-//     name: "RAL 095 90 30",
-//     english: "Lemon ice cream yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 241,
-//     G: 226,
-//     B: 144,
-//     name: "RAL 095 90 40",
-//     english: "Fresh yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 247,
-//     G: 228,
-//     B: 127,
-//     name: "RAL 095 90 50",
-//     english: "Luminescent yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 249,
-//     G: 228,
-//     B: 108,
-//     name: "RAL 095 90 59",
-//     english: "Dymanic yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 237,
-//     G: 235,
-//     B: 225,
-//     name: "RAL 095 93 05",
-//     english: "Crepe silk white",
-//     italian: ""
-//   },
-//   {
-//     R: 48,
-//     G: 47,
-//     B: 39,
-//     name: "RAL 100 20 05",
-//     english: "Night green",
-//     italian: ""
-//   },
-//   {
-//     R: 68,
-//     G: 67,
-//     B: 59,
-//     name: "RAL 100 30 05",
-//     english: "Volcanic stone green",
-//     italian: ""
-//   },
-//   {
-//     R: 69,
-//     G: 66,
-//     B: 48,
-//     name: "RAL 100 30 10",
-//     english: "Vermilion green",
-//     italian: ""
-//   },
-//   {
-//     R: 73,
-//     G: 70,
-//     B: 35,
-//     name: "RAL 100 30 20",
-//     english: "Uniform green",
-//     italian: ""
-//   },
-//   {
-//     R: 92,
-//     G: 92,
-//     B: 83,
-//     name: "RAL 100 40 05",
-//     english: "Doves grey",
-//     italian: ""
-//   },
-//   {
-//     R: 95,
-//     G: 94,
-//     B: 76,
-//     name: "RAL 100 40 10",
-//     english: "Slick green",
-//     italian: ""
-//   },
-//   {
-//     R: 96,
-//     G: 94,
-//     B: 59,
-//     name: "RAL 100 40 20",
-//     english: "Broccoli green",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 94,
-//     B: 37,
-//     name: "RAL 100 40 30",
-//     english: "High forest green",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 94,
-//     B: 11,
-//     name: "RAL 100 40 40",
-//     english: "Brussels sprout green",
-//     italian: ""
-//   },
-//   {
-//     R: 119,
-//     G: 118,
-//     B: 109,
-//     name: "RAL 100 50 05",
-//     english: "Forest floor khaki",
-//     italian: ""
-//   },
-//   {
-//     R: 120,
-//     G: 118,
-//     B: 98,
-//     name: "RAL 100 50 10",
-//     english: "Lapwing grey green",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 120,
-//     B: 83,
-//     name: "RAL 100 50 20",
-//     english: "Green woodpecker olive",
-//     italian: ""
-//   },
-//   {
-//     R: 121,
-//     G: 119,
-//     B: 63,
-//     name: "RAL 100 50 30",
-//     english: "Steppe green",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 119,
-//     B: 42,
-//     name: "RAL 100 50 40",
-//     english: "Faience green",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 119,
-//     B: 14,
-//     name: "RAL 100 50 50",
-//     english: "Tool green",
-//     italian: ""
-//   },
-//   {
-//     R: 146,
-//     G: 145,
-//     B: 135,
-//     name: "RAL 100 60 05",
-//     english: "Smokey grey green",
-//     italian: ""
-//   },
-//   {
-//     R: 144,
-//     G: 143,
-//     B: 124,
-//     name: "RAL 100 60 10",
-//     english: "Olivine grey",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 146,
-//     B: 108,
-//     name: "RAL 100 60 20",
-//     english: "Grey-headed woodpecker green",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 145,
-//     B: 87,
-//     name: "RAL 100 60 30",
-//     english: "Cardamom green",
-//     italian: ""
-//   },
-//   {
-//     R: 150,
-//     G: 147,
-//     B: 69,
-//     name: "RAL 100 60 40",
-//     english: "Lettuce green",
-//     italian: ""
-//   },
-//   {
-//     R: 150,
-//     G: 148,
-//     B: 45,
-//     name: "RAL 100 60 50",
-//     english: "Art nouveau green",
-//     italian: ""
-//   },
-//   {
-//     R: 145,
-//     G: 143,
-//     B: 0,
-//     name: "RAL 100 60 60",
-//     english: "Smoothie green",
-//     italian: ""
-//   },
-//   {
-//     R: 173,
-//     G: 173,
-//     B: 163,
-//     name: "RAL 100 70 05",
-//     english: "Smokey white",
-//     italian: ""
-//   },
-//   {
-//     R: 174,
-//     G: 172,
-//     B: 152,
-//     name: "RAL 100 70 10",
-//     english: "Anise grey yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 176,
-//     G: 172,
-//     B: 133,
-//     name: "RAL 100 70 20",
-//     english: "Sand brown",
-//     italian: ""
-//   },
-//   {
-//     R: 175,
-//     G: 172,
-//     B: 113,
-//     name: "RAL 100 70 30",
-//     english: "Hippie green",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 175,
-//     B: 96,
-//     name: "RAL 100 70 40",
-//     english: "Linden green",
-//     italian: ""
-//   },
-//   {
-//     R: 176,
-//     G: 173,
-//     B: 74,
-//     name: "RAL 100 70 50",
-//     english: "Dill green",
-//     italian: ""
-//   },
-//   {
-//     R: 174,
-//     G: 173,
-//     B: 47,
-//     name: "RAL 100 70 60",
-//     english: "New green",
-//     italian: ""
-//   },
-//   {
-//     R: 199,
-//     G: 199,
-//     B: 188,
-//     name: "RAL 100 80 05",
-//     english: "Natural grey",
-//     italian: ""
-//   },
-//   {
-//     R: 202,
-//     G: 200,
-//     B: 177,
-//     name: "RAL 100 80 10",
-//     english: "Pale beige",
-//     italian: ""
-//   },
-//   {
-//     R: 207,
-//     G: 202,
-//     B: 161,
-//     name: "RAL 100 80 20",
-//     english: "Soft green",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 201,
-//     B: 140,
-//     name: "RAL 100 80 30",
-//     english: "Silver green",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 202,
-//     B: 120,
-//     name: "RAL 100 80 40",
-//     english: "March tulip green",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 202,
-//     B: 99,
-//     name: "RAL 100 80 50",
-//     english: "Light olive",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 204,
-//     B: 73,
-//     name: "RAL 100 80 60",
-//     english: "Advertisment green",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 204,
-//     B: 47,
-//     name: "RAL 100 80 70",
-//     english: "LED green",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 205,
-//     B: 0,
-//     name: "RAL 100 80 80",
-//     english: "March green",
-//     italian: ""
-//   },
-//   {
-//     R: 214,
-//     G: 213,
-//     B: 203,
-//     name: "RAL 100 85 05",
-//     english: "Celery white",
-//     italian: ""
-//   },
-//   {
-//     R: 215,
-//     G: 213,
-//     B: 194,
-//     name: "RAL 100 85 10",
-//     english: "Palm heart cream",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 214,
-//     B: 175,
-//     name: "RAL 100 85 20",
-//     english: "Beige green",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 214,
-//     B: 156,
-//     name: "RAL 100 85 30",
-//     english: "Crystal yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 231,
-//     G: 229,
-//     B: 216,
-//     name: "RAL 100 90 05",
-//     english: "Brilliant yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 229,
-//     B: 207,
-//     name: "RAL 100 90 10",
-//     english: "Elderberry white",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 229,
-//     B: 187,
-//     name: "RAL 100 90 20",
-//     english: "Designer cream yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 234,
-//     G: 228,
-//     B: 165,
-//     name: "RAL 100 90 30",
-//     english: "Boxwood yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 237,
-//     G: 231,
-//     B: 145,
-//     name: "RAL 100 90 40",
-//     english: "Primrose yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 229,
-//     B: 124,
-//     name: "RAL 100 90 50",
-//     english: "Spring yellow",
-//     italian: ""
-//   },
-//   {
-//     R: 236,
-//     G: 235,
-//     B: 225,
-//     name: "RAL 100 93 05",
-//     english: "Fog white",
-//     italian: ""
-//   },
-//   {
-//     R: 46,
-//     G: 47,
-//     B: 31,
-//     name: "RAL 110 20 10",
-//     english: "Metal construction green",
-//     italian: ""
-//   },
-//   {
-//     R: 68,
-//     G: 70,
-//     B: 53,
-//     name: "RAL 110 30 10",
-//     english: "Dark olive green",
-//     italian: ""
-//   },
-//   {
-//     R: 68,
-//     G: 72,
-//     B: 38,
-//     name: "RAL 110 30 20",
-//     english: "Nori seaweed green",
-//     italian: ""
-//   },
-//   {
-//     R: 93,
-//     G: 95,
-//     B: 77,
-//     name: "RAL 110 40 10",
-//     english: "Stump green",
-//     italian: ""
-//   },
-//   {
-//     R: 89,
-//     G: 94,
-//     B: 56,
-//     name: "RAL 110 40 20",
-//     english: "Antique green",
-//     italian: ""
-//   },
-//   {
-//     R: 90,
-//     G: 96,
-//     B: 41,
-//     name: "RAL 110 40 30",
-//     english: "Gardener green",
-//     italian: ""
-//   },
-//   {
-//     R: 88,
-//     G: 98,
-//     B: 21,
-//     name: "RAL 110 40 40",
-//     english: "Kirchner green",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 119,
-//     B: 100,
-//     name: "RAL 110 50 10",
-//     english: "November green",
-//     italian: ""
-//   },
-//   {
-//     R: 115,
-//     G: 121,
-//     B: 83,
-//     name: "RAL 110 50 20",
-//     english: "Alexandrite green",
-//     italian: ""
-//   },
-//   {
-//     R: 115,
-//     G: 123,
-//     B: 67,
-//     name: "RAL 110 50 30",
-//     english: "Plant green",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 123,
-//     B: 43,
-//     name: "RAL 110 50 40",
-//     english: "Ripe green",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 122,
-//     B: 13,
-//     name: "RAL 110 50 50",
-//     english: "Portuguese green",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 125,
-//     B: 0,
-//     name: "RAL 110 50 55",
-//     english: "Flag green",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 145,
-//     B: 126,
-//     name: "RAL 110 60 10",
-//     english: "Grey green",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 146,
-//     B: 108,
-//     name: "RAL 110 60 20",
-//     english: "Peapod green",
-//     italian: ""
-//   },
-//   {
-//     R: 141,
-//     G: 150,
-//     B: 94,
-//     name: "RAL 110 60 30",
-//     english: "Indian green",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 150,
-//     B: 72,
-//     name: "RAL 110 60 40",
-//     english: "Winterpea green",
-//     italian: ""
-//   },
-//   {
-//     R: 134,
-//     G: 151,
-//     B: 49,
-//     name: "RAL 110 60 50",
-//     english: "Airline green",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 154,
-//     B: 18,
-//     name: "RAL 110 60 60",
-//     english: "Woodfuff green",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 154,
-//     B: 0,
-//     name: "RAL 110 60 65",
-//     english: "Traffic light green",
-//     italian: ""
-//   },
-//   {
-//     R: 171,
-//     G: 173,
-//     B: 152,
-//     name: "RAL 110 70 10",
-//     english: "Chinese tea green",
-//     italian: ""
-//   },
-//   {
-//     R: 168,
-//     G: 174,
-//     B: 134,
-//     name: "RAL 110 70 20",
-//     english: "Wall green",
-//     italian: ""
-//   },
-//   {
-//     R: 164,
-//     G: 174,
-//     B: 116,
-//     name: "RAL 110 70 30",
-//     english: "Wasabi green",
-//     italian: ""
-//   },
-//   {
-//     R: 164,
-//     G: 177,
-//     B: 97,
-//     name: "RAL 110 70 40",
-//     english: "April green",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 180,
-//     B: 79,
-//     name: "RAL 110 70 50",
-//     english: "Delaunay green",
-//     italian: ""
-//   },
-//   {
-//     R: 158,
-//     G: 179,
-//     B: 53,
-//     name: "RAL 110 70 60",
-//     english: "Lime green",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 178,
-//     B: 0,
-//     name: "RAL 110 70 70",
-//     english: "Chlorophyll green",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 176,
-//     B: 0,
-//     name: "RAL 110 70 77",
-//     english: "Marker green",
-//     italian: ""
-//   },
-//   {
-//     R: 195,
-//     G: 198,
-//     B: 179,
-//     name: "RAL 110 80 10",
-//     english: "Spring grey",
-//     italian: ""
-//   },
-//   {
-//     R: 197,
-//     G: 202,
-//     B: 161,
-//     name: "RAL 110 80 20",
-//     english: "Mint ice cream",
-//     italian: ""
-//   },
-//   {
-//     R: 195,
-//     G: 204,
-//     B: 141,
-//     name: "RAL 110 80 30",
-//     english: "Springtide green",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 206,
-//     B: 124,
-//     name: "RAL 110 80 40",
-//     english: "Lime sorbet green",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 208,
-//     B: 103,
-//     name: "RAL 110 80 50",
-//     english: "Easter green",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 209,
-//     B: 84,
-//     name: "RAL 110 80 60",
-//     english: "Clown green",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 209,
-//     B: 51,
-//     name: "RAL 110 80 70",
-//     english: "Juice green",
-//     italian: ""
-//   },
-//   {
-//     R: 211,
-//     G: 214,
-//     B: 194,
-//     name: "RAL 110 85 10",
-//     english: "Veltliner white",
-//     italian: ""
-//   },
-//   {
-//     R: 210,
-//     G: 216,
-//     B: 176,
-//     name: "RAL 110 85 20",
-//     english: "Kohlrabi green",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 217,
-//     B: 158,
-//     name: "RAL 110 85 30",
-//     english: "Burgundy grey",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 219,
-//     B: 139,
-//     name: "RAL 110 85 40",
-//     english: "Wax green",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 221,
-//     B: 120,
-//     name: "RAL 110 85 50",
-//     english: "Sprout green",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 227,
-//     B: 216,
-//     name: "RAL 110 90 05",
-//     english: "Cotton white",
-//     italian: ""
-//   },
-//   {
-//     R: 228,
-//     G: 230,
-//     B: 208,
-//     name: "RAL 110 90 10",
-//     english: "Light fern green",
-//     italian: ""
-//   },
-//   {
-//     R: 226,
-//     G: 231,
-//     B: 187,
-//     name: "RAL 110 90 20",
-//     english: "Lily scent green",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 231,
-//     B: 167,
-//     name: "RAL 110 90 30",
-//     english: "Kiwi ice crean green",
-//     italian: ""
-//   },
-//   {
-//     R: 221,
-//     G: 232,
-//     B: 158,
-//     name: "RAL 110 90 35",
-//     english: "Withdrawn from range",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 233,
-//     B: 149,
-//     name: "RAL 110 90 40",
-//     english: "Lime juice green",
-//     italian: ""
-//   },
-//   {
-//     R: 231,
-//     G: 232,
-//     B: 219,
-//     name: "RAL 110 92 05",
-//     english: "Replaced by 110 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 236,
-//     B: 226,
-//     name: "RAL 110 93 05",
-//     english: "Raffia white",
-//     italian: ""
-//   },
-//   {
-//     R: 243,
-//     G: 244,
-//     B: 240,
-//     name: "RAL 110 96 02",
-//     english: "Laundry white",
-//     italian: ""
-//   },
-//   {
-//     R: 64,
-//     G: 67,
-//     B: 58,
-//     name: "RAL 120 30 05",
-//     english: "Racing green",
-//     italian: ""
-//   },
-//   {
-//     R: 63,
-//     G: 70,
-//     B: 52,
-//     name: "RAL 120 30 10",
-//     english: "Country house green",
-//     italian: ""
-//   },
-//   {
-//     R: 59,
-//     G: 72,
-//     B: 37,
-//     name: "RAL 120 30 20",
-//     english: "Avocado dark green",
-//     italian: ""
-//   },
-//   {
-//     R: 90,
-//     G: 92,
-//     B: 83,
-//     name: "RAL 120 40 05",
-//     english: "English green",
-//     italian: ""
-//   },
-//   {
-//     R: 88,
-//     G: 94,
-//     B: 76,
-//     name: "RAL 120 40 10",
-//     english: "Almond green",
-//     italian: ""
-//   },
-//   {
-//     R: 83,
-//     G: 96,
-//     B: 61,
-//     name: "RAL 120 40 20",
-//     english: "Cactus green",
-//     italian: ""
-//   },
-//   {
-//     R: 81,
-//     G: 99,
-//     B: 46,
-//     name: "RAL 120 40 30",
-//     english: "Basil green",
-//     italian: ""
-//   },
-//   {
-//     R: 73,
-//     G: 100,
-//     B: 18,
-//     name: "RAL 120 40 40",
-//     english: "Pepper green",
-//     italian: ""
-//   },
-//   {
-//     R: 116,
-//     G: 118,
-//     B: 108,
-//     name: "RAL 120 50 05",
-//     english: "Smoke green",
-//     italian: ""
-//   },
-//   {
-//     R: 113,
-//     G: 120,
-//     B: 102,
-//     name: "RAL 120 50 10",
-//     english: "Velvet green grey",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 124,
-//     B: 85,
-//     name: "RAL 120 50 20",
-//     english: "Parrot green",
-//     italian: ""
-//   },
-//   {
-//     R: 106,
-//     G: 124,
-//     B: 68,
-//     name: "RAL 120 50 30",
-//     english: "Quartz green",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 126,
-//     B: 53,
-//     name: "RAL 120 50 40",
-//     english: "Hedge green",
-//     italian: ""
-//   },
-//   {
-//     R: 93,
-//     G: 127,
-//     B: 27,
-//     name: "RAL 120 50 50",
-//     english: "Birch leaf green",
-//     italian: ""
-//   },
-//   {
-//     R: 145,
-//     G: 148,
-//     B: 137,
-//     name: "RAL 120 60 05",
-//     english: "Bluish grey",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 146,
-//     B: 127,
-//     name: "RAL 120 60 10",
-//     english: "Lavender leaf grey",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 148,
-//     B: 110,
-//     name: "RAL 120 60 20",
-//     english: "Cider pear green",
-//     italian: ""
-//   },
-//   {
-//     R: 131,
-//     G: 153,
-//     B: 95,
-//     name: "RAL 120 60 30",
-//     english: "Vesuvian green",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 154,
-//     B: 75,
-//     name: "RAL 120 60 40",
-//     english: "Bamboo grass green",
-//     italian: ""
-//   },
-//   {
-//     R: 119,
-//     G: 156,
-//     B: 55,
-//     name: "RAL 120 60 50",
-//     english: "Aloe vera green",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 155,
-//     B: 29,
-//     name: "RAL 120 60 60",
-//     english: "Mamba green",
-//     italian: ""
-//   },
-//   {
-//     R: 109,
-//     G: 157,
-//     B: 20,
-//     name: "RAL 120 60 63",
-//     english: "Luminescent green",
-//     italian: ""
-//   },
-//   {
-//     R: 170,
-//     G: 173,
-//     B: 162,
-//     name: "RAL 120 70 05",
-//     english: "Laurel grey",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 173,
-//     B: 153,
-//     name: "RAL 120 70 10",
-//     english: "Nile green",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 176,
-//     B: 136,
-//     name: "RAL 120 70 20",
-//     english: "Filigree green",
-//     italian: ""
-//   },
-//   {
-//     R: 158,
-//     G: 180,
-//     B: 121,
-//     name: "RAL 120 70 30",
-//     english: "Serpentine green",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 182,
-//     B: 102,
-//     name: "RAL 120 70 40",
-//     english: "Light birch green",
-//     italian: ""
-//   },
-//   {
-//     R: 145,
-//     G: 183,
-//     B: 81,
-//     name: "RAL 120 70 50",
-//     english: "Clematis green",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 180,
-//     B: 58,
-//     name: "RAL 120 70 60",
-//     english: "Tourmaline green",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 186,
-//     B: 34,
-//     name: "RAL 120 70 70",
-//     english: "Cocktail green",
-//     italian: ""
-//   },
-//   {
-//     R: 127,
-//     G: 181,
-//     B: 0,
-//     name: "RAL 120 70 75",
-//     english: "Brilliant green",
-//     italian: ""
-//   },
-//   {
-//     R: 197,
-//     G: 200,
-//     B: 190,
-//     name: "RAL 120 80 05",
-//     english: "Dust green",
-//     italian: ""
-//   },
-//   {
-//     R: 193,
-//     G: 200,
-//     B: 179,
-//     name: "RAL 120 80 10",
-//     english: "Modern style green",
-//     italian: ""
-//   },
-//   {
-//     R: 190,
-//     G: 205,
-//     B: 165,
-//     name: "RAL 120 80 20",
-//     english: "Avocado cream",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 206,
-//     B: 144,
-//     name: "RAL 120 80 30",
-//     english: "Natural green",
-//     italian: ""
-//   },
-//   {
-//     R: 179,
-//     G: 209,
-//     B: 127,
-//     name: "RAL 120 80 40",
-//     english: "Summer green",
-//     italian: ""
-//   },
-//   {
-//     R: 172,
-//     G: 211,
-//     B: 108,
-//     name: "RAL 120 80 50",
-//     english: "Fashion green",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 213,
-//     B: 92,
-//     name: "RAL 120 80 60",
-//     english: "Neon green",
-//     italian: ""
-//   },
-//   {
-//     R: 210,
-//     G: 214,
-//     B: 204,
-//     name: "RAL 120 85 05",
-//     english: "Chalk green",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 215,
-//     B: 196,
-//     name: "RAL 120 85 10",
-//     english: "Light feather green",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 217,
-//     B: 179,
-//     name: "RAL 120 85 20",
-//     english: "Lake green",
-//     italian: ""
-//   },
-//   {
-//     R: 198,
-//     G: 220,
-//     B: 162,
-//     name: "RAL 120 85 30",
-//     english: "Aqua green",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 227,
-//     B: 215,
-//     name: "RAL 120 90 05",
-//     english: "Lily of the valley white",
-//     italian: ""
-//   },
-//   {
-//     R: 225,
-//     G: 231,
-//     B: 209,
-//     name: "RAL 120 90 10",
-//     english: "Pale pistachio",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 232,
-//     B: 190,
-//     name: "RAL 120 90 20",
-//     english: "Kiwi sorbet green",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 236,
-//     B: 172,
-//     name: "RAL 120 90 30",
-//     english: "Ice-cold green",
-//     italian: ""
-//   },
-//   {
-//     R: 233,
-//     G: 236,
-//     B: 226,
-//     name: "RAL 120 93 05",
-//     english: "Touch of white green",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 70,
-//     B: 53,
-//     name: "RAL 130 30 10",
-//     english: "Arame seaweed green",
-//     italian: ""
-//   },
-//   {
-//     R: 54,
-//     G: 72,
-//     B: 39,
-//     name: "RAL 130 30 20",
-//     english: "Kelp green",
-//     italian: ""
-//   },
-//   {
-//     R: 88,
-//     G: 97,
-//     B: 79,
-//     name: "RAL 130 40 10",
-//     english: "Soft olive",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 96,
-//     B: 62,
-//     name: "RAL 130 40 20",
-//     english: "Alpine lake green",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 100,
-//     B: 49,
-//     name: "RAL 130 40 30",
-//     english: "Gemstone green",
-//     italian: ""
-//   },
-//   {
-//     R: 109,
-//     G: 120,
-//     B: 102,
-//     name: "RAL 130 50 10",
-//     english: "Dubuffet green",
-//     italian: ""
-//   },
-//   {
-//     R: 104,
-//     G: 123,
-//     B: 89,
-//     name: "RAL 130 50 20",
-//     english: "Spanish green",
-//     italian: ""
-//   },
-//   {
-//     R: 93,
-//     G: 126,
-//     B: 72,
-//     name: "RAL 130 50 30",
-//     english: "Algae green",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 129,
-//     B: 56,
-//     name: "RAL 130 50 40",
-//     english: "Hot pepper green",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 130,
-//     B: 39,
-//     name: "RAL 130 50 50",
-//     english: "Emerald clear green",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 147,
-//     B: 129,
-//     name: "RAL 130 60 10",
-//     english: "Matte sage green",
-//     italian: ""
-//   },
-//   {
-//     R: 129,
-//     G: 150,
-//     B: 114,
-//     name: "RAL 130 60 20",
-//     english: "Old green",
-//     italian: ""
-//   },
-//   {
-//     R: 120,
-//     G: 152,
-//     B: 100,
-//     name: "RAL 130 60 30",
-//     english: "Pea aubergine green",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 155,
-//     B: 83,
-//     name: "RAL 130 60 40",
-//     english: "Grasshopper green",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 157,
-//     B: 65,
-//     name: "RAL 130 60 50",
-//     english: "Parisian green",
-//     italian: ""
-//   },
-//   {
-//     R: 86,
-//     G: 159,
-//     B: 44,
-//     name: "RAL 130 60 60",
-//     english: "Primal green",
-//     italian: ""
-//   },
-//   {
-//     R: 164,
-//     G: 175,
-//     B: 157,
-//     name: "RAL 130 70 10",
-//     english: "Limestone green",
-//     italian: ""
-//   },
-//   {
-//     R: 157,
-//     G: 179,
-//     B: 142,
-//     name: "RAL 130 70 20",
-//     english: "Soap green",
-//     italian: ""
-//   },
-//   {
-//     R: 146,
-//     G: 180,
-//     B: 126,
-//     name: "RAL 130 70 30",
-//     english: "Watercolour green",
-//     italian: ""
-//   },
-//   {
-//     R: 138,
-//     G: 183,
-//     B: 109,
-//     name: "RAL 130 70 40",
-//     english: "Vangogh green",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 186,
-//     B: 95,
-//     name: "RAL 130 70 50",
-//     english: "Apple green",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 187,
-//     B: 76,
-//     name: "RAL 130 70 60",
-//     english: "Ultra green",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 202,
-//     B: 183,
-//     name: "RAL 130 80 10",
-//     english: "Jade light green",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 205,
-//     B: 168,
-//     name: "RAL 130 80 20",
-//     english: "Enamel green",
-//     italian: ""
-//   },
-//   {
-//     R: 175,
-//     G: 208,
-//     B: 153,
-//     name: "RAL 130 80 30",
-//     english: "Pastel green",
-//     italian: ""
-//   },
-//   {
-//     R: 166,
-//     G: 212,
-//     B: 138,
-//     name: "RAL 130 80 40",
-//     english: "Jasmine green",
-//     italian: ""
-//   },
-//   {
-//     R: 157,
-//     G: 214,
-//     B: 120,
-//     name: "RAL 130 80 50",
-//     english: "Crystal green",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 214,
-//     B: 205,
-//     name: "RAL 130 85 05",
-//     english: "Grape oil green",
-//     italian: ""
-//   },
-//   {
-//     R: 204,
-//     G: 216,
-//     B: 197,
-//     name: "RAL 130 85 10",
-//     english: "Duchamp light green",
-//     italian: ""
-//   },
-//   {
-//     R: 196,
-//     G: 219,
-//     B: 183,
-//     name: "RAL 130 85 20",
-//     english: "Pallid light green",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 222,
-//     B: 168,
-//     name: "RAL 130 85 30",
-//     english: "Viridine green",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 228,
-//     B: 216,
-//     name: "RAL 130 90 05",
-//     english: "Silver polar white",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 234,
-//     B: 211,
-//     name: "RAL 130 90 10",
-//     english: "Mediterranean green",
-//     italian: ""
-//   },
-//   {
-//     R: 211,
-//     G: 234,
-//     B: 195,
-//     name: "RAL 130 90 20",
-//     english: "Spring green",
-//     italian: ""
-//   },
-//   {
-//     R: 228,
-//     G: 233,
-//     B: 222,
-//     name: "RAL 130 92 05",
-//     english: "Replaced by 130 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 231,
-//     G: 237,
-//     B: 227,
-//     name: "RAL 130 93 05",
-//     english: "Bean white",
-//     italian: ""
-//   },
-//   {
-//     R: 39,
-//     G: 46,
-//     B: 39,
-//     name: "RAL 140 20 05",
-//     english: "Melanite black green",
-//     italian: ""
-//   },
-//   {
-//     R: 39,
-//     G: 49,
-//     B: 35,
-//     name: "RAL 140 20 10",
-//     english: "Mountain range green",
-//     italian: ""
-//   },
-//   {
-//     R: 36,
-//     G: 54,
-//     B: 30,
-//     name: "RAL 140 20 20",
-//     english: "Bavarian green",
-//     italian: ""
-//   },
-//   {
-//     R: 66,
-//     G: 71,
-//     B: 64,
-//     name: "RAL 140 30 05",
-//     english: "Black forest green",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 73,
-//     B: 57,
-//     name: "RAL 140 30 10",
-//     english: "Copper pyrite green",
-//     italian: ""
-//   },
-//   {
-//     R: 51,
-//     G: 77,
-//     B: 46,
-//     name: "RAL 140 30 20",
-//     english: "Nettle green",
-//     italian: ""
-//   },
-//   {
-//     R: 37,
-//     G: 80,
-//     B: 32,
-//     name: "RAL 140 30 30",
-//     english: "Chestnut green",
-//     italian: ""
-//   },
-//   {
-//     R: 20,
-//     G: 80,
-//     B: 27,
-//     name: "RAL 140 30 40",
-//     english: "Ranger green",
-//     italian: ""
-//   },
-//   {
-//     R: 89,
-//     G: 96,
-//     B: 87,
-//     name: "RAL 140 40 05",
-//     english: "Stone green",
-//     italian: ""
-//   },
-//   {
-//     R: 83,
-//     G: 97,
-//     B: 81,
-//     name: "RAL 140 40 10",
-//     english: "Loden green",
-//     italian: ""
-//   },
-//   {
-//     R: 69,
-//     G: 98,
-//     B: 65,
-//     name: "RAL 140 40 20",
-//     english: "Acacia green",
-//     italian: ""
-//   },
-//   {
-//     R: 60,
-//     G: 102,
-//     B: 53,
-//     name: "RAL 140 40 30",
-//     english: "Peacock green",
-//     italian: ""
-//   },
-//   {
-//     R: 44,
-//     G: 106,
-//     B: 42,
-//     name: "RAL 140 40 40",
-//     english: "Radical green",
-//     italian: ""
-//   },
-//   {
-//     R: 31,
-//     G: 110,
-//     B: 33,
-//     name: "RAL 140 40 50",
-//     english: "Brazilian green",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 119,
-//     B: 110,
-//     name: "RAL 140 50 05",
-//     english: "Silver maple green",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 121,
-//     B: 105,
-//     name: "RAL 140 50 10",
-//     english: "Fir spruce green",
-//     italian: ""
-//   },
-//   {
-//     R: 96,
-//     G: 124,
-//     B: 91,
-//     name: "RAL 140 50 20",
-//     english: "Silver willow green",
-//     italian: ""
-//   },
-//   {
-//     R: 86,
-//     G: 129,
-//     B: 78,
-//     name: "RAL 140 50 30",
-//     english: "Rambling green",
-//     italian: ""
-//   },
-//   {
-//     R: 68,
-//     G: 130,
-//     B: 63,
-//     name: "RAL 140 50 40",
-//     english: "Guinean green",
-//     italian: ""
-//   },
-//   {
-//     R: 56,
-//     G: 135,
-//     B: 54,
-//     name: "RAL 140 50 50",
-//     english: "Mountain meadow green",
-//     italian: ""
-//   },
-//   {
-//     R: 26,
-//     G: 136,
-//     B: 35,
-//     name: "RAL 140 50 60",
-//     english: "Tempremental green",
-//     italian: ""
-//   },
-//   {
-//     R: 138,
-//     G: 145,
-//     B: 138,
-//     name: "RAL 140 60 05",
-//     english: "Camouflage green",
-//     italian: ""
-//   },
-//   {
-//     R: 131,
-//     G: 147,
-//     B: 130,
-//     name: "RAL 140 60 10",
-//     english: "Silver linden grey",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 153,
-//     B: 119,
-//     name: "RAL 140 60 20",
-//     english: "Spinach green",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 157,
-//     B: 104,
-//     name: "RAL 140 60 30",
-//     english: "Blackthorn green",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 159,
-//     B: 91,
-//     name: "RAL 140 60 40",
-//     english: "Fresh green",
-//     italian: ""
-//   },
-//   {
-//     R: 82,
-//     G: 160,
-//     B: 76,
-//     name: "RAL 140 60 50",
-//     english: "Parsley green",
-//     italian: ""
-//   },
-//   {
-//     R: 66,
-//     G: 163,
-//     B: 63,
-//     name: "RAL 140 60 60",
-//     english: "Oregano green",
-//     italian: ""
-//   },
-//   {
-//     R: 42,
-//     G: 163,
-//     B: 50,
-//     name: "RAL 140 60 70",
-//     english: "Balloon green",
-//     italian: ""
-//   },
-//   {
-//     R: 165,
-//     G: 172,
-//     B: 164,
-//     name: "RAL 140 70 05",
-//     english: "Ginkgo green",
-//     italian: ""
-//   },
-//   {
-//     R: 158,
-//     G: 174,
-//     B: 158,
-//     name: "RAL 140 70 10",
-//     english: "Woomwood green",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 179,
-//     B: 145,
-//     name: "RAL 140 70 20",
-//     english: "Dew green",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 182,
-//     B: 131,
-//     name: "RAL 140 70 30",
-//     english: "Aniseed leaf green",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 186,
-//     B: 118,
-//     name: "RAL 140 70 40",
-//     english: "Sour green",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 189,
-//     B: 103,
-//     name: "RAL 140 70 50",
-//     english: "Acid green",
-//     italian: ""
-//   },
-//   {
-//     R: 95,
-//     G: 191,
-//     B: 89,
-//     name: "RAL 140 70 60",
-//     english: "Drop green",
-//     italian: ""
-//   },
-//   {
-//     R: 194,
-//     G: 202,
-//     B: 191,
-//     name: "RAL 140 80 05",
-//     english: "Willow green",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 203,
-//     B: 185,
-//     name: "RAL 140 80 10",
-//     english: "Pastel grey green",
-//     italian: ""
-//   },
-//   {
-//     R: 176,
-//     G: 206,
-//     B: 171,
-//     name: "RAL 140 80 20",
-//     english: "Gio Ponte green",
-//     italian: ""
-//   },
-//   {
-//     R: 164,
-//     G: 210,
-//     B: 158,
-//     name: "RAL 140 80 30",
-//     english: "Relaxation green",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 214,
-//     B: 143,
-//     name: "RAL 140 80 40",
-//     english: "Dentist green",
-//     italian: ""
-//   },
-//   {
-//     R: 207,
-//     G: 214,
-//     B: 206,
-//     name: "RAL 140 85 05",
-//     english: "Deadnettle white",
-//     italian: ""
-//   },
-//   {
-//     R: 201,
-//     G: 217,
-//     B: 200,
-//     name: "RAL 140 85 10",
-//     english: "Leek white",
-//     italian: ""
-//   },
-//   {
-//     R: 189,
-//     G: 221,
-//     B: 187,
-//     name: "RAL 140 85 20",
-//     english: "Limestone slate",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 224,
-//     B: 175,
-//     name: "RAL 140 85 30",
-//     english: "Mint cocktail green",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 230,
-//     B: 219,
-//     name: "RAL 140 90 05",
-//     english: "Rosemary white",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 233,
-//     B: 213,
-//     name: "RAL 140 90 10",
-//     english: "Touch of green",
-//     italian: ""
-//   },
-//   {
-//     R: 229,
-//     G: 237,
-//     B: 229,
-//     name: "RAL 140 93 05",
-//     english: "Chestnut white",
-//     italian: ""
-//   },
-//   {
-//     R: 60,
-//     G: 75,
-//     B: 61,
-//     name: "RAL 150 30 10",
-//     english: "Thyme green",
-//     italian: ""
-//   },
-//   {
-//     R: 44,
-//     G: 78,
-//     B: 53,
-//     name: "RAL 150 30 20",
-//     english: "Moselle green",
-//     italian: ""
-//   },
-//   {
-//     R: 25,
-//     G: 79,
-//     B: 43,
-//     name: "RAL 150 30 30",
-//     english: "Mountain green",
-//     italian: ""
-//   },
-//   {
-//     R: 81,
-//     G: 97,
-//     B: 83,
-//     name: "RAL 150 40 10",
-//     english: "Felt green",
-//     italian: ""
-//   },
-//   {
-//     R: 69,
-//     G: 102,
-//     B: 74,
-//     name: "RAL 150 40 20",
-//     english: "Firm green",
-//     italian: ""
-//   },
-//   {
-//     R: 47,
-//     G: 103,
-//     B: 63,
-//     name: "RAL 150 40 30",
-//     english: "Genever green",
-//     italian: ""
-//   },
-//   {
-//     R: 18,
-//     G: 107,
-//     B: 52,
-//     name: "RAL 150 40 40",
-//     english: "Ink green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 108,
-//     B: 45,
-//     name: "RAL 150 40 50",
-//     english: "Ireland green",
-//     italian: ""
-//   },
-//   {
-//     R: 104,
-//     G: 121,
-//     B: 106,
-//     name: "RAL 150 50 10",
-//     english: "Sage green grey",
-//     italian: ""
-//   },
-//   {
-//     R: 91,
-//     G: 126,
-//     B: 97,
-//     name: "RAL 150 50 20",
-//     english: "Korean mint",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 128,
-//     B: 88,
-//     name: "RAL 150 50 30",
-//     english: "Field green",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 134,
-//     B: 82,
-//     name: "RAL 150 50 40",
-//     english: "Celery green",
-//     italian: ""
-//   },
-//   {
-//     R: 17,
-//     G: 137,
-//     B: 68,
-//     name: "RAL 150 50 50",
-//     english: "Rich green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 140,
-//     B: 58,
-//     name: "RAL 150 50 60",
-//     english: "Cold green",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 149,
-//     B: 135,
-//     name: "RAL 150 60 10",
-//     english: "Pointed cabbage green",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 153,
-//     B: 125,
-//     name: "RAL 150 60 20",
-//     english: "Orient green",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 156,
-//     B: 114,
-//     name: "RAL 150 60 30",
-//     english: "Rosemary green",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 160,
-//     B: 103,
-//     name: "RAL 150 60 40",
-//     english: "Mosaic green",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 165,
-//     B: 97,
-//     name: "RAL 150 60 50",
-//     english: "Bouncy ball green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 164,
-//     B: 79,
-//     name: "RAL 150 60 60",
-//     english: "Energy green",
-//     italian: ""
-//   },
-//   {
-//     R: 157,
-//     G: 175,
-//     B: 160,
-//     name: "RAL 150 70 10",
-//     english: "Tea green",
-//     italian: ""
-//   },
-//   {
-//     R: 145,
-//     G: 181,
-//     B: 152,
-//     name: "RAL 150 70 20",
-//     english: "Liebermann green",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 186,
-//     B: 141,
-//     name: "RAL 150 70 30",
-//     english: "Oilcloth green",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 188,
-//     B: 131,
-//     name: "RAL 150 70 40",
-//     english: "Jade stone green",
-//     italian: ""
-//   },
-//   {
-//     R: 91,
-//     G: 191,
-//     B: 118,
-//     name: "RAL 150 70 50",
-//     english: "Verdigris coloured",
-//     italian: ""
-//   },
-//   {
-//     R: 186,
-//     G: 204,
-//     B: 189,
-//     name: "RAL 150 80 10",
-//     english: "Organza green",
-//     italian: ""
-//   },
-//   {
-//     R: 171,
-//     G: 208,
-//     B: 179,
-//     name: "RAL 150 80 20",
-//     english: "Pastel mint green",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 213,
-//     B: 169,
-//     name: "RAL 150 80 30",
-//     english: "Bright green",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 217,
-//     B: 158,
-//     name: "RAL 150 80 40",
-//     english: "Mother-of-pearl green",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 215,
-//     B: 207,
-//     name: "RAL 150 85 05",
-//     english: "Asparagus white",
-//     italian: ""
-//   },
-//   {
-//     R: 198,
-//     G: 217,
-//     B: 202,
-//     name: "RAL 150 85 10",
-//     english: "Transparent white",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 222,
-//     B: 193,
-//     name: "RAL 150 85 20",
-//     english: "Pallid green",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 229,
-//     B: 217,
-//     name: "RAL 150 90 05",
-//     english: "Mineral white",
-//     italian: ""
-//   },
-//   {
-//     R: 214,
-//     G: 233,
-//     B: 214,
-//     name: "RAL 150 90 10",
-//     english: "Alabster green",
-//     italian: ""
-//   },
-//   {
-//     R: 228,
-//     G: 237,
-//     B: 230,
-//     name: "RAL 150 93 05",
-//     english: "Quark white",
-//     italian: ""
-//   },
-//   {
-//     R: 43,
-//     G: 50,
-//     B: 45,
-//     name: "RAL 160 20 05",
-//     english: "Beryl black green",
-//     italian: ""
-//   },
-//   {
-//     R: 34,
-//     G: 52,
-//     B: 43,
-//     name: "RAL 160 20 10",
-//     english: "Mussel green",
-//     italian: ""
-//   },
-//   {
-//     R: 22,
-//     G: 52,
-//     B: 36,
-//     name: "RAL 160 20 15",
-//     english: "Pumkin green black",
-//     italian: ""
-//   },
-//   {
-//     R: 15,
-//     G: 50,
-//     B: 34,
-//     name: "RAL 160 20 20",
-//     english: "Opulent green",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 71,
-//     B: 64,
-//     name: "RAL 160 30 05",
-//     english: "Rich olive",
-//     italian: ""
-//   },
-//   {
-//     R: 55,
-//     G: 73,
-//     B: 61,
-//     name: "RAL 160 30 10",
-//     english: "Exclusive green",
-//     italian: ""
-//   },
-//   {
-//     R: 46,
-//     G: 74,
-//     B: 57,
-//     name: "RAL 160 30 15",
-//     english: "Leaf green",
-//     italian: ""
-//   },
-//   {
-//     R: 36,
-//     G: 75,
-//     B: 55,
-//     name: "RAL 160 30 20",
-//     english: "Mountain mint",
-//     italian: ""
-//   },
-//   {
-//     R: 24,
-//     G: 77,
-//     B: 50,
-//     name: "RAL 160 30 25",
-//     english: "Order green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 79,
-//     B: 45,
-//     name: "RAL 160 30 30",
-//     english: "Troll green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 81,
-//     B: 43,
-//     name: "RAL 160 30 35",
-//     english: "Card table green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 82,
-//     B: 40,
-//     name: "RAL 160 30 38",
-//     english: "Replaced by 160 30 40",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 84,
-//     B: 48,
-//     name: "RAL 160 30 40",
-//     english: "Lemon balm green",
-//     italian: ""
-//   },
-//   {
-//     R: 87,
-//     G: 96,
-//     B: 90,
-//     name: "RAL 160 40 05",
-//     english: "Jasper green",
-//     italian: ""
-//   },
-//   {
-//     R: 77,
-//     G: 97,
-//     B: 87,
-//     name: "RAL 160 40 10",
-//     english: "Siberian green",
-//     italian: ""
-//   },
-//   {
-//     R: 69,
-//     G: 100,
-//     B: 83,
-//     name: "RAL 160 40 15",
-//     english: "Cucumber green",
-//     italian: ""
-//   },
-//   {
-//     R: 60,
-//     G: 101,
-//     B: 79,
-//     name: "RAL 160 40 20",
-//     english: "Serbian green",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 101,
-//     B: 74,
-//     name: "RAL 160 40 25",
-//     english: "Black pine green",
-//     italian: ""
-//   },
-//   {
-//     R: 37,
-//     G: 104,
-//     B: 72,
-//     name: "RAL 160 40 30",
-//     english: "Pumpkin green",
-//     italian: ""
-//   },
-//   {
-//     R: 15,
-//     G: 106,
-//     B: 68,
-//     name: "RAL 160 40 35",
-//     english: "Jade mussel green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 109,
-//     B: 67,
-//     name: "RAL 160 40 40",
-//     english: "Clover green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 106,
-//     B: 59,
-//     name: "RAL 160 40 45",
-//     english: "Frog green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 108,
-//     B: 55,
-//     name: "RAL 160 40 50",
-//     english: "Universal green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 112,
-//     B: 54,
-//     name: "RAL 160 40 55",
-//     english: "Column of oak green",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 120,
-//     B: 114,
-//     name: "RAL 160 50 05",
-//     english: "Arctic lichen green",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 122,
-//     B: 110,
-//     name: "RAL 160 50 10",
-//     english: "Atlas cedar green",
-//     italian: ""
-//   },
-//   {
-//     R: 94,
-//     G: 125,
-//     B: 108,
-//     name: "RAL 160 50 15",
-//     english: "Stone cypress green",
-//     italian: ""
-//   },
-//   {
-//     R: 85,
-//     G: 127,
-//     B: 104,
-//     name: "RAL 160 50 20",
-//     english: "Juniper green",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 128,
-//     B: 100,
-//     name: "RAL 160 50 25",
-//     english: "Sports field green",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 131,
-//     B: 97,
-//     name: "RAL 160 50 30",
-//     english: "Liesure green",
-//     italian: ""
-//   },
-//   {
-//     R: 55,
-//     G: 132,
-//     B: 94,
-//     name: "RAL 160 50 35",
-//     english: "Adamite green",
-//     italian: ""
-//   },
-//   {
-//     R: 29,
-//     G: 134,
-//     B: 90,
-//     name: "RAL 160 50 40",
-//     english: "Metallic green",
-//     italian: ""
-//   },
-//   {
-//     R: 4,
-//     G: 137,
-//     B: 89,
-//     name: "RAL 160 50 45",
-//     english: "Vital green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 137,
-//     B: 83,
-//     name: "RAL 160 50 50",
-//     english: "Golf green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 140,
-//     B: 81,
-//     name: "RAL 160 50 55",
-//     english: "Iceland green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 139,
-//     B: 75,
-//     name: "RAL 160 50 60",
-//     english: "Real turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 146,
-//     B: 140,
-//     name: "RAL 160 60 05",
-//     english: "Sandstone grey green",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 148,
-//     B: 136,
-//     name: "RAL 160 60 10",
-//     english: "Slate green",
-//     italian: ""
-//   },
-//   {
-//     R: 119,
-//     G: 152,
-//     B: 133,
-//     name: "RAL 160 60 15",
-//     english: "Mild green",
-//     italian: ""
-//   },
-//   {
-//     R: 109,
-//     G: 153,
-//     B: 129,
-//     name: "RAL 160 60 20",
-//     english: "Douglas fir green",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 155,
-//     B: 124,
-//     name: "RAL 160 60 25",
-//     english: "Practice green",
-//     italian: ""
-//   },
-//   {
-//     R: 92,
-//     G: 157,
-//     B: 123,
-//     name: "RAL 160 60 30",
-//     english: "Memphis green",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 161,
-//     B: 120,
-//     name: "RAL 160 60 35",
-//     english: "Advertising green",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 160,
-//     B: 115,
-//     name: "RAL 160 60 40",
-//     english: "Hunter green",
-//     italian: ""
-//   },
-//   {
-//     R: 52,
-//     G: 163,
-//     B: 113,
-//     name: "RAL 160 60 45",
-//     english: "Linoleum green",
-//     italian: ""
-//   },
-//   {
-//     R: 7,
-//     G: 164,
-//     B: 108,
-//     name: "RAL 160 60 50",
-//     english: "Parakeet green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 163,
-//     B: 102,
-//     name: "RAL 160 60 55",
-//     english: "Emerald light green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 165,
-//     B: 100,
-//     name: "RAL 160 60 58",
-//     english: "Alhambra green",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 174,
-//     B: 167,
-//     name: "RAL 160 70 05",
-//     english: "Greenish grey",
-//     italian: ""
-//   },
-//   {
-//     R: 153,
-//     G: 176,
-//     B: 163,
-//     name: "RAL 160 70 10",
-//     english: "Weak green",
-//     italian: ""
-//   },
-//   {
-//     R: 143,
-//     G: 177,
-//     B: 157,
-//     name: "RAL 160 70 15",
-//     english: "Andean slate",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 180,
-//     B: 155,
-//     name: "RAL 160 70 20",
-//     english: "Ceramic green",
-//     italian: ""
-//   },
-//   {
-//     R: 127,
-//     G: 184,
-//     B: 154,
-//     name: "RAL 160 70 25",
-//     english: "Water green",
-//     italian: ""
-//   },
-//   {
-//     R: 115,
-//     G: 186,
-//     B: 149,
-//     name: "RAL 160 70 30",
-//     english: "Mountain lake green",
-//     italian: ""
-//   },
-//   {
-//     R: 104,
-//     G: 187,
-//     B: 146,
-//     name: "RAL 160 70 35",
-//     english: "American green",
-//     italian: ""
-//   },
-//   {
-//     R: 92,
-//     G: 190,
-//     B: 142,
-//     name: "RAL 160 70 40",
-//     english: "Techno turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 192,
-//     B: 138,
-//     name: "RAL 160 70 45",
-//     english: "Garish green",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 193,
-//     B: 136,
-//     name: "RAL 160 70 49",
-//     english: "Replaced by 160 70 50",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 193,
-//     B: 138,
-//     name: "RAL 160 70 50",
-//     english: "Malachite green",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 200,
-//     B: 193,
-//     name: "RAL 160 80 05",
-//     english: "Fog green",
-//     italian: ""
-//   },
-//   {
-//     R: 180,
-//     G: 203,
-//     B: 189,
-//     name: "RAL 160 80 10",
-//     english: "Matte jade green",
-//     italian: ""
-//   },
-//   {
-//     R: 170,
-//     G: 206,
-//     B: 185,
-//     name: "RAL 160 80 15",
-//     english: "Sun green",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 208,
-//     B: 182,
-//     name: "RAL 160 80 20",
-//     english: "Feather green",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 211,
-//     B: 180,
-//     name: "RAL 160 80 25",
-//     english: "Menthol green",
-//     italian: ""
-//   },
-//   {
-//     R: 146,
-//     G: 215,
-//     B: 177,
-//     name: "RAL 160 80 30",
-//     english: "Silk green",
-//     italian: ""
-//   },
-//   {
-//     R: 204,
-//     G: 215,
-//     B: 209,
-//     name: "RAL 160 85 05",
-//     english: "Light green",
-//     italian: ""
-//   },
-//   {
-//     R: 196,
-//     G: 218,
-//     B: 205,
-//     name: "RAL 160 85 10",
-//     english: "Micaceous green",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 220,
-//     B: 202,
-//     name: "RAL 160 85 15",
-//     english: "Moonstone green",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 229,
-//     B: 219,
-//     name: "RAL 160 90 05",
-//     english: "Watercolour white",
-//     italian: ""
-//   },
-//   {
-//     R: 209,
-//     G: 232,
-//     B: 216,
-//     name: "RAL 160 90 10",
-//     english: "Moonlight green",
-//     italian: ""
-//   },
-//   {
-//     R: 200,
-//     G: 234,
-//     B: 212,
-//     name: "RAL 160 90 15",
-//     english: "Glacial water green",
-//     italian: ""
-//   },
-//   {
-//     R: 226,
-//     G: 238,
-//     B: 231,
-//     name: "RAL 160 93 05",
-//     english: "Mountain crystal silver",
-//     italian: ""
-//   },
-//   {
-//     R: 28,
-//     G: 50,
-//     B: 41,
-//     name: "RAL 170 20 10",
-//     english: "Deep green",
-//     italian: ""
-//   },
-//   {
-//     R: 17,
-//     G: 51,
-//     B: 40,
-//     name: "RAL 170 20 15",
-//     english: "Intense green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 53,
-//     B: 38,
-//     name: "RAL 170 20 20",
-//     english: "Coach green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 56,
-//     B: 35,
-//     name: "RAL 170 20 25",
-//     english: "Off-road green",
-//     italian: ""
-//   },
-//   {
-//     R: 53,
-//     G: 74,
-//     B: 65,
-//     name: "RAL 170 30 10",
-//     english: "Garnet black green",
-//     italian: ""
-//   },
-//   {
-//     R: 40,
-//     G: 76,
-//     B: 62,
-//     name: "RAL 170 30 15",
-//     english: "Dark green",
-//     italian: ""
-//   },
-//   {
-//     R: 30,
-//     G: 75,
-//     B: 59,
-//     name: "RAL 170 30 20",
-//     english: "Thistle green",
-//     italian: ""
-//   },
-//   {
-//     R: 2,
-//     G: 79,
-//     B: 59,
-//     name: "RAL 170 30 25",
-//     english: "Raspberry leaf green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 79,
-//     B: 57,
-//     name: "RAL 170 30 30",
-//     english: "Chrysocolla dark green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 82,
-//     B: 57,
-//     name: "RAL 170 30 35",
-//     english: "Trapper green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 84,
-//     B: 55,
-//     name: "RAL 170 30 40",
-//     english: "Permanent green",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 97,
-//     B: 87,
-//     name: "RAL 170 40 10",
-//     english: "Chalcedony green",
-//     italian: ""
-//   },
-//   {
-//     R: 66,
-//     G: 98,
-//     B: 85,
-//     name: "RAL 170 40 15",
-//     english: "Palace green",
-//     italian: ""
-//   },
-//   {
-//     R: 53,
-//     G: 102,
-//     B: 84,
-//     name: "RAL 170 40 20",
-//     english: "Plantain green",
-//     italian: ""
-//   },
-//   {
-//     R: 43,
-//     G: 102,
-//     B: 81,
-//     name: "RAL 170 40 25",
-//     english: "Ore mountains green",
-//     italian: ""
-//   },
-//   {
-//     R: 26,
-//     G: 107,
-//     B: 81,
-//     name: "RAL 170 40 30",
-//     english: "Tractor green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 106,
-//     B: 77,
-//     name: "RAL 170 40 35",
-//     english: "Victoria green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 108,
-//     B: 75,
-//     name: "RAL 170 40 40",
-//     english: "Device green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 109,
-//     B: 75,
-//     name: "RAL 170 40 45",
-//     english: "Environmental green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 109,
-//     B: 70,
-//     name: "RAL 170 40 50",
-//     english: "Vegan green",
-//     italian: ""
-//   },
-//   {
-//     R: 99,
-//     G: 122,
-//     B: 114,
-//     name: "RAL 170 50 10",
-//     english: "Bournonite green",
-//     italian: ""
-//   },
-//   {
-//     R: 90,
-//     G: 126,
-//     B: 112,
-//     name: "RAL 170 50 15",
-//     english: "Fuschite green",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 127,
-//     B: 109,
-//     name: "RAL 170 50 20",
-//     english: "Blackberry leaf green",
-//     italian: ""
-//   },
-//   {
-//     R: 70,
-//     G: 130,
-//     B: 108,
-//     name: "RAL 170 50 25",
-//     english: "Tourmaline blue",
-//     italian: ""
-//   },
-//   {
-//     R: 52,
-//     G: 131,
-//     B: 106,
-//     name: "RAL 170 50 30",
-//     english: "Dream green",
-//     italian: ""
-//   },
-//   {
-//     R: 30,
-//     G: 133,
-//     B: 103,
-//     name: "RAL 170 50 35",
-//     english: "Accent green blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 134,
-//     B: 99,
-//     name: "RAL 170 50 40",
-//     english: "Spectral green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 136,
-//     B: 100,
-//     name: "RAL 170 50 45",
-//     english: "Mallard green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 139,
-//     B: 97,
-//     name: "RAL 170 50 50",
-//     english: "Chagall green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 138,
-//     B: 96,
-//     name: "RAL 170 50 55",
-//     english: "Absinthe turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 124,
-//     G: 148,
-//     B: 139,
-//     name: "RAL 170 60 10",
-//     english: "Quantum green",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 151,
-//     B: 137,
-//     name: "RAL 170 60 15",
-//     english: "Bitter clover green",
-//     italian: ""
-//   },
-//   {
-//     R: 105,
-//     G: 154,
-//     B: 136,
-//     name: "RAL 170 60 20",
-//     english: "Cyprus green",
-//     italian: ""
-//   },
-//   {
-//     R: 94,
-//     G: 156,
-//     B: 134,
-//     name: "RAL 170 60 25",
-//     english: "Succulent green",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 158,
-//     B: 131,
-//     name: "RAL 170 60 30",
-//     english: "Vibrant green",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 162,
-//     B: 130,
-//     name: "RAL 170 60 35",
-//     english: "Klimt green",
-//     italian: ""
-//   },
-//   {
-//     R: 42,
-//     G: 162,
-//     B: 128,
-//     name: "RAL 170 60 40",
-//     english: "Persian green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 162,
-//     B: 124,
-//     name: "RAL 170 60 45",
-//     english: "Sport green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 167,
-//     B: 126,
-//     name: "RAL 170 60 50",
-//     english: "Active green",
-//     italian: ""
-//   },
-//   {
-//     R: 152,
-//     G: 177,
-//     B: 166,
-//     name: "RAL 170 70 10",
-//     english: "Lovage green",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 178,
-//     B: 163,
-//     name: "RAL 170 70 15",
-//     english: "Chrysopal light green",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 182,
-//     B: 162,
-//     name: "RAL 170 70 20",
-//     english: "Source green",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 185,
-//     B: 160,
-//     name: "RAL 170 70 25",
-//     english: "Orient mosaic green",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 188,
-//     B: 159,
-//     name: "RAL 170 70 30",
-//     english: "Mint cold green",
-//     italian: ""
-//   },
-//   {
-//     R: 94,
-//     G: 188,
-//     B: 155,
-//     name: "RAL 170 70 35",
-//     english: "Emerald green",
-//     italian: ""
-//   },
-//   {
-//     R: 81,
-//     G: 189,
-//     B: 153,
-//     name: "RAL 170 70 40",
-//     english: "Expressionism green",
-//     italian: ""
-//   },
-//   {
-//     R: 180,
-//     G: 205,
-//     B: 194,
-//     name: "RAL 170 80 10",
-//     english: "Flourite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 168,
-//     G: 207,
-//     B: 192,
-//     name: "RAL 170 80 15",
-//     english: "Swimming pool green",
-//     italian: ""
-//   },
-//   {
-//     R: 159,
-//     G: 212,
-//     B: 191,
-//     name: "RAL 170 80 20",
-//     english: "Sky green",
-//     italian: ""
-//   },
-//   {
-//     R: 147,
-//     G: 212,
-//     B: 188,
-//     name: "RAL 170 80 25",
-//     english: "Larimar green",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 215,
-//     B: 210,
-//     name: "RAL 170 85 05",
-//     english: "Silicate light turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 193,
-//     G: 218,
-//     B: 209,
-//     name: "RAL 170 85 10",
-//     english: "Topaz green",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 221,
-//     B: 207,
-//     name: "RAL 170 85 15",
-//     english: "Refrigerator green",
-//     italian: ""
-//   },
-//   {
-//     R: 173,
-//     G: 223,
-//     B: 205,
-//     name: "RAL 170 85 20",
-//     english: "Crystal glass green",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 229,
-//     B: 221,
-//     name: "RAL 170 90 05",
-//     english: "Cystal salt white",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 233,
-//     B: 220,
-//     name: "RAL 170 90 10",
-//     english: "Turquoise white",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 234,
-//     B: 227,
-//     name: "RAL 170 92 05",
-//     english: "Replaced by 170 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 225,
-//     G: 238,
-//     B: 233,
-//     name: "RAL 170 93 05",
-//     english: "Snow crystal green",
-//     italian: ""
-//   },
-//   {
-//     R: 40,
-//     G: 51,
-//     B: 48,
-//     name: "RAL 180 20 05",
-//     english: "Pitch green",
-//     italian: ""
-//   },
-//   {
-//     R: 27,
-//     G: 50,
-//     B: 44,
-//     name: "RAL 180 20 10",
-//     english: "Lacquer green",
-//     italian: ""
-//   },
-//   {
-//     R: 10,
-//     G: 51,
-//     B: 44,
-//     name: "RAL 180 20 15",
-//     english: "Fence green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 53,
-//     B: 44,
-//     name: "RAL 180 20 20",
-//     english: "Myrtle green",
-//     italian: ""
-//   },
-//   {
-//     R: 63,
-//     G: 74,
-//     B: 71,
-//     name: "RAL 180 30 05",
-//     english: "Amazon green",
-//     italian: ""
-//   },
-//   {
-//     R: 50,
-//     G: 73,
-//     B: 67,
-//     name: "RAL 180 30 10",
-//     english: "Rich grey turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 40,
-//     G: 76,
-//     B: 67,
-//     name: "RAL 180 30 15",
-//     english: "Blackboard green",
-//     italian: ""
-//   },
-//   {
-//     R: 24,
-//     G: 78,
-//     B: 67,
-//     name: "RAL 180 30 20",
-//     english: "Swedish green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 80,
-//     B: 67,
-//     name: "RAL 180 30 25",
-//     english: "Fjord green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 81,
-//     B: 66,
-//     name: "RAL 180 30 30",
-//     english: "Urban green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 83,
-//     B: 65,
-//     name: "RAL 180 30 35",
-//     english: "Jungle green",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 96,
-//     B: 91,
-//     name: "RAL 180 40 05",
-//     english: "Earth green",
-//     italian: ""
-//   },
-//   {
-//     R: 74,
-//     G: 99,
-//     B: 92,
-//     name: "RAL 180 40 10",
-//     english: "Pine green",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 100,
-//     B: 91,
-//     name: "RAL 180 40 15",
-//     english: "Forest greenery",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 103,
-//     B: 91,
-//     name: "RAL 180 40 20",
-//     english: "Sea green",
-//     italian: ""
-//   },
-//   {
-//     R: 31,
-//     G: 104,
-//     B: 90,
-//     name: "RAL 180 40 25",
-//     english: "Eucalyptus green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 107,
-//     B: 91,
-//     name: "RAL 180 40 30",
-//     english: "Fresh ivy green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 107,
-//     B: 87,
-//     name: "RAL 180 40 35",
-//     english: "Chrysocolla medium green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 108,
-//     B: 86,
-//     name: "RAL 180 40 40",
-//     english: "Poster green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 109,
-//     B: 87,
-//     name: "RAL 180 40 45",
-//     english: "Teal dark green",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 122,
-//     B: 119,
-//     name: "RAL 180 50 05",
-//     english: "Dusk green",
-//     italian: ""
-//   },
-//   {
-//     R: 97,
-//     G: 122,
-//     B: 116,
-//     name: "RAL 180 50 10",
-//     english: "Refreshing green",
-//     italian: ""
-//   },
-//   {
-//     R: 86,
-//     G: 125,
-//     B: 115,
-//     name: "RAL 180 50 15",
-//     english: "Dull turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 74,
-//     G: 127,
-//     B: 115,
-//     name: "RAL 180 50 20",
-//     english: "Azurite water green",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 129,
-//     B: 116,
-//     name: "RAL 180 50 25",
-//     english: "Copper mineral green",
-//     italian: ""
-//   },
-//   {
-//     R: 37,
-//     G: 132,
-//     B: 114,
-//     name: "RAL 180 50 30",
-//     english: "Glass green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 134,
-//     B: 114,
-//     name: "RAL 180 50 35",
-//     english: "Summer turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 133,
-//     B: 112,
-//     name: "RAL 180 50 40",
-//     english: "Christmas green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 138,
-//     B: 112,
-//     name: "RAL 180 50 45",
-//     english: "Industrial turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 138,
-//     B: 110,
-//     name: "RAL 180 50 50",
-//     english: "Ocean green",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 146,
-//     B: 143,
-//     name: "RAL 180 60 05",
-//     english: "Marble green grey",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 149,
-//     B: 142,
-//     name: "RAL 180 60 10",
-//     english: "Tile green",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 152,
-//     B: 142,
-//     name: "RAL 180 60 15",
-//     english: "Copper roof green",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 154,
-//     B: 142,
-//     name: "RAL 180 60 20",
-//     english: "Sage green",
-//     italian: ""
-//   },
-//   {
-//     R: 85,
-//     G: 156,
-//     B: 140,
-//     name: "RAL 180 60 25",
-//     english: "Petrol green",
-//     italian: ""
-//   },
-//   {
-//     R: 69,
-//     G: 159,
-//     B: 140,
-//     name: "RAL 180 60 30",
-//     english: "Dioptase green",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 161,
-//     B: 140,
-//     name: "RAL 180 60 35",
-//     english: "Stamp pad green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 163,
-//     B: 140,
-//     name: "RAL 180 60 40",
-//     english: "Light turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 165,
-//     B: 140,
-//     name: "RAL 180 60 45",
-//     english: "Caribbean green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 166,
-//     B: 139,
-//     name: "RAL 180 60 50",
-//     english: "Brilliant turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 173,
-//     B: 170,
-//     name: "RAL 180 70 05",
-//     english: "Feldspar silver",
-//     italian: ""
-//   },
-//   {
-//     R: 147,
-//     G: 176,
-//     B: 169,
-//     name: "RAL 180 70 10",
-//     english: "Delicate green",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 179,
-//     B: 169,
-//     name: "RAL 180 70 15",
-//     english: "Silicate green",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 183,
-//     B: 168,
-//     name: "RAL 180 70 20",
-//     english: "Mint bonbon green",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 184,
-//     B: 167,
-//     name: "RAL 180 70 25",
-//     english: "Glacial green",
-//     italian: ""
-//   },
-//   {
-//     R: 99,
-//     G: 187,
-//     B: 167,
-//     name: "RAL 180 70 30",
-//     english: "Bath turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 78,
-//     G: 189,
-//     B: 167,
-//     name: "RAL 180 70 35",
-//     english: "Mountain lake azure",
-//     italian: ""
-//   },
-//   {
-//     R: 57,
-//     G: 192,
-//     B: 168,
-//     name: "RAL 180 70 40",
-//     english: "Pure cyan",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 201,
-//     B: 195,
-//     name: "RAL 180 80 05",
-//     english: "Aragonite white",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 204,
-//     B: 197,
-//     name: "RAL 180 80 10",
-//     english: "Light teal",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 208,
-//     B: 197,
-//     name: "RAL 180 80 15",
-//     english: "Whirlpool green",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 209,
-//     B: 195,
-//     name: "RAL 180 80 20",
-//     english: "Opal turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 140,
-//     G: 212,
-//     B: 195,
-//     name: "RAL 180 80 25",
-//     english: "Light Capri green",
-//     italian: ""
-//   },
-//   {
-//     R: 131,
-//     G: 217,
-//     B: 197,
-//     name: "RAL 180 80 30",
-//     english: "Tender turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 202,
-//     G: 215,
-//     B: 212,
-//     name: "RAL 180 85 05",
-//     english: "Sea haze grey",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 218,
-//     B: 212,
-//     name: "RAL 180 85 10",
-//     english: "Tierra del Fuego sea green",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 221,
-//     B: 212,
-//     name: "RAL 180 85 15",
-//     english: "Pale mountain lake turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 169,
-//     G: 224,
-//     B: 211,
-//     name: "RAL 180 85 20",
-//     english: "Coral green",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 231,
-//     B: 226,
-//     name: "RAL 180 90 05",
-//     english: "Transparent green",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 235,
-//     B: 226,
-//     name: "RAL 180 90 10",
-//     english: "Ice water green",
-//     italian: ""
-//   },
-//   {
-//     R: 225,
-//     G: 238,
-//     B: 235,
-//     name: "RAL 180 93 05",
-//     english: "Arctic white",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 57,
-//     B: 51,
-//     name: "RAL 190 20 20",
-//     english: "Night turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 38,
-//     G: 77,
-//     B: 72,
-//     name: "RAL 190 30 15",
-//     english: "Carriage green",
-//     italian: ""
-//   },
-//   {
-//     R: 20,
-//     G: 79,
-//     B: 74,
-//     name: "RAL 190 30 20",
-//     english: "Stockade green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 80,
-//     B: 75,
-//     name: "RAL 190 30 25",
-//     english: "Action green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 83,
-//     B: 76,
-//     name: "RAL 190 30 30",
-//     english: "Myrtle deep green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 83,
-//     B: 76,
-//     name: "RAL 190 30 35",
-//     english: "Plankton green",
-//     italian: ""
-//   },
-//   {
-//     R: 73,
-//     G: 98,
-//     B: 94,
-//     name: "RAL 190 40 10",
-//     english: "Mud green",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 101,
-//     B: 97,
-//     name: "RAL 190 40 15",
-//     english: "Moor pond green",
-//     italian: ""
-//   },
-//   {
-//     R: 44,
-//     G: 103,
-//     B: 97,
-//     name: "RAL 190 40 20",
-//     english: "Lush green",
-//     italian: ""
-//   },
-//   {
-//     R: 20,
-//     G: 104,
-//     B: 99,
-//     name: "RAL 190 40 25",
-//     english: "Butterfly green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 107,
-//     B: 100,
-//     name: "RAL 190 40 30",
-//     english: "Fashion blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 109,
-//     B: 100,
-//     name: "RAL 190 40 35",
-//     english: "Office blue green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 110,
-//     B: 101,
-//     name: "RAL 190 40 40",
-//     english: "Iguana green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 114,
-//     B: 103,
-//     name: "RAL 190 40 45",
-//     english: "Dark teal",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 124,
-//     B: 120,
-//     name: "RAL 190 50 10",
-//     english: "Storm green",
-//     italian: ""
-//   },
-//   {
-//     R: 85,
-//     G: 126,
-//     B: 121,
-//     name: "RAL 190 50 15",
-//     english: "Dark tuquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 129,
-//     B: 123,
-//     name: "RAL 190 50 20",
-//     english: "Fir blue",
-//     italian: ""
-//   },
-//   {
-//     R: 53,
-//     G: 131,
-//     B: 123,
-//     name: "RAL 190 50 25",
-//     english: "Apatite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 22,
-//     G: 132,
-//     B: 124,
-//     name: "RAL 190 50 30",
-//     english: "Egyptian green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 134,
-//     B: 125,
-//     name: "RAL 190 50 35",
-//     english: "Ornamantal turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 137,
-//     B: 128,
-//     name: "RAL 190 50 40",
-//     english: "Eyeshadow turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 139,
-//     B: 129,
-//     name: "RAL 190 50 45",
-//     english: "Clear turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 150,
-//     B: 147,
-//     name: "RAL 190 60 10",
-//     english: "Subtle turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 152,
-//     B: 146,
-//     name: "RAL 190 60 15",
-//     english: "Pale verdigris",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 155,
-//     B: 149,
-//     name: "RAL 190 60 20",
-//     english: "Goose pond green",
-//     italian: ""
-//   },
-//   {
-//     R: 82,
-//     G: 158,
-//     B: 150,
-//     name: "RAL 190 60 25",
-//     english: "Tourmaline turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 63,
-//     G: 160,
-//     B: 152,
-//     name: "RAL 190 60 30",
-//     english: "Baltic green",
-//     italian: ""
-//   },
-//   {
-//     R: 36,
-//     G: 162,
-//     B: 154,
-//     name: "RAL 190 60 35",
-//     english: "Ceramic blue turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 164,
-//     B: 154,
-//     name: "RAL 190 60 40",
-//     english: "Baltic turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 164,
-//     B: 153,
-//     name: "RAL 190 60 45",
-//     english: "Tyrolite blue-green",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 177,
-//     B: 173,
-//     name: "RAL 190 70 10",
-//     english: "Marble green",
-//     italian: ""
-//   },
-//   {
-//     R: 138,
-//     G: 179,
-//     B: 173,
-//     name: "RAL 190 70 15",
-//     english: "Jade green",
-//     italian: ""
-//   },
-//   {
-//     R: 124,
-//     G: 181,
-//     B: 174,
-//     name: "RAL 190 70 20",
-//     english: "Spring water turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 184,
-//     B: 177,
-//     name: "RAL 190 70 25",
-//     english: "Florida turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 97,
-//     G: 188,
-//     B: 180,
-//     name: "RAL 190 70 30",
-//     english: "Hygiene green",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 189,
-//     B: 178,
-//     name: "RAL 190 70 35",
-//     english: "Artic green",
-//     italian: ""
-//   },
-//   {
-//     R: 176,
-//     G: 205,
-//     B: 199,
-//     name: "RAL 190 80 10",
-//     english: "Andean opal green",
-//     italian: ""
-//   },
-//   {
-//     R: 166,
-//     G: 208,
-//     B: 203,
-//     name: "RAL 190 80 15",
-//     english: "Cold turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 152,
-//     G: 210,
-//     B: 203,
-//     name: "RAL 190 80 20",
-//     english: "Teal blue",
-//     italian: ""
-//   },
-//   {
-//     R: 138,
-//     G: 213,
-//     B: 204,
-//     name: "RAL 190 80 25",
-//     english: "Pool green",
-//     italian: ""
-//   },
-//   {
-//     R: 202,
-//     G: 215,
-//     B: 214,
-//     name: "RAL 190 85 05",
-//     english: "Morning dew white",
-//     italian: ""
-//   },
-//   {
-//     R: 191,
-//     G: 218,
-//     B: 215,
-//     name: "RAL 190 85 10",
-//     english: "Bath salt green",
-//     italian: ""
-//   },
-//   {
-//     R: 179,
-//     G: 221,
-//     B: 217,
-//     name: "RAL 190 85 15",
-//     english: "Capri water blue",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 224,
-//     B: 218,
-//     name: "RAL 190 85 20",
-//     english: "Horizon blue",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 230,
-//     B: 226,
-//     name: "RAL 190 90 05",
-//     english: "Cool white",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 234,
-//     B: 229,
-//     name: "RAL 190 90 10",
-//     english: "Source blue",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 238,
-//     B: 236,
-//     name: "RAL 190 93 05",
-//     english: "Egyptian white",
-//     italian: ""
-//   },
-//   {
-//     R: 39,
-//     G: 49,
-//     B: 48,
-//     name: "RAL 200 20 05",
-//     english: "Concealed green",
-//     italian: ""
-//   },
-//   {
-//     R: 27,
-//     G: 50,
-//     B: 50,
-//     name: "RAL 200 20 10",
-//     english: "Dark pine green",
-//     italian: ""
-//   },
-//   {
-//     R: 7,
-//     G: 49,
-//     B: 50,
-//     name: "RAL 200 20 15",
-//     english: "Roof tile green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 54,
-//     B: 54,
-//     name: "RAL 200 20 20",
-//     english: "Shrub green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 56,
-//     B: 57,
-//     name: "RAL 200 20 23",
-//     english: "Customs green",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 70,
-//     B: 69,
-//     name: "RAL 200 30 05",
-//     english: "Darkness green",
-//     italian: ""
-//   },
-//   {
-//     R: 50,
-//     G: 75,
-//     B: 74,
-//     name: "RAL 200 30 10",
-//     english: "Tree bark green",
-//     italian: ""
-//   },
-//   {
-//     R: 37,
-//     G: 78,
-//     B: 77,
-//     name: "RAL 200 30 15",
-//     english: "Hornblende green",
-//     italian: ""
-//   },
-//   {
-//     R: 20,
-//     G: 79,
-//     B: 79,
-//     name: "RAL 200 30 20",
-//     english: "Malachite blue turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 78,
-//     B: 78,
-//     name: "RAL 200 30 25",
-//     english: "Antique turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 81,
-//     B: 82,
-//     name: "RAL 200 30 30",
-//     english: "Wool turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 84,
-//     B: 86,
-//     name: "RAL 200 30 33",
-//     english: "Ice dark turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 83,
-//     G: 96,
-//     B: 95,
-//     name: "RAL 200 40 05",
-//     english: "Calcite grey green",
-//     italian: ""
-//   },
-//   {
-//     R: 73,
-//     G: 98,
-//     B: 98,
-//     name: "RAL 200 40 10",
-//     english: "Brochantite green",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 100,
-//     B: 100,
-//     name: "RAL 200 40 15",
-//     english: "Pyrite green",
-//     italian: ""
-//   },
-//   {
-//     R: 45,
-//     G: 103,
-//     B: 103,
-//     name: "RAL 200 40 20",
-//     english: "Dusky alpine blue",
-//     italian: ""
-//   },
-//   {
-//     R: 23,
-//     G: 105,
-//     B: 105,
-//     name: "RAL 200 40 25",
-//     english: "Bath green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 107,
-//     B: 108,
-//     name: "RAL 200 40 30",
-//     english: "Mayan blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 108,
-//     B: 110,
-//     name: "RAL 200 40 35",
-//     english: "Byzantine blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 111,
-//     B: 114,
-//     name: "RAL 200 40 40",
-//     english: "Active turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 106,
-//     G: 119,
-//     B: 119,
-//     name: "RAL 200 50 05",
-//     english: "North grey",
-//     italian: ""
-//   },
-//   {
-//     R: 97,
-//     G: 123,
-//     B: 123,
-//     name: "RAL 200 50 10",
-//     english: "Eye grey",
-//     italian: ""
-//   },
-//   {
-//     R: 85,
-//     G: 127,
-//     B: 126,
-//     name: "RAL 200 50 15",
-//     english: "Nickel ore green",
-//     italian: ""
-//   },
-//   {
-//     R: 70,
-//     G: 127,
-//     B: 128,
-//     name: "RAL 200 50 20",
-//     english: "Seafoam green",
-//     italian: ""
-//   },
-//   {
-//     R: 51,
-//     G: 130,
-//     B: 132,
-//     name: "RAL 200 50 25",
-//     english: "Kandinsky turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 9,
-//     G: 132,
-//     B: 134,
-//     name: "RAL 200 50 30",
-//     english: "Caribbean turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 136,
-//     B: 138,
-//     name: "RAL 200 50 35",
-//     english: "Well blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 137,
-//     B: 140,
-//     name: "RAL 200 50 40",
-//     english: "Industrial blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 139,
-//     B: 142,
-//     name: "RAL 200 50 45",
-//     english: "India blue",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 147,
-//     B: 146,
-//     name: "RAL 200 60 05",
-//     english: "Shady grey",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 149,
-//     B: 149,
-//     name: "RAL 200 60 10",
-//     english: "North Cape grey",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 152,
-//     B: 152,
-//     name: "RAL 200 60 15",
-//     english: "Woad indigo",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 155,
-//     B: 156,
-//     name: "RAL 200 60 20",
-//     english: "Art nouveau turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 79,
-//     G: 156,
-//     B: 157,
-//     name: "RAL 200 60 25",
-//     english: "Coolbox ice turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 159,
-//     B: 159,
-//     name: "RAL 200 60 30",
-//     english: "Aquamarine blue",
-//     italian: ""
-//   },
-//   {
-//     R: 29,
-//     G: 161,
-//     B: 163,
-//     name: "RAL 200 60 35",
-//     english: "Arctic blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 164,
-//     B: 166,
-//     name: "RAL 200 60 40",
-//     english: "Wax crayon blue",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 173,
-//     B: 173,
-//     name: "RAL 200 70 05",
-//     english: "Prince grey",
-//     italian: ""
-//   },
-//   {
-//     R: 150,
-//     G: 178,
-//     B: 178,
-//     name: "RAL 200 70 10",
-//     english: "Calcite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 179,
-//     B: 178,
-//     name: "RAL 200 70 15",
-//     english: "Cold front green",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 182,
-//     B: 182,
-//     name: "RAL 200 70 20",
-//     english: "Kingfisher turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 186,
-//     B: 187,
-//     name: "RAL 200 70 25",
-//     english: "Fresh soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 189,
-//     G: 201,
-//     B: 199,
-//     name: "RAL 200 80 05",
-//     english: "China light green",
-//     italian: ""
-//   },
-//   {
-//     R: 175,
-//     G: 204,
-//     B: 203,
-//     name: "RAL 200 80 10",
-//     english: "Baroque chalk soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 205,
-//     B: 203,
-//     name: "RAL 200 80 15",
-//     english: "Ice boutique turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 211,
-//     B: 209,
-//     name: "RAL 200 80 20",
-//     english: "Summer soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 213,
-//     B: 212,
-//     name: "RAL 200 80 25",
-//     english: "Mountain lake blue",
-//     italian: ""
-//   },
-//   {
-//     R: 202,
-//     G: 215,
-//     B: 215,
-//     name: "RAL 200 85 05",
-//     english: "Raffia light grey",
-//     italian: ""
-//   },
-//   {
-//     R: 190,
-//     G: 218,
-//     B: 218,
-//     name: "RAL 200 85 10",
-//     english: "Cold air turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 179,
-//     G: 221,
-//     B: 221,
-//     name: "RAL 200 85 15",
-//     english: "Frosty soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 166,
-//     G: 223,
-//     B: 224,
-//     name: "RAL 200 85 20",
-//     english: "Ice crystal blue",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 232,
-//     B: 228,
-//     name: "RAL 200 90 05",
-//     english: "Frosty green",
-//     italian: ""
-//   },
-//   {
-//     R: 204,
-//     G: 233,
-//     B: 228,
-//     name: "RAL 200 90 10",
-//     english: "Frosty white blue",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 234,
-//     B: 232,
-//     name: "RAL 200 92 05",
-//     english: "Replaced by 200 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 238,
-//     B: 238,
-//     name: "RAL 200 93 05",
-//     english: "Chilly white",
-//     italian: ""
-//   },
-//   {
-//     R: 51,
-//     G: 73,
-//     B: 75,
-//     name: "RAL 210 30 10",
-//     english: "Graphite black green",
-//     italian: ""
-//   },
-//   {
-//     R: 36,
-//     G: 76,
-//     B: 79,
-//     name: "RAL 210 30 15",
-//     english: "Mallard blue",
-//     italian: ""
-//   },
-//   {
-//     R: 12,
-//     G: 79,
-//     B: 84,
-//     name: "RAL 210 30 20",
-//     english: "Transporter green",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 79,
-//     B: 87,
-//     name: "RAL 210 30 25",
-//     english: "Deep atlantic blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 80,
-//     B: 90,
-//     name: "RAL 210 30 30",
-//     english: "Kali blue",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 97,
-//     B: 99,
-//     name: "RAL 210 40 10",
-//     english: "Linen grey",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 100,
-//     B: 104,
-//     name: "RAL 210 40 15",
-//     english: "China green blue",
-//     italian: ""
-//   },
-//   {
-//     R: 44,
-//     G: 102,
-//     B: 107,
-//     name: "RAL 210 40 20",
-//     english: "Dusk blue",
-//     italian: ""
-//   },
-//   {
-//     R: 14,
-//     G: 102,
-//     B: 109,
-//     name: "RAL 210 40 25",
-//     english: "Trouser blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 105,
-//     B: 115,
-//     name: "RAL 210 40 30",
-//     english: "Indigo blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 108,
-//     B: 120,
-//     name: "RAL 210 40 35",
-//     english: "Cold blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 106,
-//     B: 119,
-//     name: "RAL 210 40 38",
-//     english: "Mary blue",
-//     italian: ""
-//   },
-//   {
-//     R: 97,
-//     G: 123,
-//     B: 126,
-//     name: "RAL 210 50 10",
-//     english: "Uniform green grey",
-//     italian: ""
-//   },
-//   {
-//     R: 87,
-//     G: 125,
-//     B: 128,
-//     name: "RAL 210 50 15",
-//     english: "Labradorite green",
-//     italian: ""
-//   },
-//   {
-//     R: 70,
-//     G: 127,
-//     B: 133,
-//     name: "RAL 210 50 20",
-//     english: "Enamel antique green",
-//     italian: ""
-//   },
-//   {
-//     R: 51,
-//     G: 130,
-//     B: 136,
-//     name: "RAL 210 50 25",
-//     english: "Cranach blue",
-//     italian: ""
-//   },
-//   {
-//     R: 7,
-//     G: 131,
-//     B: 141,
-//     name: "RAL 210 50 30",
-//     english: "China blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 133,
-//     B: 145,
-//     name: "RAL 210 50 35",
-//     english: "Glacier blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 136,
-//     B: 148,
-//     name: "RAL 210 50 40",
-//     english: "Curaçao blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 137,
-//     B: 151,
-//     name: "RAL 210 50 45",
-//     english: "Atlantic blue",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 149,
-//     B: 152,
-//     name: "RAL 210 60 10",
-//     english: "Ash blue",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 150,
-//     B: 154,
-//     name: "RAL 210 60 15",
-//     english: "Baltic blue",
-//     italian: ""
-//   },
-//   {
-//     R: 99,
-//     G: 156,
-//     B: 162,
-//     name: "RAL 210 60 20",
-//     english: "Beach blue",
-//     italian: ""
-//   },
-//   {
-//     R: 81,
-//     G: 159,
-//     B: 167,
-//     name: "RAL 210 60 25",
-//     english: "Basilica blue",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 160,
-//     B: 170,
-//     name: "RAL 210 60 30",
-//     english: "Danube blue",
-//     italian: ""
-//   },
-//   {
-//     R: 20,
-//     G: 161,
-//     B: 172,
-//     name: "RAL 210 60 35",
-//     english: "Altdorf sky blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 164,
-//     B: 177,
-//     name: "RAL 210 60 40",
-//     english: "Garish blue",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 177,
-//     B: 179,
-//     name: "RAL 210 70 10",
-//     english: "Storm grey",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 179,
-//     B: 182,
-//     name: "RAL 210 70 15",
-//     english: "Persian blue",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 182,
-//     B: 188,
-//     name: "RAL 210 70 20",
-//     english: "Aqua blue",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 184,
-//     B: 192,
-//     name: "RAL 210 70 25",
-//     english: "Maritime soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 93,
-//     G: 188,
-//     B: 197,
-//     name: "RAL 210 70 30",
-//     english: "Mountain blue",
-//     italian: ""
-//   },
-//   {
-//     R: 69,
-//     G: 189,
-//     B: 200,
-//     name: "RAL 210 70 35",
-//     english: "Panorama blue",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 206,
-//     B: 207,
-//     name: "RAL 210 80 10",
-//     english: "Turquoise grey",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 209,
-//     B: 211,
-//     name: "RAL 210 80 15",
-//     english: "Dolphin blue",
-//     italian: ""
-//   },
-//   {
-//     R: 153,
-//     G: 210,
-//     B: 215,
-//     name: "RAL 210 80 20",
-//     english: "Aroma blue",
-//     italian: ""
-//   },
-//   {
-//     R: 141,
-//     G: 214,
-//     B: 220,
-//     name: "RAL 210 80 25",
-//     english: "Vibrant soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 202,
-//     G: 215,
-//     B: 217,
-//     name: "RAL 210 85 05",
-//     english: "Siesta white",
-//     italian: ""
-//   },
-//   {
-//     R: 191,
-//     G: 218,
-//     B: 221,
-//     name: "RAL 210 85 10",
-//     english: "Mint blue",
-//     italian: ""
-//   },
-//   {
-//     R: 179,
-//     G: 220,
-//     B: 226,
-//     name: "RAL 210 85 15",
-//     english: "Fine blue",
-//     italian: ""
-//   },
-//   {
-//     R: 166,
-//     G: 223,
-//     B: 230,
-//     name: "RAL 210 85 20",
-//     english: "Pale blue",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 231,
-//     B: 229,
-//     name: "RAL 210 90 05",
-//     english: "Tulle soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 234,
-//     B: 231,
-//     name: "RAL 210 90 10",
-//     english: "Antarctic blue",
-//     italian: ""
-//   },
-//   {
-//     R: 39,
-//     G: 48,
-//     B: 50,
-//     name: "RAL 220 20 05",
-//     english: "Navy black",
-//     italian: ""
-//   },
-//   {
-//     R: 28,
-//     G: 50,
-//     B: 56,
-//     name: "RAL 220 20 10",
-//     english: "Indigo carmine",
-//     italian: ""
-//   },
-//   {
-//     R: 8,
-//     G: 52,
-//     B: 58,
-//     name: "RAL 220 20 15",
-//     english: "Artist blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 55,
-//     B: 64,
-//     name: "RAL 220 20 20",
-//     english: "Natural indigo",
-//     italian: ""
-//   },
-//   {
-//     R: 60,
-//     G: 71,
-//     B: 73,
-//     name: "RAL 220 30 05",
-//     english: "Panda black",
-//     italian: ""
-//   },
-//   {
-//     R: 51,
-//     G: 74,
-//     B: 78,
-//     name: "RAL 220 30 10",
-//     english: "Pallasite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 40,
-//     G: 77,
-//     B: 84,
-//     name: "RAL 220 30 15",
-//     english: "Hurricane green blue",
-//     italian: ""
-//   },
-//   {
-//     R: 21,
-//     G: 77,
-//     B: 88,
-//     name: "RAL 220 30 20",
-//     english: "Watercolour blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 81,
-//     B: 93,
-//     name: "RAL 220 30 25",
-//     english: "Coral blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 80,
-//     B: 96,
-//     name: "RAL 220 30 30",
-//     english: "Sandalwood grey blue",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 95,
-//     B: 98,
-//     name: "RAL 220 40 05",
-//     english: "Limousine grey blue",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 98,
-//     B: 103,
-//     name: "RAL 220 40 10",
-//     english: "Corundum blue",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 99,
-//     B: 108,
-//     name: "RAL 220 40 15",
-//     english: "Smock blue",
-//     italian: ""
-//   },
-//   {
-//     R: 48,
-//     G: 102,
-//     B: 113,
-//     name: "RAL 220 40 20",
-//     english: "Mordant blue",
-//     italian: ""
-//   },
-//   {
-//     R: 27,
-//     G: 104,
-//     B: 118,
-//     name: "RAL 220 40 25",
-//     english: "Cotton indigo",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 107,
-//     B: 125,
-//     name: "RAL 220 40 30",
-//     english: "Fjord blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 108,
-//     B: 129,
-//     name: "RAL 220 40 35",
-//     english: "Azure green blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 111,
-//     B: 134,
-//     name: "RAL 220 40 40",
-//     english: "Cyan blue",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 122,
-//     B: 124,
-//     name: "RAL 220 50 05",
-//     english: "Winter cloud grey",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 123,
-//     B: 128,
-//     name: "RAL 220 50 10",
-//     english: "Cadet grey",
-//     italian: ""
-//   },
-//   {
-//     R: 87,
-//     G: 125,
-//     B: 134,
-//     name: "RAL 220 50 15",
-//     english: "Holbein blue grey",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 128,
-//     B: 138,
-//     name: "RAL 220 50 2",
-//     english: "",
-//     italian: ""
-//   },
-//   {
-//     R: 57,
-//     G: 129,
-//     B: 143,
-//     name: "RAL 220 50 25",
-//     english: "Fresco blue",
-//     italian: ""
-//   },
-//   {
-//     R: 25,
-//     G: 129,
-//     B: 147,
-//     name: "RAL 220 50 30",
-//     english: "Craftsman blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 134,
-//     B: 154,
-//     name: "RAL 220 50 35",
-//     english: "Marker blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 136,
-//     B: 159,
-//     name: "RAL 220 50 40",
-//     english: "Toy blue",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 146,
-//     B: 147,
-//     name: "RAL 220 60 05",
-//     english: "Deep sea grey",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 149,
-//     B: 155,
-//     name: "RAL 220 60 10",
-//     english: "Tile blue",
-//     italian: ""
-//   },
-//   {
-//     R: 115,
-//     G: 152,
-//     B: 160,
-//     name: "RAL 220 60 15",
-//     english: "Morning blue",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 154,
-//     B: 166,
-//     name: "RAL 220 60 20",
-//     english: "Frost blue",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 156,
-//     B: 171,
-//     name: "RAL 220 60 25",
-//     english: "Summer turquoise blue",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 160,
-//     B: 177,
-//     name: "RAL 220 60 30",
-//     english: "Fischer blue",
-//     italian: ""
-//   },
-//   {
-//     R: 42,
-//     G: 158,
-//     B: 180,
-//     name: "RAL 220 60 35",
-//     english: "Planet blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 161,
-//     B: 185,
-//     name: "RAL 220 60 40",
-//     english: "January blue",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 174,
-//     B: 177,
-//     name: "RAL 220 70 05",
-//     english: "Tempered grey",
-//     italian: ""
-//   },
-//   {
-//     R: 153,
-//     G: 178,
-//     B: 183,
-//     name: "RAL 220 70 10",
-//     english: "Mohair soft blue grey",
-//     italian: ""
-//   },
-//   {
-//     R: 141,
-//     G: 181,
-//     B: 189,
-//     name: "RAL 220 70 15",
-//     english: "Kitchen blue",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 182,
-//     B: 193,
-//     name: "RAL 220 70 20",
-//     english: "Culinary blue",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 183,
-//     B: 198,
-//     name: "RAL 220 70 25",
-//     english: "Blouson blue",
-//     italian: ""
-//   },
-//   {
-//     R: 93,
-//     G: 183,
-//     B: 201,
-//     name: "RAL 220 70 30",
-//     english: "Mountain range blue",
-//     italian: ""
-//   },
-//   {
-//     R: 70,
-//     G: 188,
-//     B: 209,
-//     name: "RAL 220 70 35",
-//     english: "Holiday blue",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 202,
-//     B: 203,
-//     name: "RAL 220 80 05",
-//     english: "Pastel blue",
-//     italian: ""
-//   },
-//   {
-//     R: 179,
-//     G: 207,
-//     B: 211,
-//     name: "RAL 220 80 10",
-//     english: "Clinical soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 164,
-//     G: 206,
-//     B: 215,
-//     name: "RAL 220 80 15",
-//     english: "Children's soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 157,
-//     G: 211,
-//     B: 223,
-//     name: "RAL 220 80 20",
-//     english: "Tourmaline soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 145,
-//     G: 214,
-//     B: 226,
-//     name: "RAL 220 80 25",
-//     english: "Fresh blue",
-//     italian: ""
-//   },
-//   {
-//     R: 202,
-//     G: 215,
-//     B: 218,
-//     name: "RAL 220 85 05",
-//     english: "Transparent blue",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 217,
-//     B: 224,
-//     name: "RAL 220 85 10",
-//     english: "Ice shard soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 219,
-//     B: 230,
-//     name: "RAL 220 85 15",
-//     english: "Polar blue",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 231,
-//     B: 230,
-//     name: "RAL 220 90 05",
-//     english: "Cold soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 231,
-//     B: 238,
-//     name: "RAL 220 90 10",
-//     english: "Full moon grey",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 234,
-//     B: 234,
-//     name: "RAL 220 92 05",
-//     english: "Withdrawn from range",
-//     italian: ""
-//   },
-//   {
-//     R: 31,
-//     G: 51,
-//     B: 57,
-//     name: "RAL 230 20 10",
-//     english: "Ore bluish black",
-//     italian: ""
-//   },
-//   {
-//     R: 22,
-//     G: 53,
-//     B: 63,
-//     name: "RAL 230 20 15",
-//     english: "Firmament blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 52,
-//     B: 66,
-//     name: "RAL 230 20 20",
-//     english: "Prussian blue",
-//     italian: ""
-//   },
-//   {
-//     R: 56,
-//     G: 75,
-//     B: 82,
-//     name: "RAL 230 30 10",
-//     english: "Galenite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 42,
-//     G: 75,
-//     B: 86,
-//     name: "RAL 230 30 15",
-//     english: "Berry blue green",
-//     italian: ""
-//   },
-//   {
-//     R: 26,
-//     G: 77,
-//     B: 92,
-//     name: "RAL 230 30 20",
-//     english: "Teal dark blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 79,
-//     B: 99,
-//     name: "RAL 230 30 25",
-//     english: "Thunderstorm blue",
-//     italian: ""
-//   },
-//   {
-//     R: 77,
-//     G: 97,
-//     B: 105,
-//     name: "RAL 230 40 10",
-//     english: "Cone green blue",
-//     italian: ""
-//   },
-//   {
-//     R: 67,
-//     G: 98,
-//     B: 110,
-//     name: "RAL 230 40 15",
-//     english: "Juniper berry blue",
-//     italian: ""
-//   },
-//   {
-//     R: 53,
-//     G: 102,
-//     B: 118,
-//     name: "RAL 230 40 20",
-//     english: "Loon turquoise",
-//     italian: ""
-//   },
-//   {
-//     R: 28,
-//     G: 102,
-//     B: 123,
-//     name: "RAL 230 40 25",
-//     english: "Workshop blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 105,
-//     B: 129,
-//     name: "RAL 230 40 30",
-//     english: "Pilot blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 107,
-//     B: 136,
-//     name: "RAL 230 40 35",
-//     english: "Ink blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 107,
-//     B: 139,
-//     name: "RAL 230 40 40",
-//     english: "Techno blue",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 122,
-//     B: 130,
-//     name: "RAL 230 50 10",
-//     english: "Gravel grey blue",
-//     italian: ""
-//   },
-//   {
-//     R: 91,
-//     G: 126,
-//     B: 137,
-//     name: "RAL 230 50 15",
-//     english: "Spruce blue",
-//     italian: ""
-//   },
-//   {
-//     R: 79,
-//     G: 128,
-//     B: 144,
-//     name: "RAL 230 50 20",
-//     english: "Casual blue",
-//     italian: ""
-//   },
-//   {
-//     R: 63,
-//     G: 128,
-//     B: 149,
-//     name: "RAL 230 50 25",
-//     english: "Forget-me-not blue",
-//     italian: ""
-//   },
-//   {
-//     R: 37,
-//     G: 132,
-//     B: 158,
-//     name: "RAL 230 50 30",
-//     english: "Zircon blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 132,
-//     B: 160,
-//     name: "RAL 230 50 35",
-//     english: "Lagoon blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 133,
-//     B: 167,
-//     name: "RAL 230 50 40",
-//     english: "Azores blue",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 150,
-//     B: 159,
-//     name: "RAL 230 60 10",
-//     english: "Kingfisher grey",
-//     italian: ""
-//   },
-//   {
-//     R: 116,
-//     G: 150,
-//     B: 162,
-//     name: "RAL 230 60 15",
-//     english: "Silver fir blue",
-//     italian: ""
-//   },
-//   {
-//     R: 103,
-//     G: 152,
-//     B: 170,
-//     name: "RAL 230 60 20",
-//     english: "Pyjama blue",
-//     italian: ""
-//   },
-//   {
-//     R: 87,
-//     G: 154,
-//     B: 176,
-//     name: "RAL 230 60 25",
-//     english: "Starflower blue",
-//     italian: ""
-//   },
-//   {
-//     R: 71,
-//     G: 155,
-//     B: 181,
-//     name: "RAL 230 60 30",
-//     english: "Sports blue",
-//     italian: ""
-//   },
-//   {
-//     R: 46,
-//     G: 159,
-//     B: 189,
-//     name: "RAL 230 60 35",
-//     english: "Greek blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 159,
-//     B: 195,
-//     name: "RAL 230 60 40",
-//     english: "Alpine blue",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 178,
-//     B: 186,
-//     name: "RAL 230 70 10",
-//     english: "Ice gull grey blue",
-//     italian: ""
-//   },
-//   {
-//     R: 141,
-//     G: 179,
-//     B: 191,
-//     name: "RAL 230 70 15",
-//     english: "Thistleblossom soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 129,
-//     G: 181,
-//     B: 198,
-//     name: "RAL 230 70 20",
-//     english: "Tennis blue",
-//     italian: ""
-//   },
-//   {
-//     R: 119,
-//     G: 183,
-//     B: 205,
-//     name: "RAL 230 70 25",
-//     english: "Vintage blue",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 185,
-//     B: 210,
-//     name: "RAL 230 70 30",
-//     english: "Fitness blue",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 205,
-//     B: 212,
-//     name: "RAL 230 80 10",
-//     english: "Pallid blue",
-//     italian: ""
-//   },
-//   {
-//     R: 169,
-//     G: 204,
-//     B: 216,
-//     name: "RAL 230 80 15",
-//     english: "Alpine morning blue",
-//     italian: ""
-//   },
-//   {
-//     R: 159,
-//     G: 208,
-//     B: 225,
-//     name: "RAL 230 80 20",
-//     english: "Light blue",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 214,
-//     B: 219,
-//     name: "RAL 230 85 05",
-//     english: "Polar soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 193,
-//     G: 216,
-//     B: 226,
-//     name: "RAL 230 85 10",
-//     english: "Washing powder white",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 218,
-//     B: 234,
-//     name: "RAL 230 85 15",
-//     english: "Himalaya white blue",
-//     italian: ""
-//   },
-//   {
-//     R: 172,
-//     G: 220,
-//     B: 241,
-//     name: "RAL 230 85 20",
-//     english: "Atmospheric soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 230,
-//     B: 230,
-//     name: "RAL 230 90 05",
-//     english: "Brilliant white",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 0,
-//     B: 9,
-//     name: "RAL 240 20 05",
-//     english: "Nightshade blue",
-//     italian: ""
-//   },
-//   {
-//     R: 33,
-//     G: 50,
-//     B: 59,
-//     name: "RAL 240 20 10",
-//     english: "Elderberry black",
-//     italian: ""
-//   },
-//   {
-//     R: 22,
-//     G: 51,
-//     B: 65,
-//     name: "RAL 240 20 15",
-//     english: "Metal blue",
-//     italian: ""
-//   },
-//   {
-//     R: 2,
-//     G: 52,
-//     B: 71,
-//     name: "RAL 240 20 20",
-//     english: "Crowberry blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 52,
-//     B: 74,
-//     name: "RAL 240 20 22",
-//     english: "Rich blue",
-//     italian: ""
-//   },
-//   {
-//     R: 63,
-//     G: 71,
-//     B: 75,
-//     name: "RAL 240 30 05",
-//     english: "Diamond grey",
-//     italian: ""
-//   },
-//   {
-//     R: 55,
-//     G: 73,
-//     B: 83,
-//     name: "RAL 240 30 10",
-//     english: "Dirty blue",
-//     italian: ""
-//   },
-//   {
-//     R: 47,
-//     G: 75,
-//     B: 90,
-//     name: "RAL 240 30 15",
-//     english: "Deep sea blue",
-//     italian: ""
-//   },
-//   {
-//     R: 33,
-//     G: 76,
-//     B: 96,
-//     name: "RAL 240 30 20",
-//     english: "Lasurite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 3,
-//     G: 77,
-//     B: 103,
-//     name: "RAL 240 30 25",
-//     english: "Work blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 78,
-//     B: 109,
-//     name: "RAL 240 30 30",
-//     english: "Gemstone blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 80,
-//     B: 113,
-//     name: "RAL 240 30 35",
-//     english: "Captain blue",
-//     italian: ""
-//   },
-//   {
-//     R: 86,
-//     G: 94,
-//     B: 100,
-//     name: "RAL 240 40 05",
-//     english: "Blue anthracite",
-//     italian: ""
-//   },
-//   {
-//     R: 78,
-//     G: 96,
-//     B: 107,
-//     name: "RAL 240 40 10",
-//     english: "Blackthorn blue",
-//     italian: ""
-//   },
-//   {
-//     R: 69,
-//     G: 99,
-//     B: 116,
-//     name: "RAL 240 40 15",
-//     english: "Celeste blue",
-//     italian: ""
-//   },
-//   {
-//     R: 55,
-//     G: 99,
-//     B: 121,
-//     name: "RAL 240 40 20",
-//     english: "Denim blue",
-//     italian: ""
-//   },
-//   {
-//     R: 40,
-//     G: 101,
-//     B: 129,
-//     name: "RAL 240 40 25",
-//     english: "Orient blue",
-//     italian: ""
-//   },
-//   {
-//     R: 2,
-//     G: 102,
-//     B: 136,
-//     name: "RAL 240 40 30",
-//     english: "Sailor blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 103,
-//     B: 141,
-//     name: "RAL 240 40 35",
-//     english: "Stone blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 105,
-//     B: 147,
-//     name: "RAL 240 40 40",
-//     english: "Pure light blue",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 120,
-//     B: 125,
-//     name: "RAL 240 50 05",
-//     english: "Smokey blue",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 121,
-//     B: 133,
-//     name: "RAL 240 50 10",
-//     english: "Tool blue",
-//     italian: ""
-//   },
-//   {
-//     R: 92,
-//     G: 124,
-//     B: 141,
-//     name: "RAL 240 50 15",
-//     english: "Technical blue",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 124,
-//     B: 147,
-//     name: "RAL 240 50 20",
-//     english: "Coelin blue",
-//     italian: ""
-//   },
-//   {
-//     R: 66,
-//     G: 126,
-//     B: 155,
-//     name: "RAL 240 50 25",
-//     english: "Greenland blue",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 127,
-//     B: 161,
-//     name: "RAL 240 50 30",
-//     english: "Summer blue",
-//     italian: ""
-//   },
-//   {
-//     R: 2,
-//     G: 128,
-//     B: 168,
-//     name: "RAL 240 50 35",
-//     english: "Advertising blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 129,
-//     B: 173,
-//     name: "RAL 240 50 40",
-//     english: "Indian ink blue",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 146,
-//     B: 152,
-//     name: "RAL 240 60 05",
-//     english: "Carrier pigeon blue",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 146,
-//     B: 158,
-//     name: "RAL 240 60 10",
-//     english: "Bird blue",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 149,
-//     B: 166,
-//     name: "RAL 240 60 15",
-//     english: "Architecture blue",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 152,
-//     B: 175,
-//     name: "RAL 240 60 20",
-//     english: "Shirt blue",
-//     italian: ""
-//   },
-//   {
-//     R: 95,
-//     G: 153,
-//     B: 182,
-//     name: "RAL 240 60 25",
-//     english: "Steel light blue",
-//     italian: ""
-//   },
-//   {
-//     R: 78,
-//     G: 154,
-//     B: 189,
-//     name: "RAL 240 60 30",
-//     english: "Fairytale blue",
-//     italian: ""
-//   },
-//   {
-//     R: 57,
-//     G: 155,
-//     B: 197,
-//     name: "RAL 240 60 35",
-//     english: "Princess blue",
-//     italian: ""
-//   },
-//   {
-//     R: 17,
-//     G: 158,
-//     B: 200,
-//     name: "RAL 240 60 40",
-//     english: "Clear blue",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 173,
-//     B: 179,
-//     name: "RAL 240 70 05",
-//     english: "Laundry blue",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 174,
-//     B: 186,
-//     name: "RAL 240 70 10",
-//     english: "Eye blue",
-//     italian: ""
-//   },
-//   {
-//     R: 144,
-//     G: 177,
-//     B: 194,
-//     name: "RAL 240 70 15",
-//     english: "Bermuda blue",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 178,
-//     B: 201,
-//     name: "RAL 240 70 20",
-//     english: "Sea blue",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 180,
-//     B: 209,
-//     name: "RAL 240 70 25",
-//     english: "Madonna blue",
-//     italian: ""
-//   },
-//   {
-//     R: 108,
-//     G: 181,
-//     B: 215,
-//     name: "RAL 240 70 30",
-//     english: "Caribbean blue",
-//     italian: ""
-//   },
-//   {
-//     R: 189,
-//     G: 200,
-//     B: 204,
-//     name: "RAL 240 80 05",
-//     english: "Hazy blue",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 204,
-//     B: 215,
-//     name: "RAL 240 80 10",
-//     english: "Light topaz soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 173,
-//     G: 205,
-//     B: 221,
-//     name: "RAL 240 80 15",
-//     english: "Baby blue",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 207,
-//     B: 229,
-//     name: "RAL 240 80 20",
-//     english: "Crystal blue",
-//     italian: ""
-//   },
-//   {
-//     R: 204,
-//     G: 214,
-//     B: 220,
-//     name: "RAL 240 85 05",
-//     english: "Ice grey",
-//     italian: ""
-//   },
-//   {
-//     R: 196,
-//     G: 216,
-//     B: 228,
-//     name: "RAL 240 85 10",
-//     english: "Air blue",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 217,
-//     B: 236,
-//     name: "RAL 240 85 15",
-//     english: "Paris blue",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 231,
-//     B: 233,
-//     name: "RAL 240 90 05",
-//     english: "Soft blue white",
-//     italian: ""
-//   },
-//   {
-//     R: 210,
-//     G: 230,
-//     B: 243,
-//     name: "RAL 240 90 10",
-//     english: "Chalky blue white",
-//     italian: ""
-//   },
-//   {
-//     R: 9,
-//     G: 52,
-//     B: 75,
-//     name: "RAL 250 20 20",
-//     english: "Cosmos blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 50,
-//     B: 79,
-//     name: "RAL 250 20 25",
-//     english: "Dark denim blue",
-//     italian: ""
-//   },
-//   {
-//     R: 46,
-//     G: 72,
-//     B: 91,
-//     name: "RAL 250 30 15",
-//     english: "Black forest blue",
-//     italian: ""
-//   },
-//   {
-//     R: 33,
-//     G: 73,
-//     B: 98,
-//     name: "RAL 250 30 20",
-//     english: "Swallow blue",
-//     italian: ""
-//   },
-//   {
-//     R: 20,
-//     G: 75,
-//     B: 106,
-//     name: "RAL 250 30 25",
-//     english: "Navy dark blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 76,
-//     B: 113,
-//     name: "RAL 250 30 30",
-//     english: "Pompeii blue",
-//     italian: ""
-//   },
-//   {
-//     R: 81,
-//     G: 96,
-//     B: 109,
-//     name: "RAL 250 40 10",
-//     english: "Trekking blue",
-//     italian: ""
-//   },
-//   {
-//     R: 71,
-//     G: 97,
-//     B: 117,
-//     name: "RAL 250 40 15",
-//     english: "Steel blue grey",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 96,
-//     B: 122,
-//     name: "RAL 250 40 20",
-//     english: "Berry blue",
-//     italian: ""
-//   },
-//   {
-//     R: 45,
-//     G: 98,
-//     B: 132,
-//     name: "RAL 250 40 25",
-//     english: "Linen blue",
-//     italian: ""
-//   },
-//   {
-//     R: 30,
-//     G: 100,
-//     B: 140,
-//     name: "RAL 250 40 30",
-//     english: "Pool blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 100,
-//     B: 145,
-//     name: "RAL 250 40 35",
-//     english: "Kingfisher blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 102,
-//     B: 150,
-//     name: "RAL 250 40 40",
-//     english: "Europe blue",
-//     italian: ""
-//   },
-//   {
-//     R: 105,
-//     G: 121,
-//     B: 134,
-//     name: "RAL 250 50 10",
-//     english: "Metal grey",
-//     italian: ""
-//   },
-//   {
-//     R: 95,
-//     G: 121,
-//     B: 142,
-//     name: "RAL 250 50 15",
-//     english: "Titanium blue",
-//     italian: ""
-//   },
-//   {
-//     R: 87,
-//     G: 123,
-//     B: 149,
-//     name: "RAL 250 50 20",
-//     english: "Mallorca blue",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 123,
-//     B: 158,
-//     name: "RAL 250 50 25",
-//     english: "Linoleum blue",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 124,
-//     B: 166,
-//     name: "RAL 250 50 30",
-//     english: "Prominent blue",
-//     italian: ""
-//   },
-//   {
-//     R: 43,
-//     G: 126,
-//     B: 174,
-//     name: "RAL 250 50 35",
-//     english: "Turkish blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 128,
-//     B: 181,
-//     name: "RAL 250 50 40",
-//     english: "Primal blue",
-//     italian: ""
-//   },
-//   {
-//     R: 130,
-//     G: 146,
-//     B: 160,
-//     name: "RAL 250 60 10",
-//     english: "Bird blue grey",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 148,
-//     B: 169,
-//     name: "RAL 250 60 15",
-//     english: "Gentle blue",
-//     italian: ""
-//   },
-//   {
-//     R: 113,
-//     G: 149,
-//     B: 177,
-//     name: "RAL 250 60 20",
-//     english: "Aragonite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 150,
-//     B: 185,
-//     name: "RAL 250 60 25",
-//     english: "Pearl blue",
-//     italian: ""
-//   },
-//   {
-//     R: 89,
-//     G: 151,
-//     B: 192,
-//     name: "RAL 250 60 30",
-//     english: "Topaz blue",
-//     italian: ""
-//   },
-//   {
-//     R: 77,
-//     G: 152,
-//     B: 200,
-//     name: "RAL 250 60 35",
-//     english: "Stratos blue",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 154,
-//     B: 209,
-//     name: "RAL 250 60 40",
-//     english: "Structural blue",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 174,
-//     B: 188,
-//     name: "RAL 250 70 10",
-//     english: "Foggy blue",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 175,
-//     B: 196,
-//     name: "RAL 250 70 15",
-//     english: "Chalk blue",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 176,
-//     B: 204,
-//     name: "RAL 250 70 20",
-//     english: "Medium blue",
-//     italian: ""
-//   },
-//   {
-//     R: 130,
-//     G: 178,
-//     B: 212,
-//     name: "RAL 250 70 25",
-//     english: "Meadow blossom blue",
-//     italian: ""
-//   },
-//   {
-//     R: 118,
-//     G: 178,
-//     B: 219,
-//     name: "RAL 250 70 30",
-//     english: "Broom butterfly blue",
-//     italian: ""
-//   },
-//   {
-//     R: 184,
-//     G: 202,
-//     B: 215,
-//     name: "RAL 250 80 10",
-//     english: "Light cyan",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 204,
-//     B: 224,
-//     name: "RAL 250 80 15",
-//     english: "Himalaya blue",
-//     italian: ""
-//   },
-//   {
-//     R: 164,
-//     G: 201,
-//     B: 229,
-//     name: "RAL 250 80 20",
-//     english: "Velvet blue",
-//     italian: ""
-//   },
-//   {
-//     R: 206,
-//     G: 213,
-//     B: 221,
-//     name: "RAL 250 85 05",
-//     english: "White blue",
-//     italian: ""
-//   },
-//   {
-//     R: 198,
-//     G: 215,
-//     B: 230,
-//     name: "RAL 250 85 10",
-//     english: "Washing powder soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 191,
-//     G: 216,
-//     B: 239,
-//     name: "RAL 250 85 15",
-//     english: "Diamond soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 227,
-//     B: 231,
-//     name: "RAL 250 90 05",
-//     english: "Ice white",
-//     italian: ""
-//   },
-//   {
-//     R: 223,
-//     G: 232,
-//     B: 237,
-//     name: "RAL 250 92 05",
-//     english: "Withdrawn from range",
-//     italian: ""
-//   },
-//   {
-//     R: 38,
-//     G: 48,
-//     B: 61,
-//     name: "RAL 260 20 05",
-//     english: "Blue black",
-//     italian: ""
-//   },
-//   {
-//     R: 27,
-//     G: 47,
-//     B: 68,
-//     name: "RAL 260 20 10",
-//     english: "Nato blue",
-//     italian: ""
-//   },
-//   {
-//     R: 44,
-//     G: 48,
-//     B: 54,
-//     name: "RAL 260 20 15",
-//     english: "Suit blue",
-//     italian: ""
-//   },
-//   {
-//     R: 21,
-//     G: 50,
-//     B: 74,
-//     name: "RAL 260 20 20",
-//     english: "Halite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 70,
-//     B: 77,
-//     name: "RAL 260 30 05",
-//     english: "Alpine duck grey",
-//     italian: ""
-//   },
-//   {
-//     R: 60,
-//     G: 71,
-//     B: 86,
-//     name: "RAL 260 30 10",
-//     english: "Bronze blue",
-//     italian: ""
-//   },
-//   {
-//     R: 53,
-//     G: 72,
-//     B: 93,
-//     name: "RAL 260 30 15",
-//     english: "Berlin blue",
-//     italian: ""
-//   },
-//   {
-//     R: 46,
-//     G: 73,
-//     B: 100,
-//     name: "RAL 260 30 20",
-//     english: "French blue",
-//     italian: ""
-//   },
-//   {
-//     R: 33,
-//     G: 73,
-//     B: 107,
-//     name: "RAL 260 30 25",
-//     english: "Tanzanite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 24,
-//     G: 75,
-//     B: 115,
-//     name: "RAL 260 30 30",
-//     english: "Opal blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 76,
-//     B: 124,
-//     name: "RAL 260 30 35",
-//     english: "Royal blue",
-//     italian: ""
-//   },
-//   {
-//     R: 88,
-//     G: 93,
-//     B: 100,
-//     name: "RAL 260 40 05",
-//     english: "Swedish blue",
-//     italian: ""
-//   },
-//   {
-//     R: 85,
-//     G: 96,
-//     B: 111,
-//     name: "RAL 260 40 10",
-//     english: "Sheet blue",
-//     italian: ""
-//   },
-//   {
-//     R: 79,
-//     G: 97,
-//     B: 118,
-//     name: "RAL 260 40 15",
-//     english: "Plum blue",
-//     italian: ""
-//   },
-//   {
-//     R: 68,
-//     G: 95,
-//     B: 124,
-//     name: "RAL 260 40 20",
-//     english: "Cadet blue",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 98,
-//     B: 133,
-//     name: "RAL 260 40 25",
-//     english: "Enamel blue",
-//     italian: ""
-//   },
-//   {
-//     R: 50,
-//     G: 98,
-//     B: 139,
-//     name: "RAL 260 40 30",
-//     english: "Copenhagen blue",
-//     italian: ""
-//   },
-//   {
-//     R: 35,
-//     G: 98,
-//     B: 146,
-//     name: "RAL 260 40 35",
-//     english: "Bauhaus blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 100,
-//     B: 157,
-//     name: "RAL 260 40 40",
-//     english: "Navy blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 101,
-//     B: 164,
-//     name: "RAL 260 40 45",
-//     english: "LED blue",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 117,
-//     B: 125,
-//     name: "RAL 260 50 05",
-//     english: "Spitzbergen blue",
-//     italian: ""
-//   },
-//   {
-//     R: 108,
-//     G: 119,
-//     B: 134,
-//     name: "RAL 260 50 10",
-//     english: "Cypress grey blue",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 120,
-//     B: 142,
-//     name: "RAL 260 50 15",
-//     english: "Mahonia berry blue",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 123,
-//     B: 151,
-//     name: "RAL 260 50 20",
-//     english: "Doves blue",
-//     italian: ""
-//   },
-//   {
-//     R: 89,
-//     G: 124,
-//     B: 161,
-//     name: "RAL 260 50 25",
-//     english: "Biedermeier blue",
-//     italian: ""
-//   },
-//   {
-//     R: 77,
-//     G: 124,
-//     B: 170,
-//     name: "RAL 260 50 30",
-//     english: "Beijing blue",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 123,
-//     B: 175,
-//     name: "RAL 260 50 35",
-//     english: "Vermeer blue",
-//     italian: ""
-//   },
-//   {
-//     R: 48,
-//     G: 126,
-//     B: 186,
-//     name: "RAL 260 50 40",
-//     english: "Meissen blue",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 144,
-//     B: 152,
-//     name: "RAL 260 60 05",
-//     english: "Seal grey",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 146,
-//     B: 161,
-//     name: "RAL 260 60 10",
-//     english: "Diopside blue",
-//     italian: ""
-//   },
-//   {
-//     R: 130,
-//     G: 149,
-//     B: 171,
-//     name: "RAL 260 60 15",
-//     english: "Nordland blue",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 148,
-//     B: 178,
-//     name: "RAL 260 60 20",
-//     english: "Cranberry blue",
-//     italian: ""
-//   },
-//   {
-//     R: 114,
-//     G: 149,
-//     B: 186,
-//     name: "RAL 260 60 25",
-//     english: "Lupine blue",
-//     italian: ""
-//   },
-//   {
-//     R: 105,
-//     G: 150,
-//     B: 195,
-//     name: "RAL 260 60 30",
-//     english: "Blueberry soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 95,
-//     G: 151,
-//     B: 203,
-//     name: "RAL 260 60 35",
-//     english: "Brilliant blue",
-//     italian: ""
-//   },
-//   {
-//     R: 168,
-//     G: 174,
-//     B: 181,
-//     name: "RAL 260 70 05",
-//     english: "Northern light grey",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 174,
-//     B: 189,
-//     name: "RAL 260 70 10",
-//     english: "Petrel blue grey",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 174,
-//     B: 198,
-//     name: "RAL 260 70 15",
-//     english: "Nordland light blue",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 175,
-//     B: 206,
-//     name: "RAL 260 70 20",
-//     english: "Matte blue",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 176,
-//     B: 215,
-//     name: "RAL 260 70 25",
-//     english: "Pacific blue",
-//     italian: ""
-//   },
-//   {
-//     R: 193,
-//     G: 200,
-//     B: 207,
-//     name: "RAL 260 80 05",
-//     english: "Light blue grey",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 200,
-//     B: 216,
-//     name: "RAL 260 80 10",
-//     english: "Powder soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 201,
-//     B: 223,
-//     name: "RAL 260 80 15",
-//     english: "Wind blue",
-//     italian: ""
-//   },
-//   {
-//     R: 207,
-//     G: 213,
-//     B: 221,
-//     name: "RAL 260 85 05",
-//     english: "Satin white",
-//     italian: ""
-//   },
-//   {
-//     R: 202,
-//     G: 214,
-//     B: 231,
-//     name: "RAL 260 85 10",
-//     english: "Sea breeze green",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 226,
-//     B: 231,
-//     name: "RAL 260 90 05",
-//     english: "Milk blue",
-//     italian: ""
-//   },
-//   {
-//     R: 26,
-//     G: 46,
-//     B: 75,
-//     name: "RAL 270 20 20",
-//     english: "Crow black blue",
-//     italian: ""
-//   },
-//   {
-//     R: 18,
-//     G: 46,
-//     B: 82,
-//     name: "RAL 270 20 25",
-//     english: "Indigo black",
-//     italian: ""
-//   },
-//   {
-//     R: 8,
-//     G: 48,
-//     B: 90,
-//     name: "RAL 270 20 29",
-//     english: "Effervescent blue",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 70,
-//     B: 92,
-//     name: "RAL 270 30 15",
-//     english: "Midnight blue",
-//     italian: ""
-//   },
-//   {
-//     R: 52,
-//     G: 70,
-//     B: 100,
-//     name: "RAL 270 30 20",
-//     english: "Dark blue",
-//     italian: ""
-//   },
-//   {
-//     R: 46,
-//     G: 71,
-//     B: 108,
-//     name: "RAL 270 30 25",
-//     english: "Grape blue",
-//     italian: ""
-//   },
-//   {
-//     R: 36,
-//     G: 70,
-//     B: 115,
-//     name: "RAL 270 30 30",
-//     english: "Medici blue",
-//     italian: ""
-//   },
-//   {
-//     R: 24,
-//     G: 70,
-//     B: 123,
-//     name: "RAL 270 30 35",
-//     english: "Kolibri blue",
-//     italian: ""
-//   },
-//   {
-//     R: 0,
-//     G: 70,
-//     B: 131,
-//     name: "RAL 270 30 40",
-//     english: "Prince blue",
-//     italian: ""
-//   },
-//   {
-//     R: 83,
-//     G: 95,
-//     B: 118,
-//     name: "RAL 270 40 15",
-//     english: "Pewter grey",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 94,
-//     B: 126,
-//     name: "RAL 270 40 20",
-//     english: "Parlour blue",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 96,
-//     B: 135,
-//     name: "RAL 270 40 25",
-//     english: "Functional blue",
-//     italian: ""
-//   },
-//   {
-//     R: 64,
-//     G: 94,
-//     B: 142,
-//     name: "RAL 270 40 30",
-//     english: "Make-up blue",
-//     italian: ""
-//   },
-//   {
-//     R: 54,
-//     G: 94,
-//     B: 150,
-//     name: "RAL 270 40 35",
-//     english: "Lapis lazuli blue",
-//     italian: ""
-//   },
-//   {
-//     R: 43,
-//     G: 94,
-//     B: 157,
-//     name: "RAL 270 40 40",
-//     english: "Magic blue",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 119,
-//     B: 136,
-//     name: "RAL 270 50 10",
-//     english: "Brocade blue",
-//     italian: ""
-//   },
-//   {
-//     R: 109,
-//     G: 121,
-//     B: 145,
-//     name: "RAL 270 50 15",
-//     english: "Noble blue",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 120,
-//     B: 153,
-//     name: "RAL 270 50 20",
-//     english: "Delft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 121,
-//     B: 162,
-//     name: "RAL 270 50 25",
-//     english: "Cocktail blue",
-//     italian: ""
-//   },
-//   {
-//     R: 89,
-//     G: 119,
-//     B: 169,
-//     name: "RAL 270 50 30",
-//     english: "Sage blossom blue",
-//     italian: ""
-//   },
-//   {
-//     R: 81,
-//     G: 119,
-//     B: 175,
-//     name: "RAL 270 50 35",
-//     english: "Viennese blue",
-//     italian: ""
-//   },
-//   {
-//     R: 73,
-//     G: 120,
-//     B: 186,
-//     name: "RAL 270 50 40",
-//     english: "Cornflower blue",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 145,
-//     B: 162,
-//     name: "RAL 270 60 10",
-//     english: "Fantasy grey",
-//     italian: ""
-//   },
-//   {
-//     R: 134,
-//     G: 147,
-//     B: 172,
-//     name: "RAL 270 60 15",
-//     english: "Lilac blue",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 146,
-//     B: 180,
-//     name: "RAL 270 60 20",
-//     english: "Lavender blue",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 147,
-//     B: 189,
-//     name: "RAL 270 60 25",
-//     english: "Delphinium blue",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 147,
-//     B: 198,
-//     name: "RAL 270 60 30",
-//     english: "Eyeshadow blue",
-//     italian: ""
-//   },
-//   {
-//     R: 109,
-//     G: 146,
-//     B: 204,
-//     name: "RAL 270 60 35",
-//     english: "Butterfly blue",
-//     italian: ""
-//   },
-//   {
-//     R: 165,
-//     G: 173,
-//     B: 191,
-//     name: "RAL 270 70 10",
-//     english: "Feather soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 160,
-//     G: 173,
-//     B: 199,
-//     name: "RAL 270 70 15",
-//     english: "Satin soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 174,
-//     B: 209,
-//     name: "RAL 270 70 20",
-//     english: "Angel blue",
-//     italian: ""
-//   },
-//   {
-//     R: 147,
-//     G: 171,
-//     B: 215,
-//     name: "RAL 270 70 25",
-//     english: "Boy blue",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 200,
-//     B: 216,
-//     name: "RAL 270 80 10",
-//     english: "Light pearl soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 186,
-//     G: 199,
-//     B: 224,
-//     name: "RAL 270 80 15",
-//     english: "Retina soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 209,
-//     G: 212,
-//     B: 222,
-//     name: "RAL 270 85 05",
-//     english: "Angel hair silver",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 213,
-//     B: 231,
-//     name: "RAL 270 85 10",
-//     english: "Mother-of-pearl silver",
-//     italian: ""
-//   },
-//   {
-//     R: 201,
-//     G: 213,
-//     B: 240,
-//     name: "RAL 270 85 15",
-//     english: "Murano soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 227,
-//     B: 232,
-//     name: "RAL 270 90 05",
-//     english: "Bleached white",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 50,
-//     B: 56,
-//     name: "RAL 280 20 05",
-//     english: "Granite black",
-//     italian: ""
-//   },
-//   {
-//     R: 45,
-//     G: 48,
-//     B: 62,
-//     name: "RAL 280 20 10",
-//     english: "Diamond black",
-//     italian: ""
-//   },
-//   {
-//     R: 42,
-//     G: 48,
-//     B: 69,
-//     name: "RAL 280 20 15",
-//     english: "Crow black",
-//     italian: ""
-//   },
-//   {
-//     R: 37,
-//     G: 47,
-//     B: 75,
-//     name: "RAL 280 20 20",
-//     english: "Manganese black",
-//     italian: ""
-//   },
-//   {
-//     R: 36,
-//     G: 47,
-//     B: 84,
-//     name: "RAL 280 20 25",
-//     english: "Elite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 29,
-//     G: 46,
-//     B: 91,
-//     name: "RAL 280 20 30",
-//     english: "Ambassador blue",
-//     italian: ""
-//   },
-//   {
-//     R: 68,
-//     G: 69,
-//     B: 76,
-//     name: "RAL 280 30 05",
-//     english: "Smoking night blue",
-//     italian: ""
-//   },
-//   {
-//     R: 67,
-//     G: 71,
-//     B: 86,
-//     name: "RAL 280 30 10",
-//     english: "Meteorite black blue",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 71,
-//     B: 94,
-//     name: "RAL 280 30 15",
-//     english: "Anthracite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 71,
-//     B: 102,
-//     name: "RAL 280 30 20",
-//     english: "Garnet storm blue",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 70,
-//     B: 109,
-//     name: "RAL 280 30 25",
-//     english: "Hydrogen blue",
-//     italian: ""
-//   },
-//   {
-//     R: 50,
-//     G: 69,
-//     B: 116,
-//     name: "RAL 280 30 30",
-//     english: "Deep blue",
-//     italian: ""
-//   },
-//   {
-//     R: 48,
-//     G: 69,
-//     B: 123,
-//     name: "RAL 280 30 35",
-//     english: "Theatre blue",
-//     italian: ""
-//   },
-//   {
-//     R: 43,
-//     G: 69,
-//     B: 130,
-//     name: "RAL 280 30 40",
-//     english: "Poster blue",
-//     italian: ""
-//   },
-//   {
-//     R: 92,
-//     G: 93,
-//     B: 101,
-//     name: "RAL 280 40 05",
-//     english: "Gallery grey",
-//     italian: ""
-//   },
-//   {
-//     R: 90,
-//     G: 93,
-//     B: 110,
-//     name: "RAL 280 40 10",
-//     english: "Suede indigo",
-//     italian: ""
-//   },
-//   {
-//     R: 87,
-//     G: 93,
-//     B: 118,
-//     name: "RAL 280 40 15",
-//     english: "Dark lavender",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 93,
-//     B: 126,
-//     name: "RAL 280 40 20",
-//     english: "Starry sky blue",
-//     italian: ""
-//   },
-//   {
-//     R: 83,
-//     G: 94,
-//     B: 135,
-//     name: "RAL 280 40 25",
-//     english: "Indigo navy blue",
-//     italian: ""
-//   },
-//   {
-//     R: 77,
-//     G: 93,
-//     B: 141,
-//     name: "RAL 280 40 30",
-//     english: "Evening blue",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 93,
-//     B: 149,
-//     name: "RAL 280 40 35",
-//     english: "Portuguese blue",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 92,
-//     B: 158,
-//     name: "RAL 280 40 40",
-//     english: "Neptune blue",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 91,
-//     B: 165,
-//     name: "RAL 280 40 45",
-//     english: "Hyacinth blue",
-//     italian: ""
-//   },
-//   {
-//     R: 116,
-//     G: 118,
-//     B: 127,
-//     name: "RAL 280 50 05",
-//     english: "Noble grey",
-//     italian: ""
-//   },
-//   {
-//     R: 115,
-//     G: 119,
-//     B: 136,
-//     name: "RAL 280 50 10",
-//     english: "Ice blue grey",
-//     italian: ""
-//   },
-//   {
-//     R: 113,
-//     G: 118,
-//     B: 143,
-//     name: "RAL 280 50 15",
-//     english: "Granite blue",
-//     italian: ""
-//   },
-//   {
-//     R: 109,
-//     G: 117,
-//     B: 152,
-//     name: "RAL 280 50 20",
-//     english: "Lavender mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 118,
-//     B: 160,
-//     name: "RAL 280 50 25",
-//     english: "Costume blue",
-//     italian: ""
-//   },
-//   {
-//     R: 103,
-//     G: 117,
-//     B: 169,
-//     name: "RAL 280 50 30",
-//     english: "Light mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 99,
-//     G: 117,
-//     B: 176,
-//     name: "RAL 280 50 35",
-//     english: "Sapphire shimmer mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 95,
-//     G: 118,
-//     B: 187,
-//     name: "RAL 280 50 40",
-//     english: "Diva violet",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 144,
-//     B: 152,
-//     name: "RAL 280 60 05",
-//     english: "Tulle grey",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 143,
-//     B: 161,
-//     name: "RAL 280 60 10",
-//     english: "Sweet lavender",
-//     italian: ""
-//   },
-//   {
-//     R: 138,
-//     G: 143,
-//     B: 169,
-//     name: "RAL 280 60 15",
-//     english: "Marble blue",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 143,
-//     B: 179,
-//     name: "RAL 280 60 20",
-//     english: "Misty violet",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 143,
-//     B: 188,
-//     name: "RAL 280 60 25",
-//     english: "Opal violet",
-//     italian: ""
-//   },
-//   {
-//     R: 129,
-//     G: 143,
-//     B: 195,
-//     name: "RAL 280 60 30",
-//     english: "Persian violet",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 144,
-//     B: 205,
-//     name: "RAL 280 60 35",
-//     english: "Organza violet",
-//     italian: ""
-//   },
-//   {
-//     R: 168,
-//     G: 169,
-//     B: 178,
-//     name: "RAL 280 70 05",
-//     english: "Taupe grey",
-//     italian: ""
-//   },
-//   {
-//     R: 168,
-//     G: 172,
-//     B: 188,
-//     name: "RAL 280 70 10",
-//     english: "Tulle violet",
-//     italian: ""
-//   },
-//   {
-//     R: 166,
-//     G: 171,
-//     B: 197,
-//     name: "RAL 280 70 15",
-//     english: "Foxflower viola",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 171,
-//     B: 208,
-//     name: "RAL 280 70 20",
-//     english: "Lilac scent soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 171,
-//     B: 216,
-//     name: "RAL 280 70 25",
-//     english: "Aster flower blue",
-//     italian: ""
-//   },
-//   {
-//     R: 199,
-//     G: 200,
-//     B: 208,
-//     name: "RAL 280 80 05",
-//     english: "Viola ice grey",
-//     italian: ""
-//   },
-//   {
-//     R: 195,
-//     G: 198,
-//     B: 216,
-//     name: "RAL 280 80 10",
-//     english: "Hyacinth white soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 191,
-//     G: 197,
-//     B: 223,
-//     name: "RAL 280 80 15",
-//     english: "Violet scent soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 211,
-//     G: 212,
-//     B: 222,
-//     name: "RAL 280 85 05",
-//     english: "Pebble soft blue white",
-//     italian: ""
-//   },
-//   {
-//     R: 209,
-//     G: 212,
-//     B: 231,
-//     name: "RAL 280 85 10",
-//     english: "Jewellery white",
-//     italian: ""
-//   },
-//   {
-//     R: 224,
-//     G: 227,
-//     B: 232,
-//     name: "RAL 280 90 05",
-//     english: "Mauve white",
-//     italian: ""
-//   },
-//   {
-//     R: 233,
-//     G: 235,
-//     B: 244,
-//     name: "RAL 280 93 05",
-//     english: "Porcelain white",
-//     italian: ""
-//   },
-//   {
-//     R: 42,
-//     G: 42,
-//     B: 59,
-//     name: "RAL 290 20 10",
-//     english: "Spinel stone black",
-//     italian: ""
-//   },
-//   {
-//     R: 46,
-//     G: 43,
-//     B: 66,
-//     name: "RAL 290 20 15",
-//     english: "Black violet",
-//     italian: ""
-//   },
-//   {
-//     R: 47,
-//     G: 45,
-//     B: 76,
-//     name: "RAL 290 20 20",
-//     english: "Tropical night blue",
-//     italian: ""
-//   },
-//   {
-//     R: 43,
-//     G: 43,
-//     B: 82,
-//     name: "RAL 290 20 25",
-//     english: "Indigo violet",
-//     italian: ""
-//   },
-//   {
-//     R: 39,
-//     G: 40,
-//     B: 88,
-//     name: "RAL 290 20 30",
-//     english: "Ultramarine violet",
-//     italian: ""
-//   },
-//   {
-//     R: 38,
-//     G: 40,
-//     B: 97,
-//     name: "RAL 290 20 35",
-//     english: "Shiava blue",
-//     italian: ""
-//   },
-//   {
-//     R: 69,
-//     G: 66,
-//     B: 83,
-//     name: "RAL 290 30 10",
-//     english: "Flintstone blue",
-//     italian: ""
-//   },
-//   {
-//     R: 68,
-//     G: 67,
-//     B: 91,
-//     name: "RAL 290 30 15",
-//     english: "Spinel black",
-//     italian: ""
-//   },
-//   {
-//     R: 66,
-//     G: 64,
-//     B: 97,
-//     name: "RAL 290 30 20",
-//     english: "Church blue",
-//     italian: ""
-//   },
-//   {
-//     R: 66,
-//     G: 64,
-//     B: 106,
-//     name: "RAL 290 30 25",
-//     english: "Gloomy blue",
-//     italian: ""
-//   },
-//   {
-//     R: 64,
-//     G: 64,
-//     B: 114,
-//     name: "RAL 290 30 30",
-//     english: "Lviv blue",
-//     italian: ""
-//   },
-//   {
-//     R: 64,
-//     G: 64,
-//     B: 123,
-//     name: "RAL 290 30 35",
-//     english: "British mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 60,
-//     G: 63,
-//     B: 130,
-//     name: "RAL 290 30 40",
-//     english: "Official violet",
-//     italian: ""
-//   },
-//   {
-//     R: 93,
-//     G: 91,
-//     B: 108,
-//     name: "RAL 290 40 10",
-//     english: "Sheerwater black",
-//     italian: ""
-//   },
-//   {
-//     R: 93,
-//     G: 90,
-//     B: 116,
-//     name: "RAL 290 40 15",
-//     english: "Agate violet",
-//     italian: ""
-//   },
-//   {
-//     R: 91,
-//     G: 89,
-//     B: 125,
-//     name: "RAL 290 40 20",
-//     english: "Deep lavender",
-//     italian: ""
-//   },
-//   {
-//     R: 89,
-//     G: 87,
-//     B: 132,
-//     name: "RAL 290 40 25",
-//     english: "Dusk mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 87,
-//     G: 86,
-//     B: 139,
-//     name: "RAL 290 40 30",
-//     english: "Rich violet",
-//     italian: ""
-//   },
-//   {
-//     R: 86,
-//     G: 85,
-//     B: 147,
-//     name: "RAL 290 40 35",
-//     english: "Onion skin blue",
-//     italian: ""
-//   },
-//   {
-//     R: 85,
-//     G: 86,
-//     B: 156,
-//     name: "RAL 290 40 40",
-//     english: "Iris blue",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 85,
-//     B: 163,
-//     name: "RAL 290 40 45",
-//     english: "Violet blue",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 115,
-//     B: 134,
-//     name: "RAL 290 50 10",
-//     english: "Ash mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 116,
-//     G: 114,
-//     B: 140,
-//     name: "RAL 290 50 15",
-//     english: "Stormy mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 115,
-//     G: 112,
-//     B: 150,
-//     name: "RAL 290 50 20",
-//     english: "Silk crepe mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 116,
-//     G: 113,
-//     B: 159,
-//     name: "RAL 290 50 25",
-//     english: "Hyacinth mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 115,
-//     G: 112,
-//     B: 166,
-//     name: "RAL 290 50 30",
-//     english: "Mountain flower mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 111,
-//     B: 174,
-//     name: "RAL 290 50 35",
-//     english: "Chalcedony violet",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 111,
-//     B: 183,
-//     name: "RAL 290 50 40",
-//     english: "Gladiola blue",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 141,
-//     B: 161,
-//     name: "RAL 290 60 10",
-//     english: "Lavender blossom grey",
-//     italian: ""
-//   },
-//   {
-//     R: 143,
-//     G: 140,
-//     B: 168,
-//     name: "RAL 290 60 15",
-//     english: "Delicate violet",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 138,
-//     B: 178,
-//     name: "RAL 290 60 20",
-//     english: "Opera mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 139,
-//     B: 187,
-//     name: "RAL 290 60 25",
-//     english: "Soft blue lavender",
-//     italian: ""
-//   },
-//   {
-//     R: 140,
-//     G: 138,
-//     B: 194,
-//     name: "RAL 290 60 30",
-//     english: "Pleated mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 136,
-//     B: 200,
-//     name: "RAL 290 60 35",
-//     english: "True lavender",
-//     italian: ""
-//   },
-//   {
-//     R: 171,
-//     G: 169,
-//     B: 189,
-//     name: "RAL 290 70 10",
-//     english: "Cream violet",
-//     italian: ""
-//   },
-//   {
-//     R: 170,
-//     G: 167,
-//     B: 197,
-//     name: "RAL 290 70 15",
-//     english: "Wisteria light soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 168,
-//     G: 167,
-//     B: 205,
-//     name: "RAL 290 70 20",
-//     english: "Blossom mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 165,
-//     B: 214,
-//     name: "RAL 290 70 25",
-//     english: "Sorbet ice mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 197,
-//     G: 196,
-//     B: 214,
-//     name: "RAL 290 80 10",
-//     english: "Tulip soft blue",
-//     italian: ""
-//   },
-//   {
-//     R: 198,
-//     G: 196,
-//     B: 221,
-//     name: "RAL 290 80 15",
-//     english: "Pale lilac",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 211,
-//     B: 221,
-//     name: "RAL 290 85 05",
-//     english: "Limestone mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 211,
-//     B: 230,
-//     name: "RAL 290 85 10",
-//     english: "Orchid white",
-//     italian: ""
-//   },
-//   {
-//     R: 227,
-//     G: 227,
-//     B: 233,
-//     name: "RAL 290 90 05",
-//     english: "Violet white",
-//     italian: ""
-//   },
-//   {
-//     R: 230,
-//     G: 229,
-//     B: 237,
-//     name: "RAL 290 92 05",
-//     english: "Replaced by 290 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 234,
-//     B: 244,
-//     name: "RAL 290 93 05",
-//     english: "Lilac white",
-//     italian: ""
-//   },
-//   {
-//     R: 50,
-//     G: 47,
-//     B: 54,
-//     name: "RAL 300 20 05",
-//     english: "Night black",
-//     italian: ""
-//   },
-//   {
-//     R: 48,
-//     G: 43,
-//     B: 59,
-//     name: "RAL 300 20 10",
-//     english: "Heron blue",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 42,
-//     B: 65,
-//     name: "RAL 300 20 15",
-//     english: "Viola black",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 40,
-//     B: 72,
-//     name: "RAL 300 20 20",
-//     english: "Blackberry black",
-//     italian: ""
-//   },
-//   {
-//     R: 49,
-//     G: 39,
-//     B: 76,
-//     name: "RAL 300 20 25",
-//     english: "Cardinal mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 48,
-//     G: 38,
-//     B: 86,
-//     name: "RAL 300 20 30",
-//     english: "Ceremonial purple",
-//     italian: ""
-//   },
-//   {
-//     R: 71,
-//     G: 68,
-//     B: 76,
-//     name: "RAL 300 30 05",
-//     english: "Night grey",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 66,
-//     B: 84,
-//     name: "RAL 300 30 10",
-//     english: "Mourning violet",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 64,
-//     B: 89,
-//     name: "RAL 300 30 15",
-//     english: "Club grey",
-//     italian: ""
-//   },
-//   {
-//     R: 73,
-//     G: 62,
-//     B: 96,
-//     name: "RAL 300 30 20",
-//     english: "Mulberry mauve black",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 62,
-//     B: 104,
-//     name: "RAL 300 30 25",
-//     english: "Evening mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 61,
-//     B: 110,
-//     name: "RAL 300 30 30",
-//     english: "Opera blue",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 60,
-//     B: 117,
-//     name: "RAL 300 30 35",
-//     english: "Deep voilet",
-//     italian: ""
-//   },
-//   {
-//     R: 74,
-//     G: 58,
-//     B: 124,
-//     name: "RAL 300 30 40",
-//     english: "Sage violet",
-//     italian: ""
-//   },
-//   {
-//     R: 96,
-//     G: 93,
-//     B: 101,
-//     name: "RAL 300 40 05",
-//     english: "Baroque grey",
-//     italian: ""
-//   },
-//   {
-//     R: 95,
-//     G: 89,
-//     B: 106,
-//     name: "RAL 300 40 10",
-//     english: "Gobelin mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 97,
-//     G: 88,
-//     B: 113,
-//     name: "RAL 300 40 15",
-//     english: "Orchid grey",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 87,
-//     B: 121,
-//     name: "RAL 300 40 20",
-//     english: "Old mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 99,
-//     G: 85,
-//     B: 129,
-//     name: "RAL 300 40 25",
-//     english: "Parma mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 84,
-//     B: 136,
-//     name: "RAL 300 40 30",
-//     english: "Wool violet",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 83,
-//     B: 141,
-//     name: "RAL 300 40 35",
-//     english: "Fine purple",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 80,
-//     B: 148,
-//     name: "RAL 300 40 40",
-//     english: "Clematis blue",
-//     italian: ""
-//   },
-//   {
-//     R: 99,
-//     G: 80,
-//     B: 156,
-//     name: "RAL 300 40 45",
-//     english: "Coronation blue",
-//     italian: ""
-//   },
-//   {
-//     R: 120,
-//     G: 117,
-//     B: 125,
-//     name: "RAL 300 50 05",
-//     english: "Hawk grey",
-//     italian: ""
-//   },
-//   {
-//     R: 121,
-//     G: 115,
-//     B: 132,
-//     name: "RAL 300 50 10",
-//     english: "Violet grey",
-//     italian: ""
-//   },
-//   {
-//     R: 123,
-//     G: 114,
-//     B: 140,
-//     name: "RAL 300 50 15",
-//     english: "Capercaillie mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 124,
-//     G: 112,
-//     B: 148,
-//     name: "RAL 300 50 20",
-//     english: "Parisian violet",
-//     italian: ""
-//   },
-//   {
-//     R: 124,
-//     G: 110,
-//     B: 155,
-//     name: "RAL 300 50 25",
-//     english: "Tulip violet",
-//     italian: ""
-//   },
-//   {
-//     R: 125,
-//     G: 109,
-//     B: 162,
-//     name: "RAL 300 50 30",
-//     english: "Toy mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 127,
-//     G: 108,
-//     B: 170,
-//     name: "RAL 300 50 35",
-//     english: "Wintertime mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 106,
-//     B: 177,
-//     name: "RAL 300 50 40",
-//     english: "Clear mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 146,
-//     G: 143,
-//     B: 152,
-//     name: "RAL 300 60 05",
-//     english: "Partridge grey",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 141,
-//     B: 159,
-//     name: "RAL 300 60 10",
-//     english: "Rose grey",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 139,
-//     B: 167,
-//     name: "RAL 300 60 15",
-//     english: "Antique viole",
-//     italian: ""
-//   },
-//   {
-//     R: 150,
-//     G: 137,
-//     B: 174,
-//     name: "RAL 300 60 20",
-//     english: "Larkspur violet",
-//     italian: ""
-//   },
-//   {
-//     R: 150,
-//     G: 135,
-//     B: 181,
-//     name: "RAL 300 60 25",
-//     english: "Silk lilac",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 134,
-//     B: 190,
-//     name: "RAL 300 60 30",
-//     english: "Heliotropic mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 131,
-//     B: 196,
-//     name: "RAL 300 60 35",
-//     english: "Amethyst grey",
-//     italian: ""
-//   },
-//   {
-//     R: 173,
-//     G: 170,
-//     B: 179,
-//     name: "RAL 300 70 05",
-//     english: "Velvet grey",
-//     italian: ""
-//   },
-//   {
-//     R: 175,
-//     G: 167,
-//     B: 186,
-//     name: "RAL 300 70 10",
-//     english: "Morning mist grey",
-//     italian: ""
-//   },
-//   {
-//     R: 176,
-//     G: 166,
-//     B: 194,
-//     name: "RAL 300 70 15",
-//     english: "Eyeshadow viola",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 165,
-//     B: 202,
-//     name: "RAL 300 70 20",
-//     english: "Lavender violet",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 162,
-//     B: 209,
-//     name: "RAL 300 70 25",
-//     english: "Pink lavender",
-//     italian: ""
-//   },
-//   {
-//     R: 201,
-//     G: 198,
-//     B: 206,
-//     name: "RAL 300 80 05",
-//     english: "Hazy mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 200,
-//     G: 194,
-//     B: 214,
-//     name: "RAL 300 80 10",
-//     english: "Pale voilet",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 193,
-//     B: 221,
-//     name: "RAL 300 80 15",
-//     english: "Ice mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 214,
-//     G: 211,
-//     B: 221,
-//     name: "RAL 300 85 05",
-//     english: "Delicate viola",
-//     italian: ""
-//   },
-//   {
-//     R: 216,
-//     G: 210,
-//     B: 229,
-//     name: "RAL 300 85 10",
-//     english: "Powder viola white",
-//     italian: ""
-//   },
-//   {
-//     R: 229,
-//     G: 226,
-//     B: 233,
-//     name: "RAL 300 90 05",
-//     english: "Translucent white",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 42,
-//     B: 70,
-//     name: "RAL 310 20 20",
-//     english: "Obsidian lava black",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 39,
-//     B: 76,
-//     name: "RAL 310 20 25",
-//     english: "Operetta mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 59,
-//     G: 32,
-//     B: 82,
-//     name: "RAL 310 20 30",
-//     english: "Powerful violet",
-//     italian: ""
-//   },
-//   {
-//     R: 80,
-//     G: 67,
-//     B: 89,
-//     name: "RAL 310 30 15",
-//     english: "Dark grey mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 79,
-//     G: 62,
-//     B: 94,
-//     name: "RAL 310 30 20",
-//     english: "Powerful mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 84,
-//     G: 61,
-//     B: 100,
-//     name: "RAL 310 30 25",
-//     english: "English violet",
-//     italian: ""
-//   },
-//   {
-//     R: 87,
-//     G: 59,
-//     B: 107,
-//     name: "RAL 310 30 30",
-//     english: "Crystal purple",
-//     italian: ""
-//   },
-//   {
-//     R: 85,
-//     G: 57,
-//     B: 110,
-//     name: "RAL 310 30 35",
-//     english: "Succinct violet",
-//     italian: ""
-//   },
-//   {
-//     R: 90,
-//     G: 56,
-//     B: 119,
-//     name: "RAL 310 30 40",
-//     english: "Loden purple",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 91,
-//     B: 108,
-//     name: "RAL 310 40 10",
-//     english: "Dark pink",
-//     italian: ""
-//   },
-//   {
-//     R: 105,
-//     G: 91,
-//     B: 114,
-//     name: "RAL 310 40 15",
-//     english: "Violet haze",
-//     italian: ""
-//   },
-//   {
-//     R: 108,
-//     G: 89,
-//     B: 121,
-//     name: "RAL 310 40 20",
-//     english: "Indigo red",
-//     italian: ""
-//   },
-//   {
-//     R: 109,
-//     G: 87,
-//     B: 127,
-//     name: "RAL 310 40 25",
-//     english: "Charoite violet",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 82,
-//     B: 131,
-//     name: "RAL 310 40 30",
-//     english: "Royal purple",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 82,
-//     B: 137,
-//     name: "RAL 310 40 35",
-//     english: "Magenta violet",
-//     italian: ""
-//   },
-//   {
-//     R: 116,
-//     G: 81,
-//     B: 145,
-//     name: "RAL 310 40 40",
-//     english: "Pure mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 126,
-//     G: 115,
-//     B: 133,
-//     name: "RAL 310 50 10",
-//     english: "Dull mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 114,
-//     B: 139,
-//     name: "RAL 310 50 15",
-//     english: "Batic lilac",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 113,
-//     B: 145,
-//     name: "RAL 310 50 20",
-//     english: "Provence violet",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 111,
-//     B: 153,
-//     name: "RAL 310 50 25",
-//     english: "Baroness mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 108,
-//     B: 159,
-//     name: "RAL 310 50 30",
-//     english: "Bitter violet",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 106,
-//     B: 164,
-//     name: "RAL 310 50 35",
-//     english: "Violet rose",
-//     italian: ""
-//   },
-//   {
-//     R: 140,
-//     G: 104,
-//     B: 171,
-//     name: "RAL 310 50 40",
-//     english: "Orchid mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 150,
-//     G: 140,
-//     B: 158,
-//     name: "RAL 310 60 10",
-//     english: "Gentle mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 155,
-//     G: 139,
-//     B: 165,
-//     name: "RAL 310 60 15",
-//     english: "Smokey mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 159,
-//     G: 138,
-//     B: 172,
-//     name: "RAL 310 60 20",
-//     english: "Saffron blossom mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 135,
-//     B: 178,
-//     name: "RAL 310 60 25",
-//     english: "Flirty pink",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 133,
-//     B: 183,
-//     name: "RAL 310 60 30",
-//     english: "Peony mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 166,
-//     G: 130,
-//     B: 193,
-//     name: "RAL 310 60 35",
-//     english: "Lilac purple",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 167,
-//     B: 184,
-//     name: "RAL 310 70 10",
-//     english: "Amorphous rose",
-//     italian: ""
-//   },
-//   {
-//     R: 182,
-//     G: 165,
-//     B: 191,
-//     name: "RAL 310 70 15",
-//     english: "Trasparent mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 162,
-//     B: 197,
-//     name: "RAL 310 70 20",
-//     english: "Blue pink",
-//     italian: ""
-//   },
-//   {
-//     R: 187,
-//     G: 161,
-//     B: 204,
-//     name: "RAL 310 70 25",
-//     english: "Glass violet",
-//     italian: ""
-//   },
-//   {
-//     R: 204,
-//     G: 194,
-//     B: 211,
-//     name: "RAL 310 80 10",
-//     english: "Powder viola",
-//     italian: ""
-//   },
-//   {
-//     R: 209,
-//     G: 192,
-//     B: 218,
-//     name: "RAL 310 80 15",
-//     english: "Orchid violet",
-//     italian: ""
-//   },
-//   {
-//     R: 216,
-//     G: 210,
-//     B: 220,
-//     name: "RAL 310 85 05",
-//     english: "Fairy pink",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 209,
-//     B: 227,
-//     name: "RAL 310 85 10",
-//     english: "Tricot lilac white",
-//     italian: ""
-//   },
-//   {
-//     R: 231,
-//     G: 227,
-//     B: 231,
-//     name: "RAL 310 90 05",
-//     english: "Wallflower white",
-//     italian: ""
-//   },
-//   {
-//     R: 53,
-//     G: 47,
-//     B: 54,
-//     name: "RAL 320 20 05",
-//     english: "Violet black",
-//     italian: ""
-//   },
-//   {
-//     R: 56,
-//     G: 42,
-//     B: 56,
-//     name: "RAL 320 20 10",
-//     english: "Obsidian red",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 39,
-//     B: 61,
-//     name: "RAL 320 20 15",
-//     english: "Spinel violet",
-//     italian: ""
-//   },
-//   {
-//     R: 61,
-//     G: 38,
-//     B: 65,
-//     name: "RAL 320 20 20",
-//     english: "Aubergine mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 62,
-//     G: 33,
-//     B: 71,
-//     name: "RAL 320 20 25",
-//     english: "Dark purple",
-//     italian: ""
-//   },
-//   {
-//     R: 73,
-//     G: 67,
-//     B: 74,
-//     name: "RAL 320 30 05",
-//     english: "Violet black",
-//     italian: ""
-//   },
-//   {
-//     R: 78,
-//     G: 64,
-//     B: 79,
-//     name: "RAL 320 30 10",
-//     english: "Stone violet",
-//     italian: ""
-//   },
-//   {
-//     R: 81,
-//     G: 59,
-//     B: 82,
-//     name: "RAL 320 30 15",
-//     english: "Amethyst dark violet",
-//     italian: ""
-//   },
-//   {
-//     R: 85,
-//     G: 56,
-//     B: 88,
-//     name: "RAL 320 30 20",
-//     english: "Dark blackberry",
-//     italian: ""
-//   },
-//   {
-//     R: 89,
-//     G: 55,
-//     B: 94,
-//     name: "RAL 320 30 25",
-//     english: "Purpurite violet",
-//     italian: ""
-//   },
-//   {
-//     R: 90,
-//     G: 52,
-//     B: 99,
-//     name: "RAL 320 30 30",
-//     english: "Damson mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 94,
-//     G: 50,
-//     B: 104,
-//     name: "RAL 320 30 35",
-//     english: "Grape purple",
-//     italian: ""
-//   },
-//   {
-//     R: 97,
-//     G: 50,
-//     B: 109,
-//     name: "RAL 320 30 37",
-//     english: "Lounge violet",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 92,
-//     B: 99,
-//     name: "RAL 320 40 05",
-//     english: "Slate mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 88,
-//     B: 103,
-//     name: "RAL 320 40 10",
-//     english: "Olivine basalt",
-//     italian: ""
-//   },
-//   {
-//     R: 106,
-//     G: 86,
-//     B: 109,
-//     name: "RAL 320 40 15",
-//     english: "Antique grey",
-//     italian: ""
-//   },
-//   {
-//     R: 109,
-//     G: 83,
-//     B: 114,
-//     name: "RAL 320 40 20",
-//     english: "Basil mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 113,
-//     G: 80,
-//     B: 120,
-//     name: "RAL 320 40 25",
-//     english: "Gladiola violet",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 75,
-//     B: 123,
-//     name: "RAL 320 40 30",
-//     english: "Cabbage blossom violet",
-//     italian: ""
-//   },
-//   {
-//     R: 120,
-//     G: 73,
-//     B: 129,
-//     name: "RAL 320 40 35",
-//     english: "Lilac violet",
-//     italian: ""
-//   },
-//   {
-//     R: 124,
-//     G: 70,
-//     B: 136,
-//     name: "RAL 320 40 40",
-//     english: "Violet purple",
-//     italian: ""
-//   },
-//   {
-//     R: 121,
-//     G: 114,
-//     B: 122,
-//     name: "RAL 320 50 05",
-//     english: "Grey violet",
-//     italian: ""
-//   },
-//   {
-//     R: 127,
-//     G: 112,
-//     B: 129,
-//     name: "RAL 320 50 10",
-//     english: "British grey mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 130,
-//     G: 110,
-//     B: 133,
-//     name: "RAL 320 50 15",
-//     english: "Parma grey",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 109,
-//     B: 140,
-//     name: "RAL 320 50 20",
-//     english: "Cyclamen",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 104,
-//     B: 145,
-//     name: "RAL 320 50 25",
-//     english: "Poetry mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 143,
-//     G: 103,
-//     B: 152,
-//     name: "RAL 320 50 30",
-//     english: "Viola grey",
-//     italian: ""
-//   },
-//   {
-//     R: 146,
-//     G: 97,
-//     B: 155,
-//     name: "RAL 320 50 35",
-//     english: "Aster violetta",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 98,
-//     B: 162,
-//     name: "RAL 320 50 39",
-//     english: "Replaced by 320 50 40",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 99,
-//     B: 163,
-//     name: "RAL 320 50 40",
-//     english: "Empire violet",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 141,
-//     B: 150,
-//     name: "RAL 320 60 05",
-//     english: "Aragonite grey",
-//     italian: ""
-//   },
-//   {
-//     R: 153,
-//     G: 140,
-//     B: 155,
-//     name: "RAL 320 60 10",
-//     english: "Chalk violet",
-//     italian: ""
-//   },
-//   {
-//     R: 158,
-//     G: 136,
-//     B: 161,
-//     name: "RAL 320 60 15",
-//     english: "Amethyst grey voilet",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 132,
-//     B: 166,
-//     name: "RAL 320 60 20",
-//     english: "Wonder violet",
-//     italian: ""
-//   },
-//   {
-//     R: 165,
-//     G: 130,
-//     B: 172,
-//     name: "RAL 320 60 25",
-//     english: "Nightshade violet",
-//     italian: ""
-//   },
-//   {
-//     R: 170,
-//     G: 127,
-//     B: 178,
-//     name: "RAL 320 60 30",
-//     english: "Lobby lilac",
-//     italian: ""
-//   },
-//   {
-//     R: 173,
-//     G: 125,
-//     B: 182,
-//     name: "RAL 320 60 35",
-//     english: "Blackberry sorbet",
-//     italian: ""
-//   },
-//   {
-//     R: 175,
-//     G: 168,
-//     B: 176,
-//     name: "RAL 320 70 05",
-//     english: "Elderberry grey",
-//     italian: ""
-//   },
-//   {
-//     R: 180,
-//     G: 165,
-//     B: 183,
-//     name: "RAL 320 70 10",
-//     english: "Bellflower violet",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 162,
-//     B: 188,
-//     name: "RAL 320 70 15",
-//     english: "Quartz violet",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 161,
-//     B: 197,
-//     name: "RAL 320 70 20",
-//     english: "Beach lilac",
-//     italian: ""
-//   },
-//   {
-//     R: 195,
-//     G: 156,
-//     B: 201,
-//     name: "RAL 320 70 25",
-//     english: "Lilac pink",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 196,
-//     B: 203,
-//     name: "RAL 320 80 05",
-//     english: "Light violet",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 193,
-//     B: 210,
-//     name: "RAL 320 80 10",
-//     english: "Amethyst light violet",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 189,
-//     B: 214,
-//     name: "RAL 320 80 15",
-//     english: "Cosmetic mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 218,
-//     G: 210,
-//     B: 218,
-//     name: "RAL 320 85 05",
-//     english: "Blackberry cream",
-//     italian: ""
-//   },
-//   {
-//     R: 223,
-//     G: 208,
-//     B: 225,
-//     name: "RAL 320 85 10",
-//     english: "Ametrine quartz",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 225,
-//     B: 230,
-//     name: "RAL 320 90 05",
-//     english: "Apatite pink",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 35,
-//     B: 61,
-//     name: "RAL 330 20 20",
-//     english: "Profound mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 34,
-//     B: 67,
-//     name: "RAL 330 20 25",
-//     english: "Opluent mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 86,
-//     G: 62,
-//     B: 81,
-//     name: "RAL 330 30 15",
-//     english: "Currant violet",
-//     italian: ""
-//   },
-//   {
-//     R: 91,
-//     G: 60,
-//     B: 85,
-//     name: "RAL 330 30 20",
-//     english: "Mexican purple",
-//     italian: ""
-//   },
-//   {
-//     R: 95,
-//     G: 56,
-//     B: 89,
-//     name: "RAL 330 30 25",
-//     english: "Parma plum red",
-//     italian: ""
-//   },
-//   {
-//     R: 100,
-//     G: 52,
-//     B: 93,
-//     name: "RAL 330 30 30",
-//     english: "Intense purple",
-//     italian: ""
-//   },
-//   {
-//     R: 104,
-//     G: 50,
-//     B: 98,
-//     name: "RAL 330 30 35",
-//     english: "Opulent purple",
-//     italian: ""
-//   },
-//   {
-//     R: 106,
-//     G: 43,
-//     B: 100,
-//     name: "RAL 330 30 40",
-//     english: "Intense mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 106,
-//     G: 90,
-//     B: 103,
-//     name: "RAL 330 40 10",
-//     english: "Patina violet",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 87,
-//     B: 107,
-//     name: "RAL 330 40 15",
-//     english: "Dark purple grey",
-//     italian: ""
-//   },
-//   {
-//     R: 116,
-//     G: 85,
-//     B: 112,
-//     name: "RAL 330 40 20",
-//     english: "Amaranth red",
-//     italian: ""
-//   },
-//   {
-//     R: 121,
-//     G: 82,
-//     B: 116,
-//     name: "RAL 330 40 25",
-//     english: "Deep magenta",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 78,
-//     B: 120,
-//     name: "RAL 330 40 30",
-//     english: "Phloxflower violet",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 76,
-//     B: 124,
-//     name: "RAL 330 40 35",
-//     english: "Thistle mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 69,
-//     B: 126,
-//     name: "RAL 330 40 40",
-//     english: "Visiona red",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 66,
-//     B: 129,
-//     name: "RAL 330 40 45",
-//     english: "Purpurite red",
-//     italian: ""
-//   },
-//   {
-//     R: 129,
-//     G: 112,
-//     B: 126,
-//     name: "RAL 330 50 10",
-//     english: "Burlap grey",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 111,
-//     B: 132,
-//     name: "RAL 330 50 15",
-//     english: "Sapphire pink",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 109,
-//     B: 137,
-//     name: "RAL 330 50 20",
-//     english: "Dianthus mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 146,
-//     G: 106,
-//     B: 141,
-//     name: "RAL 330 50 25",
-//     english: "Crystal pink",
-//     italian: ""
-//   },
-//   {
-//     R: 152,
-//     G: 104,
-//     B: 147,
-//     name: "RAL 330 50 30",
-//     english: "Tulipan violet",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 100,
-//     B: 150,
-//     name: "RAL 330 50 35",
-//     english: "Violet red",
-//     italian: ""
-//   },
-//   {
-//     R: 162,
-//     G: 95,
-//     B: 153,
-//     name: "RAL 330 50 40",
-//     english: "Orchid purple",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 140,
-//     B: 154,
-//     name: "RAL 330 60 10",
-//     english: "Greige violet",
-//     italian: ""
-//   },
-//   {
-//     R: 163,
-//     G: 137,
-//     B: 159,
-//     name: "RAL 330 60 15",
-//     english: "Vesuvian violet",
-//     italian: ""
-//   },
-//   {
-//     R: 169,
-//     G: 135,
-//     B: 164,
-//     name: "RAL 330 60 20",
-//     english: "Gentian violet",
-//     italian: ""
-//   },
-//   {
-//     R: 172,
-//     G: 130,
-//     B: 165,
-//     name: "RAL 330 60 25",
-//     english: "Wilhelminian pink",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 128,
-//     B: 171,
-//     name: "RAL 330 60 30",
-//     english: "Stage mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 185,
-//     G: 124,
-//     B: 175,
-//     name: "RAL 330 60 35",
-//     english: "Cheddar pink mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 120,
-//     B: 180,
-//     name: "RAL 330 60 40",
-//     english: "Colombo red mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 185,
-//     G: 166,
-//     B: 182,
-//     name: "RAL 330 70 10",
-//     english: "Mist pink",
-//     italian: ""
-//   },
-//   {
-//     R: 189,
-//     G: 162,
-//     B: 184,
-//     name: "RAL 330 70 15",
-//     english: "Leek blossom pink",
-//     italian: ""
-//   },
-//   {
-//     R: 195,
-//     G: 160,
-//     B: 189,
-//     name: "RAL 330 70 20",
-//     english: "Strawberry pink",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 157,
-//     B: 195,
-//     name: "RAL 330 70 25",
-//     english: "Purple pink",
-//     italian: ""
-//   },
-//   {
-//     R: 207,
-//     G: 154,
-//     B: 196,
-//     name: "RAL 330 70 30",
-//     english: "Clover pink",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 193,
-//     B: 208,
-//     name: "RAL 330 80 10",
-//     english: "Purple white",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 190,
-//     B: 212,
-//     name: "RAL 330 80 15",
-//     english: "Lovely pink",
-//     italian: ""
-//   },
-//   {
-//     R: 226,
-//     G: 188,
-//     B: 216,
-//     name: "RAL 330 80 20",
-//     english: "Designer pink",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 210,
-//     B: 217,
-//     name: "RAL 330 85 05",
-//     english: "Light magnolia rose",
-//     italian: ""
-//   },
-//   {
-//     R: 226,
-//     G: 207,
-//     B: 222,
-//     name: "RAL 330 85 10",
-//     english: "Raspberry pink",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 204,
-//     B: 227,
-//     name: "RAL 330 85 15",
-//     english: "Heavenly pink",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 226,
-//     B: 229,
-//     name: "RAL 330 90 05",
-//     english: "Delicacy white",
-//     italian: ""
-//   },
-//   {
-//     R: 53,
-//     G: 45,
-//     B: 50,
-//     name: "RAL 340 20 05",
-//     english: "Liquorice black",
-//     italian: ""
-//   },
-//   {
-//     R: 58,
-//     G: 39,
-//     B: 50,
-//     name: "RAL 340 20 10",
-//     english: "Mangosteen violet",
-//     italian: ""
-//   },
-//   {
-//     R: 60,
-//     G: 33,
-//     B: 51,
-//     name: "RAL 340 20 15",
-//     english: "Sitter red",
-//     italian: ""
-//   },
-//   {
-//     R: 69,
-//     G: 33,
-//     B: 57,
-//     name: "RAL 340 20 20",
-//     english: "Juice violet",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 32,
-//     B: 62,
-//     name: "RAL 340 20 25",
-//     english: "Presige mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 66,
-//     B: 72,
-//     name: "RAL 340 30 05",
-//     english: "Apple herb black",
-//     italian: ""
-//   },
-//   {
-//     R: 81,
-//     G: 62,
-//     B: 73,
-//     name: "RAL 340 30 10",
-//     english: "Passionfruit mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 87,
-//     G: 59,
-//     B: 77,
-//     name: "RAL 340 30 15",
-//     english: "Dark fig violet",
-//     italian: ""
-//   },
-//   {
-//     R: 92,
-//     G: 55,
-//     B: 78,
-//     name: "RAL 340 30 20",
-//     english: "Ruby violet",
-//     italian: ""
-//   },
-//   {
-//     R: 99,
-//     G: 53,
-//     B: 84,
-//     name: "RAL 340 30 25",
-//     english: "Blackberry deep red",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 47,
-//     B: 84,
-//     name: "RAL 340 30 30",
-//     english: "Deep red",
-//     italian: ""
-//   },
-//   {
-//     R: 106,
-//     G: 42,
-//     B: 87,
-//     name: "RAL 340 30 35",
-//     english: "Velvet mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 111,
-//     G: 37,
-//     B: 89,
-//     name: "RAL 340 30 38",
-//     english: "Forest fruit red",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 89,
-//     B: 95,
-//     name: "RAL 340 40 05",
-//     english: "Mauve brown",
-//     italian: ""
-//   },
-//   {
-//     R: 106,
-//     G: 86,
-//     B: 98,
-//     name: "RAL 340 40 10",
-//     english: "Spinel grey",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 83,
-//     B: 100,
-//     name: "RAL 340 40 15",
-//     english: "Earth brown violet",
-//     italian: ""
-//   },
-//   {
-//     R: 118,
-//     G: 80,
-//     B: 103,
-//     name: "RAL 340 40 20",
-//     english: "Dahlia matte red",
-//     italian: ""
-//   },
-//   {
-//     R: 124,
-//     G: 76,
-//     B: 108,
-//     name: "RAL 340 40 25",
-//     english: "Brocade violet",
-//     italian: ""
-//   },
-//   {
-//     R: 129,
-//     G: 72,
-//     B: 110,
-//     name: "RAL 340 40 30",
-//     english: "Madder magenta",
-//     italian: ""
-//   },
-//   {
-//     R: 132,
-//     G: 66,
-//     B: 112,
-//     name: "RAL 340 40 35",
-//     english: "Club mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 137,
-//     G: 61,
-//     B: 114,
-//     name: "RAL 340 40 40",
-//     english: "Cherry red",
-//     italian: ""
-//   },
-//   {
-//     R: 146,
-//     G: 55,
-//     B: 119,
-//     name: "RAL 340 40 45",
-//     english: "Magenta red",
-//     italian: ""
-//   },
-//   {
-//     R: 124,
-//     G: 115,
-//     B: 121,
-//     name: "RAL 340 50 05",
-//     english: "Jubilee grey",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 112,
-//     B: 124,
-//     name: "RAL 340 50 10",
-//     english: "Port wine red",
-//     italian: ""
-//   },
-//   {
-//     R: 139,
-//     G: 108,
-//     B: 126,
-//     name: "RAL 340 50 15",
-//     english: "Raw garnet viola",
-//     italian: ""
-//   },
-//   {
-//     R: 145,
-//     G: 105,
-//     B: 130,
-//     name: "RAL 340 50 20",
-//     english: "Milkwort red",
-//     italian: ""
-//   },
-//   {
-//     R: 151,
-//     G: 101,
-//     B: 133,
-//     name: "RAL 340 50 25",
-//     english: "Rust magenta",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 97,
-//     B: 136,
-//     name: "RAL 340 50 30",
-//     english: "Raspberry jelly red",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 92,
-//     B: 139,
-//     name: "RAL 340 50 35",
-//     english: "Thimble red",
-//     italian: ""
-//   },
-//   {
-//     R: 168,
-//     G: 87,
-//     B: 142,
-//     name: "RAL 340 50 40",
-//     english: "Cyclamen red",
-//     italian: ""
-//   },
-//   {
-//     R: 174,
-//     G: 82,
-//     B: 144,
-//     name: "RAL 340 50 45",
-//     english: "Brilliant carmine",
-//     italian: ""
-//   },
-//   {
-//     R: 152,
-//     G: 142,
-//     B: 148,
-//     name: "RAL 340 60 05",
-//     english: "Heather red grey",
-//     italian: ""
-//   },
-//   {
-//     R: 159,
-//     G: 137,
-//     B: 150,
-//     name: "RAL 340 60 10",
-//     english: "Piano mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 167,
-//     G: 134,
-//     B: 154,
-//     name: "RAL 340 60 15",
-//     english: "Evening pink",
-//     italian: ""
-//   },
-//   {
-//     R: 172,
-//     G: 130,
-//     B: 156,
-//     name: "RAL 340 60 20",
-//     english: "Capri fashion pink",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 126,
-//     B: 159,
-//     name: "RAL 340 60 25",
-//     english: "Antique hot pink",
-//     italian: ""
-//   },
-//   {
-//     R: 183,
-//     G: 123,
-//     B: 162,
-//     name: "RAL 340 60 30",
-//     english: "Cheek red",
-//     italian: ""
-//   },
-//   {
-//     R: 190,
-//     G: 119,
-//     B: 165,
-//     name: "RAL 340 60 35",
-//     english: "Hollyhock blossom pink",
-//     italian: ""
-//   },
-//   {
-//     R: 197,
-//     G: 114,
-//     B: 169,
-//     name: "RAL 340 60 40",
-//     english: "Bishop red",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 167,
-//     B: 173,
-//     name: "RAL 340 70 05",
-//     english: "Mauve grey",
-//     italian: ""
-//   },
-//   {
-//     R: 185,
-//     G: 163,
-//     B: 176,
-//     name: "RAL 340 70 10",
-//     english: "Buckwheat mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 194,
-//     G: 161,
-//     B: 181,
-//     name: "RAL 340 70 15",
-//     english: "Hollyhock pink",
-//     italian: ""
-//   },
-//   {
-//     R: 200,
-//     G: 157,
-//     B: 184,
-//     name: "RAL 340 70 20",
-//     english: "Idyllic pink",
-//     italian: ""
-//   },
-//   {
-//     R: 203,
-//     G: 153,
-//     B: 184,
-//     name: "RAL 340 70 25",
-//     english: "Morning glory pink",
-//     italian: ""
-//   },
-//   {
-//     R: 213,
-//     G: 149,
-//     B: 190,
-//     name: "RAL 340 70 30",
-//     english: "Soft fuchsia",
-//     italian: ""
-//   },
-//   {
-//     R: 219,
-//     G: 146,
-//     B: 193,
-//     name: "RAL 340 70 35",
-//     english: "Firm pink",
-//     italian: ""
-//   },
-//   {
-//     R: 207,
-//     G: 196,
-//     B: 199,
-//     name: "RAL 340 80 05",
-//     english: "Piano grey rose",
-//     italian: ""
-//   },
-//   {
-//     R: 216,
-//     G: 193,
-//     B: 206,
-//     name: "RAL 340 80 10",
-//     english: "Mint blossom rose",
-//     italian: ""
-//   },
-//   {
-//     R: 223,
-//     G: 189,
-//     B: 208,
-//     name: "RAL 340 80 15",
-//     english: "Scandalous rose",
-//     italian: ""
-//   },
-//   {
-//     R: 231,
-//     G: 186,
-//     B: 211,
-//     name: "RAL 340 80 20",
-//     english: "Bonbon rose",
-//     italian: ""
-//   },
-//   {
-//     R: 220,
-//     G: 209,
-//     B: 216,
-//     name: "RAL 340 85 05",
-//     english: "Strawberry cream",
-//     italian: ""
-//   },
-//   {
-//     R: 228,
-//     G: 206,
-//     B: 219,
-//     name: "RAL 340 85 10",
-//     english: "Light flamingo pink",
-//     italian: ""
-//   },
-//   {
-//     R: 236,
-//     G: 203,
-//     B: 223,
-//     name: "RAL 340 85 15",
-//     english: "Lacquer mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 235,
-//     G: 224,
-//     B: 228,
-//     name: "RAL 340 90 05",
-//     english: "Rose white",
-//     italian: ""
-//   },
-//   {
-//     R: 240,
-//     G: 228,
-//     B: 233,
-//     name: "RAL 340 92 05",
-//     english: "Replaced by 340 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 243,
-//     G: 232,
-//     B: 238,
-//     name: "RAL 340 93 05",
-//     english: "Dress pink",
-//     italian: ""
-//   },
-//   {
-//     R: 59,
-//     G: 41,
-//     B: 50,
-//     name: "RAL 350 20 10",
-//     english: "Mulled wine red",
-//     italian: ""
-//   },
-//   {
-//     R: 65,
-//     G: 37,
-//     B: 51,
-//     name: "RAL 350 20 15",
-//     english: "Soft red",
-//     italian: ""
-//   },
-//   {
-//     R: 72,
-//     G: 32,
-//     B: 52,
-//     name: "RAL 350 20 20",
-//     english: "Star ruby",
-//     italian: ""
-//   },
-//   {
-//     R: 75,
-//     G: 28,
-//     B: 53,
-//     name: "RAL 350 20 25",
-//     english: "Chilli black red",
-//     italian: ""
-//   },
-//   {
-//     R: 83,
-//     G: 24,
-//     B: 56,
-//     name: "RAL 350 20 30",
-//     english: "Tulip poplar purple",
-//     italian: ""
-//   },
-//   {
-//     R: 82,
-//     G: 61,
-//     B: 71,
-//     name: "RAL 350 30 10",
-//     english: "Sparrow grey red",
-//     italian: ""
-//   },
-//   {
-//     R: 90,
-//     G: 60,
-//     B: 74,
-//     name: "RAL 350 30 15",
-//     english: "Siliceous red",
-//     italian: ""
-//   },
-//   {
-//     R: 97,
-//     G: 56,
-//     B: 76,
-//     name: "RAL 350 30 20",
-//     english: "Liqueur red",
-//     italian: ""
-//   },
-//   {
-//     R: 103,
-//     G: 51,
-//     B: 77,
-//     name: "RAL 350 30 25",
-//     english: "Wine gum red",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 48,
-//     B: 80,
-//     name: "RAL 350 30 30",
-//     english: "Burlat red",
-//     italian: ""
-//   },
-//   {
-//     R: 112,
-//     G: 42,
-//     B: 80,
-//     name: "RAL 350 30 35",
-//     english: "Bordeaux red",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 36,
-//     B: 83,
-//     name: "RAL 350 30 40",
-//     english: "Dried flower purple",
-//     italian: ""
-//   },
-//   {
-//     R: 110,
-//     G: 88,
-//     B: 97,
-//     name: "RAL 350 40 10",
-//     english: "Aubergine grey",
-//     italian: ""
-//   },
-//   {
-//     R: 115,
-//     G: 83,
-//     B: 98,
-//     name: "RAL 350 40 15",
-//     english: "Opium mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 79,
-//     B: 100,
-//     name: "RAL 350 40 20",
-//     english: "Grey carmine",
-//     italian: ""
-//   },
-//   {
-//     R: 127,
-//     G: 75,
-//     B: 101,
-//     name: "RAL 350 40 25",
-//     english: "Nectar red",
-//     italian: ""
-//   },
-//   {
-//     R: 135,
-//     G: 70,
-//     B: 102,
-//     name: "RAL 350 40 30",
-//     english: "Dark rose",
-//     italian: ""
-//   },
-//   {
-//     R: 140,
-//     G: 65,
-//     B: 105,
-//     name: "RAL 350 40 35",
-//     english: "Bonbon red",
-//     italian: ""
-//   },
-//   {
-//     R: 145,
-//     G: 62,
-//     B: 106,
-//     name: "RAL 350 40 40",
-//     english: "Cyclamen red",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 55,
-//     B: 106,
-//     name: "RAL 350 40 45",
-//     english: "Powder red",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 48,
-//     B: 108,
-//     name: "RAL 350 40 50",
-//     english: "Madder red",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 111,
-//     B: 121,
-//     name: "RAL 350 50 10",
-//     english: "Innocent pink",
-//     italian: ""
-//   },
-//   {
-//     R: 141,
-//     G: 108,
-//     B: 122,
-//     name: "RAL 350 50 15",
-//     english: "Blunt violet",
-//     italian: ""
-//   },
-//   {
-//     R: 149,
-//     G: 103,
-//     B: 125,
-//     name: "RAL 350 50 20",
-//     english: "Corundum red",
-//     italian: ""
-//   },
-//   {
-//     R: 156,
-//     G: 100,
-//     B: 127,
-//     name: "RAL 350 50 25",
-//     english: "Batik pink",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 98,
-//     B: 130,
-//     name: "RAL 350 50 30",
-//     english: "Beryl red",
-//     italian: ""
-//   },
-//   {
-//     R: 170,
-//     G: 91,
-//     B: 129,
-//     name: "RAL 350 50 35",
-//     english: "Crimson",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 87,
-//     B: 130,
-//     name: "RAL 350 50 40",
-//     english: "Madder rose",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 81,
-//     B: 132,
-//     name: "RAL 350 50 45",
-//     english: "Signal pink",
-//     italian: ""
-//   },
-//   {
-//     R: 189,
-//     G: 76,
-//     B: 133,
-//     name: "RAL 350 50 50",
-//     english: "Nail polish pink",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 137,
-//     B: 148,
-//     name: "RAL 350 60 10",
-//     english: "Art nouveau violet",
-//     italian: ""
-//   },
-//   {
-//     R: 168,
-//     G: 133,
-//     B: 149,
-//     name: "RAL 350 60 15",
-//     english: "Mohair pink",
-//     italian: ""
-//   },
-//   {
-//     R: 177,
-//     G: 131,
-//     B: 152,
-//     name: "RAL 350 60 20",
-//     english: "Heather violet",
-//     italian: ""
-//   },
-//   {
-//     R: 184,
-//     G: 126,
-//     B: 152,
-//     name: "RAL 350 60 25",
-//     english: "Heather rose",
-//     italian: ""
-//   },
-//   {
-//     R: 192,
-//     G: 122,
-//     B: 155,
-//     name: "RAL 350 60 30",
-//     english: "Venetian pink",
-//     italian: ""
-//   },
-//   {
-//     R: 197,
-//     G: 117,
-//     B: 155,
-//     name: "RAL 350 60 35",
-//     english: "Dolomite red",
-//     italian: ""
-//   },
-//   {
-//     R: 205,
-//     G: 114,
-//     B: 157,
-//     name: "RAL 350 60 40",
-//     english: "Camelia pink",
-//     italian: ""
-//   },
-//   {
-//     R: 208,
-//     G: 109,
-//     B: 160,
-//     name: "RAL 350 60 45",
-//     english: "Persian pink",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 165,
-//     B: 173,
-//     name: "RAL 350 70 10",
-//     english: "Cold pink",
-//     italian: ""
-//   },
-//   {
-//     R: 196,
-//     G: 160,
-//     B: 175,
-//     name: "RAL 350 70 15",
-//     english: "Shady pink",
-//     italian: ""
-//   },
-//   {
-//     R: 201,
-//     G: 155,
-//     B: 176,
-//     name: "RAL 350 70 20",
-//     english: "Lady's cushions pink",
-//     italian: ""
-//   },
-//   {
-//     R: 212,
-//     G: 153,
-//     B: 179,
-//     name: "RAL 350 70 25",
-//     english: "Coral pnk",
-//     italian: ""
-//   },
-//   {
-//     R: 221,
-//     G: 149,
-//     B: 181,
-//     name: "RAL 350 70 30",
-//     english: "Techno pink",
-//     italian: ""
-//   },
-//   {
-//     R: 226,
-//     G: 145,
-//     B: 182,
-//     name: "RAL 350 70 35",
-//     english: "Bubblegum pink",
-//     italian: ""
-//   },
-//   {
-//     R: 216,
-//     G: 191,
-//     B: 201,
-//     name: "RAL 350 80 10",
-//     english: "Magnolia white",
-//     italian: ""
-//   },
-//   {
-//     R: 223,
-//     G: 188,
-//     B: 201,
-//     name: "RAL 350 80 15",
-//     english: "Spring pink",
-//     italian: ""
-//   },
-//   {
-//     R: 232,
-//     G: 184,
-//     B: 205,
-//     name: "RAL 350 80 20",
-//     english: "Light pink",
-//     italian: ""
-//   },
-//   {
-//     R: 221,
-//     G: 209,
-//     B: 214,
-//     name: "RAL 350 85 05",
-//     english: "Fairy white",
-//     italian: ""
-//   },
-//   {
-//     R: 230,
-//     G: 206,
-//     B: 216,
-//     name: "RAL 350 85 10",
-//     english: "Orchid rose",
-//     italian: ""
-//   },
-//   {
-//     R: 238,
-//     G: 203,
-//     B: 218,
-//     name: "RAL 350 85 15",
-//     english: "Pale pink",
-//     italian: ""
-//   },
-//   {
-//     R: 237,
-//     G: 224,
-//     B: 226,
-//     name: "RAL 350 90 05",
-//     english: "Light rose",
-//     italian: ""
-//   },
-//   {
-//     R: 244,
-//     G: 220,
-//     B: 230,
-//     name: "RAL 350 90 10",
-//     english: "Ranuncula white",
-//     italian: ""
-//   },
-//   {
-//     R: 244,
-//     G: 232,
-//     B: 237,
-//     name: "RAL 350 93 05",
-//     english: "Clichy white",
-//     italian: ""
-//   },
-//   {
-//     R: 67,
-//     G: 34,
-//     B: 44,
-//     name: "RAL 360 20 15",
-//     english: "Piermont stone red",
-//     italian: ""
-//   },
-//   {
-//     R: 76,
-//     G: 65,
-//     B: 68,
-//     name: "RAL 360 30 05",
-//     english: "Soot red",
-//     italian: ""
-//   },
-//   {
-//     R: 83,
-//     G: 61,
-//     B: 69,
-//     name: "RAL 360 30 10",
-//     english: "Peppercorn red",
-//     italian: ""
-//   },
-//   {
-//     R: 90,
-//     G: 56,
-//     B: 68,
-//     name: "RAL 360 30 15",
-//     english: "Zinfandel red",
-//     italian: ""
-//   },
-//   {
-//     R: 98,
-//     G: 54,
-//     B: 69,
-//     name: "RAL 360 30 20",
-//     english: "Art deco red",
-//     italian: ""
-//   },
-//   {
-//     R: 102,
-//     G: 49,
-//     B: 69,
-//     name: "RAL 360 30 25",
-//     english: "Clinker red",
-//     italian: ""
-//   },
-//   {
-//     R: 108,
-//     G: 43,
-//     B: 70,
-//     name: "RAL 360 30 30",
-//     english: "Cherry juice red",
-//     italian: ""
-//   },
-//   {
-//     R: 117,
-//     G: 38,
-//     B: 69,
-//     name: "RAL 360 30 35",
-//     english: "Palace red",
-//     italian: ""
-//   },
-//   {
-//     R: 120,
-//     G: 34,
-//     B: 70,
-//     name: "RAL 360 30 40",
-//     english: "Ember red",
-//     italian: ""
-//   },
-//   {
-//     R: 101,
-//     G: 89,
-//     B: 92,
-//     name: "RAL 360 40 05",
-//     english: "Roasted black",
-//     italian: ""
-//   },
-//   {
-//     R: 107,
-//     G: 86,
-//     B: 94,
-//     name: "RAL 360 40 10",
-//     english: "Mocha brown",
-//     italian: ""
-//   },
-//   {
-//     R: 115,
-//     G: 81,
-//     B: 93,
-//     name: "RAL 360 40 15",
-//     english: "Ruby grey",
-//     italian: ""
-//   },
-//   {
-//     R: 122,
-//     G: 78,
-//     B: 94,
-//     name: "RAL 360 40 20",
-//     english: "Baroque red",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 73,
-//     B: 93,
-//     name: "RAL 360 40 25",
-//     english: "Frenzied red",
-//     italian: ""
-//   },
-//   {
-//     R: 136,
-//     G: 68,
-//     B: 94,
-//     name: "RAL 360 40 30",
-//     english: "Redcurrant",
-//     italian: ""
-//   },
-//   {
-//     R: 143,
-//     G: 64,
-//     B: 95,
-//     name: "RAL 360 40 35",
-//     english: "Orient pink",
-//     italian: ""
-//   },
-//   {
-//     R: 150,
-//     G: 58,
-//     B: 97,
-//     name: "RAL 360 40 40",
-//     english: "Aurora magenta",
-//     italian: ""
-//   },
-//   {
-//     R: 154,
-//     G: 52,
-//     B: 95,
-//     name: "RAL 360 40 45",
-//     english: "Cardinal red",
-//     italian: ""
-//   },
-//   {
-//     R: 161,
-//     G: 42,
-//     B: 94,
-//     name: "RAL 360 40 50",
-//     english: "Parlour red",
-//     italian: ""
-//   },
-//   {
-//     R: 128,
-//     G: 115,
-//     B: 117,
-//     name: "RAL 360 50 05",
-//     english: "Pumice grey",
-//     italian: ""
-//   },
-//   {
-//     R: 133,
-//     G: 111,
-//     B: 118,
-//     name: "RAL 360 50 10",
-//     english: "Pomace red",
-//     italian: ""
-//   },
-//   {
-//     R: 142,
-//     G: 106,
-//     B: 118,
-//     name: "RAL 360 50 15",
-//     english: "Evening crimson",
-//     italian: ""
-//   },
-//   {
-//     R: 148,
-//     G: 103,
-//     B: 119,
-//     name: "RAL 360 50 20",
-//     english: "Copper pink",
-//     italian: ""
-//   },
-//   {
-//     R: 157,
-//     G: 98,
-//     B: 118,
-//     name: "RAL 360 50 25",
-//     english: "Art nouveau pink",
-//     italian: ""
-//   },
-//   {
-//     R: 164,
-//     G: 95,
-//     B: 121,
-//     name: "RAL 360 50 30",
-//     english: "Cosmetic red",
-//     italian: ""
-//   },
-//   {
-//     R: 173,
-//     G: 90,
-//     B: 121,
-//     name: "RAL 360 50 35",
-//     english: "Indian pink",
-//     italian: ""
-//   },
-//   {
-//     R: 180,
-//     G: 87,
-//     B: 120,
-//     name: "RAL 360 50 40",
-//     english: "Kir royale rose",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 81,
-//     B: 121,
-//     name: "RAL 360 50 45",
-//     english: "Cockscomb red",
-//     italian: ""
-//   },
-//   {
-//     R: 191,
-//     G: 74,
-//     B: 120,
-//     name: "RAL 360 50 50",
-//     english: "Persian red",
-//     italian: ""
-//   },
-//   {
-//     R: 153,
-//     G: 142,
-//     B: 145,
-//     name: "RAL 360 60 05",
-//     english: "Ash pink",
-//     italian: ""
-//   },
-//   {
-//     R: 160,
-//     G: 136,
-//     B: 144,
-//     name: "RAL 360 60 10",
-//     english: "Majolica mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 169,
-//     G: 134,
-//     B: 145,
-//     name: "RAL 360 60 15",
-//     english: "Fig fruit mauve",
-//     italian: ""
-//   },
-//   {
-//     R: 178,
-//     G: 131,
-//     B: 146,
-//     name: "RAL 360 60 20",
-//     english: "Noble lilac",
-//     italian: ""
-//   },
-//   {
-//     R: 184,
-//     G: 125,
-//     B: 146,
-//     name: "RAL 360 60 25",
-//     english: "Light red",
-//     italian: ""
-//   },
-//   {
-//     R: 181,
-//     G: 169,
-//     B: 172,
-//     name: "RAL 360 70 05",
-//     english: "Tea blossom pink",
-//     italian: ""
-//   },
-//   {
-//     R: 188,
-//     G: 163,
-//     B: 170,
-//     name: "RAL 360 70 10",
-//     english: "Quartz pink",
-//     italian: ""
-//   },
-//   {
-//     R: 198,
-//     G: 160,
-//     B: 171,
-//     name: "RAL 360 70 15",
-//     english: "Opaline pink",
-//     italian: ""
-//   },
-//   {
-//     R: 209,
-//     G: 196,
-//     B: 198,
-//     name: "RAL 360 80 05",
-//     english: "Mother-of-pearl pink",
-//     italian: ""
-//   },
-//   {
-//     R: 217,
-//     G: 191,
-//     B: 197,
-//     name: "RAL 360 80 10",
-//     english: "Venetian pink",
-//     italian: ""
-//   },
-//   {
-//     R: 226,
-//     G: 189,
-//     B: 199,
-//     name: "RAL 360 80 15",
-//     english: "Soap pink",
-//     italian: ""
-//   },
-//   {
-//     R: 222,
-//     G: 209,
-//     B: 212,
-//     name: "RAL 360 85 05",
-//     english: "Theatre powder rose",
-//     italian: ""
-//   },
-//   {
-//     R: 231,
-//     G: 206,
-//     B: 213,
-//     name: "RAL 360 85 10",
-//     english: "Lotus pink",
-//     italian: ""
-//   },
-//   {
-//     R: 240,
-//     G: 225,
-//     B: 224,
-//     name: "RAL 360 90 05",
-//     english: "Ice pink",
-//     italian: ""
-//   },
-//   {
-//     R: 246,
-//     G: 220,
-//     B: 227,
-//     name: "RAL 360 90 10",
-//     english: "Cake frosting",
-//     italian: ""
-//   },
-//   {
-//     R: 240,
-//     G: 228,
-//     B: 229,
-//     name: "RAL 360 92 05",
-//     english: "Replaced by 360 93 05",
-//     italian: ""
-//   },
-//   {
-//     R: 245,
-//     G: 232,
-//     B: 235,
-//     name: "RAL 360 93 05",
-//     english: "Arrowhead white",
-//     italian: ""
-//   }
-// ]

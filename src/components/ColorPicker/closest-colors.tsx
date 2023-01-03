@@ -1,22 +1,22 @@
 import * as d3 from 'd3-color';
 
-import type { IColor, IColorWithClosest } from './ColorPicker';
-import { ncsColors, ralColors, ralDesignColors } from './colors';
+import type { IColor, IColorWithClosest, Lab } from './ColorPicker';
+import { ncsColors, ralColors, ralDesignColors } from './colorsLab';
 
-export function generateColorMap(): IColorWithClosest[] {
+export function generateColorsMap(): IColorWithClosest[] {
   const maxAlternative = 3;
 
   const allColors: IColor[] = [...ralColors, ...ralDesignColors, ...ncsColors];
 
   const allColorsWithClosest = allColors.map((color) => {
     const ralAlternative = findClosestColors(ralColors, color, maxAlternative);
-    // const ralDesignAlternative = findClosestColors(ralDesignColors, color, maxAlternative);
+    const ralDesignAlternative = findClosestColors(ralDesignColors, color, maxAlternative);
     const ncsAlternative = findClosestColors(ncsColors, color, maxAlternative);
 
     const res: IColorWithClosest = { original: color, closestColors: [] };
 
     res.closestColors.push(...ralAlternative.closestColors);
-    // res.closestColors.push(...ralDesignAlternative.closestColors);
+    res.closestColors.push(...ralDesignAlternative.closestColors);
     res.closestColors.push(...ncsAlternative.closestColors);
 
     return res;
@@ -34,8 +34,8 @@ function findClosestColors(colors: IColor[], target: IColor, limit: number): ICo
     }
 
     // const distance = calculateEuclideanDistance(color.hex, target.hex);
+    const distance = cie2000Distance(color.lab, target.lab);
 
-    const distance = cie2000DistanceHex(color.hex, target.hex);
     closestColors.push({ color, distance });
   }
 
@@ -59,23 +59,16 @@ export function calculateEuclideanDistance(color1: string, color2: string): numb
   return distance;
 }
 
-export function cie2000DistanceHex(color1: string, color2: string) {
-  // Convert the hexadecimal colors to L*a*b* values using the d3-color library
 
-  if (color1 === color2) {
-    return 0;
-  }
-  const lab1 = d3.lab(d3.rgb(color1));
-  const lab2 = d3.lab(d3.rgb(color2));
-
+export function cie2000Distance(source: Lab, target: Lab) {
   // Calculate the difference between the lightness values
-  const l = lab1.l - lab2.l;
+  const l = source.l - target.l;
 
   // Calculate the difference between the a* values
-  const a = lab1.a - lab2.a;
+  const a = source.a - target.a;
 
   // Calculate the difference between the b* values
-  const b = lab1.b - lab2.b;
+  const b = source.b - target.b;
 
   // Calculate the CIE2000 color difference using the formula:
   // sqrt((l / kL)^2 + (a / kC)^2 + (b / kH)^2)
@@ -88,10 +81,15 @@ export function cie2000DistanceHex(color1: string, color2: string) {
   return distance;
 }
 
-export function cie2000DistanceRgb(color1: string, color2: string) {
+
+export function cie2000DistanceHex(color1: string, color2: string) {
   // Convert the hexadecimal colors to L*a*b* values using the d3-color library
-  const lab1 = d3.lab(color1);
-  const lab2 = d3.lab(color2);
+
+  if (color1 === color2) {
+    return 0;
+  }
+  const lab1 = d3.lab(d3.rgb(color1));
+  const lab2 = d3.lab(d3.rgb(color2));
 
   // Calculate the difference between the lightness values
   const l = lab1.l - lab2.l;
