@@ -110,3 +110,45 @@ export function cie2000DistanceHex(color1: string, color2: string) {
 
   return distance;
 }
+
+
+export function getContrastRatio(color1: IColor, color2: IColor): number {
+  function hexToRgb(hex: string): { r: number; g: number; b: number } {
+    // Extract the red, green, and blue components from the hex string
+    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    if (!result) {
+      throw new Error(`Invalid hex color: ${hex}`);
+    }
+
+    return {
+      r: parseInt(result[1], 16),
+      g: parseInt(result[2], 16),
+      b: parseInt(result[3], 16),
+    };
+  }
+
+  function calcLuminance(rgb: { r: number; g: number; b: number }): number {
+    // Convert the RGB values to sRGB
+    const r = rgb.r / 255;
+    const g = rgb.g / 255;
+    const b = rgb.b / 255;
+
+    // Apply the sRGB to relative luminance formula
+    return 0.2126 * (r <= 0.03928 ? r / 12.92 : ((r + 0.055) / 1.055) ** 2.4) +
+      0.7152 * (g <= 0.03928 ? g / 12.92 : ((g + 0.055) / 1.055) ** 2.4) +
+      0.0722 * (b <= 0.03928 ? b / 12.92 : ((b + 0.055) / 1.055) ** 2.4);
+  }
+
+  // Convert the hex color strings to RGB values
+  const rgb1 = hexToRgb(color1.hex);
+  const rgb2 = hexToRgb(color2.hex);
+
+  // Calculate the relative luminance of the two colors
+  const lum1 = calcLuminance(rgb1);
+  const lum2 = calcLuminance(rgb2);
+
+  // Calculate the contrast ratio
+  const contrast = (Math.max(lum1, lum2) + 0.05) / (Math.min(lum1, lum2) + 0.05);
+
+  return contrast;
+}

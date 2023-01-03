@@ -17,11 +17,11 @@ import {
   TextField,
   Typography
 } from '@mui/material';
-import { Box } from '@mui/system';
+import { Box, getContrastRatio } from '@mui/system';
 import React, { memo, useEffect, useMemo, useState } from 'react';
 import type { ListRowProps } from 'react-virtualized';
 import { List } from 'react-virtualized';
-import { cie2000Distance, generateColorsMap } from './closest-colors';
+import { generateColorsMap } from './closest-colors';
 import useIsMobile from './utils';
 
 export interface ColorPickerProps {
@@ -77,13 +77,11 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
   }, []);
 
   const filteredColors = useMemo(() => {
-    return allColorsWithClosest
-      .filter(
-        (color) =>
-          color.original.name.toLowerCase().includes(debouncedSearchInput.toLowerCase()) ||
-          color.original.description.toLowerCase().includes(debouncedSearchInput.toLowerCase()),
-      )
-
+    return allColorsWithClosest.filter(
+      (color) =>
+        color.original.name.toLowerCase().includes(debouncedSearchInput.toLowerCase()) ||
+        color.original.description.toLowerCase().includes(debouncedSearchInput.toLowerCase()),
+    );
   }, [debouncedSearchInput, showCloestColors, colorsInStock]);
 
   const [selectedColor, setSelectedColor] = useState<{
@@ -194,10 +192,9 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
   );
 
   const renderCard = (color: IColorWithClosest) => {
-    let textColor = '#ffffff';
-    const whiteLab: Lab = { l: 100, a: 0, b: 0, opacity: 0 };
-    const colorDistance = cie2000Distance(color.original.lab, whiteLab);
-    if (colorDistance < 250) textColor = '#000000';
+    let textColor = '#000000';
+    const colorDistance = getContrastRatio(color.original.hex, textColor);
+    if (colorDistance < 3.5) textColor = '#ffffff';
 
     const res = (
       <Grid item xs={12} key={color.original.name}>
@@ -214,7 +211,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                 handleSelectColor({
                   name: color?.original.name,
                   selectedColor: color.original.hex,
-                  textColor,
+                  textColor: textColor,
                 })
               }
             >
