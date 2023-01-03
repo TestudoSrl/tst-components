@@ -73,7 +73,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
 
   const allColorsWithClosest = useMemo(() => {
     const colorMap = generateColorsMap();
-    return colorMap;
+    return colorMap as IColorWithClosest[];
   }, []);
 
   const filteredColors = useMemo(() => {
@@ -83,7 +83,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
           color.original.name.toLowerCase().includes(debouncedSearchInput.toLowerCase()) ||
           color.original.description.toLowerCase().includes(debouncedSearchInput.toLowerCase()),
       )
-      .map((color) => color.original.name);
+
   }, [debouncedSearchInput, showCloestColors, colorsInStock]);
 
   const [selectedColor, setSelectedColor] = useState<{
@@ -193,12 +193,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
     </Dialog>
   );
 
-  const renderCard = (name: string) => {
-    const color = allColorsWithClosest.find((colorWithClosest) => colorWithClosest.original.name === name);
-    if (!color) {
-      return null;
-    }
-
+  const renderCard = (color: IColorWithClosest) => {
     let textColor = '#ffffff';
     const whiteLab: Lab = { l: 100, a: 0, b: 0, opacity: 0 };
     const colorDistance = cie2000Distance(color.original.lab, whiteLab);
