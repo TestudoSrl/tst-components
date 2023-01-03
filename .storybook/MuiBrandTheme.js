@@ -1,6 +1,6 @@
 // .storybook/YourTheme.js
 
-import { create } from '@storybook/theming'
+import { create } from '@storybook/theming';
 
 export default create({
   base: 'dark',
@@ -15,7 +15,8 @@ export default create({
   appBorderRadius: 10,
 
   // Typography
-  fontBase: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"',
+  fontBase:
+    '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"',
   fontCode: 'Consolas,Menlo,Monaco,Andale Mono,Ubuntu Mono,monospace',
 
   // Text colors
@@ -33,7 +34,7 @@ export default create({
   inputTextColor: 'rgb(125 222 255)',
   inputBorderRadius: 10,
 
-  brandTitle: 'MUI Storybook',
-  brandUrl: 'https://mui.com/',
-  brandImage: 'https://pbs.twimg.com/media/E_aj11YVcA4uZOT?format=jpg'
-})
+  brandTitle: 'Testudo Storybook',
+  brandUrl: 'https://www.testudosrl.com/',
+  brandImage: 'https://www.testudosrl.com/img/logoTS_back.png',
+});
