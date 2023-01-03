@@ -31,7 +31,10 @@
     "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest",
     "@types/react": "17.0.2",
     "@types/react-dom": "17.0.2",
-    "@types/react-virtualized": "^9.21.21"
+    "@types/react-virtualized": "^9.21.21",
+    "@types/d3-color": "^3.1.0",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1"
   },
   "devDependencies": {
     "@mui/icons-material": "^5.8.3",
@@ -47,12 +50,8 @@
     "@storybook/node-logger": "^6.5.15",
     "@storybook/react": "^6.5.15",
     "@storybook/theming": "^6.5.15",
-    "@types/color-convert": "^2.0.0",
-    "@types/react-virtualized": "^9.21.21",
-    "@typescript-eslint/eslint-plugin": "^5.27.1",
-    "@typescript-eslint/parser": "^5.27.1",
+    "@types/d3-color": "^3.1.0",
     "all-contributors-cli": "^6.20.0",
-    "chromatic": "^5.0.0",
     "eslint": "^8.17.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-typescript": "^3.0.0",
@@ -75,9 +74,8 @@
     "typescript": "^4.7.3"
   },
   "dependencies": {
-    "chromaticity-color-utilities": "^0.14.0-alpha",
-    "color-convert": "^2.0.1",
-    "react-color": "^2.19.3",
+    "@types/react-virtualized": "^9.21.21",
+    "d3-color": "^3.1.0",
     "react-virtualized": "^9.22.3",
     "react-window": "^1.8.8"
   },

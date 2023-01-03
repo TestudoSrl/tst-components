@@ -21,8 +21,7 @@ import { Box } from '@mui/system';
 import React, { memo, useEffect, useMemo, useState } from 'react';
 import type { ListRowProps } from 'react-virtualized';
 import { List } from 'react-virtualized';
-
-import { calculateEuclideanDistance, generateColorMap } from './closest-colors';
+import { cie2000Distance, generateColorsMap } from './closest-colors';
 import useIsMobile from './utils';
 
 export interface ColorPickerProps {
@@ -34,7 +33,15 @@ export interface IColor {
   name: string;
   hex: string;
   description: string;
+  lab: Lab;
 }
+export interface Lab {
+  l: number;
+  a: number;
+  b: number;
+  opacity: number;
+}
+
 export interface IColorWithDistance {
   color: IColor;
   distance: number;
@@ -65,7 +72,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
   const isMobile = useIsMobile();
 
   const allColorsWithClosest = useMemo(() => {
-    const colorMap = generateColorMap();
+    const colorMap = generateColorsMap();
     return colorMap;
   }, []);
 
@@ -74,7 +81,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
       .filter(
         (color) =>
           color.original.name.toLowerCase().includes(debouncedSearchInput.toLowerCase()) ||
-          color.original.description.toLowerCase().includes(debouncedSearchInput.toLowerCase())
+          color.original.description.toLowerCase().includes(debouncedSearchInput.toLowerCase()),
       )
       .map((color) => color.original.name);
   }, [debouncedSearchInput, showCloestColors, colorsInStock]);
@@ -193,7 +200,8 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
     }
 
     let textColor = '#ffffff';
-    const colorDistance = calculateEuclideanDistance(color.original.hex, textColor);
+    const whiteLab: Lab = { l: 100, a: 0, b: 0, opacity: 0 };
+    const colorDistance = cie2000Distance(color.original.lab, whiteLab);
     if (colorDistance < 250) textColor = '#000000';
 
     const res = (
