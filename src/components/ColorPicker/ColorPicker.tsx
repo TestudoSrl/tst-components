@@ -21,6 +21,7 @@ import { Box, getContrastRatio } from '@mui/system';
 import React, { memo, useEffect, useMemo, useState } from 'react';
 import type { ListRowProps } from 'react-virtualized';
 import { List } from 'react-virtualized';
+
 import { generateColorsMap } from './closest-colors';
 import useIsMobile from './utils';
 
@@ -175,7 +176,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
               width={600}
               height={800}
               rowCount={filteredColors.length}
-              rowHeight={showCloestColors ? 252 : 99}
+              rowHeight={showCloestColors ? 270 : 99}
               rowRenderer={({ index, style }: ListRowProps) => {
                 const color = filteredColors[index];
                 return (
