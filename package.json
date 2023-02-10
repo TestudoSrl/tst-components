@@ -85,8 +85,7 @@
     "react": ">=16"
   },
   "files": [
-    "tag",
-    "colorPicker",
+    "dist",
     "LICENSE",
     "README.md"
   ]
