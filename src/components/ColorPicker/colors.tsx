@@ -1,6 +1,5 @@
-
-//RAL Colors source: https://rgb.to/
-//This source it's not good: https://en.wikipedia.org/wiki/List_of_RAL_colors
+// RAL Colors source: https://rgb.to/
+// This source it's not good: https://en.wikipedia.org/wiki/List_of_RAL_colors
 
 export const ralColors: any[] = [
   {
@@ -1072,7 +1071,7 @@ export const ralColors: any[] = [
   },
 ];
 
-//RAL Design source: https://www.coloriral.it/ral-design
+// RAL Design source: https://www.coloriral.it/ral-design
 export const ralDesignColors: any[] = [
   {
     name: 'RAL 000 15 00',

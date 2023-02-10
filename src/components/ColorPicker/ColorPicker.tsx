@@ -15,7 +15,7 @@ import {
   MenuItem,
   Switch,
   TextField,
-  Typography
+  Typography,
 } from '@mui/material';
 import { Box, getContrastRatio } from '@mui/system';
 import React, { memo, useEffect, useMemo, useState } from 'react';
@@ -212,7 +212,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                 handleSelectColor({
                   name: color?.original.name,
                   selectedColor: color.original.hex,
-                  textColor: textColor,
+                  textColor,
                 })
               }
             >
@@ -270,7 +270,7 @@ const ColorPicker: React.FC<ColorPickerProps> = (props) => {
                   textColor,
                 });
               }}
-            // endIcon={renderStar(closestColors.color.name)}
+              // endIcon={renderStar(closestColors.color.name)}
             >
               <Grid container spacing={0}>
                 <Grid item xs={11}>

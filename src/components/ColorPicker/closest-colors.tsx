@@ -43,7 +43,7 @@ function findClosestColors(colors: IColor[], target: IColor, limit: number): ICo
 
   return {
     original: target,
-    closestColors: closestColors.slice(0, limit), //skip the first one, which is the target itself
+    closestColors: closestColors.slice(0, limit), // skip the first one, which is the target itself
   };
 }
 
@@ -58,7 +58,6 @@ export function calculateEuclideanDistance(color1: string, color2: string): numb
   const distance = Math.sqrt((r1 - r2) ** 2 + (g1 - g2) ** 2 + (b1 - b2) ** 2);
   return distance;
 }
-
 
 export function cie2000Distance(source: Lab, target: Lab) {
   // Calculate the difference between the lightness values
@@ -80,7 +79,6 @@ export function cie2000Distance(source: Lab, target: Lab) {
 
   return distance;
 }
-
 
 export function cie2000DistanceHex(color1: string, color2: string) {
   // Convert the hexadecimal colors to L*a*b* values using the d3-color library
@@ -111,7 +109,6 @@ export function cie2000DistanceHex(color1: string, color2: string) {
   return distance;
 }
 
-
 export function getContrastRatio(color1: IColor, color2: IColor): number {
   function hexToRgb(hex: string): { r: number; g: number; b: number } {
     // Extract the red, green, and blue components from the hex string
@@ -134,9 +131,11 @@ export function getContrastRatio(color1: IColor, color2: IColor): number {
     const b = rgb.b / 255;
 
     // Apply the sRGB to relative luminance formula
-    return 0.2126 * (r <= 0.03928 ? r / 12.92 : ((r + 0.055) / 1.055) ** 2.4) +
+    return (
+      0.2126 * (r <= 0.03928 ? r / 12.92 : ((r + 0.055) / 1.055) ** 2.4) +
       0.7152 * (g <= 0.03928 ? g / 12.92 : ((g + 0.055) / 1.055) ** 2.4) +
-      0.0722 * (b <= 0.03928 ? b / 12.92 : ((b + 0.055) / 1.055) ** 2.4);
+      0.0722 * (b <= 0.03928 ? b / 12.92 : ((b + 0.055) / 1.055) ** 2.4)
+    );
   }
 
   // Convert the hex color strings to RGB values
